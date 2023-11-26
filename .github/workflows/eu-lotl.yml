@@ -19,5 +19,6 @@ jobs:
       with:
         xml-file: 'eu-lotl.xml'
         xpath: "//*[local-name()='TSLLocation']"
-
-
+    - name: Create PR if needed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
