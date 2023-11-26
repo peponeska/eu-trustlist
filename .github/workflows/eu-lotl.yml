@@ -19,8 +19,4 @@ jobs:
       with:
         xml-file: 'eu-lotl.xml'
         xpath: '//TSLLocation'
-    - name: Create Release
-      uses: some-random/release-action@v1
-      with:
-        artifacts: 'another-file.zip'
-        tag: ${{ steps.getxml.outputs.info }}
+
