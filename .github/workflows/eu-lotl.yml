@@ -18,5 +18,5 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: 'eu-lotl.xml'
-        xpath: '//TSLLocation'
+        xpath: '//TSLVersionIdentifier'
 
