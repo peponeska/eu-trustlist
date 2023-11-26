@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Download EU TSL
-      run: wget -O https://ec.europa.eu/tools/lotl/eu-lotl.xml
+      run: wget -O eu-lotl.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml
     - name: Parse Country codes
       id: getxml
       uses: mavrosxristoforos/get-xml-info@1.0
