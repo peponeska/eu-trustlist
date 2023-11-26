@@ -12,7 +12,12 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Download EU TSL
-      run: wget https://ec.europa.eu/tools/lotl/eu-lotl.xml
+      uses: suisei-cn/actions-download-file@v1.4.0
+      id: downloadfile  # Remember to give an ID if you need the output
+      with:
+        url: "https://ec.europa.eu/tools/lotl/eu-lotl.xml"
+        target: eu-lotl.xml
+        retry-times: 3
     - name: Parse Country codes
       id: getxml
       uses: mavrosxristoforos/get-xml-info@1.0
