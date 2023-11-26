@@ -19,4 +19,5 @@ jobs:
       with:
         xml-file: 'eu-lotl.xml'
         xpath: '/TrustServiceStatusList/SchemeInformation/TSLVersionIdentifier'
+        namespaces: '{"x": "http://uri.etsi.org/02231/v2#"}'
 
