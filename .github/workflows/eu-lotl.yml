@@ -1,0 +1,26 @@
+name: eu-lotl
+
+on:
+  schedule:
+    - cron: '1 0 * * 1'
+  workflow_dispatch:
+    
+jobs:
+  eu-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download EU TSL
+      run: wget https://ec.europa.eu/tools/lotl/eu-lotl.xml
+    - name: Parse Country codes
+      id: getxml
+      uses: mavrosxristoforos/get-xml-info@1.0
+      with:
+        xml-file: 'eu-lotl.xml'
+        xpath: '//TSLLocation'
+    - name: Create Release
+      uses: some-random/release-action@v1
+      with:
+        artifacts: 'another-file.zip'
+        tag: ${{ steps.getxml.outputs.info }}
