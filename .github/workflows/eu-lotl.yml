@@ -18,6 +18,6 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: 'eu-lotl.xml'
-        xpath: '/TrustServiceStatusList/SchemeInformation/TSLVersionIdentifier'
-        namespaces: '{"x": "http://uri.etsi.org/02231/v2#"}'
+        xpath: "//*[local-name()='TSLLocation']"
+
 
