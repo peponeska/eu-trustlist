@@ -1,0 +1,22 @@
+name: dk-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  dk-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download DK TSL
+      run: curl https://www.digst.dk/TSLDKxml --create-dirs -o ./DK/TSL_DK.xml
+    - name: Create PR if needkd
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: dk-tsl
+        delete-branch: true
+        title: 'DK TSL'
