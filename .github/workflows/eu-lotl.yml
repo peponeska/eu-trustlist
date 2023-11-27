@@ -20,10 +20,7 @@ jobs:
         filename: 'eu-lotl.xml'
         expression: "//TSLLocation[ends-with(text(), '.xml')]/text()"
     - name: Print things
-      run: |
-        for x in ${{ steps.getxml.outputs.result }}; do
-          echo "$x"
-        done
+      run: echo ${{ steps.getxml.outputs.result }}
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
