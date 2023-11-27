@@ -20,7 +20,10 @@ jobs:
         xml-file: 'eu-lotl.xml'
         xpath: '//*[local-name()="TSLLocation" and substring(text(), string-length(text()) - string-length(".xml") + 1)  = ".xml"]'
     - name: Print things
-      run: echo ${{ steps.getxml.outputs.info }}
+      run: |
+        for x in ${{ steps.getxml.outputs.info }}; do
+          echo "$x"
+        done
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
