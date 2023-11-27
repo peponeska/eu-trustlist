@@ -22,7 +22,7 @@ jobs:
     - name: Print things
       run: |
         for x in ${{ steps.getxml.outputs.info }}; do
-          echo "$x"
+          wget $x
         done
     - name: Create PR if needed
       id: cpr
