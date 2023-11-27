@@ -1,0 +1,22 @@
+name: fr-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  fr-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download FR TSL
+      run: curl https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml --create-dirs -o ./FR/TSL_FR.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: fr-tsl
+        delete-branch: true
+        title: 'FR TSL'
