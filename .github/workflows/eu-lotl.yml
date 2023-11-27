@@ -18,7 +18,12 @@ jobs:
       uses: QwerMike/xpath-action@v1
       with:
         filename: 'eu-lotl.xml'
-        expression: "//TSLLocation/text()"
+        expression: "//TSLLocation[ends-with(text(), '.xml')]/text()"
+    - name: Print things
+      run: |
+        for x in ${{ steps.getxml.outputs.result }}; do
+          echo "$x"
+        done
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
