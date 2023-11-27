@@ -1,0 +1,22 @@
+name: cz-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  cz-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download CZ TSL
+      run: curl https://tsl.gov.cz/publ/TSL_CZ.xtsl --create-dirs -o ./CZ/TSL_CZ.xml
+    - name: Create PR if needed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: cz-tsl
+        delete-branch: true
+        title: 'CZ TSL'
