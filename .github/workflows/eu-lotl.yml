@@ -15,12 +15,12 @@ jobs:
       run: wget -O eu-lotl.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml
     - name: Parse Country codes
       id: getxml
-      uses: QwerMike/xpath-action@v1
+      uses: mavrosxristoforos/get-xml-info@1.0
       with:
-        filename: 'eu-lotl.xml'
-        expression: "//TSLLocation/text()"
+        xml-file: 'eu-lotl.xml'
+        xpath: '//*[local-name()="TSLLocation"]/text()'
     - name: Print things
-      run: echo ${{ steps.getxml.outputs.result }}
+      run: echo ${{ steps.getxml.outputs.info }}
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
