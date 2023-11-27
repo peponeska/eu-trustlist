@@ -13,17 +13,9 @@ jobs:
       uses: actions/checkout@v4
     - name: Download EU TSL
       run: wget -O eu-lotl.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml
-    - name: Parse Country codes
-      id: getxml
-      uses: mavrosxristoforos/get-xml-info@1.0
-      with:
-        xml-file: 'eu-lotl.xml'
-        xpath: '//*[local-name()="TSLLocation" and substring(text(), string-length(text()) - string-length(".xml") + 1)  = ".xml"]'
-    - name: Print things
-      run: |
-        for x in ${{ steps.getxml.outputs.info }}; do
-          wget $x
-        done
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
+      with:
+        delete-branch: true
+        title: 'EU TSL'
