@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Download AT TSL
-      run: wget -O ./AT/currenttl.xml https://www.signatur.rtr.at/currenttl.xml
+      run: wget -xO ./AT/currenttl.xml https://www.signatur.rtr.at/currenttl.xml
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
