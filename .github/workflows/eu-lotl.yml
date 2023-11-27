@@ -18,7 +18,7 @@ jobs:
       uses: QwerMike/xpath-action@v1
       with:
         filename: 'eu-lotl.xml'
-        expression: "//TSLLocation[ends-with(text(), '.xml')]/text()"
+        expression: "//TSLLocation/text()"
     - name: Print things
       run: echo ${{ steps.getxml.outputs.result }}
     - name: Create PR if needed
