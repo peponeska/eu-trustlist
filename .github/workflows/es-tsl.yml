@@ -1,0 +1,22 @@
+name: es-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  es-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download ES TSL
+      run: curl https://sedediatid.mineco.gob.es/Prestadores/TSL/TSL.xml --create-dirs -o ./ES/TSL_ES.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: es-tsl
+        delete-branch: true
+        title: 'ES TSL'
