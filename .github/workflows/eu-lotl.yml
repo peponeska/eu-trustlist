@@ -18,7 +18,7 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: 'eu-lotl.xml'
-        xpath: '//*[local-name()="TSLLocation"]'
+        xpath: '//*[local-name()="TSLLocation"]/[ends-with(text(), ".xml")]'
     - name: Print things
       run: echo ${{ steps.getxml.outputs.info }}
     - name: Create PR if needed
