@@ -12,7 +12,7 @@ jobs:
     - name: Checkout
       uses: actions/checkout@v4
     - name: Download DK TSL
-      run: curl https://www.digst.dk/TSLDKxml --create-dirs -o ./DK/TSL_DK.xml
+      run: curl -L --url "https://www.digst.dk/TSLDKxml" --create-dirs -o ./DK/TSL_DK.xml
     - name: Create PR if needkd
       id: cpr
       uses: peter-evans/create-pull-request@v5
