@@ -1,0 +1,22 @@
+name: nl-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  nl-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download NL TSL
+      run: curl -L --url "https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml" --create-dirs -o ./NL/TSL_NL.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: nl-tsl
+        delete-branch: true
+        title: 'NL TSL'
