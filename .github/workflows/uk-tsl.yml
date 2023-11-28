@@ -1,0 +1,22 @@
+name: uk-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  uk-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download UK TSL
+      run: curl -L --url "https://ec.europa.eu/tools/lotl/Final_EU_TSL-UKsigned.xml" --create-dirs -o ./UK/TSL_UK.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: uk-tsl
+        delete-branch: true
+        title: 'UK TSL'
