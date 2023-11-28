@@ -1,0 +1,22 @@
+name: hu-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  hu-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download HU TSL
+      run: curl -L --url "http://www.nmhh.hu/tl/pub/HU_TL.xml" --create-dirs -o ./HU/TSL_HU.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: hu-tsl
+        delete-branch: true
+        title: 'HU TSL'
