@@ -1,0 +1,22 @@
+name: lt-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  lt-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download LT TSL
+      run: curl -L --url "https://elektroninisparasas.lt/LT-TSL.xml" --create-dirs -o ./LT/TSL_LT.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: lt-tsl
+        delete-branch: true
+        title: 'LT TSL'
