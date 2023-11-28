@@ -1,0 +1,22 @@
+name: pl-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  pl-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download PL TSL
+      run: curl -L --url "https://www.nccert.pl/tsl/PL_TSL.xml" --create-dirs -o ./PL/TSL_PL.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: pl-tsl
+        delete-branch: true
+        title: 'PL TSL'
