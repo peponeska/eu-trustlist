@@ -1,0 +1,22 @@
+name: ie-tsl
+
+on:
+  schedule:
+    - cron: '1 0 * * *'
+  workflow_dispatch:
+    
+jobs:
+  ie-tsl-parsing:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+    - name: Download IE TSL
+      run: curl -L --url "http://files.dcenr.gov.ie/rh/Irelandtslsigned.xml" --create-dirs -o ./IE/TSL_IE.xml
+    - name: Create PR if neeeed
+      id: cpr
+      uses: peter-evans/create-pull-request@v5
+      with:
+        branch: ie-tsl
+        delete-branch: true
+        title: 'IE TSL'
