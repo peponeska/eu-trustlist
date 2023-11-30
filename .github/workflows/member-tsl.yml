@@ -1,0 +1,115 @@
+on: 
+  schedule:
+    - cron: '1 1 * * *'
+  workflow_dispatch:
+
+jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        include:
+          - country: AT
+            url: "https://www.signatur.rtr.at/currenttl.xml"
+            out: ./AT/TSL_AT.xml
+          - country: BE
+            url: "https://tsl.belgium.be/tsl-be.xml"
+            out: ./BE/TSL_BE.xml        
+          - country: BG
+            url: "https://crc.bg/files/_en/TSL_BG.xml"
+            out: ./BG/TSL_BG.xml
+          - country: CY
+            url: 'https://dec.dmrid.gov.cy/dmrid/dec/ws_dec.nsf/all/5064247FF4FC3DCCC2258506002EEA17/\$file/TSL-CY-sign.xml'
+            out: ./CY/TSL_CY.xml   
+          - country: CZ
+            url: "https://tsl.gov.cz/publ/TSL_CZ.xtsl"
+            out: ./CZ/TSL_CZ.xml          
+          - country: DE
+            url: "https://tl.bundesnetzagentur.de/TL-DE.XML"
+            out: ./DE/TSL_DE.xml
+          - country: DK
+            url: "https://www.digst.dk/TSLDKxml"
+            out: ./DK/TSL_DK.xml
+          - country: EE
+            url: "https://sr.riik.ee/tsl/estonian-tsl.xml"
+            out: ./EE/TSL_EE.xml
+          - country: EL
+            url: "https://www.eett.gr/tsl/EL-TSL.xml"
+            out: ./EL/TSL_EL.xml
+          - country: ES
+            url: "https://sedediatid.mineco.gob.es/Prestadores/TSL/TSL.xml"
+            out: ./ES/TSL_ES.xml            
+          - country: FI
+            url: "https://dp.trustedlist.fi/fi-tl.xml"
+            out: ./FI/TSL_FI.xml
+          - country: FR
+            url: "https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml"
+            out: ./FR/TSL_FR.xml
+          - country: HR
+            url: "https://mingor.gov.hr/UserDocsImages/TLS/TSL-HR.xml"
+            out: ./HR/TSL_HR.xml
+          - country: HU
+            url: "http://www.nmhh.hu/tl/pub/HU_TL.xml"
+            out: ./HU/TSL_HU.xml
+          - country: IE
+            url: "http://files.dcenr.gov.ie/rh/Irelandtslsigned.xml"
+            out: ./IE/TSL_IE.xml
+          - country: IS
+            url: "https://www.fjarskiptastofa.is/library/skrar/tsl/tsl.xml"
+            out: ./IS/TSL_IS.xml
+          - country: IT
+            url: "https://eidas.agid.gov.it/TL/TSL-IT.xml"
+            out: ./IT/TSL_IT.xml
+          - country: LT
+            url: "https://elektroninisparasas.lt/LT-TSL.xml"
+            out: ./LT/TSL_LT.xml
+          - country: LU
+            url: "https://trusted-list.lu/tsl.xml"
+            out: ./LU/TSL_LU.xml
+          - country: LV
+            url: "https://trustlist.gov.lv/tsl/latvian-tsl.xml"
+            out: ./LV/TSL_LV.xml
+          - country: MT
+            url: "https://tsl.mca.org.mt/MT_TSL.xml"
+            out: ./MT/TSL_MT.xml
+          - country: NL
+            url: "https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml"
+            out: ./NL/TSL_NL.xml
+          - country: NO
+            url: "https://tl-norway.no/TSL/NO_TSL.XML"
+            out: ./NO/TSL_NO.xml
+          - country: PL
+            url: "https://www.nccert.pl/tsl/PL_TSL.xml"
+            out: ./PL/TSL_PL.xml
+          - country: PT
+            url: "https://www.gns.gov.pt/media/1894/TSLPT.xml"
+            out: ./PT/TSL_PT.xml
+          - country: RO
+            url: "https://www.adr.gov.ro/trustedlist.xml"
+            out: ./RO/TSL_RO.xml            
+          - country: SE
+            url: "https://trustedlist.pts.se/SE-TL.xml"
+            out: ./SE/TSL_SE.xml
+          - country: SI
+            url: "https://www.tl.gov.si/SI_TL.xml"
+            out: ./SI/TSL_SI.xml
+          - country: SK
+            url: "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+            out: ./SK/TSL_SK.xml
+          - country: UK
+            url: "https://ec.europa.eu/tools/lotl/Final_EU_TSL-UKsigned.xml"
+            out: ./UK/TSL_UK.xml            
+
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "country=${{ matrix.country }} url=${{ matrix.url }} out=${{ matrix.out }}"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download ${{ matrix.country }} TSL
+        run: curl -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
+      - name: Create PR if neeeed
+        id: cpr
+        uses: peter-evans/create-pull-request@v5
+        with:
+          branch: ${{ matrix.country }}-tsl
+          delete-branch: true
+          title: '${{ matrix.country }} TSL'
