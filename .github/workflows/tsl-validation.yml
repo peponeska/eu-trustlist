@@ -6,26 +6,40 @@ on:
       - '**.xml'
   workflow_dispatch:
 
+
 jobs:
+  changedfiles:
+    runs-on: ubuntu-latest
+    # Map a step output to a job output
+    outputs:
+      all: ${{ steps.changes.outputs.all}}
+      ts: ${{ steps.changes.outputs.xml }}
+    steps:
+        # Make sure we have some code to diff.
+      - name: Checkout repository
+        uses: actions/checkout@v2
+      - name: Get changed files
+        id: changes
+        # Set outputs using the command.
+        run: |
+          echo "::set-output name=all::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | xargs)"
+          echo "::set-output name=xml::$(git diff --name-only --diff-filter=ACMRT ${{ github.event.pull_request.base.sha }} ${{ github.sha }} | grep .xml$ | xargs)"
+  lint:
+    runs-on: ubuntu-latest
+    # require the first job to have ran
+    needs: changedfiles
+    # only run there are changed files
+    if: ${{needs.changedfiles.outputs.xml}}
+    steps:
+      - name: echo changed files
+        run: echo ${{needs.changedfiles.outputs.xml}}
+
   xml-linters:
     runs-on: ubuntu-latest
+    needs: lint
     steps:
-    - name: Checkout
-      uses: actions/checkout@v4
-    - name: Enable annotations for validation errors and warnings
-      uses: korelstar/xmllint-problem-matcher@v1
-    - name: List Files in PR
-      id: list-files
-      uses: ankitjain28may/list-files-in-pr@v1.0
-      with:
-        githubToken: ${{ github.token }}
-        outputFormat: 'space-delimited'
-    - run: |
-        for file in ${{ steps.list-files.outputs.pullRequestFiles }}; do
-          echo "Changed Files - ${file}."
-        done
-    - name: Validate TSL using XML schema
-      uses: ChristophWurst/xmllint-action@v1
-      with:
-        xml-file: ./SK/TSL_SK.xml
-        xml-schema-file: ./ValidationSchemas/ts_119612v020201_201601xsd.xsd
+      - name: Validate TSL using XML schema
+        uses: ChristophWurst/xmllint-action@v1
+        with:
+          xml-file: ${{needs.changedfiles.outputs.xml}}
+          xml-schema-file: ./ValidationSchemas/ts_119612v020201_201601xsd.xsd
