@@ -1,0 +1,27 @@
+name: Lint
+
+on: 
+  push:
+    paths:
+      - '**.xml'
+  pull_request:
+    paths:
+      - '**.xml'
+jobs:
+  xml-linters:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v4
+
+    - name: Enable annotations for validation errors and warnings
+      uses: korelstar/xmllint-problem-matcher@v1
+    - name: changed files
+      id: files
+      uses: jitterbit/get-changed-files@v1
+      
+    - name: Validate TSL using XML schema
+      uses: ChristophWurst/xmllint-action@v1
+      with:
+        xml-file: ${{ steps.files.outputs.added }}
+        xml-schema-file: ./ValidationSchemas/ts_119612v020201_201601xsd.xsd
