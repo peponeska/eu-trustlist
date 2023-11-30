@@ -8,6 +8,9 @@ jobs:
           - country: SK
             url: "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
             out: ./SK/TSL_SK.xml
+          - country: SI
+            url: "https://www.tl.gov.si/SI_TL.xml"
+            out: ./SI/TSL_SI.xml
     runs-on: ubuntu-latest
     steps:
       - run: echo "country=${{ matrix.country }} url=${{ matrix.url }} out=${{ matrix.out }}"
