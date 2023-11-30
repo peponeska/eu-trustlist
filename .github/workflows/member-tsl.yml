@@ -105,7 +105,7 @@ jobs:
       - name: Checkout
         uses: actions/checkout@v4
       - name: Download ${{ matrix.country }} TSL
-        run: curl -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
+        run: curl --etag-compare ./${{ matrix.country }}/etag.txt --etag-save ./${{ matrix.country }}/etag.txt -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
       - name: Create PR if neeeed
         id: cpr
         uses: peter-evans/create-pull-request@v5
