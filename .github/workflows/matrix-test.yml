@@ -1,0 +1,13 @@
+on: workflow_dispatch
+
+jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        include:
+          - country: SK
+            url: "http://tl.nbu.gov.sk/kca/tsl/tsl.xml"
+            out: ./SK/TSL_SK.xml
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "country=${{ matrix.country }} url=${{ matrix.url }} out=${{ matrix.out }}"
