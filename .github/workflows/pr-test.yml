@@ -16,15 +16,12 @@ jobs:
     runs-on: ubuntu-latest
     needs: pr_commented
     steps:
-      - uses: ankitjain28may/list-files-in-pr@v1.0
-        id: list-files
-        with:
-          githubToken: ${{ github.token }}
-          outputFormat: 'space-delimited'
-      - run: |
-          for file in ${{ steps.list-files.outputs.pullRequestFiles }}; do
-            echo "Changed Files - ${file}."
-          done
+     - id: files
+       uses: jitterbit/get-changed-files@v1
+     - run: |
+         for changed_file in ${{ steps.files.outputs.all }}; do
+           echo "Do something with this ${changed_file}."
+         done
 
   xml-linters:
     runs-on: ubuntu-latest
