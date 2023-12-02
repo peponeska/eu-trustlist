@@ -107,10 +107,18 @@ jobs:
       - name: Download ${{ matrix.country }} TSL
         #run: curl --etag-compare ./${{ matrix.country }}/etag.txt --etag-save ./${{ matrix.country }}/etag.txt -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
         run: curl -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
+      - name: Get TSL version
+        id: getxml
+        uses: mavrosxristoforos/get-xml-info@1.0
+        with:
+          xml-file: '${{ matrix.out }}'
+          xpath: "//*[local-name()='TSLSequenceNumber']"
+      - name: Print TSL version
+        run: echo "${{ steps.getxml.outputs.info }}"
       - name: Create PR if neeeed
         id: cpr
         uses: peter-evans/create-pull-request@v5
         with:
           branch: ${{ matrix.country }}-tsl
           delete-branch: true
-          title: '${{ matrix.country }} TSL'
+          title: '${{ matrix.country }} TSL - Version ${{ steps.getxml.outputs.info }}'
