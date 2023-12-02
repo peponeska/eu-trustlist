@@ -1,9 +1,6 @@
 name: TSL schema validation
 
 on: 
-  push:
-    paths:
-      - '**.xml'
   pull_request:
     paths:
       - '**.xml'
