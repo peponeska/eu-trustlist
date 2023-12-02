@@ -13,6 +13,6 @@ jobs:
       uses: QwerMike/xpath-action@v1
       with:
         filename: './AT/TSL_AT.xml'
-        xpath: "//TSLSequenceNumber/text()"
+        expression: "//TSLSequenceNumber/text()"
     - name: Print vertion
       run: echo "${{ steps.getxml.outputs.result }}"
