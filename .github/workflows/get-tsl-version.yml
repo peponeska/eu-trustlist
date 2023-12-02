@@ -13,6 +13,6 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: './AT/TSL_AT.xml'
-        xpath: "//*[local-name()='TSLSequenceNumber'/text()"
+        xpath: "//*[local-name()='TSLSequenceNumber']/text()"
     - name: Print vertion
       run: echo "${{ steps.getxml.outputs.info }}"
