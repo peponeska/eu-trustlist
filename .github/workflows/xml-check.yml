@@ -12,6 +12,6 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: 'DE/TSL_DE.xml'
-        xpath: "/[local-name()='TrustServiceStatusList']/[local-name()='SchemeInformation']/[local-name()='TSLSequenceNumber']"
+        xpath: "/*[local-name()='TrustServiceStatusList']/*[local-name()='SchemeInformation']/*[local-name()='TSLSequenceNumber']"
     - name: Create Release
       run: echo "${{ steps.getxml.outputs.info }}"
