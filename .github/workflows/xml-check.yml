@@ -14,7 +14,4 @@ jobs:
         xml-file: 'DE/TSL_DE.xml'
         xpath: "/[local-name()='TrustServiceStatusList']/[local-name()='SchemeInformation']/[local-name()='TSLSequenceNumber']"
     - name: Create Release
-      uses: some-random/release-action@v1
-      with:
-        artifacts: 'another-file.zip'
-        tag: ${{ steps.getxml.outputs.info }}
+      run: echo "${{ steps.getxml.outputs.info }}"
