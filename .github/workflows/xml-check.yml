@@ -1,0 +1,20 @@
+name: xml check
+on: workflow_dispatch
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    steps:
+    - name: Checkout
+      uses: actions/checkout@v1
+    - name: Get XML
+      id: getxml
+      uses: mavrosxristoforos/get-xml-info@1.0
+      with:
+        xml-file: 'DE/TSL_DE.xml'
+        xpath: "/[local-name()='TrustServiceStatusList']/[local-name()='SchemeInformation']/[local-name()='TSLSequenceNumber']"
+    - name: Create Release
+      uses: some-random/release-action@v1
+      with:
+        artifacts: 'another-file.zip'
+        tag: ${{ steps.getxml.outputs.info }}
