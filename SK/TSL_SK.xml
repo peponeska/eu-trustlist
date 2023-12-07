@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#" TSLTag="http://uri.etsi.org/19612/TSLTag" Id="TLISK-172">
   <SchemeInformation>
     <TSLVersionIdentifier>5</TSLVersionIdentifier>
-    <TSLSequenceNumber>111</TSLSequenceNumber>
+    <TSLSequenceNumber>112</TSLSequenceNumber>
     <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
     <SchemeOperatorName>
       <Name xml:lang="en">National Security Authority</Name>
@@ -54,6 +54,198 @@
     <PointersToOtherTSL>
       <OtherTSLPointer>
         <ServiceDigitalIdentities>
+          <ServiceDigitalIdentity>
+            <DigitalId>
+              <X509Certificate>MIIIoDCCBoigAwIBAgIUc8IcSUtVEKAMMvHm9QWU05kXsPUwDQYJKoZIhvcNAQEN
+BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
+YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
+IEcxMB4XDTIzMTExNzEwMTE0NloXDTI3MTExNzEwMTE0NlowggEVMQswCQYDVQQG
+EwJMVTFDMEEGA1UECww6Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
+ZXJ0aWZpY2F0ZSAtIE9yZ2FuaXphdGlvbjE5MDcGA1UECwwwRGlyZWN0b3JhdGUt
+R2VuZXJhbCBmb3IgRGlnaXRhbCBTZXJ2aWNlcyAoRElHSVQpMSMwIQYDVQRhDBpM
+RUlYRy0yNTQ5MDBaTllBMUZMVVE5VTM5MzEcMBoGA1UECgwTRVVST1BFQU4gQ09N
+TUlTU0lPTjElMCMGCSqGSIb3DQEJARYWZGlnaXQtZG1vQGVjLmV1cm9wYS5ldTEc
+MBoGA1UEAwwTRVVST1BFQU4gQ09NTUlTU0lPTjCCAiIwDQYJKoZIhvcNAQEBBQAD
+ggIPADCCAgoCggIBAKWYeBA9kYARElGnHoJRNpbby44G+TSJcgHI9QtyXlYjB234
+hSAYyJvW+gKvoownskrogfUP6GOmQgEFZX335Y0sBwfppVemEoe9H9Aj/cpT14Iq
+dB05V4a88ASRfR0Va1xmQJrDsBZWqZHx0EEHBctIF5BjyTMAcQybha+4AOIotp3d
+F/7ZA3Cu4GYbN9BuQyyqfqrjMduDzzDjVwKC17aEsLev60C1FnIJ/FVEda3lJSGi
+lD5JyUceTaRcot1rw6gjKrOVhwP/UHfevJ3JCsQsuAzkf7ivzHzYuPPPR9Ussecw
+r7O95Fr4wbPYIyX2AOTlieAC7GMVXHN1/+4LH74ndvoJYEScXwmN9Skib3+G6Tqu
+OCQxvNXzHPZb95btCoSnVprCn14O3CXUTZMEKkhPuKW8dI6pR2JSGbtT+xBkcc1w
+YVlUnzE3d+YK5SSevUT2COwJM+AcjSoUaRTBINsD/ezDDvv7vtbF1XccaJjoCNku
+rzayTsMszGDvAF171LY69lNY6yK0uzrS+3c/hEHctXa5KIC3PpWrBGQ5mw73KerR
+vnAhzDZemVquPk1D59aJNfHoHXmy1bS52rHWYOwHH+2qbODdh8GkHwHXBzSpFit1
+Kg2brpavhztNaGlj6GsLFAbr8okCUJllOOLQ8Tfy9Vnn5Rq0+7VTdd8dAxg9AgMB
+AAGjggKaMIICljAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFHNJ8UAcFAR8mhJ/
++i/NXGcjGOkUMIGGBggrBgEFBQcBAQR6MHgwRgYIKwYBBQUHMAKGOmh0dHBzOi8v
+cWNhLWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5w
+N2IwLgYIKwYBBQUHMAGGImh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L29j
+c3AwIQYDVR0RBBowGIEWZGlnaXQtZG1vQGVjLmV1cm9wYS5ldTBfBgNVHSAEWDBW
+MDcGCysGAQQBgcd8BAEBMCgwJgYIKwYBBQUHAgEWGmh0dHBzOi8vcGtpLmRpZ2l0
+YWxzaWduLnB0MBAGDisGAQQBgcd8BAIBAQEGMAkGBwQAi+xAAQMwHQYDVR0lBBYw
+FAYIKwYBBQUHAwIGCCsGAQUFBwMEMIG8BggrBgEFBQcBAwSBrzCBrDAVBggrBgEF
+BQcLAjAJBgcEAIvsSQECMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkG
+BwQAjkYBBgIwagYGBACORgEFMGAwLhYoaHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNp
+Z24ucHQvUERTX2VuLnBkZhMCZW4wLhYoaHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNp
+Z24ucHQvUERTX3B0LnBkZhMCcHQwSwYDVR0fBEQwQjBAoD6gPIY6aHR0cHM6Ly9x
+Y2EtZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFMSUZJRURDQUcxLmNy
+bDAdBgNVHQ4EFgQUlO5hwcl9/63issm59r+TIHeJSZwwDgYDVR0PAQH/BAQDAgZA
+MA0GCSqGSIb3DQEBDQUAA4ICAQCn8qjJhTe3SsD7cB8S8kDzt+CBnJJm7bOFc9t9
+IU6iKntVtjPU4T+cYiPk8TnT+/w7dBphRzjZCL1sDfSJGQ5JPBw+hBPuvzEqP4xV
+i5i4Jhg/GpYSaa2+dkFXlKe6Sd+ii/RnwBSnfqVfNZtasj7yX+oujGau5LSUPIkQ
+xDrMie8KjsNtlkFjQDoioGAx8b0u6WyhAuqwEacCznft20Dim3sC7XJw8GHumrnW
+52rUzl4sbXoTBAt8F1zPCbEbjU0oc8SbFNPIChh+9sHUorEmHIlcg30LBHihkDCx
+4mK8J60Jybk57D4U2RO29VsJfDmnvNxfJZxfLHEJ2tkh+AMqlJXPDlvXQ+rZ1NmL
+HrbXkcHOlqR3F8BakTi2Mi5AZZfkfjZjkigEStN6Enaq6gwF7EsslqEKmhSQ8Xlh
+xWSRqljK/cnEUw+NhrvR4WuKlvYmxlCLQj6q89Hh121aUGUhL2L2WCVBjVXqux7s
+4mvECDzrucl5ilaVT32HO3g8qNLGD5lum53U5v/Nv68ItyHH96unztwBebmgox8g
+iVRdzPhmPrpSfbmeNNDKj1p9SCeOvd3P9jCUvChVvH2P2ZUjc24tWe+tzclsCJi7
+GbKr6kjHc1jFudjehflAbm1IZAYdDNrhXamnsRVsz7iSH20eygCArlwSQ//WIQZP
+FrRffg==</X509Certificate>
+            </DigitalId>
+          </ServiceDigitalIdentity>
+          <ServiceDigitalIdentity>
+            <DigitalId>
+              <X509Certificate>MIIIBDCCBeygAwIBAgIUKH9cdKE3vD5rBCmH3Krsppm6rkUwDQYJKoZIhvcNAQEN
+BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
+YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
+IEcxMB4XDTIzMDIyMjE1MzYyOVoXDTI2MDIyMTE1MzYyOVowggFWMQswCQYDVQQG
+EwJHUjE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
+ZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFG
+TFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsM
+IEVudGl0bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMTEwLwYJKoZIhvcNAQkB
+FiJpb2FubmEua2Fsb2dlcm9wb3Vsb3VAZWMuZXVyb3BhLmV1MRcwFQYDVQQEDA5L
+QUxPR0VST1BPVUxPVTEPMA0GA1UEKgwGSU9BTk5BMR0wGwYDVQQLDBRSZW1vdGVR
+U0NETWFuYWdlbWVudDEeMBwGA1UEAwwVSU9BTk5BIEtBTE9HRVJPUE9VTE9VMIIB
+IjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAnIDj3MSrgRjPj4E7hP7f2nP4
+7K9P3KIWa9HBd77uD0bOvO/U4d5GBJx6ildYnX0pIhj1uq+fMafM1BlvGAgPFq7N
+iWYjdz1t5Jcdx3iWrao6ElkzNP/a+3s/wPfHmvOitmgnBBAVOurgz7tT7WX1pUrA
+TL5VxbrY8ETxD2QgfrBaIpwqSYeho+U2FmVV9UULw0rAQVbFqUEqg9Nb88GMXNt2
+sXPveO7GtXYbi0WCISdej1JVAr69RuyDDrl7fCr4Q6yzXWpOWF7Vr2z2S3hhqnPP
+l21qVfhaHGq6mBu6wRqOK0ct+zp4ZQEEC246NYIOJAoC/tcj8zewo4zBlRJwJQID
+AQABo4ICvTCCArkwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRzSfFAHBQEfJoS
+f/ovzVxnIxjpFDCBhgYIKwYBBQUHAQEEejB4MEYGCCsGAQUFBzAChjpodHRwczov
+L3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9ESUdJVEFMU0lHTlFVQUxJRklFRENBRzEu
+cDdiMC4GCCsGAQUFBzABhiJodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9v
+Y3NwMC0GA1UdEQQmMCSBImlvYW5uYS5rYWxvZ2Vyb3BvdWxvdUBlYy5ldXJvcGEu
+ZXUwXwYDVR0gBFgwVjA3BgsrBgEEAYHHfAQBATAoMCYGCCsGAQUFBwIBFhpodHRw
+czovL3BraS5kaWdpdGFsc2lnbi5wdDAQBg4rBgEEAYHHfAQCAQEBBDAJBgcEAIvs
+QAECMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDBLBgNVHR8ERDBCMECg
+PqA8hjpodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9ESUdJVEFMU0lHTlFV
+QUxJRklFRENBRzEuY3JsMB0GA1UdDgQWBBRkfGQMVVlxBJmVo0L3Zjs2nTpaRjAO
+BgNVHQ8BAf8EBAMCBkAwgdMGCCsGAQUFBwEDBIHGMIHDMAgGBgQAjkYBATAIBgYE
+AI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwagYGBACORgEFMGAwLhYoaHR0cHM6
+Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvUERTX3B0LnBkZhMCcHQwLhYoaHR0cHM6
+Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvUERTX2VuLnBkZhMCZW4wFQYIKwYBBQUH
+CwIwCQYHBACL7EkBATAVBggrBgEFBQcLAjAJBgcEAIvsSQECMA0GCSqGSIb3DQEB
+DQUAA4ICAQBfvXM2+mTPDHZGA7BLQ+04S/1rObRmuKy9w5xLRp9bBanBS90nRIji
+xOMIATTgZFF6pT4H6q3XFYDvbrm/SUNkVKnSovDucXB/bEhqEN+DYmLxxLFxbsGo
+BZosbFloFHgoct+OP/ttxe9e8hlL5+J5TXwGB/+u3wbOWfA8XdwvKl1UVJHrEeJj
+PTsneBBKIXLpnnQYrPM3guEayVRkNdYd9dsaVJKu6bnw+yVjaBAvX9Mspu4b5leU
+HA+lRR5kgSm+RjAJfymGtgy9/heE/MAX+ANL8tb4PqC3XEGfP/XM4ZUS97CeL5r+
+OwNnN+6yToYQh3LoQrUvkvj2uNLoWX15WMt37KRVgiAdOkVFFIsQRvTJM9OYBI/4
+Rmc1g3TD4O0TBlqzjoMnLGD8d3nhtKsfb29gW7Pj9lGZLI4ObIzeBZwQZKK5U8LA
+h38mzlUJ2UGYC1FHbyNKLn9L6bVn0F7OdelRiNrnby9TiKwl8gwZUAC5bxOv/5df
+swUFN1kQ2LTiRMM+8G/1IDe1CAuN4H2W+0hAvkBy2KIAzcxa6nCOilHzu1BikfV7
+x4qojYoFAXI+tKe8JtIuJIFR+gWb7T3ymRFGsZMDoabXIRvnvrks/KRqhi8/6YmC
+Dpx4jDTxQf3GOVC2AXULtNtV1i28md5isoH3GHgqPeKYdNxOMJN7tg==</X509Certificate>
+            </DigitalId>
+          </ServiceDigitalIdentity>
+                  <ServiceDigitalIdentity>
+            <DigitalId>
+              <X509Certificate>MIIH9DCCBdygAwIBAgIUbL57W2NNkznemb+sNTEfKSmLTH8wDQYJKoZIhvcNAQEN
+BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
+YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
+IEcxMB4XDTIzMDQyMTE1NTk0M1oXDTI2MDQyMDE1NTk0M1owggFPMQswCQYDVQQG
+EwJCRTE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
+ZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFG
+TFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsM
+IEVudGl0bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMSgwJgYJKoZIhvcNAQkB
+FhlqZXJvZW4ucmF0aGVAZWMuZXVyb3BhLmV1MQ8wDQYDVQQEDAZSQVRIw4kxGDAW
+BgNVBCoMD0pFUk9FTiBBUk5PTEQgTDEdMBsGA1UECwwUUmVtb3RlUVNDRE1hbmFn
+ZW1lbnQxHzAdBgNVBAMMFkpFUk9FTiBBUk5PTEQgTCBSQVRIw4kwggEiMA0GCSqG
+SIb3DQEBAQUAA4IBDwAwggEKAoIBAQDgC3u493b8aZqWC+wdf0+1/ILG/e+XYcHQ
+iNxCL0kCVEo+sRt9z55sX2wHmon/aXsiS4twfqk9AQxlWpLyXuZa3jRrBiI55Bdq
+tmh+2+rrV0AuOhHhupwAKO52bP+yISU8G4r+g+NzYUMwNCDM9nvj0ASxFiVqRV+o
+gU5tWmaRJ7sazSXaG9sjsS31SZilsyjvMH72jtbeQiYEmdfc0GKa2CnJ9vcxS/+1
+ht9yMCiH/OzTZXOPht9v8dVXx2TV1pZaDB/1BI8qPGew2YRL7WPGn2GnNm1dm7H5
+vL3l5pz5An9mQR4iu1uj2WALi+9BzauxLyQnhCCMWawIofaNrrudAgMBAAGjggK0
+MIICsDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFHNJ8UAcFAR8mhJ/+i/NXGcj
+GOkUMIGGBggrBgEFBQcBAQR6MHgwRgYIKwYBBQUHMAKGOmh0dHBzOi8vcWNhLWcx
+LmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5wN2IwLgYI
+KwYBBQUHMAGGImh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L29jc3AwJAYD
+VR0RBB0wG4EZamVyb2VuLnJhdGhlQGVjLmV1cm9wYS5ldTBfBgNVHSAEWDBWMDcG
+CysGAQQBgcd8BAEBMCgwJgYIKwYBBQUHAgEWGmh0dHBzOi8vcGtpLmRpZ2l0YWxz
+aWduLnB0MBAGDisGAQQBgcd8BAIBAQEEMAkGBwQAi+xAAQIwHQYDVR0lBBYwFAYI
+KwYBBQUHAwIGCCsGAQUFBwMEMEsGA1UdHwREMEIwQKA+oDyGOmh0dHBzOi8vcWNh
+LWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5jcmww
+HQYDVR0OBBYEFBvvbgFnORNt1DwbohrG8igrqWC5MA4GA1UdDwEB/wQEAwIGQDCB
+0wYIKwYBBQUHAQMEgcYwgcMwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYw
+CQYHBACORgEGATBqBgYEAI5GAQUwYDAuFihodHRwczovL3FjYS1nMS5kaWdpdGFs
+c2lnbi5wdC9QRFNfcHQucGRmEwJwdDAuFihodHRwczovL3FjYS1nMS5kaWdpdGFs
+c2lnbi5wdC9QRFNfZW4ucGRmEwJlbjAVBggrBgEFBQcLAjAJBgcEAIvsSQEBMBUG
+CCsGAQUFBwsCMAkGBwQAi+xJAQIwDQYJKoZIhvcNAQENBQADggIBACHUd1cXS1SN
+DV6ZYIzoVoxk3LaOLrGoS12X33snN8eaHQ78UyjMlmul6xBfC9qte0T0wS5apuq3
+UGpg2Xir983tPHeaweu43sx1fkdpPnItDm/KcwwGxb0/LvrArl4FTlvGRmHD2dmw
+Bs2G7Qgxyvh38nsCzuKEA4ySuMPL6XOCuoXxAfeM9S1kVikHzCUcwamLC9k4+2+K
+dusJDXvRMlWcpgHjkfCZqb+ELIpLOkVQ7hdRPPJn5isQFbU6/Gbc/01THQvaNPRS
+948lTi6iMSwOfHI8BXvSF0k/XBodJXv/C3VhZoxivMtvX1e4jyhOE9y7G8kSiJd5
+zty6JIG+Tr9YP04bOH13C0yYvgr8Wrpx26o+9N5sS54OQ3/VHw6+yU67cBAU/JUk
+FbFe3FqU+i6s5oXnRxnrMQPNKAx7+Vuwe9V5c6iM7LiHMbCkgBeQq67YYiuQJ73+
+Pc/1OJOR/r3/GtoS+q3xJYKSMfHyLqwUFO4gJhLPm8DYSXrWymqEzQ1extyCMO73
+v1o/UVsKabFAG1XHqgULXsiKXoidcAC6H4zkK95NmVy6BI2ws3UVH6/Nz9r2pH9V
+XtiRLr1CjCq+k8CuGFS6COQWtqdyIb0FwmtAs81cd88W7l1lXWyF8mrxu55zf0qH
+xsTwFxyB57kCk4km92MalqzuOQYZ0LzW</X509Certificate>
+            </DigitalId>
+          </ServiceDigitalIdentity>
+          <ServiceDigitalIdentity>
+            <DigitalId>
+              <X509Certificate>MIIIAjCCBeqgAwIBAgIUHQiKmcmM7NMyG25PRlC8Qs9VpoQwDQYJKoZIhvcNAQEN
+BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
+YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
+IEcxMB4XDTIzMTAwMjEzMjk1MFoXDTI2MTAwMTEzMjk1MFowggFaMQswCQYDVQQG
+EwJSTzE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
+ZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFG
+TFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsM
+IEVudGl0bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMSswKQYJKoZIhvcNAQkB
+FhxhZHJpYW4uY3JvaXRvcnVAZWMuZXVyb3BhLmV1MREwDwYDVQQEDAhDUk9JVE9S
+VTEaMBgGA1UEKgwRQ09OU1RBTlRJTiBBRFJJQU4xHTAbBgNVBAsMFFJlbW90ZVFT
+Q0RNYW5hZ2VtZW50MSMwIQYDVQQDDBpDT05TVEFOVElOIEFEUklBTiBDUk9JVE9S
+VTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMEPfdAKKFfKpCzoMFhB
+vEv5OI0t9wQ1Ua5JzVpENOOKKjS9Cm/IwzyTLsWuLJDqaUvmI6oTOZ4TYo7WaFyy
+i2YVq4TSVXo9G8t8RykHMu13vwrCyoMJ/GucZ9ypgkRnEEWUdvUGN26ROmCsryBI
+fvCpC/Pe9tF6Oh6dBi2CmX8HlE43zNYOkVuikxa5ymB13W1yYsNKV920My/ZCfpF
+oEyW34H3+6ZNR7Iwh6h6T4QkIMkjcRTTaeMTYD/kaQV+lFntXlfP2of6Xdqaif39
+nJeuthCpgL8ciWAE3mb0vuJIRXAcrHRhj2qDT3kXJvpo8S+qmkvMIRdabzeYbVzo
++3kCAwEAAaOCArcwggKzMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUc0nxQBwU
+BHyaEn/6L81cZyMY6RQwgYYGCCsGAQUFBwEBBHoweDBGBggrBgEFBQcwAoY6aHR0
+cHM6Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFMSUZJRURD
+QUcxLnA3YjAuBggrBgEFBQcwAYYiaHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNpZ24u
+cHQvb2NzcDAnBgNVHREEIDAegRxhZHJpYW4uY3JvaXRvcnVAZWMuZXVyb3BhLmV1
+MF8GA1UdIARYMFYwNwYLKwYBBAGBx3wEAQEwKDAmBggrBgEFBQcCARYaaHR0cHM6
+Ly9wa2kuZGlnaXRhbHNpZ24ucHQwEAYOKwYBBAGBx3wEAgEBAQQwCQYHBACL7EAB
+AjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwSwYDVR0fBEQwQjBAoD6g
+PIY6aHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFM
+SUZJRURDQUcxLmNybDAdBgNVHQ4EFgQUInlF6Cl5HKvUE35Ifm8y7cfQvvAwDgYD
+VR0PAQH/BAQDAgZAMIHTBggrBgEFBQcBAwSBxjCBwzAIBgYEAI5GAQEwCAYGBACO
+RgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8v
+cWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19wdC5wZGYTAnB0MC4WKGh0dHBzOi8v
+cWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19lbi5wZGYTAmVuMBUGCCsGAQUFBwsC
+MAkGBwQAi+xJAQEwFQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0BAQ0F
+AAOCAgEACH5DHJNDzsMXTu+ph7fXEEbFK6xqbg68tRcvwr7xgmaAwfM2pGjq62O6
+37y5yVfYT6Aa7oiC4sshT7Tu/c/UHpjTn4/tDghkwlhSkUc9FREmOu9doRLWNJ6O
+E31UBW94w9s0EjpvFJLpkODv0F2M4iqTLMtV7H0M+ggNA+cMa2NnyRZCCNVKoP8C
+xgQySjgv7DhSXTSahhaKJUQqE5yXvrjBZvrIyESlTCtoLFa0mWljWlW4aVf4P+m1
+lLjCpqzpLc5B9m1gXxwzJzUT0DcQgLdTka/QBFKTvD0F8+6qUqazM6+26ddFOQeg
+X8Kc8xzvyXss1bu8JqXKwjzEwHd6ywAWgqJi7v1+KlT0DvX0Y4X8kSh9X5Xuz5tj
+Znby0hvP7qQSXhHsYUOrxU3Dkj8V9kJvDKhnCuTdJcEaCrcdWbimNib4YIicCQOo
+E79XL5/KQ5gYgeCGkudcLkteOfvDBM/G8HbqSbv4x8+HEdnjgoCL4lv4iaD4qtpf
+vkU6bRXlMtT2Q4Q7pg/Mo02jh66+S9HoXtoBUeUZMWER2OkjUG1CbOOwclIw6Gui
+CZ7BRSu0tG3C54f0jBdDqj2Unvh9geRjBiRNq0pksCD9GQj4yQc0iYxEbu2RCum8
+suLlkeQZL2oVYvRdjYFiT5kcWAYuGaZH3YGoR+MT3b7ABahollY=</X509Certificate>
+            </DigitalId>
+          </ServiceDigitalIdentity>
           <ServiceDigitalIdentity>
             <DigitalId>
               <X509Certificate>MIIG7zCCBNegAwIBAgIQEAAAAAAAnuXHXttK9Tyf2zANBgkqhkiG9w0BAQsFADBk
@@ -141,53 +333,6 @@ BOavnGGOCVVPBQFKU6Kt7r69li1CmfA7KgK7Jn2o/jb8BupWUPGej++MkkrFDS0T
           </ServiceDigitalIdentity>
           <ServiceDigitalIdentity>
             <DigitalId>
-              <X509Certificate>MIIIBjCCBe6gAwIBAgIUS9jpmpft4GNImFU5UsO7UloSpHAwDQYJKoZIhvcNAQEN
-BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
-YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
-IEcxMB4XDTIxMTAwMTA5MTI1OFoXDTIzMDQwOTA5MTI1OFowggFlMQswCQYDVQQG
-EwJCRTE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
-ZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFG
-TFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xIjAgBgNVBAsM
-GUVudGl0bGVtZW50IC0gRUMgT0ZGSUNJQUwxKDAmBgkqhkiG9w0BCQEWGWplcm9l
-bi5yYXRoZUBlYy5ldXJvcGEuZXUxHTAbBgNVBAUTFFBOT0JFLTU5Mi01NDQ0NzUw
-LTI3MQ4wDAYDVQQEDAVSQVRIRTEYMBYGA1UEKgwPSkVST0VOIEFSTk9MRCBMMR0w
-GwYDVQQLDBRSZW1vdGVRU0NETWFuYWdlbWVudDEeMBwGA1UEAwwVSkVST0VOIEFS
-Tk9MRCBMIFJBVEhFMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA6Xu4
-L2ZrE0heHhD4huf8MTgiMllyYIovFMV61b96MPAYELPRhaBIVHHF7w082rUdleHZ
-4zvmDVWtb0b9QGv+kx2KzXQMkOvsH7SvCUVrKZzzmwYFNynPMqEmO3XuCEbDY09F
-vl5vaGjwn1US55T/CFA1354Gpa6cfn8KifOFyTLthjMwHPvbQOE4gmx07wW2CHwx
-t2PV/JPmD1aC4ZakkUNwgMCbG3igKRu8+pMVwWpmil3k1SSfxBLZ4gTchErFE5Qy
-P6jC1iFkLJcX1r/Lgnv3quQrmaXKilLgYX6XnHajHp3Ay+VtXniMRp9mEjPAdYDM
-lrFZnqH5HtYaFPPI8wIDAQABo4ICsDCCAqwwDAYDVR0TAQH/BAIwADAfBgNVHSME
-GDAWgBRzSfFAHBQEfJoSf/ovzVxnIxjpFDCBhAYIKwYBBQUHAQEEeDB2MEUGCCsG
-AQUFBzAChjlodHRwOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdO
-UVVBTElGSUVEQ0FHMS5wN2IwLQYIKwYBBQUHMAGGIWh0dHA6Ly9xY2EtZzEuZGln
-aXRhbHNpZ24ucHQvb2NzcDAkBgNVHREEHTAbgRlqZXJvZW4ucmF0aGVAZWMuZXVy
-b3BhLmV1MF4GA1UdIARXMFUwNgYLKwYBBAGBx3wEAQEwJzAlBggrBgEFBQcCARYZ
-aHR0cDovL3BraS5kaWdpdGFsc2lnbi5wdDAQBg4rBgEEAYHHfAQCAQEBBDAJBgcE
-AIvsQAECMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDBKBgNVHR8EQzBB
-MD+gPaA7hjlodHRwOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdO
-UVVBTElGSUVEQ0FHMS5jcmwwHQYDVR0OBBYEFAQUZzttq3ed0in70dPz6mTXzNtp
-MA4GA1UdDwEB/wQEAwIGQDCB0wYIKwYBBQUHAQMEgcYwgcMwCAYGBACORgEBMAgG
-BgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBqBgYEAI5GAQUwYDAuFihodHRw
-czovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9QRFNfcHQucGRmEwJwdDAuFihodHRw
-czovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9QRFNfZW4ucGRmEwJlbjAVBggrBgEF
-BQcLAjAJBgcEAIvsSQEBMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIwDQYJKoZIhvcN
-AQENBQADggIBAFaBGQoOqqfTTBaj9pllS9IF7MdRM10ZgbB40ZLkZG6V8DtnrTQ9
-d0mOO+iF5FpNUVxl3u+LkQ3t7Hfw3keF5MPYhFgsNwEQOLTT88hv7r3kQITdrZBx
-i9kQZ/6DPNPhPlxCMP4awNgXVr0O8wzeIJ+9AoMwF06VgtiE16V5BH40hxIA09Ev
-ctk5KdvAtzaTN4C5dKD+1tEZ83mdpT+bd+JePnBImj0HW8Bpw6hKJcLjzrO8bwet
-X81lATugjg1mFGcAafGDqfL8rkAcUW6T+mx9BYP9P/KOvojpor0j+FfOFJ1YN/bH
-jKGNrjylPiVtIqcs4ftz/x4oY8leKn/CDDyg96QIlKekBP65uPRxSikUoIeFj1/z
-oRU+ge2mlsOxO4yGCj/kw7gcBGZOHUWM09HtjAibOXbgQc1YcTcu1YYaesJFaZAq
-SkX3o6Y2+lXIEoFdVrZmi38b9PDw9QgGNHyp5K8ysrnoZZTw40cjdp7dBQLd4Oms
-xsYXnFah+UQXLMuDtDlwI5a83UiodqCYKDZ6ZjeN7v3uVsCUl4B5e96WRtllN3fe
-Qct+rFIQJM8FQdFflk1NbC5Dye2cq15YXXAo6EeB5jxIbUTrP4Kr1luao9owJKy4
-3Mh3F6kpGd2mMc3mz1jsst0DrSPtNA4brFOpp3KwRHlbDcadiiJZaes8</X509Certificate>
-            </DigitalId>
-          </ServiceDigitalIdentity>
-          <ServiceDigitalIdentity>
-            <DigitalId>
               <X509Certificate>MIIH8DCCBdigAwIBAgIUAqEFRGIiNgocV6sZ4jm3XSys6YowDQYJKoZIhvcNAQEN
 BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
 YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
@@ -231,53 +376,6 @@ ml9LPahdGomyxTHiKTAgGPAynB9Ym+Hx4DRSmUINExRZWA9FEH/2F8B9Bealgjyd
 lNDB/+5HIhP59YU0tG0IgS5IrEJ49ESIPov1NiUQlalNPQp8xLyu+TmTIZ3n43bc
 doJofb8AFawB2jkDCSdz8flikPlhdS336hWMrm6G38RsKu/XpXyyK05+UeLpeYu2
 YOutn7bUVKlyWLZsaS59kwaIibY=</X509Certificate>
-            </DigitalId>
-          </ServiceDigitalIdentity>
-          <ServiceDigitalIdentity>
-            <DigitalId>
-              <X509Certificate>MIIH9zCCBd+gAwIBAgIUZ4GvxB1xSYD0tYMFVW6FuCrHaX8wDQYJKoZIhvcNAQEN
-BQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmlj
-YWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENB
-IEcxMB4XDTIxMDkyOTA5NDUzNFoXDTIzMDkyNjA5NDUzNFowggFTMQswCQYDVQQG
-EwJSTzE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBD
-ZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFG
-TFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xIjAgBgNVBAsM
-GUVudGl0bGVtZW50IC0gRUMgT0ZGSUNJQUwxKzApBgkqhkiG9w0BCQEWHGFkcmlh
-bi5jcm9pdG9ydUBlYy5ldXJvcGEuZXUxETAPBgNVBAQMCENST0lUT1JVMRowGAYD
-VQQqDBFDT05TVEFOVElOLUFEUklBTjEdMBsGA1UECwwUUmVtb3RlUVNDRE1hbmFn
-ZW1lbnQxIzAhBgNVBAMMGkNPTlNUQU5USU4tQURSSUFOIENST0lUT1JVMIIBIjAN
-BgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAutg6RcTrmbtcPoxGSoMC1O5+151z
-Adaw21AklQOnkEMKC8aa5d4utJ3nfiQVIGRd6tFGu8hb8osuxzYEb6ycz5y/OiRV
-Ukr96Gi7LzEv/lIFduIAQMmr+FATvolw+QBuId8WJJaVW04/h+DrEPmbXmx8AoNr
-rSTeJcQanm5gZy5jaDT/fD3cJYpedkAE9XaiLmfv4LnvOvnAHuIVeY+LXvrdLVFt
-SCn7Y37b0GwVWTUCkvhwY1xoJm1fgM/OLxfN0SFBHFihRPD2qPHdnu/CxH4/CLvE
-ZM2IjJAPgUxIwbJy32IuiIfadTAeHavzNM1ND/sQnKypeDH1WiaeMPsw4QIDAQAB
-o4ICszCCAq8wDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRzSfFAHBQEfJoSf/ov
-zVxnIxjpFDCBhAYIKwYBBQUHAQEEeDB2MEUGCCsGAQUFBzAChjlodHRwOi8vcWNh
-LWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5wN2Iw
-LQYIKwYBBQUHMAGGIWh0dHA6Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvb2NzcDAn
-BgNVHREEIDAegRxhZHJpYW4uY3JvaXRvcnVAZWMuZXVyb3BhLmV1MF4GA1UdIARX
-MFUwNgYLKwYBBAGBx3wEAQEwJzAlBggrBgEFBQcCARYZaHR0cDovL3BraS5kaWdp
-dGFsc2lnbi5wdDAQBg4rBgEEAYHHfAQCAQEBBDAJBgcEAIvsQAECMB0GA1UdJQQW
-MBQGCCsGAQUFBwMCBggrBgEFBQcDBDBKBgNVHR8EQzBBMD+gPaA7hjlodHRwOi8v
-cWNhLWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5j
-cmwwHQYDVR0OBBYEFEX0uDZwuEHxACmOXaqMx5LPtDckMA4GA1UdDwEB/wQEAwIG
-QDCB0wYIKwYBBQUHAQMEgcYwgcMwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5G
-AQYwCQYHBACORgEGATBqBgYEAI5GAQUwYDAuFihodHRwczovL3FjYS1nMS5kaWdp
-dGFsc2lnbi5wdC9QRFNfcHQucGRmEwJwdDAuFihodHRwczovL3FjYS1nMS5kaWdp
-dGFsc2lnbi5wdC9QRFNfZW4ucGRmEwJlbjAVBggrBgEFBQcLAjAJBgcEAIvsSQEB
-MBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIwDQYJKoZIhvcNAQENBQADggIBAKF6Q6g4
-u86Hn82VaGln6rE2j+R99+suz9104deM187rlqKa5uU45QUmcYgE+3VoSDVucOMB
-zwRyYj3lqZvLbJe9fdJ+LNM4Si2U9X/Z0iyE4OHmMMzc+kr5ZtUCaUKZATkLKWqZ
-pOHmi+ZT6LUXTHmZVBNv0hE45lMqg+JSeZsRPPBso4qhxHTqDDHDSoHYABtRnd4N
-YUCcwAZRI/rkiirfKUxZ5lHkTd19JkTfCNM3Fmgsu1Mpf8cvQkzqESyl19fJxcTJ
-L6xjzAxJ+kfa1pE9DCIzRfZJso9CczJzo1ef/nLGamx6RN+FjMuG0jSIfoBqx/Ni
-q7iUNuedxtlTpys65ZBPx4JuR5/bwFrv9ysLm2STx4QKENXA7Bg8o4hvVg23ktJ9
-n/nAhNe1WrjZfrotFenTO+w73o5S1iTZWGppW9/972fwlVUO6o5QHQ3b6IrPf2iY
-AcAlUI2GcC7hzZsqVQ6kd9WoZYrpf5BmLNQbXZMx5wfX5v0I6cckluoK7eb150+O
-IA3GgvDG8m7GT/g9wXYFSMzknyiwSiFM2rP3wtZc1MwzA2I8We0ypXWEBf4ArynJ
-tXgy7y0BBvKu1kuaAJ6++O6z1oOW4wjJnQtOjNQcdzPzRcpPf9ewuoOQdGKETjej
-CGYwi6g2+JNgx4jTAlBEhhrA2ZDFgYmGitF4</X509Certificate>
             </DigitalId>
           </ServiceDigitalIdentity>
           <ServiceDigitalIdentity>
@@ -348,9 +446,9 @@ dMD34ysjQ4gOV8h6NU4z+QQ3W4sZTQkFqHGHKZKt2dTrCjhE+I1hULvo4274heBr
         </AdditionalInformation>
       </OtherTSLPointer>
     </PointersToOtherTSL>
-    <ListIssueDateTime>2023-11-15T08:00:00Z</ListIssueDateTime>
+    <ListIssueDateTime>2023-12-06T08:00:00Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2024-04-02T01:00:10Z</dateTime>
+      <dateTime>2024-04-03T01:00:10Z</dateTime>
     </NextUpdate>
     <DistributionPoints>
       <URI>http://tl.nbu.gov.sk/kca/tsl/tsl.xml</URI>
@@ -10763,9 +10861,17 @@ ad+ZTa4f8W/iogeUww==</X509Certificate>
             <ServiceSupplyPoints>
               <ServiceSupplyPoint>http://pki.mil.sk/CAMOSR/camosr4.crl</ServiceSupplyPoint>
               <ServiceSupplyPoint>http://crl.mil.sk/CAMOSR/camosr4.crl</ServiceSupplyPoint>
-              <ServiceSupplyPoint>http://ocsp.mil.sk/ocsp</ServiceSupplyPoint>
+              <ServiceSupplyPoint>http://ocsp.mil.sk/ocsp4</ServiceSupplyPoint>
             </ServiceSupplyPoints>
             <ServiceInformationExtensions>
+              <Extension Critical="false">
+                <tlx509:URLContentTypeAndAuthorizedServiceList xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#">
+                  <tlx509:URLContentTypeAndAuthorizedService>
+                    <tlx509:URL>http://ocsp.mil.sk/ocsp4</tlx509:URL>
+                    <tlx509:ContentType>application/ocsp-request</tlx509:ContentType>
+                  </tlx509:URLContentTypeAndAuthorizedService>
+                </tlx509:URLContentTypeAndAuthorizedServiceList>
+              </Extension>
               <Extension Critical="true">
                 <AdditionalServiceInformation>
                   <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
@@ -14986,13 +15092,13 @@ eGGEktvhJPW8cSDWnbM=</X509Certificate>
           <ElectronicAddress>
             <URI xml:lang="en">mailto:snca@nases.gov.sk</URI>
             <URI xml:lang="en">mailto:info@nases.gov.sk</URI>
-            <URI xml:lang="en">https://www.nases.gov.sk/en/national-agency-for-network-and-electronic-services/index.html</URI>
+            <URI xml:lang="en">https://www.nases.gov.sk/en/</URI>
             <URI xml:lang="sk">https://www.nases.gov.sk</URI>
           </ElectronicAddress>
         </TSPAddress>
         <TSPInformationURI>
-          <URI xml:lang="en">https://www.nases.gov.sk/en/trustservices/index.html</URI>
-          <URI xml:lang="sk">https://www.nases.gov.sk/doveryhodne-sluzby/index.html</URI>
+          <URI xml:lang="en">https://snca.gov.sk/en</URI>
+          <URI xml:lang="sk">https://snca.gov.sk/</URI>
         </TSPInformationURI>
       </TSPInformation>
       <TSPServices>
@@ -15482,8 +15588,8 @@ r+8DzCj4flDeuyDyOPRRwns39J5TZL3ctzV6By86ADBcyY8=</X509Certificate>
               <ServiceSupplyPoint>http://cdp2.snca.gov.sk/snca4/crl/snca4.crl</ServiceSupplyPoint>
             </ServiceSupplyPoints>
             <TSPServiceDefinitionURI>
-              <URI xml:lang="en">https://www.nases.gov.sk/en/trustservices/index.html</URI>
-              <URI xml:lang="sk">https://www.nases.gov.sk/doveryhodne-sluzby/index.html</URI>
+              <URI xml:lang="en">https://snca.gov.sk/en</URI>
+              <URI xml:lang="sk">https://snca.gov.sk/</URI>
             </TSPServiceDefinitionURI>
             <ServiceInformationExtensions>
               <Extension Critical="false">
@@ -16926,5 +17032,5 @@ vBKsWZ9gTDpcCfxUukICQzyvaJajMA==</X509Certificate>
         </TSPService>
       </TSPServices>
     </TrustServiceProvider>
-  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-92305505"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x492438101" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OVc8LgQvEteIVIb7nNvhwn5RgUJDFeJJnTTEWGsE1kw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-2092735372"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>73pbQa59ZwPC6GFkJIt+Zp+QldGVeOHkf7jq2dxSqRc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bJmEgADAl+y/xR0HbuKP+8n/j7ybsjR4aixHr0m1i4HU6+uSKUIPX9/luQwB8cVRpimfqQCPwyIKhU6camrqBkouyqfPaeOS9duZ8Kty0vGS/hM45yA0hrA9Fx3WIq5qxtrKsSDn6zo7eshiFlhbv52odYUK+E1xGHtdyDujqUscSEWaN5NWKhKfbmcheGrucivIuUykKMjmnCLulWfrnc6U9l/h4fyDV3me5livNWc2pvwgTVGgHYQmvenQNVjLHLs2MItR+OKHtp1AkUp/s/lRmRvbaeAWq8U4uKSGmA0q0+fJRshJZX52wInpWHpX3fKqQo0/BKply0LeyF0MSw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>keUXCXjFJQvKf0jN5xSDA4VtT1/Ftk0fcAq1QgYSfMrk5NbzhFfpVvMM8e4f1RkU2TNtZ4WRTq+OT9DODdoFoDRrUtEVg8yZKP/oZ6WPqPQT3wz/KeG2wYpWmZJiFmH07Bor4fwYXmtTQc/+7Tf/O/V1xXiBgJ5Mae56J79jHZZe7I3XqvZ12qKh6RpF7RTCkRApENPGCRoleoOz5cgwVv1pb5hF6vSsZyDFyxlgojJmY7kZrf74slI35oaZFwT1n5tMp5SF9RFXqoUkepWA2CgTVTcYgIS/X9HF5QXEIaJj5tW5+KpcQjX8NlsA6Pt0FaHnlgTGyStxkmQLFZcUpQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 8, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-92305505"><xades:SignedProperties Id="SignedProperties-2092735372"><xades:SignedSignatureProperties><xades:SigningTime>2023-11-15T08:00:00.214Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UxijDtxLA3qqlYmWkTbH6+luJ6axmxMItoRCgP1rtzA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x492438101"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1430868222"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x294756370" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>4UnpF612vEMErSSKUcMeYSSucEPwIy3gZj7B7D9rmq0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-621443910"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>up6cZnNYB4sv71BHV6Ytjo/bIyCLCbLSTDOwP1to64k=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>fEZ+QMvgai9+HCkZjF7la1C6JFKH9Ye7JUQL/GBGzOdX2mivwoEzDkNvOLnHgZCRWvb/F3FKclIDOoqyLst1YPw1B5qiQoPlNoNLbFW3EUX4/ZkyZZKdxVb5uL0eFkAHHpFOgidqXDwodwGy//FOaGjuUravokq06zEM/2qNlQFL8WK3MOaUt4zK9bkq7+Af3M0ZqV1ZY85Y2hWRf1UB1AG1zx5zuOOSzxvmb2WOTDmPLVNxNTnqrql3TR27bZob20rNzN64I60twbxSy1abUVYh8suY8tTpupPsjbpxNP8prWJkzz0gu/VVUj3Sqp7xkk04OjbewnSkt72AQ8M0Hw==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>keUXCXjFJQvKf0jN5xSDA4VtT1/Ftk0fcAq1QgYSfMrk5NbzhFfpVvMM8e4f1RkU2TNtZ4WRTq+OT9DODdoFoDRrUtEVg8yZKP/oZ6WPqPQT3wz/KeG2wYpWmZJiFmH07Bor4fwYXmtTQc/+7Tf/O/V1xXiBgJ5Mae56J79jHZZe7I3XqvZ12qKh6RpF7RTCkRApENPGCRoleoOz5cgwVv1pb5hF6vSsZyDFyxlgojJmY7kZrf74slI35oaZFwT1n5tMp5SF9RFXqoUkepWA2CgTVTcYgIS/X9HF5QXEIaJj5tW5+KpcQjX8NlsA6Pt0FaHnlgTGyStxkmQLFZcUpQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 8, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>MIIGWjCCBEKgAwIBAgICCaAwDQYJKoZIhvcNAQELBQAwbTELMAkGA1UEBhMCU0sxEzARBgNVBAcMCkJyYXRpc2xhdmExIjAgBgNVBAoMGU5hcm9kbnkgYmV6cGVjbm9zdG55IHVyYWQxDjAMBgNVBAsMBVNJQkVQMRUwEwYDVQQDDAxLQ0EgTkJVIFNSIDMwHhcNMjIxMjA3MDgxOTAyWhcNMjUwNTA3MDgxNjU2WjCBjTELMAkGA1UEBhMCU0sxEzARBgNVBAcMCkJyYXRpc2xhdmExJzAlBgNVBAoMHk7DoXJvZG7DvSBiZXpwZcSNbm9zdG7DvSDDunJhZDEnMCUGA1UEAwweVEwgYW5kIFNpZ25hdHVyZSBQb2xpY3kgTGlzdCA4MRcwFQYDVQQFEw5OVFJTSy0zNjA2MTcwMTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAJHlFwl4xSULyn9IzecUgwOFbU9fxbZNH3AKtUIGEnzK5OTW84RX6VbzDPHuH9UZFNkzbWeFkU6vjk/Qzg3aBaA0a1LRFYPMmSj/6Gelj6j0E98M/ynhtsGKVpmSYhZh9OwaK+H8GF5rU0HP/u03/zv1dcV4gYCeTGnueie/Yx2WXuyN16r2ddqioekaRe0UwpEQKRDTxgkaJXqDs+XIMFb9aW+YRer0rGcgxcsZYKIyZmO5Ga3++LJSN+aGmRcE9Z+bTKeUhfURV6qFJHqVgNgoE1U3GICEv1/RxeUFxCGiY+bVufiqXEI1/DZbAOj7dBWh55YExskrcZJkCxWXFKUCAwEAAaOCAeEwggHdMAkGA1UdEwQCMAAwYgYDVR0gBFswWTBFBg0rgR6RmYQFAAAAAQICMDQwMgYIKwYBBQUHAgEWJmh0dHA6Ly9lcC5uYnVzci5zay9rY2EvZG9jL2tjYV9jcHMucGRmMBAGDiuBHpGZhAUAAAEKBQABMFEGCCsGAQUFBwEBBEUwQzBBBggrBgEFBQcwAoY1aHR0cDovL2VwLm5idS5nb3Yuc2sva2NhL2NlcnRzL2tjYTMva2NhbmJ1c3IzX3A3Yy5wN2MweQYDVR0RBHIwcIEUcG9kYXRlbG5hQG5idS5nb3Yuc2uGWGh0dHA6Ly93d3cubmJ1Lmdvdi5zay9lbi90cnVzdC1zZXJ2aWNlcy90cnVzdC1pbmZyYXN0cnVjdHVyZS9zaWduYXR1cmUtcG9saWN5L2luZGV4Lmh0bWwwDgYDVR0PAQH/BAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAfBgNVHSMEGDAWgBR/8T0hwpdaLpcHDrFpgyX9IYY+BzA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vZXAubmJ1c3Iuc2sva2NhL2NybHMzL2tjYW5idXNyMy5jcmwwHQYDVR0OBBYEFPVyIcIUyRJgk7AgLYHYfAjjb0RkMA0GCSqGSIb3DQEBCwUAA4ICAQDZLrkt4YrJPp3j4wdU7yZpCS/jD1By1EG4dwjU3rTL+g11HuxgPs4PlxGHTcBqIBDcmvZ6cC9dQlAwTiUdkPxQ21wO0mgF2VyChwDhtwF38fojRb9jX6TlFKXCiEIk+vBr6kuM27X+E9GQ8Ou7FPns2Y9c9ONAkjvDw+se+9vFKw9ManUUDdi0pW7HfXgAhl/1XgG9XDYq7icMxFS0SN5H7vAbzhHWvWjIxHW1Jj0FSDT1XU34B+2B0MNKBvJ6QXyModA9jFdDstT1BGq1HQogHZrIFEFR0O5i+bHiQZyqXcrwXVQS1Tyf1LOHY5zD0Tonm5PQTEo8nlc1TMbhRUrHnZFUM38MopB5zE6fTI8BtdXa+GWHqSaRwApqL7Ah/rH9SbO3ZErIHlzCDy667xNLGS60rlv4JF4X4tfaZjUDKIbX+8Pq6lzmZ0Exa5ScqmKyecKF/j8QKmpLbB3GKk3cd2itzTTCfgSWC67X3qOfyEFzevTwVYiCxqmL5Zrh6xXsZ9cOmRSMS+Ph/1QadzndIAS1o3O/Q40p92nM0mm3wpkIkDaqTP9bop/WuKYqkWhSxmbuUlYzOE91uIJ3AOK7pN4TbV87ojlrT5hb1MicEDcrRMH4vQQgMCv9UMhlR3Tt9vBUNLVFo1n4EhsZuGD2IbBJCchZvTaMcaqgrTUCQg==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1430868222"><xades:SignedProperties Id="SignedProperties-621443910"><xades:SignedSignatureProperties><xades:SigningTime>2023-12-06T07:15:13.278Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UxijDtxLA3qqlYmWkTbH6+luJ6axmxMItoRCgP1rtzA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x294756370"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
 </TrustServiceStatusList>
