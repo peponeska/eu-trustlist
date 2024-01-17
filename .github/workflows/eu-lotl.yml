@@ -13,10 +13,22 @@ jobs:
       uses: actions/checkout@v4
     - name: Download EU TSL
       run: wget -O eu-lotl.xml https://ec.europa.eu/tools/lotl/eu-lotl.xml
+    - name: install xml_grep
+      run: sudo apt install -y xml-twig-tools
+    - name: grep pivots
+      run: xml_grep '//SchemeInformationURI/URI' eu-lotl.xml --text_only > eu-lotl-pivot.txt
+    - name: Get TSL version
+        id: getxml
+        uses: mavrosxristoforos/get-xml-info@1.0
+        with:
+          xml-file: 'eu-lotl.xml'
+          xpath: "/*[local-name()='SchemeInformation']/*[local-name()='TSLSequenceNumber']"
+      - name: Print TSL version
+        run: echo "${{ steps.getxml.outputs.info }}"
     - name: Create PR if needed
       id: cpr
       uses: peter-evans/create-pull-request@v5
       with:
         branch: eu-tsl
         delete-branch: true
-        title: 'EU TSL'
+        title: 'EU TSL - Version ${{ steps.getxml.outputs.info }}'
