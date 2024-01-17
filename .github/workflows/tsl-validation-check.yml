@@ -1,7 +1,6 @@
 name: TSL schema validation
 
-on: 
-  workflow_dispatch:
+on: workflow_dispatch
     
 jobs:
   xml-linters:
