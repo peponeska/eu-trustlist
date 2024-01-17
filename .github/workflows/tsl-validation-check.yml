@@ -4,6 +4,8 @@ on:
   pull_request:
     paths:
       - '**.xml'
+  workflow_dispatch:
+    
 jobs:
   xml-linters:
     runs-on: ubuntu-latest
