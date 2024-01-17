@@ -7,8 +7,10 @@ jobs:
     steps:
     - name: Checkout
       uses: actions/checkout@v1
+    - name: install xml_grep
+      run: apt install -y xml-twig-tools
     - name: grep pivots
-      run: grep -oP '(?<=<SchemeInformationURI>).*?(?=</SchemeInformationURI>)' eu-lotl.xml
+      run: xml_grep '//SchemeInformationURI/URI' eu-lotl.xml --text-only
     - name: Get XML
       id: getxml
       uses: mavrosxristoforos/get-xml-info@1.0
