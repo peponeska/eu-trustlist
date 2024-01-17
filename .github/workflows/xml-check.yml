@@ -10,7 +10,7 @@ jobs:
     - name: install xml_grep
       run: sudo apt install -y xml-twig-tools
     - name: grep pivots
-      run: xml_grep '//SchemeInformationURI/URI' eu-lotl.xml
+      run: xml_grep '//SchemeInformationURI/URI' eu-lotl.xml --text_only
     - name: Get XML
       id: getxml
       uses: mavrosxristoforos/get-xml-info@1.0
