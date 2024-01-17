@@ -3,7 +3,7 @@ name: TSL schema validation
 on: workflow_dispatch
     
 jobs:
-  xml-linters:
+  xml-validation:
     runs-on: ubuntu-latest
     steps:
     - name: Checkout
