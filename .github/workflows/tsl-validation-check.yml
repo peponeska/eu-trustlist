@@ -1,9 +1,6 @@
 name: TSL schema validation
 
 on: 
-  pull_request:
-    paths:
-      - '**.xml'
   workflow_dispatch:
     
 jobs:
