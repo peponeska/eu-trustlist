@@ -3,6 +3,8 @@ name: TSL schema validation
 on: 
   workflow_dispatch:
   pull_request:
+    branches:
+      - main
     
 jobs:
   xml-validation:
