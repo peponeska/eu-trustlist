@@ -12,6 +12,6 @@ jobs:
       uses: mavrosxristoforos/get-xml-info@1.0
       with:
         xml-file: 'eu-lotl.xml'
-        xpath: "/*[local-name()='SchemeInformation']/*[local-name()='SchemeInformationURI']/*[local-name()='URI']"
+        xpath: "/*[local-name()='SchemeInformation']/*[local-name()='SchemeInformationURI']/*[local-name()='URI']/text()"
     - name: Pivot URIs
       run: echo "${{ steps.getxml.outputs.info }}"
