@@ -75,7 +75,7 @@ jobs:
             url: "https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml"
             out: ./NL/TSL_NL.xml
           - country: NO
-            url: "https://tl-norway.no/TSL/NO_TSL.XML"
+            url: "https://nkom.no/files/TSL/NO_TSL.xml"
             out: ./NO/TSL_NO.xml
           - country: PL
             url: "https://www.nccert.pl/tsl/PL_TSL.xml"
