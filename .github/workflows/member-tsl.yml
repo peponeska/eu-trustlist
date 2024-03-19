@@ -109,7 +109,7 @@ jobs:
         run: curl -L -V --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
       - name: Get TSL version
         id: getxml
-        uses: mavrosxristoforos/get-xml-info@1.0
+        uses: mavrosxristoforos/get-xml-info@2.0
         with:
           xml-file: '${{ matrix.out }}'
           xpath: "/*[local-name()='TrustServiceStatusList']/*[local-name()='SchemeInformation']/*[local-name()='TSLSequenceNumber']"
