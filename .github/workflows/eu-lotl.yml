@@ -19,7 +19,7 @@ jobs:
       run: xml_grep '//SchemeInformationURI/URI' eu-lotl.xml --text_only > eu-lotl-pivot.txt
     - name: Get TSL version
       id: getxml
-      uses: mavrosxristoforos/get-xml-info@1.0
+      uses: mavrosxristoforos/get-xml-info@2.0
       with:
         xml-file: 'eu-lotl.xml'
         xpath: "/*[local-name()='TrustServiceStatusList']/*[local-name()='SchemeInformation']/*[local-name()='TSLSequenceNumber']"
@@ -27,7 +27,7 @@ jobs:
       run: echo "${{ steps.getxml.outputs.info }}"
     - name: Create PR if needed
       id: cpr
-      uses: peter-evans/create-pull-request@v5
+      uses: peter-evans/create-pull-request@v6
       with:
         branch: eu-tsl
         delete-branch: true
