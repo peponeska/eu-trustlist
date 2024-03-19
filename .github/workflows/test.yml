@@ -18,7 +18,7 @@ jobs:
         uses: actions/checkout@v4
       - name: Download ${{ matrix.country }} TSL
         #run: curl --etag-compare ./${{ matrix.country }}/etag.txt --etag-save ./${{ matrix.country }}/etag.txt -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
-        run: curl -L -v --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }} --cafile ./extra-ssl-certs.crt
+        run: curl -L -v --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }} --cacert ./extra-ssl-certs.crt
       - name: Get TSL version
         id: getxml
         uses: mavrosxristoforos/get-xml-info@2.0
