@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="EL-TL-039" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>72</TSLSequenceNumber>
+        <TSLSequenceNumber>73</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Hellenic Telecommunications and Post Commission, EETT</Name>
@@ -116,9 +116,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2023-12-11T11:10:11Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-03-05T10:00:30Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-06-11T10:10:11Z</dateTime>
+            <dateTime>2024-09-05T09:00:30Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.eett.gr/tsl/EL-TSL.xml</URI>
@@ -1001,6 +1001,50 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
+                            <Name xml:lang="en">BYTE ePrescription Certification Authority 002</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=BYTE ePrescription Certification Authority 002, OU=BYTE-PKI, OID.2.5.4.97=VATGR-094265075, O=BYTE Computer S.A., C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>feA8i4VotFGBsPYplTj8Cz6pAPk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-03-11T10:00:53Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.3.6.1.4.1.43887.1.1.4.1.0</ns4:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
                             <Name xml:lang="en">BYTE General Certification Authority 001</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
@@ -1257,6 +1301,55 @@
                             </ServiceInformationExtensions>
                         </ServiceHistoryInstance>
                     </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">BYTE General Certification Authority 002</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIGVDCCBDygAwIBAgIIN3dYxUIvlmQwDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCR1IxGzAZBgNVBAoMEkJZVEUgQ29tcHV0ZXIgUy5BLjEuMCwGA1UEAwwlQllURSBSb290IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IDAwMTAeFw0yNDAyMTUxNTU0NDJaFw0zNjA4MTUxNTU0NDJaMIGKMQswCQYDVQQGEwJHUjEbMBkGA1UECgwSQllURSBDb21wdXRlciBTLkEuMRgwFgYDVQRhDA9WQVRHUi0wOTQyNjUwNzUxETAPBgNVBAsMCEJZVEUtUEtJMTEwLwYDVQQDDChCWVRFIEdlbmVyYWwgQ2VydGlmaWNhdGlvbiBBdXRob3JpdHkgMDAyMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAx5gCDgKhwg7ic0mbI2gPPVaxbpmYErv4PkUWabyYsez4X63OCbPlkLl31RK5axIZFX1yMgWVchyVN7/STrFl0Rjc+kdcIRBFdQ5B+skpkIqQXVJXqLQpf2t+GTJ/jU6GZ8isPMALtiMtnjOWPMxUkYr4O5AU8BDsQWIXAPhAuSAySKGlDzO6VuDXSVVS0v4/ZW0HS6AEZ16Bx7ltrmw5yDlEJ/9wTnd4Io+6MGOM1NsuMGXZ8s4q4qFEMkM0JKwVxTweiWD5gCFmXHJlbq8JXv5c8xPMbs2bd4hnbfOscbQKv+af6okUjTz6jZY0ChCvYIeFfv6pqDrgZaVgMKs/8pNwoqKRrS1qQwsHOkmKHXcDUEFwnUPvR93BTLhQYRIb4otZ1cS6hzLxOlvrN+KVL3B0D7Vd0YAB7R9qbAsuPNcmmSuRq5LvCKjiwMtJVMlYtJcMjaLitw6riMWT0jEdiJReejLZwFYUdn0XjKXviJsQsKOG5xVufZOIIEUCiOYZJFuNaGXwzSIFzoorLvdY/huIVYWUuaMlOVkClZU7VUowGamUubhodOHdZbTrqmypLNVJnbqgl2c+e+E2lIuJV1tdQFbgJUvIduzo4x32DTf+h4Pp1I2IUkHNr8twLPrIgrvH0CmoH8fkGLIQcDThy3C1BUMQ9UaWLrzYLmkmTjkCAwEAAaOB7DCB6TAdBgNVHQ4EFgQUwdJIpwADGrUDDtkZsUEweHKQC/0wDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBS0TWa307PImXwBMtCROvfWqBIx3jBQBgNVHSAESTBHMEUGDSsGAQQBgtZvAQIBAQAwNDAyBggrBgEFBQcCARYmaHR0cDovL3d3dy5ieXRlLmdyL3BraS9yZXBvc2l0b3J5L3Jvb3QwNAYDVR0fBC0wKzApoCegJYYjaHR0cDovL3BraS5ieXRlLmdyL2NybC9jcmxfcm9vdC5jcmwwDgYDVR0PAQH/BAQDAgEGMA0GCSqGSIb3DQEBCwUAA4ICAQDk/U2leBYC5rOqzwPtBfY+3MPCl7eFpCgDCiCRnUX9lQOL1Rd3vQKOBJdl91t1UEIuc5h0SU1LPulK0jBj/SvAr4wwGG95pnYo/DMGq4w64cvIKx9tP+ENIk5ShmvlPFiEj5bv5mBhBeFBf+RW0hfqfxmTbxuaSa7Sxh/tegENWiV7lCmhL221bxIiM73dHVP4CleRrShm95Q6TA0/s2oSeXfRlYrOg5ppwXO0FjiIKNWDTETD8m5HHMiqvODPUu2PUQqcUnXAdFRts5Vj/J5NGvBFBAnaTYoGVxOqOO5dP4aS7V01uJgO/whdsH/HpHn7RT1Gb9DeeK3GvswQRDRtERmth/zBDr9S9Fcg7AwejKUDeRA0ve/fVKNqfefqsD3JNbcer81bpupsBNLENxTCTuZJyncUBFzfyYEeIpp/pVUy5oMJHJyGoMCEPxiSQE6+AnJya60HDLD70YNaWvzicg+8HBU68z+GbRefS0hmLcMPazlyh5iZ6qYwUq+sckk8iTdn2qLC2HvkachpJCqRulsbXnjizq/kPpZKc+/Y5kWF5rYY7yeT1/FbVSibWjvLfirAWG8/bLhCcXzvqg7q6nFC2/+gPKtH09qxA2YsDW+aE5iSNyP3R2kyGzmcYjUpNmdwgu1AFv/D9KA+QPqC0QaDn/Rkra/qQEez2SmNtg==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=BYTE General Certification Authority 002, OU=BYTE-PKI, OID.2.5.4.97=VATGR-094265075, O=BYTE Computer S.A., C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>wdJIpwADGrUDDtkZsUEweHKQC/0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-03-11T10:00:09Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.3.6.1.4.1.43887.1.1.4.1.0</ns4:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6107,4 +6200,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-63ff11e7b2492da5a03595ccb93764a0"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RWG/6rhMBM1BSTr8a+tL8Pe9Y+mUocqbPDHGBKz00HY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-63ff11e7b2492da5a03595ccb93764a0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EP0/rsrpY3Rs7dVVY9vGhIH9nc0enZhAzTixufh4wLs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-63ff11e7b2492da5a03595ccb93764a0">r9SFEENwPYKopxcNR1vu26GW+K+J7vE0qX8tpBFd0YeF2sATAVnmYfG0dvPmVrsH1PLmPUVDefUMHsGpcsN1/g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-63ff11e7b2492da5a03595ccb93764a0"><xades:SignedProperties Id="xades-id-63ff11e7b2492da5a03595ccb93764a0"><xades:SignedSignatureProperties><xades:SigningTime>2023-12-11T11:20:07Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-d58d0d6c97222da40150346333203df3"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>S65ZXGwXpVVy07X9WX6y+30aY4cUDZGpZoTVf0O2Yu8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d58d0d6c97222da40150346333203df3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tyiewdgyDAuqk9SKAZ2fF/LuVI3xu6nCvEUutoVGVog=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d58d0d6c97222da40150346333203df3">ilFkkV8j2qiiRsenmaDH6imFj1+8Hia+Zwm80ZHwG7qVVqqVhpMVhbU6mPSmjJwDHt52+bF2r8B1PoIQwYV7sA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d58d0d6c97222da40150346333203df3"><xades:SignedProperties Id="xades-id-d58d0d6c97222da40150346333203df3"><xades:SignedSignatureProperties><xades:SigningTime>2024-03-05T09:31:15Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
