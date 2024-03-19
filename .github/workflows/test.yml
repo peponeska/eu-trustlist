@@ -1,0 +1,29 @@
+on: 
+  workflow_dispatch:
+
+jobs:
+  example_matrix:
+    strategy:
+      matrix:
+        include:
+          - country: LT
+            url: "https://elektroninisparasas.lt/LT-TSL.xml"
+            out: ./LT/TSL_LT.xml
+       
+
+    runs-on: ubuntu-latest
+    steps:
+      - run: echo "country=${{ matrix.country }} url=${{ matrix.url }} out=${{ matrix.out }}"
+      - name: Checkout
+        uses: actions/checkout@v4
+      - name: Download ${{ matrix.country }} TSL
+        #run: curl --etag-compare ./${{ matrix.country }}/etag.txt --etag-save ./${{ matrix.country }}/etag.txt -L --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
+        run: curl -L -v --url "${{ matrix.url }}" --create-dirs -o ${{ matrix.out }}
+      - name: Get TSL version
+        id: getxml
+        uses: mavrosxristoforos/get-xml-info@2.0
+        with:
+          xml-file: '${{ matrix.out }}'
+          xpath: "/*[local-name()='TrustServiceStatusList']/*[local-name()='SchemeInformation']/*[local-name()='TSLSequenceNumber']"
+      - name: Print TSL version
+        run: echo "${{ steps.getxml.outputs.info }}"
