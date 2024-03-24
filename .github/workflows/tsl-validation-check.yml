@@ -1,7 +1,6 @@
-name: TSL schema validation
+name: TSL_schema_check
 
 on: 
-  workflow_dispatch:
   pull_request:
     branches:
       - main
