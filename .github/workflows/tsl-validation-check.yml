@@ -2,8 +2,8 @@ name: TSL_schema_check
 
 on: 
   pull_request:
-    branches:
-      - main
+    paths:
+      - '**/*.xml'
     
 jobs:
   xml-validation:
