@@ -3,7 +3,7 @@ name: TSL_schema_check
 on: 
   pull_request:
     paths:
-      - '**/*.xml'
+      - '**'
     
 jobs:
   xml-validation:
