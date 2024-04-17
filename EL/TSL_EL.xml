@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="EL-TL-039" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>73</TSLSequenceNumber>
+        <TSLSequenceNumber>74</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Hellenic Telecommunications and Post Commission, EETT</Name>
@@ -116,9 +116,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-03-05T10:00:30Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-04-10T09:30:44Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-09-05T09:00:30Z</dateTime>
+            <dateTime>2024-10-10T09:30:44Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.eett.gr/tsl/EL-TSL.xml</URI>
@@ -801,44 +801,6 @@
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
-                <TSPService>
-                    <ServiceInformation>
-                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
-                        <ServiceName>
-                            <Name xml:lang="en">BYTE Root Certification Authority 001</Name>
-                        </ServiceName>
-                        <ServiceDigitalIdentity>
-                            <DigitalId>
-<X509Certificate>MIIFmTCCA4GgAwIBAgIIcYwvOXxAdEAwDQYJKoZIhvcNAQELBQAwWjELMAkGA1UEBhMCR1IxGzAZBgNVBAoMEkJZVEUgQ29tcHV0ZXIgUy5BLjEuMCwGA1UEAwwlQllURSBSb290IENlcnRpZmljYXRpb24gQXV0aG9yaXR5IDAwMTAeFw0xNDA5MTAyMjAxNTRaFw0zOTA5MTAyMjAxNTRaMFoxCzAJBgNVBAYTAkdSMRswGQYDVQQKDBJCWVRFIENvbXB1dGVyIFMuQS4xLjAsBgNVBAMMJUJZVEUgUm9vdCBDZXJ0aWZpY2F0aW9uIEF1dGhvcml0eSAwMDEwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDtEi4Xc55v9POZ6J4IVwk0JBFAH4whfhuvOMPRx+YU5fobul5m9SVp9+3NboJwr7pC8LEZXCv8RYQYLHoXT2GFRhl8zsGNn1SedyVmD+D2+JLKKc4nVxUqbII4bSfmvk1zDnOv43E9vAlCD9UNoe19a673wfBszcKXoVj9NRWWF0yfv/XxOUtwt+dKbBw/wXBbz9aL6+9vMOhfyEZ3IWIWXsZURTn1dLpnJGilcVs+wfsJk+simfjS9XsCbI9Y4qvv3XQh5CRplEDWwQQYDthC8P3XigXAXxuK6y7ADQcGcwGFjh/BwIqhWKZRuViRQg9u4bwK6LsogxV15Q3+STApKULCwjb/pDx9Lvfa8qIvFrxhqJlYGKRJxmoHEusbfLTO5/shgCtwpsjOrVUeHx2E0P1UakxWY8jdfqD5OdvvfFr3jDWlbipW+v7jX5NUcg5o40krk001IpcUlWZPp3c6LiVM9gmLEhtxxXKnm7m86xygpclUg2HcV1WttebaeCt2p/742/6MM6SKo0ZcrbIKEg6K5FCe8LjLmVNMZCFrijgq4IiGANQXrGay574tOynl+KeU24xY+NJLMJ/yxGJlUEdygM+kcEC2vUT+2b8oKy43x7NRDoIptbFvrX4sk8Cpf5H6xx818LuXyU9hKJCEQeh9IUDFyYY87ZqthZyiUwIDAQABo2MwYTAdBgNVHQ4EFgQUtE1mt9OzyJl8ATLQkTr31qgSMd4wDwYDVR0TAQH/BAUwAwEB/zAfBgNVHSMEGDAWgBS0TWa307PImXwBMtCROvfWqBIx3jAOBgNVHQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQELBQADggIBABwa6wauVb07PzYsYZ7qx1P8cKoyb+RCquu9hewbilrylZYpoQQGks4kV/9AI3hOyfgwTUJVRE43on1rjmj+Dv5/37CfY1Hz4cWllJ+KIyhI80GL0v547dnQCA9tfdWdlazV/hJmGuS+dVTz0U2cThPUnnA0bai6CjOIja0FN/5LeX99A0F5Ew2fPfc4nDVaRE8+PKLlgcV/X3ZPGztub5ptt+0PyzIfiLRFDJwR0vgEWhM3WZiBzkz05ZQoBMS1U8lUjXA/aAHbzBMK5CWjbJntELN6IKlJvAX0+Bto1rogHYJnZuCwn1zKNdJFrtWIGdt6BpuMoDeHUSO+Rdpcs39rz8aoHDOKex2R+p687H07RRVPG6c7NbR581uCUOCcp+0WddtjgGKh2hgCaoDegqpETUQ4KKpu+hhjOWD3QylJWrokwL+zCpcdZ0laIrJnBJxYqfgMNFxAlrSHtUVhGeWO7wbekRXAuIrKlMkKdX1xO1iBM8j3B0FVmClDtcuaQ+ly+s/wizG85++5auNBnSE+DRWohb0bToeOR7IQ/jcYaoTliRwUY+i5g6m1u+hjmnoZjMt09/gXCPGLGdi07B5uSXM/XCDdNSqWd+lGbxY7y6nvmwohEcjDpMkjRW0/YpWd0yjHnQ+z/jeNHUiyUOYluU4zYTbWFhzKMjcgdhws</X509Certificate>
-                            </DigitalId>
-                            <DigitalId>
-<X509SubjectName>CN=BYTE Root Certification Authority 001, O=BYTE Computer S.A., C=GR</X509SubjectName>
-                            </DigitalId>
-                            <DigitalId>
-<X509SKI>tE1mt9OzyJl8ATLQkTr31qgSMd4=</X509SKI>
-                            </DigitalId>
-                        </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2017-07-06T21:00:00Z</StatusStartingTime>
-                        <ServiceInformationExtensions>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                        </ServiceInformationExtensions>
-                    </ServiceInformation>
-                </TSPService>
                 <TSPService>
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
@@ -6200,4 +6162,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-d58d0d6c97222da40150346333203df3"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>S65ZXGwXpVVy07X9WX6y+30aY4cUDZGpZoTVf0O2Yu8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d58d0d6c97222da40150346333203df3"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>tyiewdgyDAuqk9SKAZ2fF/LuVI3xu6nCvEUutoVGVog=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d58d0d6c97222da40150346333203df3">ilFkkV8j2qiiRsenmaDH6imFj1+8Hia+Zwm80ZHwG7qVVqqVhpMVhbU6mPSmjJwDHt52+bF2r8B1PoIQwYV7sA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d58d0d6c97222da40150346333203df3"><xades:SignedProperties Id="xades-id-d58d0d6c97222da40150346333203df3"><xades:SignedSignatureProperties><xades:SigningTime>2024-03-05T09:31:15Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-50a9d34273b0639dd572489473b6286a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>bnc9Q7aphR9oLyOhseb52bEuHBO4gmuq8woPb9PHNVo=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-50a9d34273b0639dd572489473b6286a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>O3HYeKplP9pCfPucTQA3VT784lfN3vohr3WVHNVr+1o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-50a9d34273b0639dd572489473b6286a">PslRYTz/5oSGuV91YTRBfxUG/W0mzIBiJ5vr6aPeqrLvV4TnqSOHiqjHnW8znShSwgFo2nYpqxBUtAzXZ3U5eA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-50a9d34273b0639dd572489473b6286a"><xades:SignedProperties Id="xades-id-50a9d34273b0639dd572489473b6286a"><xades:SignedSignatureProperties><xades:SigningTime>2024-04-10T08:47:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
