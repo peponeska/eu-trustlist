@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="EL-TL-039" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>74</TSLSequenceNumber>
+        <TSLSequenceNumber>75</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Hellenic Telecommunications and Post Commission, EETT</Name>
@@ -116,9 +116,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-04-10T09:30:44Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-05-16T10:50:06Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-10-10T09:30:44Z</dateTime>
+            <dateTime>2024-11-16T11:50:06Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.eett.gr/tsl/EL-TSL.xml</URI>
@@ -5713,6 +5713,143 @@
                         </ServiceHistoryInstance>
                     </ServiceHistory>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ATHEX Qualified eSign Certificates CA G3 R20</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=VATEL-099755108, L=Athens, CN=ATHEX Qualified eSign Certificates CA G3 R20, O=HELLENIC EXCHANGES - ATHENS STOCK EXCHANGE SA, C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>kxvNbRwAFfM839q6a1WB6ewTBUk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-22T06:00:48Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.3.6.1.4.1.29402.1.5.200.1.6</ns4:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ATHEX Qualified eSeal Certificates CA G3 R20</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=VATEL-099755108, L=Athens, CN=ATHEX Qualified eSeal Certificates CA G3 R20, O=HELLENIC EXCHANGES - ATHENS STOCK EXCHANGE SA, C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>maXA5Ebkmk+ijURUwkTByHpY7e4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-22T06:00:51Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.3.6.1.4.1.29402.1.5.200.1.7</ns4:Identifier>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ATHEX Qualified WEB Certificates CA G3 R20</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=VATEL-099755108, L=Athens, CN=ATHEX Qualified WEB Certificates CA G3 R20, O=HELLENIC EXCHANGES - ATHENS STOCK EXCHANGE SA, C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>55JhIXnZORqbkq2sDC7J3/Cr2zQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-22T06:00:16Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ATHEX Qualified Timestamp CA G3 R20</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=VATEL-099755108, L=Athens, CN=ATHEX Qualified Timestamp CA G3 R20, O=HELLENIC EXCHANGES - ATHENS STOCK EXCHANGE SA, C=GR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>bIMSYrForEf/W2mphpn41zNtEws=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-22T06:00:18Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -6162,4 +6299,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-50a9d34273b0639dd572489473b6286a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>bnc9Q7aphR9oLyOhseb52bEuHBO4gmuq8woPb9PHNVo=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-50a9d34273b0639dd572489473b6286a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>O3HYeKplP9pCfPucTQA3VT784lfN3vohr3WVHNVr+1o=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-50a9d34273b0639dd572489473b6286a">PslRYTz/5oSGuV91YTRBfxUG/W0mzIBiJ5vr6aPeqrLvV4TnqSOHiqjHnW8znShSwgFo2nYpqxBUtAzXZ3U5eA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-50a9d34273b0639dd572489473b6286a"><xades:SignedProperties Id="xades-id-50a9d34273b0639dd572489473b6286a"><xades:SignedSignatureProperties><xades:SigningTime>2024-04-10T08:47:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-245a625a3c93ab5f0c3baf6d7addf211"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>xSoKFJQHxothPcRrw91Hiel7x3h2qk35IrA/5LQ/mlY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-245a625a3c93ab5f0c3baf6d7addf211"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3lUQAsfH6oJGLw4otPxg7+HB3z2TJTHW19W6SD83BjY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-245a625a3c93ab5f0c3baf6d7addf211">PVLxilKG7dLVuk5rRb+PLI9rBHVRhz6ymZMPvx3eZl0OdT14K/LiG6Ch+RXVQdTKTpgrnKoLwQ9sh6Bq2zcuFg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICZjCCAgugAwIBAgIJANeHQWATgt+cMAoGCCqGSM49BAMEMIGQMQswCQYDVQQGEwJFTDEPMA0GA1UEBwwGQXRoZW5zMT4wPAYDVQQKDDVIZWxsZW5pYyBUZWxlY29tbXVuaWNhdGlvbnMgYW5kIFBvc3QgQ29tbWlzc2lvbiwgRUVUVDEwMC4GA1UEAwwnSGVsbGVuaWMgVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvci0xMB4XDTIxMDMwNTA3MzUwOVoXDTI2MDkwMzA3MzUwOVowgZAxCzAJBgNVBAYTAkVMMQ8wDQYDVQQHDAZBdGhlbnMxPjA8BgNVBAoMNUhlbGxlbmljIFRlbGVjb21tdW5pY2F0aW9ucyBhbmQgUG9zdCBDb21taXNzaW9uLCBFRVRUMTAwLgYDVQQDDCdIZWxsZW5pYyBUcnVzdGVkIExpc3QgU2NoZW1lIE9wZXJhdG9yLTEwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAAR7MlwDiLTryq1z4tJ/6V3ZBeBjA3YVrpuA25ddLyfBaNXKdNGxJaavWtH+u3exNSxIsxJYj++3D/UyQBsiToG3o0wwSjAdBgNVHQ4EFgQUpRIBCdaHCtohtG3o2p2BsPIcZFwwCQYDVR0TBAIwADALBgNVHQ8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMAoGCCqGSM49BAMEA0kAMEYCIQCiQVBWUFSUMDyPd2EY1PmCAmfkOBgswnzqOsSe4WutigIhAM7d4W05/9tdgOjbbgLwkd6WKTqVYpFMrTG6l/ahLAlV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-245a625a3c93ab5f0c3baf6d7addf211"><xades:SignedProperties Id="xades-id-245a625a3c93ab5f0c3baf6d7addf211"><xades:SignedSignatureProperties><xades:SigningTime>2024-05-16T10:53:12Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>D6rx4OvtzjgVp/l2e8UwD8EWmHHyCZThnBNyUiZ1PyrECmy36byqQxcaHa3yVexpXStgNVr6PUnEb7vjK72FvQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Hellenic Trusted List Scheme Operator-1,O=Hellenic Telecommunications and Post Commission\, EETT,L=Athens,C=EL</ds:X509IssuerName><ds:X509SerialNumber>15530453720910454684</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
