@@ -5677,6 +5677,35 @@
                         <StatusStartingTime>2023-11-01T12:28:33Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CERTDIGITAL QUALIFIED CA G4</Name>
+                            <Name xml:lang="ro">CERTDIGITAL QUALIFIED CA G4</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CERTDIGITAL QUALIFIED CA G4, OID.2.5.4.97=VATRO-2163993, OU=CERTDIGITAL, O=CENTRUL DE CALCUL S.A., C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KkLAdKHnNHXJkI5RuGZW+qbwfpo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:31:25Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -6067,15 +6096,15 @@
                 <TSPAddress>
                     <PostalAddresses>
                         <PostalAddress xml:lang="ro">
-                            <StreetAddress>Strada Fabricii, nr. 93-103</StreetAddress>
+                            <StreetAddress>Taietura Turcului nr. 47, Novis Plaza</StreetAddress>
                             <Locality>Cluj Napoca</Locality>
-                            <PostalCode>400630</PostalCode>
+                            <PostalCode>400285</PostalCode>
                             <CountryName>RO</CountryName>
                         </PostalAddress>
                         <PostalAddress xml:lang="en">
-                            <StreetAddress>Fabricii Street</StreetAddress>
+                            <StreetAddress>Taietura Turcului no. 47, Novis Plaza</StreetAddress>
                             <Locality>Cluj Napoca</Locality>
-                            <PostalCode>400630</PostalCode>
+                            <PostalCode>400285</PostalCode>
                             <CountryName>RO</CountryName>
                         </PostalAddress>
                     </PostalAddresses>
@@ -6214,8 +6243,8 @@
 <X509SKI>LyBN9TGA5WrtN11qgM+j+Tz7kMw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-02-12T16:15:44Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:30:06Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -6229,6 +6258,37 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Zipper QVal QESig/QESeal </Name>
+<Name xml:lang="ro">Zipper QVal QESig/QESeal </Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ZIPPER SERVICES SRL, SERIALNUMBER=200506245ES309, OID.2.5.4.97=VATRO-16723187, O=ZIPPER SERVICES SRL, C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>LyBN9TGA5WrtN11qgM+j+Tz7kMw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-02-12T16:15:44Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6248,8 +6308,8 @@
 <X509SKI>N7dkdQhlnT3GwwLCtfb5jEasgb0=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-02-12T16:21:54Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:30:54Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -6263,6 +6323,37 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Zipper QVal QESig/QESeal </Name>
+<Name xml:lang="ro">Zipper QVal QESig/QESeal </Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ZIPPER SERVICES SRL, SERIALNUMBER=200506245ES305, OID.2.5.4.97=VATRO-16723187, O=ZIPPER SERVICES SRL, C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>N7dkdQhlnT3GwwLCtfb5jEasgb0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-02-12T16:21:54Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6298,7 +6389,97 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Zipper QVal QESig/QESeal</Name>
+                            <Name xml:lang="ro">Zipper QVal QESig/QESeal</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHATCCBOmgAwIBAgIIAP8KIuvDkvUwDQYJKoZIhvcNAQELBQAwgZUxCzAJBgNVBAYTAlJPMRYwFAYDVQQKDA1EaWdpU2lnbiBTLkEuMRcwFQYDVQRhDA5WQVRSTy0xNzU0NDk0NTEoMCYGA1UECwwfRGlnaVNpZ24gQ2VydGlmaWNhdGlvbiBTZXJ2aWNlczErMCkGA1UEAwwiRGlnaVNpZ24gUXVhbGlmaWVkIENBIENsYXNzIDMgMjAxNzAeFw0yMzExMjIwODEzMjlaFw0yNTExMjEwODEzMjlaMHsxCzAJBgNVBAYTAlJPMRwwGgYDVQQKDBNaSVBQRVIgU0VSVklDRVMgU1JMMRcwFQYDVQRhDA5WQVRSTy0xNjcyMzE4NzEXMBUGA1UEBRMOMjAwNTA2MjQ1RVM1NDcxHDAaBgNVBAMME1pJUFBFUiBTRVJWSUNFUyBTUkwwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDqEnaOHU1LjBw7CIAU5AdnP3iq81Me703rEbzrL50l0CiXw9g34XAieQj5fTV2tZxhzwNdPPVx47uusFch1JeJFCJZrECSo31nq35NBdfE+CCqaixcDww6Bw3OQmKRzOfyf9wg/YkaV0lSKymHDLcatfNO1WS58rGFRqulC3/J2YeKGBK95LTlqbNGaDEVuxlvMigGduoHcCKipsTw5vgMG7T8TP/OF/1otBHNDjmejXCkj/TadObLPzKPSJJiwfJZ6BfOx4R9OGjxx64/C30LQ1EDgLI1VU7lQSlCWaOYs0YS44gRu66dothP/WTLko0Zd3xovdAHOq/MHgzZhf4VAgMBAAGjggJsMIICaDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFFMh9BOmdTdJZt6zAmmdsNz/BxnHMDgGCCsGAQUFBwEBBCwwKjAoBggrBgEFBQcwAYYcaHR0cDovL29jc3AuZGlnaXNpZ24ucm8vb2NzcDA/BgNVHREEODA2gRFvZmZpY2VAZXppcHBlci5yb6AhBgorBgEEAYI3FAIDoBMMEW9mZmljZUBlemlwcGVyLnJvMFMGA1UdIARMMEowPQYQKwYBBAGCi20BAgSCAAICAzApMCcGCCsGAQUFBwIBFhtodHRwczovL3d3dy5kaWdpc2lnbi5yby9jcHMwCQYHBACL7EABAzA1BgNVHSUELjAsBggrBgEFBQcDAgYIKwYBBQUHAwQGCisGAQQBgjcKAwwGCisGAQQBgjcUAgIwgbIGCCsGAQUFBwEDBIGlMIGiMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIwCAYGBACORgEBMAsGBgQAjkYBAwIBCjAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgIwUwYGBACORgEFMEkwIRYbaHR0cHM6Ly93d3cuZGlnaXNpZ24ucm8vcGRzEwJlbjAkFh5odHRwczovL3d3dy5kaWdpc2lnbi5yby9wZHNfcm8TAnJvMEwGA1UdHwRFMEMwQaA/oD2GO2h0dHA6Ly9jcmwuZGlnaXNpZ24ucm8vcmVwb3NpdG9yeS9xdWFsaWZpZWRjYWNsYXNzMzIwMTcuY3JsMB0GA1UdDgQWBBSExztNz9Arh1BH26MtFCHfpInoFDAOBgNVHQ8BAf8EBAMCBeAwDQYJKoZIhvcNAQELBQADggIBAAx54FeFAVTA8jEJOl8HchZbUKbAOPLwTkYdjiiLUbTdhxKEdsFDL7nRKYzoe5EXs04tqQooRoCtI/4M3z48kf6XICuJAiaI7cX3fWCgumzqlqXBtpm6D3C4YnCwcV2zvGVaXMu7ulviDm+U8u+E9tQvW+ne6vGvXwtrRkLfz/WE8D1fLUb/t0EXxLv6GtIjP7h+2eKBarOEpCLPKAJjyFsHYvfG/cGvxA0jiS1Faz/Ir4T0TwhdBsNYsA+KCelRtuR4liukBEDsLiNZQm1+BgQITfjMICFA3SYcntcXlx2jMoQqoKxGrYTnlFSS9c8t/AqEgnltAONh7uXKT8DXn/qlWq6Iv9WIyMl5Wr9cfTkTSC+QwA+KIPUSJxWfgMg43acQjjkqdgHxI0ql2tMbkGXmwfwWqILhUFBPUvh/xs7va5Eg7jpKXX6pO5w1NZun97AJNt+5GaYM7n290ebUt2Yrc/ntZxhMI0Srv7gZ0KOlXhz0l5O0lmtrWqQZq3q5kJgQ/2oHRAR9VwYsYWRAot10fVZKbSbojHLA1nMmtbyFLfbCocOzAJqQRkt1a7rrASMBBA6wOvqSCbh0w3vI7wgIEdnr1ZdJszrSoH4uyvLiAblaTzu6ZN7Vx3N4wHap+7dJOjc/HQHs5UWl0IOvzoCKsVHo3vtjwRq5cwXaFLJw</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ZIPPER SERVICES SRL, SERIALNUMBER=200506245ES547, OID.2.5.4.97=VATRO-16723187, O=ZIPPER SERVICES SRL, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>hMc7Tc/QK4dQR9ujLRQh36SJ6BQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:31:12Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Zipper QVal QESig/QESeal</Name>
+                            <Name xml:lang="ro">Zipper QVal QESig/QESeal</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ZIPPER SERVICES SRL, SERIALNUMBER=200506245ES541, OID.2.5.4.97=VATRO-16723187, O=ZIPPER SERVICES SRL, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>MyYTFOfxOMfT3pXLiSMPEPZGUmc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:31:01Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">TSU 2024 A</Name>
+                            <Name xml:lang="ro">TSU 2024 A</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ZIPPER TSU 2024 A, OU=ZIPPER Time Stamping Services, O=ZIPPER SERVICES SRL, OID.2.5.4.97=VATRO-16723187, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>FVrIb1moQPBnGEwhijwstVIqy9U=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-05-31T06:31:42Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-0548166fd769d05b95dcf01da6d56d97"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2gjlFMN1MuPA1EA3t9KIBwEyN6Cy2UaCzex6loQUB+Y=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-0548166fd769d05b95dcf01da6d56d97"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>XyDlwTeKLj10QsbTxpfbmx4BsiSgzt5010RVM7//YtU=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-0548166fd769d05b95dcf01da6d56d97">Bi0nlmlVAFbPoTlcoSUVBBnXzrwjHkileqStHoNgzneoaDrEXZ+xF+Z09X+/ykr+lGErfdtHJ88+SaiyTmu3AlL1esEUrPUn+zRjA1hK5kczQ/pb16z49qB3BCfpNvqA9MpelbK7mw0p/BhbVUWRAg1uoYzd1FzX3FzRQNNlE9QJv6tK32i+OFyo1lLdvr1ac4efHaemPutVVxNf9kHGCHyylgGAi4umU+ZBfew5i5lC12iaOPkfhjN+o0ipxy+GzhUAeU7PnMp624Uh53h55lXlfDble5dVIp7zFbi1x7QaXgDq5bNHAnatubDB5549GUc2/i/gmwM7ToXoG0pcGw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFyDCCBLCgAwIBAgIMXJI5IBGRaMK9ZHYAMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAlJPMRcwFQYDVQQKEw5UcmFucyBTcGVkIFNSTDEhMB8GA1UECxMYSW5kaXZpZHVhbCBTdWJzY3JpYmVyIENBMRowGAYDVQQDExFUcmFucyBTcGVkIFFDQSBHMjAeFw0yMzExMDExMTMxMTZaFw0yNTEwMzExMTMxMTVaMIG+MQswCQYDVQQGEwJSTzEyMDAGA1UECgwpQVVUT1JJVEFURUEgcGVudHJ1IERJR0lUQUxJWkFSRUEgUk9NQU5JRUkxETAPBgNVBGEMCDQyMjgzNzM1MRAwDgYDVQQEDAdQYXJhc2NhMRcwFQYDVQQqDA5SYWx1Y2EtRmxvcmluYTEcMBoGA1UEBRMTMjAwNDEyMjM1UkZQMTExMjAyMzEfMB0GA1UEAwwWUmFsdWNhLUZsb3JpbmEgUGFyYXNjYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMp0LyMaYiIkvYiqf/LpJm2RoEb1U7Jm78c0bHCMFxzfayxxqo/Aok8KIxAsWsKz1X6bwY65pxIw2Wo+Td5M5Dpolr0hrLQI4jpn13mCtumkDHOHfcvhzDfS5jJXll3vQOT03PCUEhhuduIQ29uQGRqVSe/OBBh5CgSKUe2SKS4ATszv9RAeHwGE9l0FDpKcTj1S4A7b5D2gNrHmMe92dEdlTg7cHHn+XmjDa+trQ4Q57rQbZc2pH1a3WXwOWd6vYJ4kw8a5zCZMBJkVIqJ5G5K7kq0N7ODgjx0JDBQAjtKXQ3SimL/Li9isY3DcXJiL0x5GqLw9lZgLGGx8Mk72oKkCAwEAAaOCAhwwggIYMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUYrV9+Wghpgu0tlogRUtKcOBT4ukwcAYIKwYBBQUHAQEEZDBiMDkGCCsGAQUFBzAChi1odHRwOi8vd3d3LnRyYW5zc3BlZC5yby9jYWNlcnRzL3RzX3FjYV9nMi5wN2MwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnRyYW5zc3BlZC5yby8wJAYDVR0RBB0wG4EZcmFsdWNhLnBhcmFzY2FAYWRyLmdvdi5ybzBVBgNVHSAETjBMMAkGBwQAi+xAAQIwPwYLKwYBBAGCuB0BAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTARBgNVHSUECjAIBgYEAJE3AwAwegYIKwYBBQUHAQMEbjBsMAgGBgQAjkYBATALBgYEAI5GAQMCAQswCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMDQGBgQAjkYBBTAqMCgWImh0dHBzOi8vY2EudHJhbnNzcGVkLnJvL3JlcG9zaXRvcnkTAmVuMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly93d3cudHJhbnNzcGVkLnJvL2NybC90c19xY2FfZzIuY3JsMB0GA1UdDgQWBBRmjHOoqklgYxzt6u1mk6Z1JLKrzDAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAEKWHvSVPLHbxPx4XRXbvhWkTOhH2c3XQ/D6ZcttOyVY4F6TqW9yyQDI2ctuXrJgYIuvdtjUwyIKta+ABC4NaTs0d1ZNvKI9SxsYfMA9T21Ccm+5Qgmrv2bpVnmfPo3yuSNhJRqixUy2+5dgImEboVj7BtbXk7atNTi4bbMrhfCf0XdOFsL9HC4ftcsgN2X91QvpBX4qwemF7utFWvC+Q08PP4SxAvVzlzgwvA87aAIaOazUE2qQZMFjpmsahINAJ6xk4zsERAeJQGoTkwViOhJpXOCMvxB33bgQTsS5YmFgQ8u6BuWA1KO3KtO7Iawyj58y1qazUsBgKHGkKTIkGV0=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-0548166fd769d05b95dcf01da6d56d97"><xades:SignedProperties Id="xades-id-0548166fd769d05b95dcf01da6d56d97"><xades:SignedSignatureProperties><xades:SigningTime>2024-04-19T10:23:06Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>h61mBGL2D7QTVrnj9QdOahD1k8ja1Ax51MOSfunxBrH5/UrTx3Y7N6hCHcdWEaIJxwTfwQ9iNjEckxIZiTp0Sw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Trans Sped QCA G2,OU=Individual Subscriber CA,O=Trans Sped SRL,C=RO</ds:X509IssuerName><ds:X509SerialNumber>28649393839678724266548033024</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-56970fd6605d8b62bfdd2965b45f7959"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Mrl1ViCH9noFaaBkxPjqnLWgG4O1pO8vvU7WB3KsMmI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-56970fd6605d8b62bfdd2965b45f7959"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wf5WY7OLBMBBe2mn5LCsO67F87Cx4SEerfZTriSmol0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-56970fd6605d8b62bfdd2965b45f7959">UXY7dtjluku+1+FkSnhdDBvwiML8xTE9qXWDW9NXhaWRFK1nctou5KPxDJbwQSYCP+pPKB+ou0pAzP8cr/Qo5rugQg33jiuV7KYoitsiDqhf+VgYbJJ/Y4eU0qv0mS0j9ohMSW4m2PV7QNRONW7puuG32XOzo1PkS+dd7aY5pFqCi5QBsbFq4G8qT6fHDxWI/btyzkXv+yRZXsgd5x1Vbb0ojWn8UYvMdXtZJo0TfyZvZqY+ifur72oUQUL866111Mzd6xqhsacWyXPU4Ba1oX0dRqf92afsuTJsPP5wrrZw/lXnuQvVRYhAit0t+Uhv4PMWpe60kQUR3PsYUFQjOQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFyDCCBLCgAwIBAgIMXJI5IBGRaMK9ZHYAMA0GCSqGSIb3DQEBCwUAMGUxCzAJBgNVBAYTAlJPMRcwFQYDVQQKEw5UcmFucyBTcGVkIFNSTDEhMB8GA1UECxMYSW5kaXZpZHVhbCBTdWJzY3JpYmVyIENBMRowGAYDVQQDExFUcmFucyBTcGVkIFFDQSBHMjAeFw0yMzExMDExMTMxMTZaFw0yNTEwMzExMTMxMTVaMIG+MQswCQYDVQQGEwJSTzEyMDAGA1UECgwpQVVUT1JJVEFURUEgcGVudHJ1IERJR0lUQUxJWkFSRUEgUk9NQU5JRUkxETAPBgNVBGEMCDQyMjgzNzM1MRAwDgYDVQQEDAdQYXJhc2NhMRcwFQYDVQQqDA5SYWx1Y2EtRmxvcmluYTEcMBoGA1UEBRMTMjAwNDEyMjM1UkZQMTExMjAyMzEfMB0GA1UEAwwWUmFsdWNhLUZsb3JpbmEgUGFyYXNjYTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMp0LyMaYiIkvYiqf/LpJm2RoEb1U7Jm78c0bHCMFxzfayxxqo/Aok8KIxAsWsKz1X6bwY65pxIw2Wo+Td5M5Dpolr0hrLQI4jpn13mCtumkDHOHfcvhzDfS5jJXll3vQOT03PCUEhhuduIQ29uQGRqVSe/OBBh5CgSKUe2SKS4ATszv9RAeHwGE9l0FDpKcTj1S4A7b5D2gNrHmMe92dEdlTg7cHHn+XmjDa+trQ4Q57rQbZc2pH1a3WXwOWd6vYJ4kw8a5zCZMBJkVIqJ5G5K7kq0N7ODgjx0JDBQAjtKXQ3SimL/Li9isY3DcXJiL0x5GqLw9lZgLGGx8Mk72oKkCAwEAAaOCAhwwggIYMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUYrV9+Wghpgu0tlogRUtKcOBT4ukwcAYIKwYBBQUHAQEEZDBiMDkGCCsGAQUFBzAChi1odHRwOi8vd3d3LnRyYW5zc3BlZC5yby9jYWNlcnRzL3RzX3FjYV9nMi5wN2MwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnRyYW5zc3BlZC5yby8wJAYDVR0RBB0wG4EZcmFsdWNhLnBhcmFzY2FAYWRyLmdvdi5ybzBVBgNVHSAETjBMMAkGBwQAi+xAAQIwPwYLKwYBBAGCuB0BAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTARBgNVHSUECjAIBgYEAJE3AwAwegYIKwYBBQUHAQMEbjBsMAgGBgQAjkYBATALBgYEAI5GAQMCAQswCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMDQGBgQAjkYBBTAqMCgWImh0dHBzOi8vY2EudHJhbnNzcGVkLnJvL3JlcG9zaXRvcnkTAmVuMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly93d3cudHJhbnNzcGVkLnJvL2NybC90c19xY2FfZzIuY3JsMB0GA1UdDgQWBBRmjHOoqklgYxzt6u1mk6Z1JLKrzDAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggEBAEKWHvSVPLHbxPx4XRXbvhWkTOhH2c3XQ/D6ZcttOyVY4F6TqW9yyQDI2ctuXrJgYIuvdtjUwyIKta+ABC4NaTs0d1ZNvKI9SxsYfMA9T21Ccm+5Qgmrv2bpVnmfPo3yuSNhJRqixUy2+5dgImEboVj7BtbXk7atNTi4bbMrhfCf0XdOFsL9HC4ftcsgN2X91QvpBX4qwemF7utFWvC+Q08PP4SxAvVzlzgwvA87aAIaOazUE2qQZMFjpmsahINAJ6xk4zsERAeJQGoTkwViOhJpXOCMvxB33bgQTsS5YmFgQ8u6BuWA1KO3KtO7Iawyj58y1qazUsBgKHGkKTIkGV0=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-56970fd6605d8b62bfdd2965b45f7959"><xades:SignedProperties Id="xades-id-56970fd6605d8b62bfdd2965b45f7959"><xades:SignedSignatureProperties><xades:SigningTime>2024-05-30T09:10:39Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>h61mBGL2D7QTVrnj9QdOahD1k8ja1Ax51MOSfunxBrH5/UrTx3Y7N6hCHcdWEaIJxwTfwQ9iNjEckxIZiTp0Sw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Trans Sped QCA G2,OU=Individual Subscriber CA,O=Trans Sped SRL,C=RO</ds:X509IssuerName><ds:X509SerialNumber>28649393839678724266548033024</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
