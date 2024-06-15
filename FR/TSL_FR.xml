@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>132</TSLSequenceNumber>
+        <TSLSequenceNumber>133</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Network Information Security Agency</Name>
@@ -107,9 +107,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-04-24T00:00:22Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-06-10T15:11:13Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-10-24T00:00:22Z</dateTime>
+            <dateTime>2024-12-10T16:11:13Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -12994,6 +12994,8 @@
                 <TSPTradeName>
                     <Name xml:lang="en">VATFR-08352973622</Name>
                     <Name xml:lang="fr">VATFR-08352973622</Name>
+                    <Name xml:lang="en">NTRFR-410494496</Name>
+                    <Name xml:lang="fr">NTRFR-410494496</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -13011,15 +13013,15 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="en">http://www.imprimerienationale.fr</URI>
-                        <URI xml:lang="fr">http://www.imprimerienationale.fr</URI>
-                        <URI xml:lang="fr">mailto:michel.brun@imprimerienationale.fr</URI>
-                        <URI xml:lang="en">mailto:michel.brun@imprimerienationale.fr</URI>
+                        <URI xml:lang="en">https://crl.pass-in.fr/</URI>
+                        <URI xml:lang="fr">https://crl.pass-in.fr/</URI>
+                        <URI xml:lang="fr">mailto:contact.passin@ingroupe.com</URI>
+                        <URI xml:lang="en">mailto:contact.passin@ingroupe.com</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="fr">http://www.imprimerienationale.fr/GIN/PC</URI>
-                    <URI xml:lang="en">http://www.imprimerienationale.fr/GIN/PC</URI>
+                    <URI xml:lang="fr">https://crl.pass-in.fr/docs.php</URI>
+                    <URI xml:lang="en">https://crl.pass-in.fr/docs.php</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -13278,8 +13280,8 @@
 <X509SKI>yaq2lzWZtd1HzZ9Uvn/eKCnOOhU=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-10-28T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2023-11-28T01:00:54Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://crl.pass-in.fr/PC</URI>
                             <URI xml:lang="fr">http://crl.pass-in.fr/PC</URI>
@@ -13317,6 +13319,54 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Pass'IN - 3 stars Qualified Signature</Name>
+<Name xml:lang="fr">Pass'IN - 3 stars Qualified Signature</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=AC Imprimerie Nationale Elevé Personnel, OID.2.5.4.97=NTRFR-410494496, OU=0002 410494496, O=Groupe Imprimerie Nationale, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>yaq2lzWZtd1HzZ9Uvn/eKCnOOhU=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-10-28T01:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.295.1.1.20.7.1.102.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.295.1.1.20.0.1.102.0</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats de signature électronique</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -13368,8 +13418,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Pass'IN - 2 stars Qualified Signature</Name>
-                            <Name xml:lang="fr">Pass'IN - 2 stars Qualified Signature</Name>
+                            <Name xml:lang="en">Go Workforce eIDAS Qualified Signature</Name>
+                            <Name xml:lang="fr">Go Workforce eIDAS Qualified Signature</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -13383,10 +13433,10 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-10-28T01:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2023-11-28T01:00:27Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">http://crl.pass-in.fr/PC</URI>
-                            <URI xml:lang="fr">http://crl.pass-in.fr/PC</URI>
+                            <URI xml:lang="en">https://crl.pass-in.fr/docs.php</URI>
+                            <URI xml:lang="fr">https://crl.pass-in.fr/docs.php</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
@@ -13407,10 +13457,8 @@
             </ns5:KeyUsage>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
-                    <ns4:Identifier>1.2.250.1.295.1.1.8.6.1.102.1</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-                <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.2.250.1.295.1.1.8.0.1.102.0</ns4:Identifier>
+                    <ns4:Description>Qualified certificate issuance service of Imprimerie Nationale for natural person</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:Description>Délivrance de certificats de signature électronique</ns5:Description>
@@ -13421,6 +13469,100 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Pass'IN - 2 stars Qualified Signature</Name>
+<Name xml:lang="fr">Pass'IN - 2 stars Qualified Signature</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=AC Imprimerie Nationale Substantiel Personnel, OID.2.5.4.97=NTRFR-410494496, OU=0002 410494496, O=Groupe Imprimerie Nationale, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>1dLlRV9D2gJ0NTWfvJguzbOn4dA=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-06-28T00:00:02Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.295.1.1.8.0.1.102.0</ns4:Identifier>
+                        <ns4:Description>Qualified certificate issuance service of Imprimerie Nationale for natural person</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats de signature électronique</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Pass'IN - 2 stars Qualified Signature</Name>
+<Name xml:lang="fr">Pass'IN - 2 stars Qualified Signature</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=AC Imprimerie Nationale Substantiel Personnel, OID.2.5.4.97=NTRFR-410494496, OU=0002 410494496, O=Groupe Imprimerie Nationale, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>1dLlRV9D2gJ0NTWfvJguzbOn4dA=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-10-28T01:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.295.1.1.8.6.1.102.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.295.1.1.8.0.1.102.0</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats de signature électronique</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -13467,6 +13609,61 @@
                             </ServiceInformationExtensions>
                         </ServiceHistoryInstance>
                     </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Go Workforce eIDAS Qualified Signature</Name>
+                            <Name xml:lang="fr">Go Workforce eIDAS Qualified Signature</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=AC Imprimerie Nationale Substantiel Personnel, OID.2.5.4.97=NTRFR-410494496, OU=0002 410494496, O=Groupe Imprimerie Nationale, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>1dLlRV9D2gJ0NTWfvJguzbOn4dA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2023-11-28T00:00:17Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://crl.pass-in.fr/docs.php</URI>
+                            <URI xml:lang="fr">https://crl.pass-in.fr/docs.php</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.295.1.1.8.0.1.102.0	</ns4:Identifier>
+                    <ns4:Description>Qualified certificate issuance service of Imprimerie Nationale for natural person	</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>Qualified certificate issuance service of Imprimerie Nationale for natural person	</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -20635,4 +20832,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-f902cb815d69036054d39b674d977555"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>JeRsPieX+JITvqENfhZy1xWWJ8zuybW29+D7tQjAmEA=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-f902cb815d69036054d39b674d977555"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>HMjBWJBZf5mptqARpDJ5kmmd2rM06rrXDNoDGz6pKOo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-f902cb815d69036054d39b674d977555">mU/DzmfbHucZI+V8UqnFpuukMBtEZqB0eqJ1Z0VBJVAa0y+BvKa51Bmc1OFEtnkTf2UVc8KxsQNc2JmTJuPQB68JJ1S9tT0t4R0KNEbtmzHmRAwneVDAokr7+xpVUjcyvwNHgkNbL0ZDmrr2abYxrdkyFSf89gFxiCMK7wP4Tdv1U6vOCGz5fYX5KHJa2d1Iq28bW5VN7b+wm6c/1I7TeWDzCJ0cSO//cigYsUkJ+vvuTdezk8ISkUaTIDq7ISosxCHFOWqRn08l6xlEiBAFufe2zbL4DQk6c1hfiF0Nk9uiK4TOUQVtJlmaSufQ24KFd3cOeHJY30M0nI4+lENtPg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFWjCCBEKgAwIBAgISESFpqidsX7JpDJiIUa+d4lFHMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjMyMzAzMTJaFw0yNDExMjMyMzAzMTJaMHwxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEjMCEGA1UEAwwaTWF0aGlldSBKT1JSWSAzMzEwMDAzODk4am0xEDAOBgNVBCoMB01hdGhpZXUxDjAMBgNVBAQMBUpPUlJZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAueMFgo1QVrQa7MZT4FgPNE5RCxkO5xVvwWVf02VYbJogYeqRjsqjkC+LrUWTfwRBEBmt/yDz4mgydHsHeXO5Tj8uwCM3ZHfhpzJhJt98CE0kp3jm0asmMzgmDe8wSX+Snqk39ryyfLaJb0b4xkYjDrAwMNwCrGwhRVXjMBFn4ippNBUWDdssWfEJaNs3lJZYzRn9CmCxR1+89C/i7Ss/vx3rFtB3ZPcFWEgyw0p6lo5+kfo85fT9ufJqrzD7ZTIxJb+qS/uPBfqQ6NqUVdlHJYI4tiOSQSbV1dsGxdhK9AkGxBzVTa+gI1qTpaBz7l5OQEgPbu/F+otRIveLVVl8EQIDAQABo4IBuDCCAbQwCQYDVR0TBAIwADAYBgNVHSAEETAPMA0GCyqBegGBSAMBAgMCMEcGA1UdHwRAMD4wPKA6oDiGNmh0dHA6Ly9jcmwuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNybDCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfMzBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfMy5jZXIwDgYDVR0PAQH/BAQDAgZAMDcGCCsGAQUFBwEDBCswKTAIBgYEAI5GAQEwCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMCQGA1UdEQQdMBuBGW1hdGhpZXUuam9ycnlAc3NpLmdvdXYuZnIwHQYDVR0OBBYEFDuruS/KVFnuzdqvA7GoI2akFB2qMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQAGfC/M1dkfN2wR9EhKg+cq0rT2qS/kbZuLDZSV+YqBKmnhT2AB8xFgbtQ/d8HU9ujTtuzgIx2JWRIoDfnS6j2J9UzyISEIXypLGonGzrn5a3MvnZ1TuT2+FaPHPlkWtSFtKgUt4NeXjFZ7pbVPSe9AZjE7+IPAK+flybd13xUL/PNKzw9EtT0YyPgZHHU/RPNhtaxJRjpnyGKK8bYxoj2oV0yqwTMt9Tu6Zg+skgs0CoR1fLh9OZUnLQLuNcAu+77CakeTjZIIjcgG92DZ+nOqAOZvT8QWi3oa5ZX1NB9jxm+4lSk2+nowWB0oocQG3OR6a67mFxQIT2mjoIgYVwwt</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-f902cb815d69036054d39b674d977555"><xades:SignedProperties Id="xades-id-f902cb815d69036054d39b674d977555"><xades:SignedSignatureProperties><xades:SigningTime>2024-04-24T15:34:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>x68RLSj/38+g4JlvMCrWPQJh/rgMqWndPbncC9Giu93GC9ju7KWmxiK91pVKcQ6vRMh3fTG4zIojIlAMuzHL0Q==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492278631377938762229014850448479079256391</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-b5e5cfff037ade8e3afda596a0877123"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OaWO/7G90TnoIaTyNAMQI8hcebyDgCnvxAcJgkfscUI=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-b5e5cfff037ade8e3afda596a0877123"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>OxXFxboSHSoEwcZ6rtfY0zJ8KF2SeubWY06ZW+3+Q8g=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-b5e5cfff037ade8e3afda596a0877123">GgNun2+Et+IeFAdXHeoQUmXG47E2JehkINPTHa/v5B9ucUDaYZppULKOAk3ujLxmff6lVYfmmY/hC1toHmFevpdgrL8jy9n/Q+LC+51UAqhSl2FoyqXoVZ/qdu/UzIcLT0mW1Ag2bkpqgmZmg2hbcvF9mr+Toht29Ftqlidq+20ZBRd+eyy6OtTASIVg2aYjBPl5ciW0e+1it65ewOMG9Hx7HpekJy627MXDzXB4MTPcUnXZDShrzzT7Dz6I3VQjq/hZIznI3z8HVHWw1RFY1iZaK7t32oeFm97pGn2B+8pWbKMxg4y3xPgeOcTLG8VHUoTuGLo6OglQgfXzRdjahg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFWjCCBEKgAwIBAgISESFpqidsX7JpDJiIUa+d4lFHMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjMyMzAzMTJaFw0yNDExMjMyMzAzMTJaMHwxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEjMCEGA1UEAwwaTWF0aGlldSBKT1JSWSAzMzEwMDAzODk4am0xEDAOBgNVBCoMB01hdGhpZXUxDjAMBgNVBAQMBUpPUlJZMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAueMFgo1QVrQa7MZT4FgPNE5RCxkO5xVvwWVf02VYbJogYeqRjsqjkC+LrUWTfwRBEBmt/yDz4mgydHsHeXO5Tj8uwCM3ZHfhpzJhJt98CE0kp3jm0asmMzgmDe8wSX+Snqk39ryyfLaJb0b4xkYjDrAwMNwCrGwhRVXjMBFn4ippNBUWDdssWfEJaNs3lJZYzRn9CmCxR1+89C/i7Ss/vx3rFtB3ZPcFWEgyw0p6lo5+kfo85fT9ufJqrzD7ZTIxJb+qS/uPBfqQ6NqUVdlHJYI4tiOSQSbV1dsGxdhK9AkGxBzVTa+gI1qTpaBz7l5OQEgPbu/F+otRIveLVVl8EQIDAQABo4IBuDCCAbQwCQYDVR0TBAIwADAYBgNVHSAEETAPMA0GCyqBegGBSAMBAgMCMEcGA1UdHwRAMD4wPKA6oDiGNmh0dHA6Ly9jcmwuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNybDCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfMzBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfMy5jZXIwDgYDVR0PAQH/BAQDAgZAMDcGCCsGAQUFBwEDBCswKTAIBgYEAI5GAQEwCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMCQGA1UdEQQdMBuBGW1hdGhpZXUuam9ycnlAc3NpLmdvdXYuZnIwHQYDVR0OBBYEFDuruS/KVFnuzdqvA7GoI2akFB2qMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQAGfC/M1dkfN2wR9EhKg+cq0rT2qS/kbZuLDZSV+YqBKmnhT2AB8xFgbtQ/d8HU9ujTtuzgIx2JWRIoDfnS6j2J9UzyISEIXypLGonGzrn5a3MvnZ1TuT2+FaPHPlkWtSFtKgUt4NeXjFZ7pbVPSe9AZjE7+IPAK+flybd13xUL/PNKzw9EtT0YyPgZHHU/RPNhtaxJRjpnyGKK8bYxoj2oV0yqwTMt9Tu6Zg+skgs0CoR1fLh9OZUnLQLuNcAu+77CakeTjZIIjcgG92DZ+nOqAOZvT8QWi3oa5ZX1NB9jxm+4lSk2+nowWB0oocQG3OR6a67mFxQIT2mjoIgYVwwt</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-b5e5cfff037ade8e3afda596a0877123"><xades:SignedProperties Id="xades-id-b5e5cfff037ade8e3afda596a0877123"><xades:SignedSignatureProperties><xades:SigningTime>2024-06-14T09:51:27Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>x68RLSj/38+g4JlvMCrWPQJh/rgMqWndPbncC9Giu93GC9ju7KWmxiK91pVKcQ6vRMh3fTG4zIojIlAMuzHL0Q==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492278631377938762229014850448479079256391</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
