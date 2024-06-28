@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="NL-TL-68" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="NL-TL-69" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>68</TSLSequenceNumber>
+        <TSLSequenceNumber>69</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="nl">Rijksinspectie Digitale Infrastructuur</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-06-13T08:00:29Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-06-27T12:00:03Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-12-13T09:00:29Z</dateTime>
+            <dateTime>2024-12-27T13:00:03Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml</URI>
@@ -6402,8 +6402,8 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">QuoVadis Trustlink B.V.</Name>
-                    <Name xml:lang="nl">QuoVadis Trustlink B.V.</Name>
+                    <Name xml:lang="en">DigiCert Europe Netherlands B.V.</Name>
+                    <Name xml:lang="nl">DigiCert Europe Netherlands B.V.</Name>
                 </TSPName>
                 <TSPTradeName>
                     <Name xml:lang="en">NTRNL-30237459</Name>
@@ -6412,6 +6412,8 @@
                     <Name xml:lang="nl">QuoVadis Trustlink BV</Name>
                     <Name xml:lang="en">QuoVadis Limited, Bermuda</Name>
                     <Name xml:lang="nl">QuoVadis Limited, Bermuda</Name>
+                    <Name xml:lang="nl">QuoVadis Trustlink B.V.</Name>
+                    <Name xml:lang="en">QuoVadis Trustlink B.V.</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -9079,5 +9081,67 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
-    </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-780670552"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x294968294" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>32B0sNJlsgBAyqE8Jb9vfCwfg0nBoG+XW5OiOjpw0ug=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1498418856"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GkjBEzGgsWBixrtp3JSDGce7SnAEH/cdpiY3/rGBnDw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>mhY3S2XpVNgbSXFSilwz3h219ct/9ZBU9LMF7WctDOaar0qAEn/TZcazQRcXWqYO++xKPEAE6QubXGF1nMtV+/3koQom7bdzUukw8tAjhRi1vS8Fp79mpPp5O11g6uw0io0d2bTvEXSlzkU68OOLLXqI+qbMv34hwYi+uZd+OzJrGBA9tcc1XFr9uNdLkOOWbuW6iHKw2kkONgf5Uvw6i5YKS2NkiCqE+lZp8E/Il3u9/iQPGySXj8rkwOvJMecD5xO7/ccLkEfSPY0Zr6uMbDUBbqoYZH8JYY27PVvxY0Nd777WHBn9YY1/W5RsHGiig9BauvVxWroFFroiR9/2FXAtdJtXuCXPVoi63FQbG5dAuOmGy4kYcRjWuDnnwRKslzonrxfdc7Do7sLvtYaXzCOUO7tZXRb7fLCw8NWl7UujhZ9CxaxKDz2r1XNlY9zzzvy30JKxWEE9VvIbMyXBBbxp3k9cn+ScTySjoe/H7NCE75lPWsJ5t+iutLPUZ/4C+N89pnVG9SSPfJrfaSmm9UglSYN5C2k7YkDzUxVTt4pBD1+B++GI9/sG6PWUnnDLeRlz74NK7EKiQypR9HjMy8Rs+ZrI6dzfEhDyPRQqqFTdRS4/2sbreqBdbGBidqJcOGMGIJZ+WHuDOcwuZY6NWmebr9yx1ZCfcp8UIFmi6pY=</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>sTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFk=</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509SubjectName><ds:X509Certificate>MIIFyjCCA7KgAwIBAgIFFMyAj6UwDQYJKoZIhvcNAQELBQAwaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MB4XDTIzMDEwMTAwMDAwMFoXDTI4MDEwMTAwMDAwMFowaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFkCAwEAAaN7MHkwHQYDVR0OBBYEFISge/8g59F7ILYOZoaJ252V5+8kMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBEGA1UdIAQKMAgwBgYEVR0gADAXBgNVHREEEDAOgQxlaWRhc0ByZGkubmwwEQYDVR0lBAowCAYGBACRNwMAMA0GCSqGSIb3DQEBCwUAA4ICAQB31upkefX2Mty4o8REJ25aIj7kvSPzBfRIFuOrN9wFSzcddLNwIb2XZT55qZdTmXGh+gtipk881yvMQKYgz5g1LwijAJkAe6BlIyXM8XLIR44ktCvu+BWiTXt+mevGnHn65i56TQEpfGLzryl7tXnn3dvv1SowXkraL1piTsC6aPWNMdgmZp5wqHldQYN/Y/MkmMN7bla2TLQGLl7qxVRpZ/QXC/90gKXfxtKCrmVbwF2ezwa5u53bCXdSYqd+1gTCMdbmRYqYkJN1gSlmMtHWmPRtmPDMms/TanQXhkVepz71xfhFiaz310aF8jFhApxqhVCpK01Pd8Crg0LNaF97DeNBbOS6i9L6dDVFjM00vE6AbLaQCcc9XL41cTUoaarGaUkZJf3mOWUFWDrGP7gStyxf8k0a1NpoPCe7UZesqrDiyU4UPxgBVo3XfXXOJLp12GKiHJEGOTSi8dj6JkLQVPLJjU/tVXm9MsGXCH2LSoYeWf9R5l8IviO+qtcvUUP/rEw2uYM3bDxecF8ZNGAE2oL1M1kJQs+GJUKQ/U2nPzrIdQ9icx4Kedr/1sPgYmARNE6MCg+hHIzXqmsgnL6+uMtX290vQOnK2rmBeWESP5RNcXGKMA1dlF/OvEigVC3FXA9FS8tkskF7ls53yCrPhcbgBnztWTXosF0lkXyM7A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-780670552"><xades:SignedProperties Id="SignedProperties-1498418856"><xades:SignedSignatureProperties><xades:SigningTime>2024-06-13T08:18:33.781Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1PnAAOYsn8dPPFwptm41cYpkS4EA7YJsW7jSC2br+Jo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x294968294"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="nl">Secumail B.V.</Name>
+                    <Name xml:lang="en">Secumail B.V.</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="nl">NTRNL-69887594</Name>
+                    <Name xml:lang="en">NTRNL-69887594</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="nl">
+                            <StreetAddress>Zilverparkkade 72</StreetAddress>
+                            <Locality>Lelystad</Locality>
+                            <PostalCode>8232 WK</PostalCode>
+                            <CountryName>NL</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Zilverparkkade 72</StreetAddress>
+                            <Locality>Lelystad</Locality>
+                            <PostalCode>8232 WK</PostalCode>
+                            <CountryName>NL</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="nl">https://secumailer.nl/</URI>
+                        <URI xml:lang="en">https://secumailer.nl/</URI>
+                        <URI xml:lang="nl">mailto:info@secumailer.com</URI>
+                        <URI xml:lang="en">mailto:info@secumailer.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="nl">https://secumailer.nl/eidas</URI>
+                    <URI xml:lang="en">https://secumailer.nl/eidas</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/REM/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="nl">SecuMailer</Name>
+                            <Name xml:lang="en">SecuMailer</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIF4zCCBWigAwIBAgIQMvCbSNbSAix+TJYJuH3qhzAKBggqhkjOPQQDAzBnMQswCQYDVQQGEwJFRTEbMBkGA1UECgwSU0sgSUQgU29sdXRpb25zIEFTMRcwFQYDVQRhDA5OVFJFRS0xMDc0NzAxMzEiMCAGA1UEAwwZU0sgSUQgU29sdXRpb25zIE9SRyAyMDIxRTAeFw0yNDA2MjEwODA3NTlaFw0yNTA3MDEwODA3NTlaMIGNMRMwEQYDVQQDDApTZWN1TWFpbGVyMREwDwYDVQQFEwg2OTg4NzU5NDEXMBUGA1UEYQwOTlRSTkwtNjk4ODc1OTQxFjAUBgNVBAoMDVNlY3VtYWlsIEIuVi4xETAPBgNVBAcMCExlbHlzdGFkMRIwEAYDVQQIDAlGbGV2b2xhbmQxCzAJBgNVBAYTAk5MMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEA2wOYvexYY6iELqgzvIpuQoFE/XfcVtnEuyx1oHf7/bUDndvOAW8O00A9XTgVVwKNV3ZvOOP42P+yI4UEYG5jHono0iIgeE/pwHs3nURGSgbkKKB4E0SvRJ12zbPmxO5lQ2D7DmAyDHUnfDmlXp66492hbEFTeZcxYbFkhNnUe5BoX00ALowbitQfDiV7tF4cUIrDbxlACI3w5CpwmKDFzKXOg71Uss8KnaZ9cE9i4R5czc6y0DpacyBrwtz7MthJ6LOrY6woFGuWKxarZpEQF5v6MF2BvnlDEaca2JU0A8qR5tHN7FgDjG5qZ5qyZlLpJg92laf1OKK5WUMkn5+YyCS1o0cdte3YFD5nea7Da0mdZEWpaaQBFduIdJoFQHwu2xWVAIuw8PibTAsSLInr6P+N8f+oEiB7NXkUWXiRDGdjZHz7wx94JS1EwEFvN8nrzAdjccEXMbCSnWokQAy56/4o3k94s99EFcVkZ3NskG6VNpHAIKmBbcaAFVlbhY0rMNYHIQ1uszY9naNQXMYx4CXy+9dTfb4V3yaq1qOTtAHW/SuM4caIyhLnLAvjTstVCEsw089QDqjCA6fIyMphAzvoTifT6fe/NzyEiKBt64aJ1uNAw7mGaUvctDtZzjzou476YlxEx2eL9pY7KGA21mkRktbRw5ZCV2EkCL972AcCAwEAAaOCAgIwggH+MAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAU/Inn/EN4/+wsw4Soo4DjI0ga1CgwYwYIKwYBBQUHAQEEVzBVMCwGCCsGAQUFBzAChiBodHRwOi8vYy5zay5lZS9PUkdfMjAyMUUuZGVyLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL2FpYS5zay5lZS9vcmcyMDIxZTCBhgYDVR0gBH8wfTAJBgcEAIvsQAEBMAsGCSsGAQQBzh8JATBjBgkrBgEEAc4fBwMwVjBUBggrBgEFBQcCARZIaHR0cHM6Ly93d3cuc2tpZHNvbHV0aW9ucy5ldS9yZXNvdXJjZXMvY2VydGlmaWNhdGlvbi1wcmFjdGljZS1zdGF0ZW1lbnQvMIGABggrBgEFBQcBAwR0MHIwCAYGBACORgEBMBMGBgQAjkYBBjAJBgcEAI5GAQYCMFEGBgQAjkYBBTBHMEUWP2h0dHBzOi8vc2suZWUvZW4vcmVwb3NpdG9yeS9jb25kaXRpb25zLWZvci11c2Utb2YtY2VydGlmaWNhdGVzLxMCZW4wMAYDVR0fBCkwJzAloCOgIYYfaHR0cDovL2Muc2suZWUvc2tfb3JnXzIwMjFlLmNybDAdBgNVHQ4EFgQU4JL9ijfSJ3zX8MDCxM6u/TXRrjEwDgYDVR0PAQH/BAQDAgZAMAoGCCqGSM49BAMDA2kAMGYCMQCNUdqeuT1vB4bYDpPBpFrp1lAqI80ED3y0Mbez2gxh9MvF2dhvLqxXckvboyTRpRQCMQDUIYioRslAcF6Sfd3Tf75EJS/XIcGSDu/ein7G/ZJWDDpaYjxonea7caVhBZlkc/s=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=NL, ST=Flevoland, L=Lelystad, O=Secumail B.V., OID.2.5.4.97=NTRNL-69887594, SERIALNUMBER=69887594, CN=SecuMailer</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4JL9ijfSJ3zX8MDCxM6u/TXRrjE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-06-27T12:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+    </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-84046307"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x1832801" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Z+n2CTzH4SH5qg+/gAo5zbhEUiR/VqcGK4Z7fQzihtc=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1701185299"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>q/Tu6oKmCpezw8PGKSMNjQKvkiiojUlkKcO4cYqu0y4=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>ZuAJ0rqUugyjWWxTXJavv5jAfLcwbRO+oaq38LDvu++gIY/J/0DTkNdlzdXb8UUpPaBHhYoQnp92oBdnXFj4Yj+vxlbOLBHWC71nGJCCsF54n6bDeN1YfqxRZXVnr5Rcx3YmMKA/4Oe42cmgS/xBBPwyseWR949Kq5bAnosGOSq+ofRgTUh3sGMuwrAUZDsDHipyl/Utd5sU0+Zp7qjZj4dY0gGPjfer0fFXq84GFRDqgx43l0No7Wkmfo/kIxS9v4kc+7vhZ/ioqKORHKzlmYnGp62bEbJF8wuwW8q4SuaMRfJ+/lJV0JpcSVufMhNc1FIgCmeVto2kQVtyiToFO6YB+Eq/llcI7QffQbCQTC2jBMu+MCdqqNPjxVaNc+ztN/oty9aEpEmBMJ0fKDa6Vup1fzSE83ZrWvd0q54pbotdsCAVDHDz/1qdPL9ZHKuvP4KpVMIe5agtZ6ECYpSNci59hHg8FRpNmhre5XpVb/WZX/miuRT23DCuWYfX1tziejpWxxafN9eU8nspiz4qZ4RX+rpIw/NIhheXI1D+U24eCEHrifv4Mned6tMXvyusgtfj3bN1W3ySjaBdqXHM2XinU1nk283XUTenc3FauXqTlZCAJaPshqdVXv+njE8I3pka4ccb0//akJb3GxvEjJMGhkvMhogO6xwyW9jLLXQ=</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>sTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFk=</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509SubjectName><ds:X509Certificate>MIIFyjCCA7KgAwIBAgIFFMyAj6UwDQYJKoZIhvcNAQELBQAwaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MB4XDTIzMDEwMTAwMDAwMFoXDTI4MDEwMTAwMDAwMFowaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFkCAwEAAaN7MHkwHQYDVR0OBBYEFISge/8g59F7ILYOZoaJ252V5+8kMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBEGA1UdIAQKMAgwBgYEVR0gADAXBgNVHREEEDAOgQxlaWRhc0ByZGkubmwwEQYDVR0lBAowCAYGBACRNwMAMA0GCSqGSIb3DQEBCwUAA4ICAQB31upkefX2Mty4o8REJ25aIj7kvSPzBfRIFuOrN9wFSzcddLNwIb2XZT55qZdTmXGh+gtipk881yvMQKYgz5g1LwijAJkAe6BlIyXM8XLIR44ktCvu+BWiTXt+mevGnHn65i56TQEpfGLzryl7tXnn3dvv1SowXkraL1piTsC6aPWNMdgmZp5wqHldQYN/Y/MkmMN7bla2TLQGLl7qxVRpZ/QXC/90gKXfxtKCrmVbwF2ezwa5u53bCXdSYqd+1gTCMdbmRYqYkJN1gSlmMtHWmPRtmPDMms/TanQXhkVepz71xfhFiaz310aF8jFhApxqhVCpK01Pd8Crg0LNaF97DeNBbOS6i9L6dDVFjM00vE6AbLaQCcc9XL41cTUoaarGaUkZJf3mOWUFWDrGP7gStyxf8k0a1NpoPCe7UZesqrDiyU4UPxgBVo3XfXXOJLp12GKiHJEGOTSi8dj6JkLQVPLJjU/tVXm9MsGXCH2LSoYeWf9R5l8IviO+qtcvUUP/rEw2uYM3bDxecF8ZNGAE2oL1M1kJQs+GJUKQ/U2nPzrIdQ9icx4Kedr/1sPgYmARNE6MCg+hHIzXqmsgnL6+uMtX290vQOnK2rmBeWESP5RNcXGKMA1dlF/OvEigVC3FXA9FS8tkskF7ls53yCrPhcbgBnztWTXosF0lkXyM7A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-84046307"><xades:SignedProperties Id="SignedProperties-1701185299"><xades:SignedSignatureProperties><xades:SigningTime>2024-06-27T13:46:40.492Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1PnAAOYsn8dPPFwptm41cYpkS4EA7YJsW7jSC2br+Jo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x1832801"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
 </TrustServiceStatusList>
