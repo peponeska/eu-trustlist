@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BG_TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>52</TSLSequenceNumber>
+        <TSLSequenceNumber>53</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Communications Regulation Commission</Name>
@@ -109,9 +109,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-06-05T06:22:49Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-08-01T06:27:58Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2024-12-05T07:22:49Z</dateTime>
+            <dateTime>2025-02-01T07:27:58Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://crc.bg/files/_en/TSL_BG.xml</URI>
@@ -3565,8 +3565,8 @@
 <X509SKI>1eKdarUTUwDOHX2kEboJAxyQW04=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-05-27T21:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>http://esign.bg</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -3586,6 +3586,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">eSign Sep QES CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=eSign Sep QES CA, OU=SEP Bulgaria JSC Qualified QES Authority, OID.2.5.4.97=NTRBG-131107204, O=Sep Bulgaria JSC, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>1eKdarUTUwDOHX2kEboJAxyQW04=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-05-27T21:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -3604,8 +3634,8 @@
 <X509SKI>O62qJMONybWDTHxSaA+W+RZRhCM=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-05-27T21:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://esign.bg</URI>
                         </TSPServiceDefinitionURI>
@@ -3622,6 +3652,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">eSign Sep OCSP</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=OCSP Signer, O=SEP Bulgaria JSC, L=Sofia, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>O62qJMONybWDTHxSaA+W+RZRhCM=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-05-27T21:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -3682,12 +3742,30 @@
 <X509SKI>nwOhsF+xAeeSdU1Wyyg0zt1WPC8=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-12-01T11:03:50Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://esign.bg</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">eSign Sep TSA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=eSign Sep TSA, OID.2.5.4.97=NTRBG-131107204, O=SEP Bulgaria JSC, L=Sofia, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>nwOhsF+xAeeSdU1Wyyg0zt1WPC8=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-12-01T11:03:50Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -4275,12 +4353,32 @@
 <X509SKI>n/DzC4wjRm4ebJ560U5ArREKBHw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.evrotrust.com</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/REM/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Evrotrust QREMS SU</Name>
+<Name xml:lang="en">Qualified Registered Electronic Mail Service (QREMS)</Name>
+<Name xml:lang="bg">Квалифицирана услуга за препоръчан електронен имейл</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>EMAILADDRESS=qrems-ca@rem.evrotrust.com, CN=Evrotrust QREMS SU, O=Evrotrust Technologies JSC, OID.2.5.4.97=NTRBG-203397356, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>n/DzC4wjRm4ebJ560U5ArREKBHw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4301,12 +4399,32 @@
 <X509SKI>Q9mz19iu/ah1Ws+4YDPvbbRRhj4=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.evrotrust.com</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Evrotrust QERDS SU</Name>
+<Name xml:lang="en">Qualified Electronic Registered Delivery Service (QERDS)</Name>
+<Name xml:lang="bg">Квалифицирана услуга за електронна препоръчана поща</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Evrotrust QERDS SU, O=Evrotrust Technologies JSC, OID.2.5.4.97=NTRBG-203397356, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>Q9mz19iu/ah1Ws+4YDPvbbRRhj4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4325,12 +4443,30 @@
 <X509SKI>uVxIG6ZGlI7ZfdO0sS/42zCsIKI=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.evrotrust.com</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Evrotrust Timestamp TSU</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Evrotrust Timestamp TSU, O=Evrotrust Technologies JSC, OID.2.5.4.97=NTRBG-203397356, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>uVxIG6ZGlI7ZfdO0sS/42zCsIKI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4349,8 +4485,8 @@
 <X509SKI>xdoTdoyt/fqe4yuAmUJuxzr3PBw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.evrotrust.com</URI>
                         </TSPServiceDefinitionURI>
@@ -4367,6 +4503,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Evrotrust Qualified Validation Service SU</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Evrotrust Qualified Validation Service SU, O=Evrotrust Technologies JSC, OID.2.5.4.97=NTRBG-203397356, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>xdoTdoyt/fqe4yuAmUJuxzr3PBw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-12-21T03:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4426,8 +4592,8 @@
 <X509SKI>wOe883CbPCP7QiY3WZOqYlep/ls=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-08-23T08:23:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-08-01T07:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -4441,6 +4607,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/PSES/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Evrotrust QPSES SU</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Evrotrust QPSES SU, O=Evrotrust Technologies JSC, OID.2.5.4.97=NTRBG-203397356, C=BG</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>wOe883CbPCP7QiY3WZOqYlep/ls=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-08-23T08:23:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4649,4 +4845,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-43a9d9e71d4266e9968a4ce9e9c6946b"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>m5Oc6cWIb6N0Yyb6CSQ3OMyaTpV0OdnJVFWR0pEOaYE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-43a9d9e71d4266e9968a4ce9e9c6946b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7Gg2Y2Rdam5A01uwgXlgd1UdKx9xQ7dtYLCGnweUk84=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-43a9d9e71d4266e9968a4ce9e9c6946b">equlCvSYTfBW6Bi2ppNHQHnEzSss3iB+MtVll9W5SPxBBsXwOcpu2q7zFajFyizakOqoAM1Be6DE61vcG3ioaOaLeaLz7Lj0XqnftUG7/op75Rm58CeTLl4j6VvNYd3HB/Yd4AwMLg9OhK3p1LtLwsG7BqoguflYyGe+gTHD2ojijjWgwvF28b5NW8zmmWIbgWgsJaK+5nSJfylGqAcT51OIzfE38EkcpWCjBc3eBVPWc72yUY1YoHh6A+iapcOJNbUxhp12whwXpq5CwwSlzePxi9MsxIdw20+q0E2/+jZmh2qoWABkXvQ1f4n4MDkppgz9of/Tdm5Yo6vHCQjsgpHOL72r6T+kB53UpZVOSIpGANzEVpdH7Pzvu1His54asVSu0HpUrYsZhG7XZEMIaa3McvM4UophSTSjRyFE3u2lQ4RQ6Jrkox6hfc/TtpLlNuCRw1KF7JpYam/7PGtyHysWPNeYoLsGP4bYo1iW6F7SLDbj4+SGeIuEapxF3l3Q46zwv3sJnu78GjKU98EHKB6nZTRoo7H0LVv7N9l31Qb563C+prLYSTIURWvclqo3fvrha1Zz5RDn+asmx3s3LQVzaa9Q7HSy6g4254RoqneIBuhmFsArJqtUHaXYSAq8sFZ/nUhX9gGHHXgSc3FbzytPQrh3pkPg7NlFvZD5isA=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-43a9d9e71d4266e9968a4ce9e9c6946b"><xades:SignedProperties Id="xades-id-43a9d9e71d4266e9968a4ce9e9c6946b"><xades:SignedSignatureProperties><xades:SigningTime>2024-06-05T07:00:28Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3c3ce117d18da859d1c5412740beed64"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8zqE74qJF/1Ju17WBAaF0n3CWUk2D4MseFByxdLPhO8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3c3ce117d18da859d1c5412740beed64"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sH4xKgzZENWGnetO0AmhcvjVMEYUiIHQtOxuB8J+Q9w=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3c3ce117d18da859d1c5412740beed64">YXq7DWv/k2nny37MLN7eOOrhO2ZswjsvkI4oK6ochG8T6UjbdZXsBnJ2kPzKRJKAvyJzzfFTEGXUuinUB1SnDm+MlJ9FigAlqMNiRej1enRlXzKh2hl6mVsHKoim8vQ840ZirRIWxmgFJnxxSmszWQ1Z0gBka1hWC0PbWU3aPSR0ofZ03OVhYh1oov+rUdhNC7108hF308juqVf/NEY/vjgzL1k0LCONxEPtCl8IZLWQ5CXh0gKcgywBE5GkFyBt7GLlwH82X7X6WhNLOOYPLIXCEQXLLqLqb09lR11RFlRPK5Jue3UCaUiVyDrUR+Pq2bS+75r/IZWofEJn6oE26vm9rD3hx1ebCeL4nh17nLtfSt0/PY3C61WNJ+H7nXIdUxEMeztUfXfJY8KUiFbkVKiDcbQ87leUBfHL1kJOEwSrKqJhKf3mFmmW3affd8GTG360RbJ7vrE20zoCPgU7pD+wNrwZoGThYX/kkglkI1xO5LeLMETkRqQWH7Zm8OBnBfXXWx50iYODHIXEP+X0Pnr3z87iem5pMhGa68omJGTR5hhQlMdaQxppAPNYAC3ynml+HcuIldI4I1OsgqVe+C6Mom2FLh9Tz08oP7ikzpYH5Bk6ZWnFE+Ie/PcT208C3mseoUl30MgdgByWL5YH2OQ3vu/YEqKQRSBdEhYOs0I=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3c3ce117d18da859d1c5412740beed64"><xades:SignedProperties Id="xades-id-3c3ce117d18da859d1c5412740beed64"><xades:SignedSignatureProperties><xades:SigningTime>2024-08-01T06:46:12Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
