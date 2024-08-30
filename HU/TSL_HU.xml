@@ -4,7 +4,7 @@
 *******************************************************************************
 	Application: TL
 	API:         A2-Polysys CryptoSigno Interop JAVA API v2.6.0 b160
-	Date:        2024. 05. 22. 15:31:03.065 CEST [2024-05-22T13:31:03Z]
+	Date:        2024. 08. 29. 10:36:12.559 CEST [2024-08-29T08:36:12Z]
 *******************************************************************************
 -->
 <tsl:TrustServiceStatusList xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
@@ -13,12 +13,12 @@
 *******************************************************************************
 	Application: TL 5.2.0.2023.02.03.173141
 	API:         A2 TSL API v3.5.4 b20221012
-	Date:        2024. 05. 22. 15:31:02.410 CEST [2024-05-22T13:31:02Z]
+	Date:        2024. 08. 29. 10:36:11.778 CEST [2024-08-29T08:36:11Z]
 *******************************************************************************
 -->
 <tsl:SchemeInformation>
 <tsl:TSLVersionIdentifier>5</tsl:TSLVersionIdentifier>
-<tsl:TSLSequenceNumber>80</tsl:TSLSequenceNumber>
+<tsl:TSLSequenceNumber>81</tsl:TSLSequenceNumber>
 <tsl:TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</tsl:TSLType>
 <tsl:SchemeOperatorName>
 <tsl:Name xml:lang="en">National Media and Infocommunications Authority, Hungary</tsl:Name>
@@ -97,132 +97,6 @@ Qeu6AcdPauWmbxtJV93H46pFptsR8zXo+IJn5m2P9QPZ3mvDkzldNTGLG+ukhN7IF2CCcagt/WoV
 ZLq3qKC35WVcqeoSMEE/XeSrf3/mIJ1OyFQm+tsfhTceOFDXuUgl3E86bR/f8Ur/bapwXpWpFxGI
 pXLGaJXbzQGSTtyNEYrdENlh71I3OeYdw3xmzU2B3tbaWREOXtj2xjyW2tIv+vvHG6sloR1QkIkG
 MFfzsT7W5U6ILetv
-</tsl:X509Certificate>
-</tsl:DigitalId>
-</tsl:ServiceDigitalIdentity>
-<tsl:ServiceDigitalIdentity>
-<tsl:DigitalId><tsl:X509SubjectName>CN=European Commission,O=COMMISSION DE L'UNION EUROPEENNE - COMMISSIE VAN DE EUROPESE UNIE,2.5.4.97=NTRBE-0949383342,OU=DG for Communications Networks\, Content and Technology,C=BE</tsl:X509SubjectName></tsl:DigitalId>
-<tsl:DigitalId><tsl:X509SKI>SiKJPwxZvli51U75EfhdERrDf98=</tsl:X509SKI></tsl:DigitalId>
-<tsl:DigitalId>
-<tsl:X509Certificate>
-MIIHQTCCBSmgAwIBAgIUCowT7Q98oPLpaLF0FnUX3eobcgYwDQYJKoZIhvcNAQELBQAwczELMAkG
-A1UEBhMCQkUxGTAXBgNVBGEMEE5UUkJFLTA1Mzc2OTgzMTgxIDAeBgNVBAoMF1F1b1ZhZGlzIFRy
-dXN0bGluayBCVkJBMScwJQYDVQQDDB5RdW9WYWRpcyBCZWxnaXVtIElzc3VpbmcgQ0EgRzIwHhcN
-MjEwMTIxMDg0ODIzWhcNMjQwMTIxMDg1ODAwWjCB0zELMAkGA1UEBhMCQkUxPzA9BgNVBAsMNkRH
-IGZvciBDb21tdW5pY2F0aW9ucyBOZXR3b3JrcywgQ29udGVudCBhbmQgVGVjaG5vbG9neTEZMBcG
-A1UEYQwQTlRSQkUtMDk0OTM4MzM0MjFKMEgGA1UECgxBQ09NTUlTU0lPTiBERSBMJ1VOSU9OIEVV
-Uk9QRUVOTkUgLSBDT01NSVNTSUUgVkFOIERFIEVVUk9QRVNFIFVOSUUxHDAaBgNVBAMME0V1cm9w
-ZWFuIENvbW1pc3Npb24wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDtD1bnPz0vyI0g
-xH+Ye/UEyssx1TWyXmT2SjX8T0oR36yu+FvEI1YB7q7CGA2JNUxKdOPgFi4MZxj9vOoMwqR1+cbP
-DNzXsdzINLZCDy3mrPt3hfqmijhmqmwwXSQnO2+uDce+BYGXL74oWnqJTc+GT6SjYQMyeXvyff1J
-U4pC+QL53tcpcNf7dO5EJzHAfLDp8HILebtafvWAQA9+Psf3BT/0lHQZ1nqnyMfjBntCBG6/Cj2m
-tM44vldCKtRDdGno7MT5lxTvwoIcEA5Lupbdu9sudHsJT4iOub8QshI3bjHqP7n7q+OsN5RX5X/b
-mIG033j7Yn+DfwCKwE4eKsZHAgMBAAGjggJqMIICZjAfBgNVHSMEGDAWgBSHybwxlxJ6c7t+wD1F
-UbQBJZVRqzB3BggrBgEFBQcBAQRrMGkwOAYIKwYBBQUHMAKGLGh0dHA6Ly90cnVzdC5xdW92YWRp
-c2dsb2JhbC5jb20vcXZiZWNhZzIuY3J0MC0GCCsGAQUFBzABhiFodHRwOi8vdXcub2NzcC5xdW92
-YWRpc2dsb2JhbC5jb20wWgYDVR0gBFMwUTBEBgorBgEEAb5YAYMQMDYwNAYIKwYBBQUHAgEWKGh0
-dHA6Ly93d3cucXVvdmFkaXNnbG9iYWwuY29tL3JlcG9zaXRvcnkwCQYHBACL7EABAzApBgNVHSUE
-IjAgBggrBgEFBQcDAgYIKwYBBQUHAwQGCisGAQQBgjcKAwwwgYsGCCsGAQUFBwEDBH8wfTAVBggr
-BgEFBQcLAjAJBgcEAIvsSQECMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYB
-BgIwOwYGBACORgEFMDEwLxYpaHR0cHM6Ly93d3cucXVvdmFkaXNnbG9iYWwuY29tL3JlcG9zaXRv
-cnkTAmVuMDsGA1UdHwQ0MDIwMKAuoCyGKmh0dHA6Ly9jcmwucXVvdmFkaXNnbG9iYWwuY29tL3F2
-YmVjYWcyLmNybDAdBgNVHQ4EFgQUSiKJPwxZvli51U75EfhdERrDf98wDgYDVR0PAQH/BAQDAgbA
-MBMGCiqGSIb3LwEBCQIEBTADAgEBMDQGCiqGSIb3LwEBCQEEJjAkAgEBhh9odHRwOi8vdHMucXVv
-dmFkaXNnbG9iYWwuY29tL2JlMA0GCSqGSIb3DQEBCwUAA4ICAQCWLVCxzkKy/s+8kRvxCPvTlExl
-WkNGsrhCO+PXsh1UgWMdJCpc33OzL1GegNMSL9f3Hw6gqjXV+mJqtTmvrP1ZvXCagv2LRLeyxSYA
-jlVjwYkaraddydS8Or86OyfA0OIs1UruPe0lClb6rBKwqqx7LvXotk7XvPYQo0HrP57pCqlp4MIi
-NEpGeW3gRwFq8IBQcecO3k009ad+tuTSB5I+o4t/7kEd//6voViy7d/EmlOgUZzXsJ24NV4pFAmy
-c2FlkEvYOqw8YvEsOV2hluvcG3wmkMEF/SY4X+kvpw+Ph7JQdWpWGlozzAFVppkIIrSM2Sxw2QXF
-QZWwah210HiVY0Ax4VkQbRJQNYmFWVizixPONWtc3PIfMz3/TvD9ZbExFfoQzVYXZPmtK2aQjG3C
-H2bJcefvS18YdR169au8yNKsPvlLaRa1k7Qv6Hv8iE3GtQmszDwnQHlGrbxdft306gOFl8/U0cty
-If2YkG6J/uTnYiiibeDoHK6wBo3BfCJQ2X7/Iab3971k1wSCwe39w4x3Xw72HL9E3czRkcfpg+uT
-xt5jSJ7HL7BRdMD34ysjQ4gOV8h6NU4z+QQ3W4sZTQkFqHGHKZKt2dTrCjhE+I1hULvo4274heBr
-/5F0DBAXRi9lHBCBUV5iJDm90bxjHjKuvj893WLEFW3WPkWlRw==
-</tsl:X509Certificate>
-</tsl:DigitalId>
-</tsl:ServiceDigitalIdentity>
-<tsl:ServiceDigitalIdentity>
-<tsl:DigitalId><tsl:X509SubjectName>CN=European Commission,O=COMMISSION DE L'UNION EUROPEENNE - COMMISSIE VAN DE EUROPESE UNIE,2.5.4.97=NTRBE-0949383342,OU=Directorate-General for Informatics,C=BE</tsl:X509SubjectName></tsl:DigitalId>
-<tsl:DigitalId><tsl:X509SKI>LKZ6wdlau0jPfXoLWcbNo2b9UDo=</tsl:X509SKI></tsl:DigitalId>
-<tsl:DigitalId>
-<tsl:X509Certificate>
-MIIHLjCCBRagAwIBAgIUP4a8WPhZN++7VkfYyuAcDGmTglEwDQYJKoZIhvcNAQELBQAwczELMAkG
-A1UEBhMCQkUxGTAXBgNVBGEMEE5UUkJFLTA1Mzc2OTgzMTgxIDAeBgNVBAoMF1F1b1ZhZGlzIFRy
-dXN0bGluayBCVkJBMScwJQYDVQQDDB5RdW9WYWRpcyBCZWxnaXVtIElzc3VpbmcgQ0EgRzIwHhcN
-MjEwMTIxMDg0ODM4WhcNMjQwMTIxMDg1ODAwWjCBwDELMAkGA1UEBhMCQkUxLDAqBgNVBAsMI0Rp
-cmVjdG9yYXRlLUdlbmVyYWwgZm9yIEluZm9ybWF0aWNzMRkwFwYDVQRhDBBOVFJCRS0wOTQ5Mzgz
-MzQyMUowSAYDVQQKDEFDT01NSVNTSU9OIERFIEwnVU5JT04gRVVST1BFRU5ORSAtIENPTU1JU1NJ
-RSBWQU4gREUgRVVST1BFU0UgVU5JRTEcMBoGA1UEAwwTRXVyb3BlYW4gQ29tbWlzc2lvbjCCASIw
-DQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMCq40SQWaqRkbc5nsdPjLKyxghYzBLJCmeN3/nd
-D5mMzhy9tsP8WOpsfi8CnMD5tasEEmS5Fj73DQ+sL9PIyfmLzBJVhuCyzwKpDiFAhAa+ec/LTyVR
-a6+oCh918ZUcPDVXpCtGA3t6WS0pCgrIJNkZequ2yIWUZxiyVOACYmkxmWhWnGe7LRaLv80PCI0Q
-ERL2BzV+mKb2tQylUphPPI8hd9LG9EwCvSSXv0tb4rK1C+lIcxuYsui7dNyfw9UHDBnuI5452c3O
-18N5+GSI9uiEmOI8s++fbubn61RskePhk3ISURPGIAeDKV9pCZezBGysq5IlNkC1C4AtYS2eKFcC
-AwEAAaOCAmowggJmMB8GA1UdIwQYMBaAFIfJvDGXEnpzu37APUVRtAEllVGrMHcGCCsGAQUFBwEB
-BGswaTA4BggrBgEFBQcwAoYsaHR0cDovL3RydXN0LnF1b3ZhZGlzZ2xvYmFsLmNvbS9xdmJlY2Fn
-Mi5jcnQwLQYIKwYBBQUHMAGGIWh0dHA6Ly91dy5vY3NwLnF1b3ZhZGlzZ2xvYmFsLmNvbTBaBgNV
-HSAEUzBRMEQGCisGAQQBvlgBgxAwNjA0BggrBgEFBQcCARYoaHR0cDovL3d3dy5xdW92YWRpc2ds
-b2JhbC5jb20vcmVwb3NpdG9yeTAJBgcEAIvsQAEDMCkGA1UdJQQiMCAGCCsGAQUFBwMCBggrBgEF
-BQcDBAYKKwYBBAGCNwoDDDCBiwYIKwYBBQUHAQMEfzB9MBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIw
-CAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjA7BgYEAI5GAQUwMTAvFilo
-dHRwczovL3d3dy5xdW92YWRpc2dsb2JhbC5jb20vcmVwb3NpdG9yeRMCZW4wOwYDVR0fBDQwMjAw
-oC6gLIYqaHR0cDovL2NybC5xdW92YWRpc2dsb2JhbC5jb20vcXZiZWNhZzIuY3JsMB0GA1UdDgQW
-BBQspnrB2Vq7SM99egtZxs2jZv1QOjAOBgNVHQ8BAf8EBAMCBsAwEwYKKoZIhvcvAQEJAgQFMAMC
-AQEwNAYKKoZIhvcvAQEJAQQmMCQCAQGGH2h0dHA6Ly90cy5xdW92YWRpc2dsb2JhbC5jb20vYmUw
-DQYJKoZIhvcNAQELBQADggIBACGQDYsjrM3nsKSpiW1SqzBlZOkvuiphSLNhv5o5V1W+maYLtXYH
-/fMadrP0+K2X5XB5e+8yMw4Sbrvxv4LRR/CQ2WX03KjYGcqdcIUAH+A/8phwA7eLyKd3ip8k8ukT
-9kUKMJxbqVR5O8x2vOlAM9VFirOenOI+MufFDSaNKIJKt+PDhcSxDyzjs2MRKHAJcTCs23T8fB6+
-Qvw3uKUgniVg4MTLFvWpL8bvMXX7QUyvsScskUCns918hHA4Ett7fxdWXJFFJuuculChJIf8jbXZ
-Q/8SAoecPyADnJw0C4uGNI/zc9/DWqMSMMytFwGeOpQb0/pukdmNe3sai8SUQj4+vyhkCHKMD27c
-ak9buDO7cu5yhKEuLCERTga2QvbGSeiFAa6KuyPGY1Ad9AOuz5KPyyfVG0h31FvNL0MnAib1IpZr
-7mPQgWOsEX9ipgQXoE2Rh11yydTiKwmyTTrp/uMOJp+6UD06IdgPkHmqnqaKkqzGu6RKiHLqYWX5
-qhWXt0EatHQ0YY+92B03cDTLMgjPHKY+wN6qPfetz0oQNmort+G2HIXb9P+Q43sqMjXpQY/I3YmM
-0VBmcYWUon11BOavnGGOCVVPBQFKU6Kt7r69li1CmfA7KgK7Jn2o/jb8BupWUPGej++MkkrFDS0T
-6tmNH9ZDteyO3dSyOcl1IHcs
-</tsl:X509Certificate>
-</tsl:DigitalId>
-</tsl:ServiceDigitalIdentity>
-<tsl:ServiceDigitalIdentity>
-<tsl:DigitalId><tsl:X509SubjectName>CN=APOSTOLOS APLADAS,OU=RemoteQSCDManagement,GIVENNAME=APOSTOLOS,SURNAME=APLADAS,EMAILADDRESS=apostolos.apladas@ec.europa.eu,OU=Entitlement - EC STATUTORY STAFF,O=EUROPEAN COMMISSION,2.5.4.97=LEIXG-254900ZNYA1FLUQ9U393,OU=Certificate Profile - Qualified Certificate - Member,C=GR</tsl:X509SubjectName></tsl:DigitalId>
-<tsl:DigitalId><tsl:X509SKI>TK7kKcckq1yO29zWWVbTXsoQDNs=</tsl:X509SKI></tsl:DigitalId>
-<tsl:DigitalId>
-<tsl:X509Certificate>
-MIIH8DCCBdigAwIBAgIUAqEFRGIiNgocV6sZ4jm3XSys6YowDQYJKoZIhvcNAQENBQAwXzELMAkG
-A1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbDEkMCIG
-A1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENBIEcxMB4XDTIxMDkzMDE4NTYxN1oXDTI0MDUx
-MDE4NTYxN1owggFKMQswCQYDVQQGEwJHUjE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAt
-IFF1YWxpZmllZCBDZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5Z
-QTFGTFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsMIEVudGl0
-bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMS0wKwYJKoZIhvcNAQkBFh5hcG9zdG9sb3MuYXBs
-YWRhc0BlYy5ldXJvcGEuZXUxEDAOBgNVBAQMB0FQTEFEQVMxEjAQBgNVBCoMCUFQT1NUT0xPUzEd
-MBsGA1UECwwUUmVtb3RlUVNDRE1hbmFnZW1lbnQxGjAYBgNVBAMMEUFQT1NUT0xPUyBBUExBREFT
-MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsARkOHMiUr+4vsKLAoiP6X4tHeVs0Y59
-wqRdYwAg+ebeb0ubiNmGzGDMxeunvk8BwJEWnu2Qi+yzTrcbpPhNPTJam1PyhIzxRnbETM27JjrC
-5AyKHsQ29SbuBJA0cnh36HIetOzLoo23PCfaOBKvSQw+HAJecw5XsEE+YWC+tuBDgRFTVnxobUpG
-JMcvmmztLdo3SCjvuRTuCRNJEmBDY0WhmK9A98bUFgWir0KDVgP8h1plkZi33pL7Rv/104OQwE8Q
-4cDq8TCZqZ6xYNlDx6eTZcwzVLniwvds+EhAJhqgkTL7m56r4qkfiFgozy8RdP0gheb8Ob/EyYNF
-fVW/YQIDAQABo4ICtTCCArEwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRzSfFAHBQEfJoSf/ov
-zVxnIxjpFDCBhAYIKwYBBQUHAQEEeDB2MEUGCCsGAQUFBzAChjlodHRwOi8vcWNhLWcxLmRpZ2l0
-YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5wN2IwLQYIKwYBBQUHMAGGIWh0dHA6
-Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvb2NzcDApBgNVHREEIjAggR5hcG9zdG9sb3MuYXBsYWRh
-c0BlYy5ldXJvcGEuZXUwXgYDVR0gBFcwVTA2BgsrBgEEAYHHfAQBATAnMCUGCCsGAQUFBwIBFhlo
-dHRwOi8vcGtpLmRpZ2l0YWxzaWduLnB0MBAGDisGAQQBgcd8BAIBAQEEMAkGBwQAi+xAAQIwHQYD
-VR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEoGA1UdHwRDMEEwP6A9oDuGOWh0dHA6Ly9xY2Et
-ZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFMSUZJRURDQUcxLmNybDAdBgNVHQ4EFgQU
-TK7kKcckq1yO29zWWVbTXsoQDNswDgYDVR0PAQH/BAQDAgZAMIHTBggrBgEFBQcBAwSBxjCBwzAI
-BgYEAI5GAQEwCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMGoGBgQAjkYBBTBgMC4WKGh0
-dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19wdC5wZGYTAnB0MC4WKGh0dHBzOi8vcWNh
-LWcxLmRpZ2l0YWxzaWduLnB0L1BEU19lbi5wZGYTAmVuMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQEw
-FQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0BAQ0FAAOCAgEAJu2ay08mPKn2pS/Mc96o
-RLsQxEAlx7baADy3Pe9p1DBdmXXDkuTCLH4P2ALzrPRRlgrTnQ5w7ORxnZw6pNZyBj/d3yQutsLl
-kJnjmxBhR76eqgGft/+l4eiwRUPyUi01KSCaLSf1mYocvgJgmjdQljpoeOeb6n7Ua8tY7aflWPgI
-7o8tbTLyMSb4Lh2ZcYqTgV65ZxHD6IfWu1/m7GzKeTLE1+lNJxjjLRgkloQHUAe8bKyugMJW21i1
-PELrhSp1LUie5Yknq/F2lN7bl9AK+cAWDfxUQhtq3EI3gkkn3Nd80sTbua0cn9GNWpSJhd82/fiC
-gHEoOl9LqWpRJ567RffnYrmvdY5HwzB4UmDWsFAVUKsBwpbl22S2zL9/+yDIYdW6Jw7jXCQqFenS
-DD49PK1wb/Ciq6zRs3SsKYI/aXLD98m/My7s1E8+x35zwy3TxGU48HZCc4/hquYdml9LPahdGomy
-xTHiKTAgGPAynB9Ym+Hx4DRSmUINExRZWA9FEH/2F8B9BealgjydlNDB/+5HIhP59YU0tG0IgS5I
-rEJ49ESIPov1NiUQlalNPQp8xLyu+TmTIZ3n43bcdoJofb8AFawB2jkDCSdz8flikPlhdS336hWM
-rm6G38RsKu/XpXyyK05+UeLpeYu2YOutn7bUVKlyWLZsaS59kwaIibY=
 </tsl:X509Certificate>
 </tsl:DigitalId>
 </tsl:ServiceDigitalIdentity>
@@ -407,6 +281,95 @@ c1jFudjehflAbm1IZAYdDNrhXamnsRVsz7iSH20eygCArlwSQ//WIQZPFrRffg==
 </tsl:X509Certificate>
 </tsl:DigitalId>
 </tsl:ServiceDigitalIdentity>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SubjectName>CN=APOSTOLOS APLADAS,OU=RemoteQSCDManagement,GIVENNAME=APOSTOLOS,SURNAME=APLADAS,EMAILADDRESS=apostolos.apladas@ec.europa.eu,OU=Entitlement - EC STATUTORY STAFF,O=EUROPEAN COMMISSION,2.5.4.97=LEIXG-254900ZNYA1FLUQ9U393,OU=Certificate Profile - Qualified Certificate - Member,C=GR</tsl:X509SubjectName></tsl:DigitalId>
+<tsl:DigitalId><tsl:X509SKI>cb+bDh51j+1POti77z5SnsuBbIY=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIH9DCCBdygAwIBAgIUYymXhglnqt2gI4PHVh4juzinht8wDQYJKoZIhvcNAQENBQAwXzELMAkG
+A1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbDEkMCIG
+A1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENBIEcxMB4XDTI0MDQyNjEyNDkyMloXDTI3MDQy
+NjEyNDkyMlowggFKMQswCQYDVQQGEwJHUjE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAt
+IFF1YWxpZmllZCBDZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5Z
+QTFGTFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsMIEVudGl0
+bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMS0wKwYJKoZIhvcNAQkBFh5hcG9zdG9sb3MuYXBs
+YWRhc0BlYy5ldXJvcGEuZXUxEDAOBgNVBAQMB0FQTEFEQVMxEjAQBgNVBCoMCUFQT1NUT0xPUzEd
+MBsGA1UECwwUUmVtb3RlUVNDRE1hbmFnZW1lbnQxGjAYBgNVBAMMEUFQT1NUT0xPUyBBUExBREFT
+MIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAsILa9o3bgz0l/dR1R01MhItrd6BLkxak
+Jxlqpnlc1hhT8R3uYGvSVwfsmjQei/YkbjMoNzakjo4voPhUIJBa907TJLGwZSghfkp0+vcg4yeC
+LodAQatG7iEsh5Fr5uZgwPpLXExil0234QRcw7kJsI4k7wd7YvXAj1kv5zLTFo6sOr8ZF9km2rU1
+7gbdZisIH3/uR+JHkkhbljm+MspETNN+Nva7duhkz14llh/EJryTEPQLAdsgz+cRkBkyLQ1YYS6i
+R3pifrsMvXzHYlwJY9AzPNd3c0BS2Ov05kB6tRyOka+6MREWY9aU22K/Q0anyrNCns5N/UXs589T
+wrWp0QIDAQABo4ICuTCCArUwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRzSfFAHBQEfJoSf/ov
+zVxnIxjpFDCBhgYIKwYBBQUHAQEEejB4MEYGCCsGAQUFBzAChjpodHRwczovL3FjYS1nMS5kaWdp
+dGFsc2lnbi5wdC9ESUdJVEFMU0lHTlFVQUxJRklFRENBRzEucDdiMC4GCCsGAQUFBzABhiJodHRw
+czovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9vY3NwMCkGA1UdEQQiMCCBHmFwb3N0b2xvcy5hcGxh
+ZGFzQGVjLmV1cm9wYS5ldTBfBgNVHSAEWDBWMDcGCysGAQQBgcd8BAEBMCgwJgYIKwYBBQUHAgEW
+Gmh0dHBzOi8vcGtpLmRpZ2l0YWxzaWduLnB0MBAGDisGAQQBgcd8BAIBAQEEMAkGBwQAi+xAAQIw
+HQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMEsGA1UdHwREMEIwQKA+oDyGOmh0dHBzOi8v
+cWNhLWcxLmRpZ2l0YWxzaWduLnB0L0RJR0lUQUxTSUdOUVVBTElGSUVEQ0FHMS5jcmwwHQYDVR0O
+BBYEFHG/mw4edY/tTzrYu+8+Up7LgWyGMA4GA1UdDwEB/wQEAwIGQDCB0wYIKwYBBQUHAQMEgcYw
+gcMwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBqBgYEAI5GAQUwYDAu
+FihodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9QRFNfcHQucGRmEwJwdDAuFihodHRwczov
+L3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9QRFNfZW4ucGRmEwJlbjAVBggrBgEFBQcLAjAJBgcEAIvs
+SQEBMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQIwDQYJKoZIhvcNAQENBQADggIBALUt37pV7w5ZwRxB
+B5PdTGTC+XcWytkuyuRJlVu+hVD5yVC2E+4+EPB2mRUzkjeE2M/3iMpzdwaNHe2YU9lCkoUFtD7V
+LIEdilfGO0MnXde2BAQN1VAt0s8xLwr3DNATsrtYPbtkQ73WCNqQwuNlg4LCFXHHpzvsKzYmYz+h
+YgkA8daRZRJdnZx/eX05iYFtShbbz8VamNb+A1L/KmqSrt5iG8d9SLSSq9SbNrntxSLaYDJfOITj
+hW5KOwlXBJPA+sQDYPngHur1nLWUJg6QB8fo/YwMOTmyIciurp8QzktxfJU1wSZEpd/xZKoDWVDN
+jJa8p0RFbQs/l7DpP/s57p8PKcntDOvQkYCajpRFLKl/69gKdVkB6nOKHFQCTmAeCDapWsI9+jPC
+nriywN60ep+MMqedZ/lV8LecbJ/1E+kw6PhC6Rs4MlwmHHCe6BB/9oTK7SWW/CtIZh8ygtJ0+5Jl
+DS/83b0F0JdnZUV2qhlZJlVOROcQljcWs7kYS8vWAqBbccAhYNpaaUh1rnKGqo2jpOo5HXhgSVHN
+RrC+CylNNDUGAhpgPsAD93ui6JQCjdlSzDkraWZA/GtmdpId0b7IR6HfRBs/QzeA4Rj7ChMMOFxD
+ZPp2t6kEyPb1UOshC79fmoNRkBxmGKqMCPakQiiUoIg/BkLIUVYClIoQ8zsk
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SubjectName>CN=VICENTE ANDREU NAVARRO,OU=RemoteQSCDManagement,GIVENNAME=VICENTE,SURNAME=ANDREU NAVARRO,EMAILADDRESS=vicente.andreu-navarro@ec.europa.eu,OU=Entitlement - EC STATUTORY STAFF,O=EUROPEAN COMMISSION,2.5.4.97=LEIXG-254900ZNYA1FLUQ9U393,OU=Certificate Profile - Qualified Certificate - Member,C=ES</tsl:X509SubjectName></tsl:DigitalId>
+<tsl:DigitalId><tsl:X509SKI>jueweY4PI0KGjetMh84vTsEnxQc=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIICDCCBfCgAwIBAgIUSOnGJxOHWc5N+Nk12eZPPCwr7ZYwDQYJKoZIhvcNAQENBQAwXzELMAkG
+A1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbDEkMCIG
+A1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENBIEcxMB4XDTI0MDUwNjEyNDUxNloXDTI3MDUw
+NjEyNDUxNlowggFZMQswCQYDVQQGEwJFUzE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAt
+IFF1YWxpZmllZCBDZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5Z
+QTFGTFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsMIEVudGl0
+bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMTIwMAYJKoZIhvcNAQkBFiN2aWNlbnRlLmFuZHJl
+dS1uYXZhcnJvQGVjLmV1cm9wYS5ldTEXMBUGA1UEBAwOQU5EUkVVIE5BVkFSUk8xEDAOBgNVBCoM
+B1ZJQ0VOVEUxHTAbBgNVBAsMFFJlbW90ZVFTQ0RNYW5hZ2VtZW50MR8wHQYDVQQDDBZWSUNFTlRF
+IEFORFJFVSBOQVZBUlJPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveJV7goW3mvq
+Jq2kMT0cnrkFAnT/lyzbgaHVvd5jEMHy6RyoI1Af4JTlOWSjC+6fsNzApFR1Tv3w8/WuSgjHTWfD
+npqs20iJh979A5WwvfXuzcuUqeFFptdR/tJm/08TsTAD+CeA+rQo6K23B1xMYRwX/BNt/EL03Q/T
+OQj5V4uV3Kyf0945yu5gOhmrMs/RZCZ8M+iahwTaVktf+ZvhocSsPt+a2OuPI8IpTU+xIWAXWuQ+
+27Q7zzD0d6sqBdruDr16clFtZXWNRikm9q6pCOAOKG/myszeUuy++TPtQnI3+OQlTuyDXsz9UNKb
+oQCF2SNmfRoeBxcx02tS/zUgPwIDAQABo4ICvjCCArowDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAW
+gBRzSfFAHBQEfJoSf/ovzVxnIxjpFDCBhgYIKwYBBQUHAQEEejB4MEYGCCsGAQUFBzAChjpodHRw
+czovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9ESUdJVEFMU0lHTlFVQUxJRklFRENBRzEucDdiMC4G
+CCsGAQUFBzABhiJodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9vY3NwMC4GA1UdEQQnMCWB
+I3ZpY2VudGUuYW5kcmV1LW5hdmFycm9AZWMuZXVyb3BhLmV1MF8GA1UdIARYMFYwNwYLKwYBBAGB
+x3wEAQEwKDAmBggrBgEFBQcCARYaaHR0cHM6Ly9wa2kuZGlnaXRhbHNpZ24ucHQwEAYOKwYBBAGB
+x3wEAgEBAQQwCQYHBACL7EABAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwSwYDVR0f
+BEQwQjBAoD6gPIY6aHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFM
+SUZJRURDQUcxLmNybDAdBgNVHQ4EFgQUjueweY4PI0KGjetMh84vTsEnxQcwDgYDVR0PAQH/BAQD
+AgZAMIHTBggrBgEFBQcBAwSBxjCBwzAIBgYEAI5GAQEwCAYGBACORgEEMBMGBgQAjkYBBjAJBgcE
+AI5GAQYBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19w
+dC5wZGYTAnB0MC4WKGh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19lbi5wZGYTAmVu
+MBUGCCsGAQUFBwsCMAkGBwQAi+xJAQEwFQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0B
+AQ0FAAOCAgEAHBjW4N8NKNCiJot414m/L76pB/15LKiGDi1/2V7MHe8u2GcplR1IjESrSEhhwUAW
+1hwDIK9xJrJ/hdDUMIQcKScSiJCqTCb0Yk39yj/gfOYaN/3fqw8Pjh9k++3Ox7KnvY3R/foFvGJl
+yiuqaai/JgBmc4qDBHSIDyo5gRw6v70osRPDR5sJs4Xh3FOJn9Y0JZPLF/skYtLrNVysL/4A4bbA
+xB2DcJ5MpoIegh/fnJ5s2BOVq2Xq8ADpeJoLFYbtlbP7NwsGgew2wKiDW963MlJL/Xa2AqcPVE/U
+nXFkIBCwZH+covxSEQH2iVcF8cEDHBiYHGERaSmL/uHK/F8soDO9VQwtKNxsiIKAWsQHTYcKfEgV
+uweyLj7TsCmh6T4pIHqaNDqWvrgEIo0ZwuBmfXVEd+JMSzSgIcJ2bPR2KNoJ14MO4FFYdAAnVlfd
+hipErsK6R23hlto7b3XKiMRUt9xrvPUjuEJdGI5hPm9CqGK1GxlRoKLewyX7A+OIcPMPu1KfuuUT
+Un+3hLJJZO5H9k4uVMJ/FOhwzc2VhRpyvNjfmFZksFvseFGvMl5EWIqp3JCo0ItkOBG59ulBwg/9
+9Y0pT6LW9cviTzKIwDtHmQrIgYLa+lCYwWdGhIidXynvLpWiVRZJvYrPIGpzQCRcw9V2i8zT7nks
+j7QF9v88kto=
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
 </tsl:ServiceDigitalIdentities>
 <tsl:TSLLocation>https://ec.europa.eu/tools/lotl/eu-lotl.xml</tsl:TSLLocation>
 <tsl:AdditionalInformation xmlns:tslx="http://uri.etsi.org/02231/v2/additionaltypes#">
@@ -433,8 +396,8 @@ c1jFudjehflAbm1IZAYdDNrhXamnsRVsz7iSH20eygCArlwSQ//WIQZPFrRffg==
 </tsl:AdditionalInformation>
 </tsl:OtherTSLPointer>
 </tsl:PointersToOtherTSL>
-<tsl:ListIssueDateTime>2024-05-22T14:00:00Z</tsl:ListIssueDateTime>
-<tsl:NextUpdate><tsl:dateTime>2024-09-29T22:00:00Z</tsl:dateTime></tsl:NextUpdate>
+<tsl:ListIssueDateTime>2024-08-09T09:00:00Z</tsl:ListIssueDateTime>
+<tsl:NextUpdate><tsl:dateTime>2024-10-10T09:00:00Z</tsl:dateTime></tsl:NextUpdate>
 <tsl:DistributionPoints>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.xml</tsl:URI>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.pdf</tsl:URI>
@@ -5178,6 +5141,84 @@ JEnkCADaJDLR7VqsuKl9NzsA1dNfv4bl+BsPRQ==
 <AdditionalServiceInformation xmlns="http://uri.etsi.org/02231/v2#">
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
+</tsl:Extension>
+</tsl:ServiceInformationExtensions>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/PSES/Q</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">Microsec zrt. - e-Szignó Archívum bélyegző 2024 01</tsl:Name>
+<tsl:Name xml:lang="hu">Microsec zrt. - e-Szignó Archívum bélyegző 2024 01</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>fqaFfPbRTCkpEcf5ng+P6nnrRzs=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIIxjCCCG2gAwIBAgIOAm+CymMFcML83qn7+AowCgYIKoZIzj0EAwIwejELMAkGA1UEBhMCSFUx
+ETAPBgNVBAcMCEJ1ZGFwZXN0MRYwFAYDVQQKDA1NaWNyb3NlYyBMdGQuMRcwFQYDVQRhDA5WQVRI
+VS0yMzU4NDQ5NzEnMCUGA1UEAwweZS1Temlnbm8gUXVhbGlmaWVkIFFDUCBDQSAyMDE3MB4XDTI0
+MDMwMTE0MzY0N1oXDTI3MDMwMTE0MzY0N1owgdoxCzAJBgNVBAYTAkhVMREwDwYDVQQHDAhCdWRh
+cGVzdDEWMBQGA1UECgwNTWljcm9zZWMgenJ0LjEXMBUGA1UEYQwOVkFUSFUtMjM1ODQ0OTcxPzA9
+BgNVBAMMNk1pY3Jvc2VjIHpydC4gLSBlLVN6aWduw7MgQXJjaMOtdnVtIGLDqWx5ZWd6xZEgMjAy
+NCAwMTEfMB0GCSqGSIb3DQEJARYQaW5mb0BtaWNyb3NlYy5odTElMCMGA1UEBRMcMS4zLjYuMS40
+LjEuMjE1MjguMi4zLjIuOTIzMTBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABNGTOtF1kx387MfL
+gMRLhxealCaoSUx/jOul3Gt4yJSl1msBzpNdWBtr5xYMk1c3myKbGmEIHj5frBtsIkT1nzCjggZ0
+MIIGcDAOBgNVHQ8BAf8EBAMCBkAwFQYDVR0lBA4wDAYKKwYBBAGCNwoDDDCCAi0GA1UdIASCAiQw
+ggIgMIICEQYNKwYBBAGBqBgCAQGBNzCCAf4wJgYIKwYBBQUHAgEWGmh0dHA6Ly9jcC5lLXN6aWdu
+by5odS9xY3BzMIGiBggrBgEFBQcCAjCBlQyBklF1YWxpZmllZCBjZXJ0aWZpY2F0ZSBmb3IgZWxl
+Y3Ryb25pYyBzZWFsIChCcm9uemUpLiBUaGUgcHJvdmlkZXIgcHJlc2VydmVzIHJlZ2lzdHJhdGlv
+biBkYXRhIGZvciAxMCB5ZWFycyBhZnRlciB0aGUgZXhwaXJhdGlvbiBvZiB0aGUgY2VydGlmaWNh
+dGUuMD8GCCsGAQUFBwICMDMMMVRoZSBzdWJqZWN0IG9mIHRoZSBjZXJ0aWZpY2F0ZSBpcyBhIGxl
+Z2FsIHBlcnNvbi4wgbcGCCsGAQUFBwICMIGqDIGnRWxla3Ryb25pa3VzIGLDqWx5ZWd6xZEgbWlu
+xZFzw610ZXR0IHRhbsO6c8OtdHbDoW55YSAoQnJvbnopLiBBIHJlZ2lzenRyw6FjacOzcyBhZGF0
+b2thdCBhIHN6b2xnw6FsdGF0w7MgYSB0YW7DunPDrXR2w6FueSBsZWrDoXJ0w6F0w7NsIHN6w6Ft
+w610b3R0IDEwIMOpdmlnIMWRcnppIG1lZy4wNAYIKwYBBQUHAgIwKAwmQSB0YW7DunPDrXR2w6Fu
+eSBhbGFueWEgam9naSBzemVtw6lseS4wCQYHBACL7EABATAdBgNVHQ4EFgQUfqaFfPbRTCkpEcf5
+ng+P6nnrRzswHwYDVR0jBBgwFoAUB/YswgNDX3ZnF7ekgYeazEUwfd4wNgYDVR0RBC8wLYEQaW5m
+b0BtaWNyb3NlYy5odaAZBggrBgEFBQcIA6ANMAsGCSsGAQQBgagYAjCBtgYDVR0fBIGuMIGrMDeg
+NaAzhjFodHRwOi8vZXFjcGNhMjAxNy1jcmwxLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3JsMDeg
+NaAzhjFodHRwOi8vZXFjcGNhMjAxNy1jcmwyLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3JsMDeg
+NaAzhjFodHRwOi8vZXFjcGNhMjAxNy1jcmwzLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3JsMIIC
+TwYIKwYBBQUHAQEEggJBMIICPTAvBggrBgEFBQcwAYYjaHR0cDovL2VxY3BjYTIwMTctb2NzcDEu
+ZS1zemlnbm8uaHUwLwYIKwYBBQUHMAGGI2h0dHA6Ly9lcWNwY2EyMDE3LW9jc3AyLmUtc3ppZ25v
+Lmh1MC8GCCsGAQUFBzABhiNodHRwOi8vZXFjcGNhMjAxNy1vY3NwMy5lLXN6aWduby5odTA8Bggr
+BgEFBQcwAoYwaHR0cDovL2VxY3BjYTIwMTctY2ExLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3J0
+ME4GCCsGAQUFBzAChkJodHRwOi8vZXFjcGNhMjAxNy1jYTEuZS1zemlnbm8uaHUvZXFjcGNhMjAx
+Ny1saW5rLWtneWhzemNhMjAwOS5jcnQwPAYIKwYBBQUHMAKGMGh0dHA6Ly9lcWNwY2EyMDE3LWNh
+Mi5lLXN6aWduby5odS9lcWNwY2EyMDE3LmNydDBOBggrBgEFBQcwAoZCaHR0cDovL2VxY3BjYTIw
+MTctY2EyLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTctbGluay1rZ3loc3pjYTIwMDkuY3J0MDwGCCsG
+AQUFBzAChjBodHRwOi8vZXFjcGNhMjAxNy1jYTMuZS1zemlnbm8uaHUvZXFjcGNhMjAxNy5jcnQw
+TgYIKwYBBQUHMAKGQmh0dHA6Ly9lcWNwY2EyMDE3LWNhMy5lLXN6aWduby5odS9lcWNwY2EyMDE3
+LWxpbmsta2d5aHN6Y2EyMDA5LmNydDCBkQYIKwYBBQUHAQMEgYQwgYEwCAYGBACORgEBMAsGBgQA
+jkYBAwIBCjBTBgYEAI5GAQUwSTAkFh5odHRwczovL2NwLmUtc3ppZ25vLmh1L3FjcHNfZW4TAmVu
+MCEWG2h0dHBzOi8vY3AuZS1zemlnbm8uaHUvcWNwcxMCaHUwEwYGBACORgEGMAkGBwQAjkYBBgIw
+CgYIKoZIzj0EAwIDRwAwRAIgS3EUzkay2NCPhYSrtzQtGRPs4t23ZjhOJCiQOx4T2WICIFyk5S12
+QtTLYuHM4eOua7A4LDvXLE4ZEnrwu1+Hdgl4
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2024-08-29T22:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>https://archivmail.e-szigno.hu/arupload</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>https://archivum.e-szigno.hu/menu</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+<tsl:TSPServiceDefinitionURI>
+<tsl:URI xml:lang="en">https://e-szigno.hu/archiving</tsl:URI>
+<tsl:URI xml:lang="hu">https://e-szigno.hu/archivalas</tsl:URI>
+</tsl:TSPServiceDefinitionURI>
+<tsl:ServiceInformationExtensions>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</tsl:URI>
+</tsl:AdditionalServiceInformation>
 </tsl:Extension>
 </tsl:ServiceInformationExtensions>
 </tsl:ServiceInformation>
@@ -18254,6 +18295,106 @@ VYA7Ju0KO04GwgrrHLJ2YBjE6CwiVUou/yyMuS5BOkqCkque/QoflubvBWGLeg==
 </tsl:TSPService>
 <tsl:TSPService>
 <tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">NETLOCK Trust Advanced ECC CA</tsl:Name>
+<tsl:Name xml:lang="hu">NETLOCK Trust Advanced ECC CA</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>JFVn5TYv3RMUd8G/JPa4yz5Wv2c=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDszCCAzqgAwIBAgIOZJLrhAAjUgQbeSoc9PkwCgYIKoZIzj0EAwMwbjELMAkGA1UEBhMCSFUx
+ETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQKDAxORVRMT0NLIEtmdC4xHDAaBgNVBAMME05FVExP
+Q0sgUm9vdCBFQ0MgQ0ExFzAVBgNVBGEMDlZBVEhVLTEyMjAxNTIxMB4XDTI0MDUyNzA5MjU1MFoX
+DTM0MDUyNTA5MjU1MFoweDELMAkGA1UEBhMCSFUxETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQK
+DAxORVRMT0NLIEtmdC4xJjAkBgNVBAMMHU5FVExPQ0sgVHJ1c3QgQWR2YW5jZWQgRUNDIENBMRcw
+FQYDVQRhDA5WQVRIVS0xMjIwMTUyMTB2MBAGByqGSM49AgEGBSuBBAAiA2IABEQ31jCmx9TD8xNO
+AHdGzs9N+ezW7C4aMmNztu3o3nTHjwg9FqZ1/6sZlw4DvmNCTQ2mnt+b6yF5AubA4We1ogjquDQK
+WdqEbjeUuRzzsYNSnQUGoCujKGrM7NVBm/rSgaOCAZMwggGPMA8GA1UdEwEB/wQFMAMBAf8wDgYD
+VR0PAQH/BAQDAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMCBggrBgEFBQcDBDAfBgNVHSMEGDAWgBTK
+n8yI81T2tII6wHyk7yLPjv3u0TAdBgNVHQ4EFgQUJFVn5TYv3RMUd8G/JPa4yz5Wv2cwQgYDVR0f
+BDswOTA3oDWgM4YxaHR0cDovL2NybC5lY2MubmV0bG9jay5odS9pbmRleC5jZ2k/Y3JsPXJvb3Rl
+Y2NjYTCBggYIKwYBBQUHAQEEdjB0MDQGCCsGAQUFBzABhihodHRwOi8vb2NzcC5lY2MubmV0bG9j
+ay5odS9yb290ZWNjY2EuY2dpMDwGCCsGAQUFBzAChjBodHRwOi8vYWlhLmVjYy5uZXRsb2NrLmh1
+L2luZGV4LmNnaT9jYT1yb290ZWNjY2EwRAYDVR0gBD0wOzA5BgRVHSAAMDEwLwYIKwYBBQUHAgEW
+I2h0dHA6Ly93d3cubmV0bG9jay5odS9odG1sL2Rvay5odG1sMAoGCCqGSM49BAMDA2cAMGQCMAol
+CdvvqYxl4IeouXKdFx1X13Pp9ApbJRiikmPrBKaFfe7S3LO6EkcB+91P/GJb1gIwYfjiF65y6wLN
+oOwnCLW6ERFAIhXjpyv79iNWRjuQMYf0RYQlbj3f8/1At+uHE39q
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2024-08-29T22:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://crl.ecc.netlock.hu/index.cgi?crl=rooteccca</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+<tsl:ServiceInformationExtensions>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+</tsl:ServiceInformationExtensions>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">NETLOCK Trust Advanced Plus ECC CA</tsl:Name>
+<tsl:Name xml:lang="hu">NETLOCK Trust Advanced Plus ECC CA</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>NhgGAeXqACM9LeUZtYs4jYT4aIU=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDujCCAz+gAwIBAgIOZJLrhAAkoZUBatyWjUAwCgYIKoZIzj0EAwMwbjELMAkGA1UEBhMCSFUx
+ETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQKDAxORVRMT0NLIEtmdC4xHDAaBgNVBAMME05FVExP
+Q0sgUm9vdCBFQ0MgQ0ExFzAVBgNVBGEMDlZBVEhVLTEyMjAxNTIxMB4XDTI0MDUyNzExNTE0MloX
+DTM0MDUyNTExNTE0MlowfTELMAkGA1UEBhMCSFUxETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQK
+DAxORVRMT0NLIEtmdC4xKzApBgNVBAMMIk5FVExPQ0sgVHJ1c3QgQWR2YW5jZWQgUGx1cyBFQ0Mg
+Q0ExFzAVBgNVBGEMDlZBVEhVLTEyMjAxNTIxMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAExuJCVuG0
+WG7puy8M8D0eXpH5KUQZFhj1/LB/o4qbR/5qBBWhQBvhsf/Ts0ilOfJzbN0GH3C7Fh9h0krHFKyb
+YhUAUM95w2KqcjZUgVX80LqJtWXmLPLk7W/7iIIOqFleo4IBkzCCAY8wDwYDVR0TAQH/BAUwAwEB
+/zAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0lBBYwFAYIKwYBBQUHAwIGCCsGAQUFBwMEMB8GA1UdIwQY
+MBaAFMqfzIjzVPa0gjrAfKTvIs+O/e7RMB0GA1UdDgQWBBQ2GAYB5eoAIz0t5Rm1iziNhPhohTBC
+BgNVHR8EOzA5MDegNaAzhjFodHRwOi8vY3JsLmVjYy5uZXRsb2NrLmh1L2luZGV4LmNnaT9jcmw9
+cm9vdGVjY2NhMIGCBggrBgEFBQcBAQR2MHQwNAYIKwYBBQUHMAGGKGh0dHA6Ly9vY3NwLmVjYy5u
+ZXRsb2NrLmh1L3Jvb3RlY2NjYS5jZ2kwPAYIKwYBBQUHMAKGMGh0dHA6Ly9haWEuZWNjLm5ldGxv
+Y2suaHUvaW5kZXguY2dpP2NhPXJvb3RlY2NjYTBEBgNVHSAEPTA7MDkGBFUdIAAwMTAvBggrBgEF
+BQcCARYjaHR0cDovL3d3dy5uZXRsb2NrLmh1L2h0bWwvZG9rLmh0bWwwCgYIKoZIzj0EAwMDaQAw
+ZgIxANI894Lc3srQtQa3vxT8uY0D2jswYHYFDll1x1dF6LqY1vgSrbivKlqLE/YASENmBAIxANjI
+9P/y0mTL9j91pWWF7ddahPbzIcSfqYj2HravKgZW1+cjLW1o4avbeIoWeFpDiw==
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2024-08-29T22:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://crl.ecc.netlock.hu/index.cgi?crl=rooteccca</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+<tsl:ServiceInformationExtensions>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+</tsl:ServiceInformationExtensions>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
 <tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</tsl:ServiceTypeIdentifier>
 <tsl:ServiceName>
 <tsl:Name xml:lang="en">NetLock Minositett Idobelyeg Szolgaltato 6</tsl:Name>
@@ -22684,22 +22825,22 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>8n/IafsuuaN4v6Xg6naW8Vqf8BvVqGXNuFvguuKMXmI=</ds:DigestValue>
+<ds:DigestValue>BWt8ojbDx5Rd+ZZF0Oxf2RTuDkeaftzkxEEodA9kYAY=</ds:DigestValue>
 </ds:Reference>
 <ds:Reference Id="Signature-1__Reference-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature-1__SignedProperties-1">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>ZEqVOZt90/SM2nTDSSxPLgg0g+Q9cB9pEg2b4HwsBS4=</ds:DigestValue>
+<ds:DigestValue>hPb47DuhnfuvaiOiv9Z9dqsS3v0/MoTO/BnCSistmfU=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue Id="Signature-1__SignatureValue-1">
-X6Efdp7nl7aiGaFw9Dgob4X4NTbbJ6idev2H64ziyo44LWRFumrQMGxwQiq8+L3MSh9xLUrhvxCs
-0K+s8li1UPRBUNwJauLVxfdCMT81JLGY+bztJl/Bf/ZlzlrYUVUFNedXwKl7oaXuCTdWe6wOWmdT
-sIrADbyy30v3rPDkydhN/Y3tfjZGvwevwynS93D0rkgH0kEDVQiwNWdTZ3o9yENy6hB8byVN1X6w
-iAiPKXuklQTR4gNwBypJi6csS/aJs9PC8KdK9nUvGkz6J6kZZPxzXfX/LRA3hL81odpryP6xZr6K
-lTIiZCuIPily/1Nbmbs4xftf+IZsP3V3/e7/Hg==
+dmP3S5wtEabDrSrvy4t6Ie1b1RQ6IUlGVRJ1TXH49FGtZuVIwEvr682IUivHHh/kZkIzp10/QquC
+3I6wtUAsdSBlWw9qpsxmyYbMkryOB8jv1x05g9uLMKA5820KfFom1x/KJzE2eqSA6prDBqngSTGj
+7LJIFHsj01tljZm6tjHe6RZRhBNZckFYPBXBFEuKqQ1U1q8QlHtDmgcNo1kJjZ9d+uupXkP8Aiso
+uk99jHMwrs88IubslBJDt6Pv9wLJq6EQs9eWvbeqGd+4hBV5wygybPN3aGZP/M46JCeCM70g+Q0a
+cv6oyccOpd5k8IA+F3MM6OBTSEub5Nbn2QB1Sg==
 </ds:SignatureValue>
 <ds:KeyInfo Id="Signature-1__KeyInfo-1">
 <ds:X509Data>
@@ -22732,7 +22873,7 @@ QK09at8=
 <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="Signature-1__QualifyingProperties-1" Target="#Signature-1">
 <xades:SignedProperties Id="Signature-1__SignedProperties-1">
 <xades:SignedSignatureProperties>
-<xades:SigningTime>2024-05-22T13:31:03Z</xades:SigningTime>
+<xades:SigningTime>2024-08-29T08:36:12Z</xades:SigningTime>
 <xades:SigningCertificate>
 <xades:Cert>
 <xades:CertDigest>
