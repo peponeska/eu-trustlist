@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BG_TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>53</TSLSequenceNumber>
+        <TSLSequenceNumber>54</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Communications Regulation Commission</Name>
@@ -109,9 +109,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-08-01T06:27:58Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-09-25T06:45:35Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-02-01T07:27:58Z</dateTime>
+            <dateTime>2025-03-25T07:45:35Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://crc.bg/files/_en/TSL_BG.xml</URI>
@@ -1749,8 +1749,8 @@
 <X509SKI>VSDmDBFrmUv4fBOUI4qtrzCPq34=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-11-15T14:33:16Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>http://www.infonotary.com/site/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -1766,6 +1766,29 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Qualified Sign CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Qualified Sign CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>VSDmDBFrmUv4fBOUI4qtrzCPq34=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-11-15T14:33:16Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -1808,8 +1831,8 @@
 <X509SKI>cW9JtpQdqJIv1BE2IGI2OUz+o5w=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-11-15T14:37:22Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>http://www.infonotary.com/site/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -1825,6 +1848,29 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Qualified Legal Person Seal CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Qualified Legal Person Seal CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>cW9JtpQdqJIv1BE2IGI2OUz+o5w=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-11-15T14:37:22Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -1867,8 +1913,8 @@
 <X509SKI>iRTMOTd/F/+ELJoQkIN4v4FmaJY=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-11-15T14:38:36Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>http://www.infonotary.com/site/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -1884,6 +1930,29 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Qualified Domain CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Qualified Domain CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>iRTMOTd/F/+ELJoQkIN4v4FmaJY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-11-15T14:38:36Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -1984,8 +2053,8 @@
 <X509SKI>HBxRO1f9avjawvUooFCG+FhYXCI=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-11-15T15:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>https://www.infonotary.com/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -1997,6 +2066,31 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Advanced Personal Sign CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Advanced Personal Sign CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>HBxRO1f9avjawvUooFCG+FhYXCI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-11-15T15:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2046,8 +2140,8 @@
 <X509SKI>+0+cX/56WsQdOOU3hOlQNyjWnJw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-11-15T15:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>https://www.infonotary.com/</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
@@ -2059,6 +2153,31 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Advanced Legal Person Seal CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Advanced Legal Person Seal CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>+0+cX/56WsQdOOU3hOlQNyjWnJw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-11-15T15:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2077,8 +2196,8 @@
 <X509SKI>k6KwMyB2Ga/+edheaOU15E+1cUo=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-09-16T12:14:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -2097,6 +2216,41 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Qualified TimeStamping Service CA OCSP Responder </Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Qualified TimeStamping Service CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>k6KwMyB2Ga/+edheaOU15E+1cUo=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-09-16T12:14:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2148,8 +2302,8 @@
 <X509SKI>RTQ+fLT2/ci+8ju8eYfj18BDJZw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-09-16T07:16:30Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -2163,6 +2317,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">InfoNotary Qualified Validation Services CA OCSP Responder</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, O=InfoNotary PLC, L=Sofia, C=BG, CN=InfoNotary Qualified Validation Services CA OCSP Responder</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>RTQ+fLT2/ci+8ju8eYfj18BDJZw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-09-16T07:16:30Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2206,6 +2390,217 @@
                         <ServiceSupplyPoints>
                             <ServiceSupplyPoint>https://www.infonotary.com/en/?p=company-documents#polices</ServiceSupplyPoint>
                         </ServiceSupplyPoints>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Advanced Personal Sign CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Advanced Personal Sign CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>VAGopE3o/aR+/PPm9V0JA+eIzbc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Advanced Legal Person Seal CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Advanced Legal Person Seal CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>OJOXgnQbaKnAzzJ58712qr82nPM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Qualified Personal Sign CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Qualified Personal Sign CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>uW6L2ffdmnjqdZG6risk3J0kDMU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Qualified Legal Person Seal CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Qualified Legal Person Seal CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>X3ou8Zf56smgeC0aXfRQks+JtVk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Qualified Domain CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Qualified Domain CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>T0E9si8Vukr17f25h7sYFAKf2hM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Qualified Validation Services CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Qualified Validation Services CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>8SXFqdChsXI2III9QruWYW65FB4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">InfoNotary Qualified TimeStamping Service CA OCSP Responder</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BG, L=Sofia, O=InfoNotary PLC, OID.2.5.4.97=NTRBG-131276827, OU=Qualified TSP, CN=InfoNotary Qualified TimeStamping Service CA OCSP Responder</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>k1zRYNxIBQCESmnZCj98OYspy3c=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-25T08:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -4845,4 +5240,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3c3ce117d18da859d1c5412740beed64"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>8zqE74qJF/1Ju17WBAaF0n3CWUk2D4MseFByxdLPhO8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3c3ce117d18da859d1c5412740beed64"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sH4xKgzZENWGnetO0AmhcvjVMEYUiIHQtOxuB8J+Q9w=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3c3ce117d18da859d1c5412740beed64">YXq7DWv/k2nny37MLN7eOOrhO2ZswjsvkI4oK6ochG8T6UjbdZXsBnJ2kPzKRJKAvyJzzfFTEGXUuinUB1SnDm+MlJ9FigAlqMNiRej1enRlXzKh2hl6mVsHKoim8vQ840ZirRIWxmgFJnxxSmszWQ1Z0gBka1hWC0PbWU3aPSR0ofZ03OVhYh1oov+rUdhNC7108hF308juqVf/NEY/vjgzL1k0LCONxEPtCl8IZLWQ5CXh0gKcgywBE5GkFyBt7GLlwH82X7X6WhNLOOYPLIXCEQXLLqLqb09lR11RFlRPK5Jue3UCaUiVyDrUR+Pq2bS+75r/IZWofEJn6oE26vm9rD3hx1ebCeL4nh17nLtfSt0/PY3C61WNJ+H7nXIdUxEMeztUfXfJY8KUiFbkVKiDcbQ87leUBfHL1kJOEwSrKqJhKf3mFmmW3affd8GTG360RbJ7vrE20zoCPgU7pD+wNrwZoGThYX/kkglkI1xO5LeLMETkRqQWH7Zm8OBnBfXXWx50iYODHIXEP+X0Pnr3z87iem5pMhGa68omJGTR5hhQlMdaQxppAPNYAC3ynml+HcuIldI4I1OsgqVe+C6Mom2FLh9Tz08oP7ikzpYH5Bk6ZWnFE+Ie/PcT208C3mseoUl30MgdgByWL5YH2OQ3vu/YEqKQRSBdEhYOs0I=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3c3ce117d18da859d1c5412740beed64"><xades:SignedProperties Id="xades-id-3c3ce117d18da859d1c5412740beed64"><xades:SignedSignatureProperties><xades:SigningTime>2024-08-01T06:46:12Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-863f3eb58df4a6110c3fd6645209cad1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GmfxzRo5gxU/z6SEAGwHuGul6aSomVz3JqttbYiUaLw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-863f3eb58df4a6110c3fd6645209cad1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+2HTLlOm2/0g7ERCm7OU9XFqeNdWho8VujdLZoeIoXk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-863f3eb58df4a6110c3fd6645209cad1">Tp5fn7A1JVCpvYKOUVXbmRKZc2+JSiK9FIbuWScKjNiWRfnj3AKcNvdb+JGMefWcjj+eDzB6bLHsDXlqLKJoJkWwZ4EwUQ16lEvranyt1+m9USnyUVCEPswwGA//2oybVqrB58KqrGllI9gUI3SEEgwdK6kylt6+2+qoxKsZau9Pd9ihp3OS60Xai2wCpKw5Caz0k3zbNW6HuLHfIEBMYtdX1DkiogxcLuJi4zUJQlPjbTO8EdNr8h4c4M0l+mamg4otdLOW0RQgrt9hQCHQLc4yCtT3bHH+mtYs753LF3knjIVyG+N+cGZF3Kv2+9/v5yjRQClVlfTXyY4schgLqtLB7jibARRZem5m7eV1HH+5NYtmXTCvVQ4nqufMPtGx4n6N46dq0jnjimEK49IdrSjRtvktgyJaigd82YF1EZ8RRBRPLlTFzNGGgHLz07id6IOhVlB0m/TKJdfV0HKkmgQh9HdmA8uPPZgf/RnKj0iO6eVxZZ/qzV+C3EtRZAMSKGxJd+lOUB/J/WBmrAHO3AxFjqfNMtwKqkrJs0qupEPOqLzu0emHr//uWZPCuATdwbLXsbC2FyzD5ipC9CA+DrqywZQy635kK6QxPmrHtQ80koZxVt+O3OZ90BFEcYmWZrniaA7SM9M71Iyc1WLiROdMb64ZkrB9FfdUrMj9/LM=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-863f3eb58df4a6110c3fd6645209cad1"><xades:SignedProperties Id="xades-id-863f3eb58df4a6110c3fd6645209cad1"><xades:SignedSignatureProperties><xades:SigningTime>2024-09-25T07:18:26Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
