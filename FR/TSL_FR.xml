@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>137</TSLSequenceNumber>
+        <TSLSequenceNumber>138</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Network Information Security Agency</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-08-26T09:54:01Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-09-27T15:04:22Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-02-26T10:54:01Z</dateTime>
+            <dateTime>2025-03-27T16:04:22Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -9317,8 +9317,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH13</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH13</Name>
+                            <Name xml:lang="en">Certigna TSA - UH13 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH13 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9342,8 +9342,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH14</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH14</Name>
+                            <Name xml:lang="en">Certigna TSA - UH14 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH14 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9368,8 +9368,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">Certigna TSA - UH15</Name>
-                            <Name xml:lang="en">Certigna TSA - UH15</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH15 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="en">Certigna TSA - UH15 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9394,8 +9394,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">Certigna TSA - UH16</Name>
-                            <Name xml:lang="en">Certigna TSA - UH16</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH16 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="en">Certigna TSA - UH16 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9420,8 +9420,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH17</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH17</Name>
+                            <Name xml:lang="en">Certigna TSA - UH17 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH17 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9446,8 +9446,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH18</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH18</Name>
+                            <Name xml:lang="en">Certigna TSA - UH18 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH18 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9472,8 +9472,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH19</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH19</Name>
+                            <Name xml:lang="en">Certigna TSA - UH19 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH19 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -9498,8 +9498,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Certigna TSA - UH20</Name>
-                            <Name xml:lang="fr">Certigna TSA - UH20</Name>
+                            <Name xml:lang="en">Certigna TSA - UH20 - 1.2.250.1.177.2.9.1</Name>
+                            <Name xml:lang="fr">Certigna TSA - UH20 - 1.2.250.1.177.2.9.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -15615,13 +15615,32 @@
 <X509SKI>HqIF2KQZtD83bLNeb9P9briNdg0=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-06-21T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-06-02T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://yousign.fr/fr/public/document</URI>
                             <URI xml:lang="fr">https://yousign.fr/fr/public/document</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Yousign Timestamp - UH5</Name>
+<Name xml:lang="fr">Yousign Timestamp - UH5</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>C=FR, OID.2.5.4.97=NTRFR-794513986, O=YOUSIGN SAS, SERIALNUMBER=2021-06-02 17:50:00:00, CN=Yousign timestamp unit 5</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>HqIF2KQZtD83bLNeb9P9briNdg0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-06-21T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -15646,6 +15665,32 @@
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://yousign.com/technical-documentation-of-certifications</URI>
                             <URI xml:lang="fr">https://yousign.fr/fr/public/document</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="fr">Yousign Timestamp - UH7 - 1.2.250.1.302.2.1.1.0</Name>
+                            <Name xml:lang="en">Yousign Timestamp - UH7 - 1.2.250.1.302.2.1.1.0</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=FR, OID.2.5.4.97=NTRFR-794513986, O=YOUSIGN SAS, SERIALNUMBER=2024-08-28 15:22:00:000, CN=Yousign timestamp unit 7</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>eq4z6cAoYqTktzEZPll7PpZVLkQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-09-30T21:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="fr">https://yousign.fr/fr/public/document</URI>
+                            <URI xml:lang="en">https://yousign.com/technical-documentation-of-certifications</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
                 </TSPService>
@@ -17591,8 +17636,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-09</Name>
-                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-09</Name>
+                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-09 - 1.2.250.1.152.6.1.3.1</Name>
+                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-09 - 1.2.250.1.152.6.1.3.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -17617,8 +17662,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-10</Name>
-                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-10</Name>
+                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-10 - 1.2.250.1.152.6.1.3.1</Name>
+                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-10 - 1.2.250.1.152.6.1.3.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -17643,8 +17688,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-11</Name>
-                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-11</Name>
+                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-11 - 1.2.250.1.152.6.1.3.1</Name>
+                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-11 - 1.2.250.1.152.6.1.3.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -17669,8 +17714,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-12</Name>
-                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-12</Name>
+                            <Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-12 - 1.2.250.1.152.6.1.3.1</Name>
+                            <Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-12 - 1.2.250.1.152.6.1.3.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -20128,8 +20173,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">DATASURE TSA01</Name>
-                            <Name xml:lang="en">DATASURE TSA01</Name>
+                            <Name xml:lang="fr">DATASURE TSA01 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
+                            <Name xml:lang="en">DATASURE TSA01 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -20154,8 +20199,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">DATASURE TSA02</Name>
-                            <Name xml:lang="en">DATASURE TSA02</Name>
+                            <Name xml:lang="fr">DATASURE TSA02 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
+                            <Name xml:lang="en">DATASURE TSA02 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -20180,8 +20225,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">DATASURE TSA03</Name>
-                            <Name xml:lang="en">DATASURE TSA03</Name>
+                            <Name xml:lang="fr">DATASURE TSA03 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
+                            <Name xml:lang="en">DATASURE TSA03 - 1.3.6.1.4.1.58753.1.1.1.1</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -21269,4 +21314,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-926803995f5bd5da3d1e55bd7f83d6c6"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>4nsJ8cc8ezm/r2vtDqGKN7KAzMZjWMb9UtYq6LhRlX4=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-926803995f5bd5da3d1e55bd7f83d6c6"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>e4aLDdwFee1M53l6n+ZYgiYq9vUfeNJL7BYctkoA8z8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-926803995f5bd5da3d1e55bd7f83d6c6">I9kmCn9F5aX6RBj8vn1/poixgcShV6DuiDpBg8D/CADZ88jn8cYabOiBmmCYahQShZ6dt37lyI5qEbQe1xmYX66oCGuF/4/Bkz+cLDL7QZ5xDBn00O/0XN5JWed/IrQ1Snr2wltopDBQUMrxJPEi/4vBDyRC74cAJ07vySMnuJpi2T0qvZpY5W1FoyiuOqPkU6ihZfwwyNdWvslCbfDcyfbILWmpep59OQn3POyW7mALGkwkxl9jFTjkWHkSoq4Mkgnp1S7gg6s31bAdKoMdk8LEOWuplfo7iNmNLIHKfA0IdRTyYG4THYmAZA/KGBe678Ibz/R1KGhfxRsHOCi8Nw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-926803995f5bd5da3d1e55bd7f83d6c6"><xades:SignedProperties Id="xades-id-926803995f5bd5da3d1e55bd7f83d6c6"><xades:SignedSignatureProperties><xades:SigningTime>2024-08-28T08:36:14Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-7cad29c13b4b64ac7925b28b09eb423f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RvnZmaIuVQtYzHwpOd1fNxR45P/YG/iRlqjkST6thLY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-7cad29c13b4b64ac7925b28b09eb423f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>CNq6tpT6V9Uf/OVWiVHjrOLmDIilk2MET6CkYUy8Exs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-7cad29c13b4b64ac7925b28b09eb423f">PGijOc4w7viV5PDvIuS+hDar+vE409VaYVFMDmMz1woIvtn8lg1yF7De1YBo84s4a+AF4jCQKK/KQwby+ts65R1QOoYPxOn8NwrJN3gGvqW7NqqaWtpwCa8o+E2jhxZEoAd9PQLOW7okMlJyARJ7Jw8hUVv450yYT4RX07/O6BJy2R25eApLU9cUEBlrGmsOoTYT6c0Qvv5cr+CX1WiAchiTJoOsat/Tn0y3zYpHDZTrAbvcyZysTorwCsMSS+HtoMYXdlCyVc9heDtXjthZg6Ve8GWVu9TiNhaTlW8D/Kl87UMwCp6635gIo+Irr7UHLspP2hTGhrV0BpAg5FuKAg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-7cad29c13b4b64ac7925b28b09eb423f"><xades:SignedProperties Id="xades-id-7cad29c13b4b64ac7925b28b09eb423f"><xades:SignedSignatureProperties><xades:SigningTime>2024-09-30T10:55:53Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
