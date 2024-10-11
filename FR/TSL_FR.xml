@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>138</TSLSequenceNumber>
+        <TSLSequenceNumber>139</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Network Information Security Agency</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-09-27T15:04:22Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-10-10T15:26:57Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-03-27T16:04:22Z</dateTime>
+            <dateTime>2025-04-10T15:26:57Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -16876,14 +16876,16 @@
                     </PostalAddresses>
                     <ElectronicAddress>
                         <URI xml:lang="en">mailto:shfd-fssi@interieur.gouv.fr</URI>
-                        <URI xml:lang="en">https://interieur.gouv.fr</URI>
+                        <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/</URI>
                         <URI xml:lang="fr">mailto:shfd-fssi@interieur.gouv.fr</URI>
-                        <URI xml:lang="fr">https://interieur.gouv.fr</URI>
+                        <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="en">https://interieur.gouv.fr/igc</URI>
-                    <URI xml:lang="fr">https://interieur.gouv.fr/igc</URI>
+                    <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/PC</URI>
+                    <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/PC</URI>
+                    <URI xml:lang="en">http://crl2.interieur.gouv.fr/</URI>
+                    <URI xml:lang="fr">http://crl2.interieur.gouv.fr/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -17388,13 +17390,32 @@
 <X509SKI>GwY1iDd5trzA2EKrkJoQqN4/Giw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-10-11T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                             <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-05</Name>
+<Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-05</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=T214391187, CN=MINISTERE DE L INTERIEUR - HORODATAGE-MI-05, OU=0002 11001401600015, OID.2.5.4.97=NTRFR-11001401600015, O=MINISTERE DE L INTERIEUR, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>GwY1iDd5trzA2EKrkJoQqN4/Giw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17414,13 +17435,32 @@
 <X509SKI>fKuP+LcyXQvrZjwLspgVec1cU14=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-10-11T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                             <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-06</Name>
+<Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-06</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=T214431185, CN=MINISTERE DE L INTERIEUR - HORODATAGE-MI-06, OU=0002 11001401600015, OID.2.5.4.97=NTRFR-11001401600015, O=MINISTERE DE L INTERIEUR, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>fKuP+LcyXQvrZjwLspgVec1cU14=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17440,13 +17480,32 @@
 <X509SKI>5vcICDqjPosnmxgztob3eoV3RP4=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-10-11T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                             <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-07</Name>
+<Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-07</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=T214361186, CN=MINISTERE DE L INTERIEUR - HORODATAGE-MI-07, OU=0002 11001401600015, OID.2.5.4.97=NTRFR-11001401600015, O=MINISTERE DE L INTERIEUR, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>5vcICDqjPosnmxgztob3eoV3RP4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17466,13 +17525,32 @@
 <X509SKI>QajQXLrwQYIGsfl5CREhEW2Dcgk=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-10-11T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                             <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Horodatage du Ministère de l'Intérieur - MI-08</Name>
+<Name xml:lang="fr">Horodatage du Ministère de l'Intérieur - MI-08</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=T214471184, CN=MINISTERE DE L INTERIEUR - HORODATAGE-MI-08, OU=0002 11001401600015, OID.2.5.4.97=NTRFR-11001401600015, O=MINISTERE DE L INTERIEUR, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>QajQXLrwQYIGsfl5CREhEW2Dcgk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-11-23T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17734,6 +17812,73 @@
                             <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                             <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/Politique-d-Horodatage</URI>
                         </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Service d'émission des certificats de signature CESAM</Name>
+                            <Name xml:lang="fr">Service d'émission des certificats de signature CESAM</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=AC PERSONNE SIGNATURE eIDAS V2, OU=0002 110014016, OID.2.5.4.97=NTRFR-110014016, O=MINISTERE INTERIEUR, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>2VtN7zS5aH/0Ggl0gDjojJfj8Fs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-11T00:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.interieur.gouv.fr/IGC/PC</URI>
+                            <URI xml:lang="fr">https://www.interieur.gouv.fr/IGC/PC</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">false</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.152.2.13.1.31.13</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.152.2.13.1.31.14</ns4:Identifier>
+                        <ns4:Description/>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Service of MINISTERE DE L'INTERIEUR for issuing qualified certificate for natural person</ns5:Description>
+            </ns5:CriteriaList>
+            <ns5:Description>Service of MINISTERE DE L'INTERIEUR for issuing qualified certificate for natural person</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -21314,4 +21459,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-7cad29c13b4b64ac7925b28b09eb423f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RvnZmaIuVQtYzHwpOd1fNxR45P/YG/iRlqjkST6thLY=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-7cad29c13b4b64ac7925b28b09eb423f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>CNq6tpT6V9Uf/OVWiVHjrOLmDIilk2MET6CkYUy8Exs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-7cad29c13b4b64ac7925b28b09eb423f">PGijOc4w7viV5PDvIuS+hDar+vE409VaYVFMDmMz1woIvtn8lg1yF7De1YBo84s4a+AF4jCQKK/KQwby+ts65R1QOoYPxOn8NwrJN3gGvqW7NqqaWtpwCa8o+E2jhxZEoAd9PQLOW7okMlJyARJ7Jw8hUVv450yYT4RX07/O6BJy2R25eApLU9cUEBlrGmsOoTYT6c0Qvv5cr+CX1WiAchiTJoOsat/Tn0y3zYpHDZTrAbvcyZysTorwCsMSS+HtoMYXdlCyVc9heDtXjthZg6Ve8GWVu9TiNhaTlW8D/Kl87UMwCp6635gIo+Irr7UHLspP2hTGhrV0BpAg5FuKAg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-7cad29c13b4b64ac7925b28b09eb423f"><xades:SignedProperties Id="xades-id-7cad29c13b4b64ac7925b28b09eb423f"><xades:SignedSignatureProperties><xades:SigningTime>2024-09-30T10:55:53Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c2d944ff464d8646de63a8716f1e0bc5"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vqk/C58v5Nx2I8u61Q5GOU5+Us6+OEcDiEL1UucQF80=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c2d944ff464d8646de63a8716f1e0bc5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Jl0VHoTKRHm+leCLBGf02cWPjn+Q5vdRZEN/iPGtVgo=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c2d944ff464d8646de63a8716f1e0bc5">FwLAnz5XNJ0QEGUl/SiayxfqNwLOngQs3vXdKTguMFL4cp5e4oQvRHcfS9bpMM7gWwyOX2w9YtbyG+O0QQ3s/iX86nBH6NzInO9GkBu69c2L2IFU1qX41q/GXaVIgXPrZxtgnVv4Xq9h2EAGf5MPDAISKE932le2UsxvM+MLKAPsjQHXPHt05mQBeKQFz/Loq4lBFqzQF0mqbfEUU0mryQ6wsIwCRqBdjmELlx4AfUqc6cR5W+n9kc4Xcn2cEwqwBZMMZzsfXC2OpHIfepeO1/ef0ESs5MbW6hmP7s+73jDDoqreB22sKJrsb92/cH4TrEJQhX4x/P7WfxOPjoH6Cw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c2d944ff464d8646de63a8716f1e0bc5"><xades:SignedProperties Id="xades-id-c2d944ff464d8646de63a8716f1e0bc5"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-10T15:45:06Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
