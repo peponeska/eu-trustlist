@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>140</TSLSequenceNumber>
+        <TSLSequenceNumber>141</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Network Information Security Agency</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-10-10T16:22:32Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-10-18T08:20:52Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-04-10T16:22:32Z</dateTime>
+            <dateTime>2025-04-18T08:20:52Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -18184,13 +18184,13 @@
                 <TSPAddress>
                     <PostalAddresses>
                         <PostalAddress xml:lang="en">
-                            <StreetAddress>27-33 Quai Alphonse le Gallo</StreetAddress>
+                            <StreetAddress>Immeuble ILEO  27-33 Quai Alphonse le Gallo</StreetAddress>
                             <Locality>Boulogne Billancourt</Locality>
                             <PostalCode>92100</PostalCode>
                             <CountryName>FR</CountryName>
                         </PostalAddress>
                         <PostalAddress xml:lang="fr">
-                            <StreetAddress>27-33 Quai Alphonse le Gallo</StreetAddress>
+                            <StreetAddress>Immeuble ILEO  27-33 Quai Alphonse le Gallo</StreetAddress>
                             <Locality>Boulogne Billancourt</Locality>
                             <PostalCode>92100</PostalCode>
                             <CountryName>FR</CountryName>
@@ -18206,6 +18206,8 @@
                 <TSPInformationURI>
                     <URI xml:lang="en">https://www.mon-recommande-electronique.fr/en/politique-de-service</URI>
                     <URI xml:lang="fr">https://www.mon-recommande-electronique.fr/fr/politique-de-service</URI>
+                    <URI xml:lang="en">https://www.tessi.eu/fr/solution/technologies/edition-de-logiciels/document-management/lettre-recommandee-electronique/</URI>
+                    <URI xml:lang="fr">https://www.tessi.eu/fr/solution/technologies/edition-de-logiciels/document-management/lettre-recommandee-electronique/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -18319,11 +18321,57 @@
 <X509SKI>TEeO6Hx/669IXeqKYXodUFxa+Fk=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-11-18T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-10-17T22:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.mon-recommande-electronique.fr/en/politique-de-service</URI>
                             <URI xml:lang="fr">https://www.mon-recommande-electronique.fr/fr/politique-de-service</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Tessi POST LRE</Name>
+<Name xml:lang="fr">Tessi POST LRE</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=S20004005, CN=TESSI DOCUMENTS SERVICES - SERVICE LRE QUALIFIEE, OU=0002 32680358200062, OID.2.5.4.97=NTRFR-32680358200062, O=TESSI DOCUMENTS SERVICES, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TEeO6Hx/669IXeqKYXodUFxa+Fk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-11-18T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Tessi POST LRE - 1.3.6.1.4.1.51537.1.1.1.3</Name>
+                            <Name xml:lang="fr">Tessi POST LRE - 1.3.6.1.4.1.51537.1.1.1.3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=S309390161, CN=TESSI DOCUMENTS SERVICES - SERVICE LRE QUALIFIEE, OU=0002 32680358200096, OID.2.5.4.97=NTRFR-32680358200096, O=TESSI DOCUMENTS SERVICES, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>RYHxLFhsg50dxYHdPUC14uBPnz8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-17T22:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.mon-recommande-electronique.fr/en/politique-de-service</URI>
+                            <URI xml:lang="fr">https://www.mon-recommande-electronique.fr/fr/politique-de-service</URI>
+                            <URI xml:lang="fr">https://www.mon-recommande-electronique.fr/fr/lastCgu</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
                 </TSPService>
@@ -18756,15 +18804,15 @@
                 <TSPAddress>
                     <PostalAddresses>
                         <PostalAddress xml:lang="en">
-                            <StreetAddress>18 quai de la Rapée</StreetAddress>
-                            <Locality>Paris</Locality>
-                            <PostalCode>75012</PostalCode>
+                            <StreetAddress>33 PLACE RONDE</StreetAddress>
+                            <Locality>Puteaux</Locality>
+                            <PostalCode>92800</PostalCode>
                             <CountryName>FR</CountryName>
                         </PostalAddress>
                         <PostalAddress xml:lang="fr">
-                            <StreetAddress>18 quai de la Rapée</StreetAddress>
-                            <Locality>Paris</Locality>
-                            <PostalCode>75012</PostalCode>
+                            <StreetAddress> 33 PLACE RONDE</StreetAddress>
+                            <Locality>Puteaux</Locality>
+                            <PostalCode>92</PostalCode>
                             <CountryName>FR</CountryName>
                         </PostalAddress>
                     </PostalAddresses>
@@ -18776,8 +18824,8 @@
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="en">https://app.vialink.fr/tsp/public/#/public/trust-chain</URI>
-                    <URI xml:lang="fr">https://app.vialink.fr/tsp/public/#/public/trust-chain</URI>
+                    <URI xml:lang="en">https://www.vialink.fr/</URI>
+                    <URI xml:lang="fr">https://www.vialink.fr/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -18785,8 +18833,8 @@
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="en">VIALINK SIGN</Name>
-                            <Name xml:lang="fr">VIALINK SIGN</Name>
+                            <Name xml:lang="en">VIALINK 360</Name>
+                            <Name xml:lang="fr">VIALINK 360</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -18800,7 +18848,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-04-01T00:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2024-10-17T22:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://app.vialink.fr/tsp</URI>
                             <URI xml:lang="fr">https://app.vialink.fr/tsp</URI>
@@ -18812,12 +18860,18 @@
 </AdditionalServiceInformation>
                             </Extension>
                             <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="all">
+        <ns5:CriteriaList assert="atLeastOne">
             <ns5:KeyUsage>
                 <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
                 <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
@@ -18825,20 +18879,22 @@
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.2.250.1.198.3.4.1.9.0.1</ns4:Identifier>
+                    <ns4:Description>Legal person eIDAS qualified certificate issuance for digital seals purpose.</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l</ns5:Description>
+            <ns5:Description>Emission de certificat sans dispositif de création de signature qualifié (QCNoQSCD)</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
                             </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="all">
+        <ns5:CriteriaList assert="atLeastOne">
             <ns5:KeyUsage>
                 <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
                 <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
@@ -18846,31 +18902,29 @@
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.2.250.1.198.3.4.1.13.0.1</ns4:Identifier>
+                    <ns4:Description>Legal person eIDAS qualified certificate issuance for eIDAS qualified digital seals purpose.</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l-qscd</ns5:Description>
+            <ns5:Description>Emission de certificat sur dispositif de création de signature qualifié (QCWithQSCD)</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
                             </Extension>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
             <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
         </ns5:Qualifiers>
-        <ns5:CriteriaList assert="all">
+        <ns5:CriteriaList assert="atLeastOne">
             <ns5:KeyUsage>
                 <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
             </ns5:KeyUsage>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.2.250.1.198.3.1.2.12.0.1</ns4:Identifier>
+                    <ns4:Description>Natural person eIDAS qualified certificate issuance for digital signatures purpose.</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:Description>Fourniture de certificats électronique de signature électronique QCP-n</ns5:Description>
@@ -18881,6 +18935,188 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">VIALINK 360</Name>
+<Name xml:lang="fr">VIALINK 360</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=VIALINK EU QUALIFIED CA, OID.2.5.4.97=NTRFR-428668545, O=VIALINK, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>COeOy7Iz33iRF+/HTfJozIcPENw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-10-17T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.4.1.9.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.4.1.13.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l-qscd</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.1.2.12.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Fourniture de certificats électronique de signature électronique QCP-n</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">VIALINK SIGN</Name>
+<Name xml:lang="fr">VIALINK SIGN</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=VIALINK EU QUALIFIED CA, OID.2.5.4.97=NTRFR-428668545, O=VIALINK, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>COeOy7Iz33iRF+/HTfJozIcPENw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-04-01T00:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.4.1.9.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.4.1.13.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Délivrance de certificats électronique de cachet serveur QCP-l-qscd</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.198.3.1.2.12.0.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Fourniture de certificats électronique de signature électronique QCP-n</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -21540,4 +21776,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-58d4b912c0b99218f21f6bf0aeee1d29"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>Sx9Tq7gJJUkdnMuATzrGCMrbLS9yFsjnVSY6pxBA8o8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-58d4b912c0b99218f21f6bf0aeee1d29"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>EkVHfPYdY/eKpwBGBhnu5qi5PO0Yx8SmKoYINrDocOY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-58d4b912c0b99218f21f6bf0aeee1d29">S1I1CU5WHLoiKAJjhmuk1tv5augKcscMLBk1vDEOf6+A/Vaqz8LARm/hvuAEyrhGHTiVpbQwl8BJ02rM6Iau/hA3ZWaRXNrYq82SUHGDlI70jj04L7mGuWJBUtY3UpUNaxk5XWPzFqr/oCWIK5hPNVQyIsXwuj7XqXsvIVGlAoXYE68EmUySe4XH1bMyjIGg0x6nut35ak3CVpINqcFMjrQ6xRcyPansJ+G9T+f9cEQ3a5i5XJbepLn2GxG85GvTsSQ8IV4FzJP2Zt4qSiR2EJiyOIQakZ3qG0UDCd/l/TIXXrYRmK+VlYjOGy08RYTopLbzRvQKzabHOqlNsLtHGQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-58d4b912c0b99218f21f6bf0aeee1d29"><xades:SignedProperties Id="xades-id-58d4b912c0b99218f21f6bf0aeee1d29"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-15T07:59:25Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3d65dcf983847025e75395a1c52d4df0"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>YnVH4dQavLL4f9MA9zbyO+LaBkDeNFq1kJK0M4rneQU=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3d65dcf983847025e75395a1c52d4df0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>WU3Skckk4NNRHklfWUhhpxwoAnCWWj7/yolM/6e18i0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3d65dcf983847025e75395a1c52d4df0">qdXTqDbfXJ9IBnZOvdEWTB6bBzdgzH8SiLMohELAiEqoBOybmhnzNoeS/XRiDHztgB8680WjVLW10ZMpjgNvgdKTGnOIbaNZMvOKqtv9FzY4OeLJeieKKg1PJTxQkHdWMUJqebLq+nTiRe9Mss96x/aJmvO1kHGGM4Gvem3wXJL4JqVnbEaLq7VSCCTRXn+kYQP1vToVDV2cbv69D+LQbqUZy1ue0RA5CFKixjiwK3vXQsxzskehrnyTZMnpJ5/72qIqDny2SAitHojDSy2bfkSRUzTwbWddtCVPs74A50Jx0w6zvDrBG+aS9kmxd8imuH1syVhzuCo2ebYJ6rSI3w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVDCCBDygAwIBAgISESFDlgyiKpA1e7sC++BaYGKZMA0GCSqGSIb3DQEBCwUAMIGXMQswCQYDVQQGEwJGUjEwMC4GA1UECgwnQWdlbmNlIE5hdGlvbmFsZSBkZXMgVGl0cmVzIFPDqWN1cmlzw6lzMRcwFQYDVQQLDA4wMDAyIDEzMDAwMzI2MjExMC8GA1UEAwwoQXV0b3JpdMOpIGRlIENlcnRpZmljYXRpb24gUGVyc29ubmVzIEFBRTEKMAgGA1UEBRMBMzAeFw0yMTExMjQyMTI5MjlaFw0yNDExMjQyMTI5MjlaMHgxCzAJBgNVBAYTAkZSMQ0wCwYDVQQKDARBTlRTMRcwFQYDVQQLDA4wMDAyIDEzMDAwNzY2OTEhMB8GA1UEAwwYTWlja2FlbCBMQU0gMzMxMDAwMzkzM2xtMRAwDgYDVQQqDAdNaWNrYWVsMQwwCgYDVQQEDANMQU0wggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDJjSt/1JuyXPWbVSt60pAqR/2j9Znw136Q2yNjOiP1zatjqLnAndd3rcPLaKq9Q6+f67kH0LIjNi7ePzzJa1cIuwYCX3r5ruZEVPV5srr5/QkVARTxNFa51mwMx6nqqJjD7tfzyINjAGjNP+0OtWAKOKRT/tsaViLRXMw6tLmhUcaL5ZwY4FyVwdzYeO6vZy4yFjo2sFw4sXNPBV4dNdIC0hDB2NnIsc7icIX6q4wU7zVn+65zXKk5+84gi6frPBEmnZRCmEpGtn3dpPpMRewJHDZ65pGMn7xtryDBgIv9LwkIJ+vX/g9NlR/i5xFHU5RV2/rkocGMpcD1CBxh/stfAgMBAAGjggG2MIIBsjAJBgNVHRMEAjAAMBgGA1UdIAQRMA8wDQYLKoF6AYFIAwECAwIwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzMuY3JsMIGUBggrBgEFBQcBAQSBhzCBhDA/BggrBgEFBQcwAYYzaHR0cDovL29jc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zMEEGCCsGAQUFBzAChjVodHRwOi8vc3AuYW50cy5nb3V2LmZyL2FudHNhdjMvYWNfcGVyc29ubmVzX2FhZV8zLmNlcjAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwHQYDVR0OBBYEFATnbPUqeyxFQQ58+AiJ42deTQqPMB8GA1UdIwQYMBaAFPVSfQ6yaX5wCwQ3h9ZQDSanC6SDMA0GCSqGSIb3DQEBCwUAA4IBAQCiIuHyaaNhFqtWq0x310wsutGgbXtorIa9FWvP6X9SUq0/81l7dufT/zp9VsfIL4YWfH0UhMwKlVXzXUprk+tdvcG/MjZxO7qpJd77GUS28wmMkH4jmJZqmjfaQ9OW7AYh8M0tZ3UNabkUdYMJk5Ao9wnfUudZAk8IVloAkn70QXH4UV48UojUC7ia3D3uAOiRlZmw7doFnb8Pq2RqYClPQvfFYbykuTPWeMquvVO2MmSDCxSyYH6RrM1uZ7wNGqtC3EdffQuolzPuTOjfOI5z/AH9/fe0uV1ezJotCKM/nRFTd9Bt51eEn9kGoyGkFCNwoLwImWMVRm4HvzSPXSrV</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3d65dcf983847025e75395a1c52d4df0"><xades:SignedProperties Id="xades-id-3d65dcf983847025e75395a1c52d4df0"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-17T12:08:52Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vwZF+2ejKkEsXR7J/kfLcSYTtb9S/SvWb7USUuqMzsDWbpjrM3Em809iI6rfmMAceSS2Tc/gfWDdRagmVwAMJA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130133,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>1492228016324798582153955725735934031848089</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
