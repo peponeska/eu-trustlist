@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BG_TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>54</TSLSequenceNumber>
+        <TSLSequenceNumber>55</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Communications Regulation Commission</Name>
@@ -109,9 +109,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-09-25T06:45:35Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-10-28T11:41:24Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-03-25T07:45:35Z</dateTime>
+            <dateTime>2025-04-28T10:41:24Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://crc.bg/files/_en/TSL_BG.xml</URI>
@@ -5239,5 +5239,240 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">eDocs Bulgaria EOOD</Name>
+                    <Name xml:lang="bg">ИДОКС БЪЛГАРИЯ ЕООД</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">eDocs</Name>
+                    <Name xml:lang="en">VATBG-202970828</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>bul. Slivnitsa 166A, fl. 6, office 43, </StreetAddress>
+                            <Locality>Varna</Locality>
+                            <PostalCode>9004</PostalCode>
+                            <CountryName>BG</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="bg">
+                            <StreetAddress>бул. Сливница № 166А, ет. 6, ап. офис 43,</StreetAddress>
+                            <Locality>Варна</Locality>
+                            <PostalCode>9004</PostalCode>
+                            <CountryName>BG</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">https://sign.edocs.bg/</URI>
+                        <URI xml:lang="en">mailto:office@edocs.bg</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://sign.edocs.bg/documents/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Operational Qualified CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Operational Qualified CA, OU=QTSP, OID.2.5.4.97=NTRBG-202970828, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vrOXaw5VGSKv+eweOXCAklvqgK0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Services Qualified CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIG+TCCBOGgAwIBAgIUTrO+JLq2t0rh/ubYm2ygtmJ+skkwDQYJKoZIhvcNAQELBQAwdjELMAkGA1UEBhMCQkcxHDAaBgNVBAoTE2VEb2NzIEJ1bGdhcmlhIEVPT0QxGDAWBgNVBGETD05UUkJHLTIwMjk3MDgyODENMAsGA1UECxMEUVRTUDEgMB4GA1UEAxMXZURvY3MgUm9vdCBRdWFsaWZpZWQgQ0EwHhcNMjQwOTI1MTUwNDUwWhcNMzQwOTI1MTUwNDUwWjB6MQswCQYDVQQGEwJCRzEcMBoGA1UEChMTZURvY3MgQnVsZ2FyaWEgRU9PRDEYMBYGA1UEYRMPTlRSQkctMjAyOTcwODI4MQ0wCwYDVQQLEwRRVFNQMSQwIgYDVQQDExtlRG9jcyBTZXJ2aWNlcyBRdWFsaWZpZWQgQ0EwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCo1RIa96IbXBUscoHJ4NnPGDsRpinrhJgFKEcvOoeRfZXg5P5/bbJa6Ebo7ILMmldiaHU95lYAH/joDBEa+kw6vx9Ti0dNp70JJYVUCu0tJ1cyfZzMSbJuZF0fzVSsBKvspjMSP+Didew/BQnS6X9ok4YDI/tVBJWVUfVSgO0q7UQPOJr5eD3rSJB5E4PN8idBgvpiRIpm6GBXcIoeX7dgti5PUtG5PQCSCFABr3OSbtjxVNRsIuWQc2GSBkYW1D+dC1LmnKgBJhqE3IYLmT6VRxpmV88x95vxwkQOS4AgRPtyx40MEf0lT1w2o5V45VGJ39CGTRnX/SLGZ3oxucAti84zyXZTViG+N8cnFzDk+30waOL7XA7K4+OiFGd3H34rSRUN+P0xrX83OJmRimw4j/iYgFhkVFojcvNZGm312zT7Tpob8Ud70murcurR5Z08/4gtd2sosq9bEJJjqfBkP+RjCNtT25oSVY+pxDoxO1o86x/4Y8wXs8ERkhBfzpdd/vYjf6u3dboVvr7r9T8+pqoZdZ7pIzlJUnP4P+urbLSMu1I3MYGjRE6j/rWqbxh6qZH77VtpbRXufJ1m7EMDnTsnANnc0SnKni/kpHMPxQjJlYPrKOElqSQiT5DmmaW+w3fCEDxVwIjJmPGFA4ad86KUpLLugsL6SX69STiVwwIDAQABo4IBeTCCAXUwHQYDVR0OBBYEFAGZTLz0GdDZsqZKCuMDroxwJaRLMB8GA1UdIwQYMBaAFAEAWnfUrVCdG3uLaLoEnUhSDysUMBIGA1UdEwEB/wQIMAYBAf8CAQEwDgYDVR0PAQH/BAQDAgEGMIGFBggrBgEFBQcBAQR5MHcwPAYIKwYBBQUHMAKGMGh0dHA6Ly9zaWduLmVkb2NzLmJnL2NhL2NlcnRzL2Vkb2NzLXJvb3QtcWNhLmRlcjA3BggrBgEFBQcwAYYraHR0cDovL3NpZ24uZWRvY3MuYmcvY2Evb2NzcC9lZG9jcy1yb290LXFjYTA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vc2lnbi5lZG9jcy5iZy9jYS9jcmwvZWRvY3Mtcm9vdC1xY2EwSgYDVR0gBEMwQTA/BgsrBgEEAYPeKwEBBjAwMC4GCCsGAQUFBwIBFiJodHRwOi8vc2lnbi5lZG9jcy5iZy9kb2N1bWVudHMvY3BzMA0GCSqGSIb3DQEBCwUAA4ICAQAp8vMKFeG8X+g4tqTprw5dJ+hi2af7DeCrGwx/hkb5o2bcTVngsh/Hy3HHuOgXFvYoJ6tigPtiUcDuOATEnYK7reajYair++9siADjQj0D2Ngiwmnysgzk0BdagCLQ/HwWuDe1qYklAsamTODw/OHENNUsUQFszWMHPC7DHZlIvuIdxCiMDVL6inUIhwpmTCrIQA9+C7PGwVzPVOZPo2F9/3DDx2a89BCd+vWRcB64Gtcl3lmYS+FGAvofpQljU1BzaLW/+qwoE9lfaD7VwITv/Toby2ZAZ3Jm7JfU4wnohybRrtvHEbgywy7GVzGrI50cbw9iQOLJUmgMIIYksgn4E1dhRbCukfprheqPnXRGsRlA06jqYT0cTy2xIQvPvuCTWspcs53yQuv54dDZ5LsP0BS6KSJnOR+u0s5un+644kRR7q9QErzLNal0npTbdVo9TXhdmR33jCH5E0PI1xctv2h3ZnRnGrCkxIBq9MgmM//c8+M+gytK5xu96PveSDqck7ojU6k8prKSAr0MlI6NRfkyimzL+7D5wbTns+uhJJz2AcGTHt2wwuwIBIbv/QJJADXZjvP+eUsjNREiF1Hg0hiCMN62lV7upSEoVygSSf+BncMYyrbcWkeuNmVPB0XBHne7xL5fmyFI68o9xJnSK7xwooKypT92uxBoR9V1ig==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Services Qualified CA, OU=QTSP, OID.2.5.4.97=NTRBG-202970828, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>AZlMvPQZ0NmypkoK4wOujHAlpEs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Operational OCSP</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Operational OCSP, OU=QTSP, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>rMdEotI137rH6LUZU7B4pR2JGmA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Services OCSP</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Services OCSP, OU=QTSP, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>LIBQnkrj4cOla85TwMHERwVwEFw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Qualified TSA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Qualified TSA, OU=QTSP, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KaYYiqYH6iJnUA+BG/fBjB+eLYE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Qualified Validation</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIF6TCCA9GgAwIBAgIUe6VcZMkyGbexlgiDg4nOcMJPJ7owDQYJKoZIhvcNAQELBQAwejELMAkGA1UEBhMCQkcxHDAaBgNVBAoTE2VEb2NzIEJ1bGdhcmlhIEVPT0QxGDAWBgNVBGETD05UUkJHLTIwMjk3MDgyODENMAsGA1UECxMEUVRTUDEkMCIGA1UEAxMbZURvY3MgU2VydmljZXMgUXVhbGlmaWVkIENBMB4XDTI0MDkyNTE1MDUzOVoXDTI5MDkyNTE1MDUzOVowXzELMAkGA1UEBhMCQkcxHDAaBgNVBAoTE2VEb2NzIEJ1bGdhcmlhIEVPT0QxDTALBgNVBAsTBFFUU1AxIzAhBgNVBAMTGmVEb2NzIFF1YWxpZmllZCBWYWxpZGF0aW9uMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA8DpdxymOQYeWgK4/P3v8FlFN078vArUAELDxeGOKq4ywejO/IZy2duS8eWIsKM167YIpsqlDqITKbBPbzxRQtQ1xYwoizbAjh/Fno3FO8F7HEGG4x5YIA90/Kbew7ELXxuW7VPPzvEsXgAaHrrSfSe/3AgbupwC1Aei/je04eO3ZC2+2UrfnwEcX/kV0j3qSLp97GKh22I98eDpYgIZiExmYyjShLjyG8Pbu5fsGamLkyGcthaci2XUae/ure8qMmSzin7AyHGsTLACw1fBqdq0Bf6PSb+Fiqw+PYoX6qvGjlppIG/cJXSicLo5qT3IbcmrgbiPE0MwjmhYOpE0UYQIDAQABo4IBgDCCAXwwHQYDVR0OBBYEFOXqexIhO9w3XU7liTZqcpmNqXDqMB8GA1UdIwQYMBaAFAGZTLz0GdDZsqZKCuMDroxwJaRLMAwGA1UdEwEB/wQCMAAwDgYDVR0PAQH/BAQDAgTwMIGOBggrBgEFBQcBAQSBgTB/MEAGCCsGAQUFBzAChjRodHRwOi8vc2lnbi5lZG9jcy5iZy9jYS9jZXJ0cy9lZG9jcy1zZXJ2aWNlcy1xY2EuZGVyMDsGCCsGAQUFBzABhi9odHRwOi8vc2lnbi5lZG9jcy5iZy9jYS9vY3NwL2Vkb2NzLXNlcnZpY2VzLXFjYTA/BgNVHR8EODA2MDSgMqAwhi5odHRwOi8vc2lnbi5lZG9jcy5iZy9jYS9jcmwvZWRvY3Mtc2VydmljZXMtcWNhMEoGA1UdIARDMEEwPwYLKwYBBAGD3isBAQQwMDAuBggrBgEFBQcCARYiaHR0cDovL3NpZ24uZWRvY3MuYmcvZG9jdW1lbnRzL2NwczANBgkqhkiG9w0BAQsFAAOCAgEANBHsug4ZOgxHXXWwJrKYNFZDYyzx/lQ6HVZ0IUePBN2+t09jZ9Cj4tvzaHjnZfEnmQbWI8xzhQ7aZxs/3u5G0TMnWhtlxDSi+c8vwK/L2bMb1pjMkkWG9ni5cH2dVaNEtm4E/76nvx9NiHFN4a1xtcQD4IuCisgC9cnPjy+A+UhCPJJEF8w0I40v5LHG8IyoMdedXAb6Q3KCle3nxKTzuES7vt7oCSigbbOfnXJiS9Psn/uGtP7txU84URL+/oI5ZehsgFJp9nMf2QnjlqSvRtWRr42UrXtFC6Okt2/ukP3kBQcA5tUqu1CWSYE3XQk9+SHaRuBSbWT6UzPY5r6qKxlzXaMXMWkvyXDJYhS9CKZpSz/URMvRgu9I3VXD8uDcRFHRNoWYPcdUEtSI5XW2lc4HnzOBWNWj211+5xiB1/t8SZYL/Nf5VBrjn6n1TKFD1KrpRnAw4wHfsEMkdtWfQPD5kqGIEHaKbMgkIQsvZ2Ev3x/gmTuAYi2RQl22XGuD9WAlU1ZsDYXNAQDTpVaFIlTWraUR9gpk8wQfEeSP00NR2JUzbzTUQehTS9EA+8lx5TF77K4OPokUyfpCK7vzvmtap6bUCGE4F2x33nCPrCXSbXfcPbOl3OPUTsgovACgZzLt3Y3vBe9Ag/6h/FvOHpzo2cqs/U4EuVksAF6swoA=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Qualified Validation, OU=QTSP, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>5ep7EiE73DddTuWJNmpymY2pcOo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RA</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">eDocs Registration Authority providing remote video identification for issuance of qualified certificates for electronic signature and seal</Name>
+                            <Name xml:lang="bg">eDocs Регистриращ орган, предоставящ отдалечена видео идентификация за издаване на квалифицирани удостоверения за електронен подпис и печат </Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=eDocs Operational Qualified CA, OU=QTSP, OID.2.5.4.97=NTRBG-202970828, O=eDocs Bulgaria EOOD, C=BG</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vrOXaw5VGSKv+eweOXCAklvqgK0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2024-10-31T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-863f3eb58df4a6110c3fd6645209cad1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>GmfxzRo5gxU/z6SEAGwHuGul6aSomVz3JqttbYiUaLw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-863f3eb58df4a6110c3fd6645209cad1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>+2HTLlOm2/0g7ERCm7OU9XFqeNdWho8VujdLZoeIoXk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-863f3eb58df4a6110c3fd6645209cad1">Tp5fn7A1JVCpvYKOUVXbmRKZc2+JSiK9FIbuWScKjNiWRfnj3AKcNvdb+JGMefWcjj+eDzB6bLHsDXlqLKJoJkWwZ4EwUQ16lEvranyt1+m9USnyUVCEPswwGA//2oybVqrB58KqrGllI9gUI3SEEgwdK6kylt6+2+qoxKsZau9Pd9ihp3OS60Xai2wCpKw5Caz0k3zbNW6HuLHfIEBMYtdX1DkiogxcLuJi4zUJQlPjbTO8EdNr8h4c4M0l+mamg4otdLOW0RQgrt9hQCHQLc4yCtT3bHH+mtYs753LF3knjIVyG+N+cGZF3Kv2+9/v5yjRQClVlfTXyY4schgLqtLB7jibARRZem5m7eV1HH+5NYtmXTCvVQ4nqufMPtGx4n6N46dq0jnjimEK49IdrSjRtvktgyJaigd82YF1EZ8RRBRPLlTFzNGGgHLz07id6IOhVlB0m/TKJdfV0HKkmgQh9HdmA8uPPZgf/RnKj0iO6eVxZZ/qzV+C3EtRZAMSKGxJd+lOUB/J/WBmrAHO3AxFjqfNMtwKqkrJs0qupEPOqLzu0emHr//uWZPCuATdwbLXsbC2FyzD5ipC9CA+DrqywZQy635kK6QxPmrHtQ80koZxVt+O3OZ90BFEcYmWZrniaA7SM9M71Iyc1WLiROdMb64ZkrB9FfdUrMj9/LM=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIH4zCCBcugAwIBAgIIdXVFsuFZEEkwDQYJKoZIhvcNAQELBQAwgYAxJDAiBgNVBAMMG1N0YW1wSVQgR2xvYmFsIFF1YWxpZmllZCBDQTEYMBYGA1UEYQwPTlRSQkctODMxNjQxNzkxMSEwHwYDVQQKDBhJbmZvcm1hdGlvbiBTZXJ2aWNlcyBKU0MxDjAMBgNVBAcMBVNvZmlhMQswCQYDVQQGEwJCRzAeFw0yNDA0MTcwNzU5MTJaFw0yNzA0MTcwNzU5MTJaMIGuMRowGAYJKoZIhvcNAQkBFgtpbmZvQGNyYy5iZzEqMCgGA1UEAwwhQnVsZ2FyaWFuIFRydXN0ZWQgTGlzdCBPcGVyYXRvciAyMRgwFgYDVQRhDA9OVFJCRy0xMjE3NDc4NjQxLTArBgNVBAoMJENvbW11bmljYXRpb25zIFJlZ3VsYXRpb24gQ29tbWlzc2lvbjEOMAwGA1UEBwwFU29maWExCzAJBgNVBAYTAkJHMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAm58hkEjR6YZ8hRl7D9zoMJ91mlhSdKzec/KZ4/jdP/c3cw185Lis1Imv3yLiPxIL1erS3Dcf42FPPU0/Lx9QpdYibxBBx72E0iFlt9jMcFFd19JgI6ZNUzxHvUIOyVLpkRuF1MzsUcSzaRux9xNs5TqnxYCXNmKhDk4HxrdB5+p5vX7q6Ho57LHigkik8+BTNtlnXdTq0f6TzVg6ZcAT7JzfteMwoYhiW6+cau+2AxQ8HU8u0epGV3C657jmLlGb3qNJTKqISREs8aHWR2S8tAdVldOHRqN1+26mYg0UnPatQInc+QmcP2o92JqXNlWXDUgSLvJEs18KOPUYbHwWEV4wW7iRGrZE1ran+XOL+HrDf70MAEYP//UZ/4w0as1zXnhIiqB1W+/7FuNuJIPjvK1zmJT391kZXwVjsArRvEELfT/uAk8X+gvDT5HHowetYgCjGOlgXHRXaajbXeV37X3Ka1cYxjnTblYQK2wS2DWADZPsh7uULuzFWrcGbqck3RXFZ2sz6Die6axgMUogUQu74DcnN/p/2nmzaCVx/SnDJXnynE4EoFVVLL9tafCOLh5jhFUHCNlmm3JorurpCwDy7IXBLstJPvpmAxuK+hz0NpgOjpAs0At3Gx74bWm54ARUVLnud3mEcuusV6ysRa0ivF8AEI35Y87cEnWUab0CAwEAAaOCAi8wggIrMIGABggrBgEFBQcBAQR0MHIwSgYIKwYBBQUHMAKGPmh0dHA6Ly93d3cuc3RhbXBpdC5vcmcvcmVwb3NpdG9yeS9zdGFtcGl0X2dsb2JhbF9xdWFsaWZpZWQuY3J0MCQGCCsGAQUFBzABhhhodHRwOi8vb2NzcC5zdGFtcGl0Lm9yZy8wHQYDVR0OBBYEFGjZmWXnPiwEA0U6Swxkz13GlAslMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUxtxulkER1h8y/xG9tlEq5OkRQ1AwgYgGCCsGAQUFBwEDBHwwejAVBggrBgEFBQcLAjAJBgcEAIvsSQECMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgIwOAYGBACORgEFMC4wLBYmaHR0cHM6Ly93d3cuc3RhbXBpdC5vcmcvcGRzL3Bkc19lbi5wZGYTAmVuMGAGA1UdIARZMFcwCQYHBACL7EABAzBABgsrBgEEAdgaAQIBBDAxMC8GCCsGAQUFBwIBFiNodHRwczovL3d3dy5zdGFtcGl0Lm9yZy9yZXBvc2l0b3J5LzAIBgYEAIswAQEwSAYDVR0fBEEwPzA9oDugOYY3aHR0cDovL3d3dy5zdGFtcGl0Lm9yZy9jcmwvc3RhbXBpdF9nbG9iYWxfcXVhbGlmaWVkLmNybDAOBgNVHQ8BAf8EBAMCBsAwEQYDVR0lBAowCAYGBACRNwMAMA0GCSqGSIb3DQEBCwUAA4ICAQBeqUoJZutjHK5M6QN0YagrPNHuGc+0uoUmZCNAfh4+IKJS+HlfYvDooMsO7vFDjHOAd5FG2jtC5stnZN4bEJDuIc1lKMGey+CHzXuqWbncA31uxtpk7pFaivv5s5f596nGh2l+Ip0rwdx/2fcpX4A6kwA+aEoPRV1j33PQ8/SM2fiatM4WXv0Gp35wzrIOnRs1UD5mcrlXGu58udDHzlmzafAoobJcs0iLlWUTf99NOC1ZnFLarJnewPskPLkEx9V+8RSWp/EMH4WASMq3e7+oqGqztijQRWPKgE+jw0o/s/V4zOaLW/NXIchifq5C4gBULJnEG2s6eqgtTbTSDBR1a7ujQAeoecZ5TMjJIYnmU2zXpUwY2lJ09602wN6bKTdO8TUyTsL5ny4b91Jx29gGGU4q11N7VoaJ3P/YqfUtb3ifj8MtKXYiTYfJ7NH6q/yrF2YUfapjCNvGYI77eBax3QTeZVQdv/Yc/UyEOMUcXnQ7KFVqCl8krmZC89vQjwgAX9nRTgfXPB6fzgzCuqgup2IpGbQj70dpAltn21MCjVKZYQgSYqg4Qg/o/kmNzw6Zbz/JwTwze3iFtTc8zM0T9ToDSHZeAuWCQ99fn3B/bAAQbBLIj87HLAkc67T2oV7asNW8uK7wFLNz4SqPqbgO8WPhpXIgVBsgRq6zzOScYQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-863f3eb58df4a6110c3fd6645209cad1"><xades:SignedProperties Id="xades-id-863f3eb58df4a6110c3fd6645209cad1"><xades:SignedSignatureProperties><xades:SigningTime>2024-09-25T07:18:26Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c49118b56e7c33c81856ac7936fc3df1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>WC3BhUzwH4C7YPj1bT7hc3QPGI/6s+GVzeaYOh71Lys=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c49118b56e7c33c81856ac7936fc3df1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>cIVTf/8K9KWUUxAH0X23BiVHxgFpiKYa8jEPgt61yro=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c49118b56e7c33c81856ac7936fc3df1">FGqs+0CW/tWpzq/xcq/l9szQN/MqH6LV6sRAkP1t+Fx5qeWHLF4Y26hRqjwfsg0ukcGob2Mszm1yaqpCG8LEO/dDYU/cqtauaSC9zpAc1JL9/JyOt+k9Kg2A0lgQm1ckt8nSRyJDFaTx9ubs4sBoAn/EgNYakAQmCSB30HTw70u7y593pKWO9b9TEcaJXEPfNwzoUF/cciheQITrrGWKQrbbEAapKofBv8/47ASRS9Ag5Pxse25hJkTU9822E74/BK/r1dcHL1cu1C2XT80BSnXsFsPcuZviPCtc/0tphMzuIrhi7IFq8pUTKXFOKL5fm931V+HO03t/ZwrkEjkvv5u2ArJqBEJUcjR0o+anRZ+znfVwMIPbr/DG679MRaQIgB6sMHcVUlnkzqAeSGQNoDh0j83uSMbzyHFs6G2AzPvpwvaHbrYskgKHbM0dk1Y3iAgVS2S1bs2Wn9AL1bjzpR+xVL1QGBqmz7rFe2gqLLMAdvjMk2bCYIUI6bClVf5J/2HwwsFlrEKRHvg4KZcsiP9FcDwQchJzFhhz07oS2lD14ENw/0s3+uzpqaH8ChC1THSGsEnIZCCDdL2P8ANFjvxeu01oKoaEB4OCcfJVAYLsZ359b/3YCZmfNEr1wprdr/WuzVwSMYkr6sY1MLtYkI79XqSFH21BteQ7HbX0MtM=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c49118b56e7c33c81856ac7936fc3df1"><xades:SignedProperties Id="xades-id-c49118b56e7c33c81856ac7936fc3df1"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-28T12:34:01Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kIISNCcWm2Kuhp1T0qiUzbes5OAxMnUlR+R6Nku+zt8bZnwqkSVWPtEIIyM6WzEp5DLMh/1bEFB7vI8Z6b0huQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BG,L=Sofia,O=Information Services JSC,2.5.4.97=#0c0f4e545242472d383331363431373931,CN=StampIT Global Qualified CA</ds:X509IssuerName><ds:X509SerialNumber>8463747709299920969</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
