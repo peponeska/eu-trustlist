@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL_CZ" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>152</TSLSequenceNumber>
+        <TSLSequenceNumber>153</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Digital and Information Agency</Name>
@@ -108,9 +108,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-10-09T14:30:23Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-11-12T14:00:21Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-04-07T14:30:23Z</dateTime>
+            <dateTime>2025-05-08T13:00:21Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.gov.cz/publ/TSL_CZ.xtsl</URI>
@@ -2748,6 +2748,226 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2024-01-31T13:30:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(415) I.CA Time Stamping Authority TSU24 10/2024</Name>
+                            <Name xml:lang="cs">(415) I.CA Time Stamping Authority TSU24 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU24 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>NPdhRlcmGV4JM7qygc/nnXN9PkE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(416) I.CA Time Stamping Authority TSU1 10/2024</Name>
+                            <Name xml:lang="cs">(416) I.CA Time Stamping Authority TSU1 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU1 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>xiU+TCHaPtx5dJ8qlGacZW0w5AM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(417) I.CA Time Stamping Authority TSU2 10/2024</Name>
+                            <Name xml:lang="cs">(417) I.CA Time Stamping Authority TSU2 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU2 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>OEedh/X4eqewNeOsIIbfOdwzZOw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(418) I.CA Time Stamping Authority TSU21 10/2024</Name>
+                            <Name xml:lang="cs">(418) I.CA Time Stamping Authority TSU21 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU21 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>zA9PIROMA9Pfo9U25AOsCVVRMis=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(419) I.CA Time Stamping Authority TSU22 10/2024</Name>
+                            <Name xml:lang="cs">(419) I.CA Time Stamping Authority TSU22 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIImjCCBk6gAwIBAgIEALz5lTBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAQUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAQUAogMCASAwdzEgMB4GA1UEAwwXSS5DQSBUU0EgQ0EvUlNBIDA2LzIwMjIxLTArBgNVBAoMJFBydm7DrSBjZXJ0aWZpa2HEjW7DrSBhdXRvcml0YSwgYS5zLjEXMBUGA1UEYQwOTlRSQ1otMjY0MzkzOTUxCzAJBgNVBAYTAkNaMB4XDTI0MTAyMzExNDQ1MVoXDTMwMTIwMTExNDQ1MVowgYoxMzAxBgNVBAMMKkkuQ0EgVGltZSBTdGFtcGluZyBBdXRob3JpdHkgVFNVMjIgMTAvMjAyNDEtMCsGA1UECgwkUHJ2bsOtIGNlcnRpZmlrYcSNbsOtIGF1dG9yaXRhLCBhLnMuMQswCQYDVQQGEwJDWjEXMBUGA1UEYQwOTlRSQ1otMjY0MzkzOTUwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCaHf75TqSWafm/xqeLaBrxztE1EDzs5wpzV0NmliVN9hOJsOtRyQgpO1hu3IyDjCmoQ+CgFfnXv6gV/yXb9E7db2eZhMIYBMWFM/4oPKgtCCYO6qV7VXf1ZLAmYxgEW8xDiGOAdhWWxptS4Mbj97UlfRmeQKvhFdcb2OfvOOISIoEl+6QwY0fkmYli9wKJrEfZOiBeHxNGDZdCMwnkBZssz3iUTW6V1uN1pAkE6MpDKzeOCN3dBxK8myn44OjfhYGsLkAYUqAFl09q1uX9iQTl5hvZcDGRqaKzJWFHVSj4+9aaVoa9NLrBeJ/nQ6DwGCGByGFnfqIixO0sM+K3Y2C9spSmhZaj2ibjZR3JIUp8ysn8pIaHG7FBct/i1aGJw63o+Tr1nqe9cVNFq1jTLXkzKMIk9bCKqj0fBUSqAkbhVgZ40T+RSc4SA/oFw8E71rLdMeE7vUEnvQFKBTfd29Meyw8M4jRY4vO3F8tyfIdbv6jQBpZXATuWlIh2JCBQicsCAwEAAaOCAzAwggMsMAkGA1UdEwQCMAAwggEpBgNVHSAEggEgMIIBHDCCAQcGDSsGAQQBgbhICgEgAgAwgfUwHQYIKwYBBQUHAgEWEWh0dHA6Ly93d3cuaWNhLmN6MIHTBggrBgEFBQcCAjCBxgyBw1RlbnRvIFFDIHBybyBlbGVrdHJvbmlja291IHBlY2V0IGJ5bCB2eWRhbiB2IHNvdWxhZHUgcyBuYXJpemVuaW0gRVUgYy4gOTEwLzIwMTQsIHYgcGxhdG5lbSB6bmVuaS5UaGlzIFFDIGZvciBlbGVjdHJvbmljIHNlYWwgd2FzIGlzc3VlZCBpbiBhY2NvcmRhbmNlIHdpdGggUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LCBhcyBhbWVuZGVkLjAPBg0rgR6RmYQFAAAAAQICMIGVBgNVHR8EgY0wgYowLKAqoCiGJmh0dHA6Ly9xY3JsZHAxLmljYS5jei8ydHNhY2EyMl9yc2EuY3JsMCygKqAohiZodHRwOi8vcWNybGRwMi5pY2EuY3ovMnRzYWNhMjJfcnNhLmNybDAsoCqgKIYmaHR0cDovL3FjcmxkcDMuaWNhLmN6LzJ0c2FjYTIyX3JzYS5jcmwwaQYIKwYBBQUHAQEEXTBbMCwGCCsGAQUFBzAChiBodHRwOi8vcS5pY2EuY3ovMnRzYWNhMjJfcnNhLmNlcjArBggrBgEFBQcwAYYfaHR0cDovL29jc3AuaWNhLmN6LzJ0c2FjYTIyX3JzYTCBhgYIKwYBBQUHAQMEejB4MAgGBgQAjkYBATBXBgYEAI5GAQUwTTAtFidodHRwczovL3d3dy5pY2EuY3ovWnByYXZ5LXByby11eml2YXRlbGUTAmNzMBwWFmh0dHBzOi8vd3d3LmljYS5jei9QRFMTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMA4GA1UdDwEB/wQEAwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAfBgNVHSMEGDAWgBRv4TYeX+ZH4jGLyfpSqmUInPQ4FzAdBgNVHQ4EFgQU7ucjJ4Pmm1ZjBU512lOOJla06sswQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgA4ICAQBa9FDQbL7q+paNmq6+C2GQ0pLJNClccoNLjSANoLzg+tj038spaUzLEOv5CbwPPEX49fQiOmgW0afI6y0hN3zRmE6A4OBKYcmPH8gG7SOLUWm3I247u2E3gfY9By6E9b75H9yYPlTd46BA54yDJYo+YKmKGEnHisoHMSvoAmJbB+eXgfGIbTEO+CkSik1p8W42anIr+IeOR8X4lsbfWOXIwszkLS0k4/AeMJJ2utPoVL5AwTh6mDAD7GoYJNmzfN6kCCgT4TTo5SEJv1+iN+EdcJ7cwKixMSYAuifoQuQMteayPKUnsAZFMENuTLazg7h+PxHKYphOT7/CWhi9xCdsF3l+rntTEk9uMOHjpDZDq82hSc6xRqcboTEKkPfY2iAahQnOnR9zgRHQwvcO05X3xdoowx7IRQkGsN8wULAMDmCWFpDmE35/t2EjJAn2PVRuegJ95DOHIevntHE8y7MGKG5xQlQwMpn8Fmh/D1ynCxSEd38/ybothIs73xwr/CL9Hhy/FD5WO4yQxBvhixqEgE5W27pdkcU1eZEiEswWs74okQnCg3QeMUJkcjKQPg5kFBnR7/YkVyUn9z/GRvHPylaUlC2xhAR/vteXpxzNIRBQiPIlCr7KZ6QXLa8i8laQU9kkG42pHTN8RGARB78pvV5qory/Cq+Iz4u97BTE/w==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU22 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>7ucjJ4Pmm1ZjBU512lOOJla06ss=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(420) I.CA Time Stamping Authority TSU23 10/2024</Name>
+                            <Name xml:lang="cs">(420) I.CA Time Stamping Authority TSU23 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU23 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>pDAUEl6w7F+TFM5fhYbSp5YNfkU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(421) I.CA Time Stamping Authority TSU3 10/2024</Name>
+                            <Name xml:lang="cs">(421) I.CA Time Stamping Authority TSU3 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU3 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>tYYd5fgyvmkUoeIooNiTUJo7tLA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(422) I.CA Time Stamping Authority TSU4 10/2024</Name>
+                            <Name xml:lang="cs">(422) I.CA Time Stamping Authority TSU4 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU4 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>JOcryWseSLW7MGRVRgXKoo7tJlo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(423) I.CA Time Stamping Authority TSU5 10/2024</Name>
+                            <Name xml:lang="cs">(423) I.CA Time Stamping Authority TSU5 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU5 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>m/li4FnJ+rObQ27+OJ5xMxcowwo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(424) I.CA Time Stamping Authority TSU6 10/2024</Name>
+                            <Name xml:lang="cs">(424) I.CA Time Stamping Authority TSU6 10/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-26439395, C=CZ, O="První certifikační autorita, a.s.", CN=I.CA Time Stamping Authority TSU6 10/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>OIFfDFelk+D5VWXHgrQelWLOpMs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -17013,7 +17233,623 @@
                         <StatusStartingTime>2024-01-31T13:30:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(387) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0051 08/2024</Name>
+                            <Name xml:lang="cs">(387) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0051 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0051 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>8h28U3aHHnnA6yLpOK6eC0XPWcI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(388) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0052 08/2024</Name>
+                            <Name xml:lang="cs">(388) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0052 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0052 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>El7nlKUiSKte34fC3WvfDMB3kko=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(389) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0131 07/2024</Name>
+                            <Name xml:lang="cs">(389) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0131 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0131 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>SNHJiMGcDyFtBM1KdMkxNJI6yAQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(390) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0132 07/2024</Name>
+                            <Name xml:lang="cs"> (390) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0132 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0132 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>3rGZ0tHzQEOBpYptuF/3yjmUN+s=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(391) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0031 07/2024</Name>
+                            <Name xml:lang="cs">(391) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0031 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0031 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>t60SBCNFNtmBjFnpbT7yTmBkMoA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(392) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0032 07/2024</Name>
+                            <Name xml:lang="cs">(392) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0032 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICSk0wDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwODI5MTIyMzA3WhcNMzAwODI4MTIyMzA3WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAwMzIgMDcvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApxj8LtWORyM5YmAB073EkJPVQ3MKE2iPvCN7K3MnG3Iu0hpJXWGFX7/oYfJrDrdE81x+BBVpvPuqVJTbLkRhMBQ6827OL9ERAaMftpj5rc5xeBgtshjmd0rybAVf25FkrECZfwCkwYLZ6l4xsIwokn6LcLVAcHVHAeuZKaN3m5deLNsLfhvnC4lJXdHhI4hKeVf6f/SraheKpAGDfAQINMYnzj41GI+Ed6PyzT0jrm3rhIqoMP5qpZUtDxfYhO+0DIVxYPK9eXJb73MIrm2gIPbxInDqUgVauwhxDHB9zXPNHYu8dmjX7K9e4ldTU+S73sFAFajqvEIJ2qncILjdHQIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBSJWRVDUVFyD2ZrLjPtNbUuooGsHTAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEASMOddP/gIBGOWqKMLdxStONVdSfIq1GjZv6rElBKB/jlNnFCr1zIjX33BtA1qiF7cKUUBTLowr2YEhQ9222i4BRN9syguPYF2XUdegyvX2+/52y6I7mk1TBrSTKK15He2BfJyqo1ZDMHZKeJApNGri3ICHokvOeZCkY9VSmwaPyKhwCa+WAQnGWWx7OIPyLcgtAFp9dyuFc/XxkLshKdzfS/jfrMy7rRDWWZ1VrmRVBB/XnnTVyUBAU3k3JzYHnqkN1J9J5RVzBZQk5DXDNfIpReMMdUZkRqVFjNpgU6s0/Fmr9rlL0N/19Ptj0nX5JZp41Q5fMHtJwedaPjfpWPzQAc1Qvz0mbKi4Imf6a0Ke+1jR2MGrRpU80AWMPOe7W2r5MCzd+KkdjxN1wsKWKgAt0dFtsd4NxjfyjSsFZXnn4bnPUB/pK+t/yJ1PZgrTD4/xzwIIyl8TbephOkEkTiD9s7QC8pCUWWIu1gnc6A9wUnVKbwDX/SOYUGNCz5KefV</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0032 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>iVkVQ1FRcg9may4z7TW1LqKBrB0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(393) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0201 07/2024</Name>
+                            <Name xml:lang="cs">(393) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0201 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0201 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>ikU14xpHyjbYnvGfhyYFXQqzbTc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(394) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0202 07/2024</Name>
+                            <Name xml:lang="cs">(394) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0202 07/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICSk8wDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwODI5MTIzNDA2WhcNMzAwODI4MTIzNDA2WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAyMDIgMDcvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEApeT7Zh/Jpl0ZPO0Vl8Bymo7zpivQ4eu7YvdGnyXXCLq6zSsxiLuAYIP+qh/4Bjgwt+04VkzALnIDz7TdypWh3rw6VnKf5kxcL3I3RBH/ZAzbZgPTFjGTdnDest9wns3rdNYTf231j9Pp7zTlVQZQVE/TJWkkcr7KE1T7nGRkjKq7HdMW42RHzJzsRSosE6mg+u//BzHqi+1MUC6OqYZUNrMs1SOWwNbRvD3Hi1QlYuTWozkDdK9p+J7gA8YEAu+24FjjCc/XtgZPAGGaONlKjzJAZRboXwX76+LW+5sgEYdDzWyVziEUnS3h1AB+B6dwpCx/aZSc4nHcy41kkvIPrQIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBS1Lqn5qvENddu7ueAlW1ZEjfmFwjAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAFa6j5CT3L4gb/VYVYlidWuNxyqgxFmoUSfRF+mlOv5faOdrO8SxBs8VXP/VSqZr9MEfMzFvmuDbekuFrdLXY2m/68ZN6JlGAGva3g7rpnQIo1usbhJSqoU094NRAiTMx4K5EZgcEE260+25YChSi8cDQcT2fjvu8C6yGUhjQHkJ72iFoSVUmJyK3B2z1YrclAprKtK+y2MOU5Yn8vUr4RTu6QahcAaFMJ6TXaaFWmFc2heDAHQzb+LGaROzeIMFZIUpX1h05icyqeRPhASC/u/9cVfDciPCoecE7WGmGC5tYCiksewEj8aCmw6sz5E9y19iZIXbEPSpe4AXdRCpxVYxdUud5CP7USkclDsxm1y2++grsUNZKlgNZ+LC3fYzTUIzQFCbgOUD9fCmtu4jCwqkk9wX9lGCVzZ0WhjH0HuATIPYCVSmS87D66JvaG2ZoFrFEbUgMZOWkvQNgus7pcmTX6zcGhgmucSHPyY4dxPEB0EAu5FEUCyQjkdM1nA2H</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0202 07/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>tS6p+arxDXXbu7ngJVtWRI35hcI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(395) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0081 08/2024</Name>
+                            <Name xml:lang="cs">(395) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0081 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0081 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>c5xhcRtA2v8BP4U1jbd3tm40s50=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(396) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0082 08/2024</Name>
+                            <Name xml:lang="cs"> (396) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0082 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICSlEwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwODI5MTI0NDA3WhcNMzAwODI4MTI0NDA3WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAwODIgMDgvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA2S6MxEWzqA9gaaeC6Tu/1pXF1OU4w696F6T8eRusNyijyQe/CuQKdtEfvnN+hjIzynYlmroZag9Wy2LOkenQ+lshu/aqHT/guw6KJS1CCb85JqM5YVZr9PfS6mNYnu21MPzfwnXhBym5rvh05jrHim5ZSvfwAWAD1J/RmHPwfDI8BTx6tYOnvt0zWWi41/ohXUIpipbWEZJVwis9t0upldeKiN+el0sIZyxX4BHuK3Gu2C2F+gl/erEIwAbQoQvUzeGeAc/vuW0CqG5TYwP1zNXOvd3R0BF4qAixJDrpH6+pSeY1z0MwORXEv/ZST8CyumQLzE26ScMy1qej/4bVawIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBQ7KrbJM09jMpKWuVwoMiX6BDLiSDAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAWE5MvLzr6RGo2r6k1OYiFCesot2AlUxzjuekArtdyr8f1rMt4V0UwXuP/3198OJqjv8cOuief5MNf9QfO+amdAGS3T1/UnXw5xN3tInIWD/uJK0GlhV3u3rWgWUYnltszwFWfTxQddHeTYWjb2lapG98Nvk61KaqUc045qkYZTMasOiA2khdjzbtEV9wWcVK+ouqTTubbS+jmsyKKmNLyaMIekXfsvVX67I671OPgVasoI17G4XJ74YWEOOPT8dHJ/17S2jXVvDDLFHCZTe/utR/AXWqCcNwi6XBU6b78fOsM44zCZuJizCQAfZ+P7p9lhgyhEpB9QYsAVZG4G6Z2cvyGnm9fpoXO5/aFYCUV5luVm5cCNhcjr6a6A3AVECHtuQ5aFRYLQEp+bqN2SCff8CN69jfODSyG8vxC+dxoLOwC3KQfyX3Yi43DHK3Mc3NjGB+ARj704Oy9xsQEHAWujbIKDARvklI/fiFweH6+1jFCcdLtrfi+npf3hdoJndy</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0082 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Oyq2yTNPYzKSlrlcKDIl+gQy4kg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(397) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0091 08/2024</Name>
+                            <Name xml:lang="cs">(397) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0091 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0091 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>oUKMAUv8bJJUy/6Ik+fQPBZOs3w=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(398) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0092 08/2024</Name>
+                            <Name xml:lang="cs">(398) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0092 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0092 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>QW50tKRfqxYPc/dMfL+tjnfLjwc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(399) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0011 08/2024</Name>
+                            <Name xml:lang="cs">(399) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0011 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICSlQwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwODI5MTI1NzM4WhcNMzAwODI4MTI1NzM4WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAwMTEgMDgvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEArPhh7hgwOW7oIIRhsjklKEdLsFPwwNUqSoyjY9x0HUELANv3TYJu7Pdhu3ME5pqcQsDNSyg2ORwH4jE9u7KsrQFMF3UUdquN1sg0DpiBOgOG2TtTGdqjUGE2EvHVgG+/A6q7N34Ma2+zS35aZqiFnPZbbKbvRfRDdWRLGn8V5PAQ9X7QPMuVpCsRkWRn/tSjOGFKMCZ0EFfkJ/lHjxKBYzUUVE/H17d6UJtmWvuV6G6GR8QxqMzlcDY9rP7FD957nWtmykvEnIzrivdHAS6pqtlLzPHB2yfIWNiPcFVirOAn8mFx5f4gS1JShHh+Q/deOrAN/52tw9VPGel3La4ItQIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBS99iWgSLI64sXfFVWLdVCQGPuLpjAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAoBlLJr2yH3G/m7m8QKS4ATwQSgFNhmlp7ZQ4Ga0dMTm3Jj8oX9tcfHmKtSDgS61Iyq7OkkGDZhsYk1NQVMNsFtCOwQlMYyPNvg/amoVLNcyxrY4UUvjlOUiJ2Rs2SqEOSFOJ5OMIWFJPftLeaTiBhyO0TdnkyY2jyT9VRhgyPX54VmqUKiiXLOVc76OTmj+/zbXJ4UNqz0JCbekcEtdpHA81Z+gKiJiLl6ZJ9i0FxUoMvOmId4eAxfVJkXvHRNKfLkZPETDufdPZ29oC4jv5gvM0GRDNShV/JxhmGf4/F4RRlJDcjV5jSHLwRV6yXSn/AQ27aCh3MUaz0iHs/Km7ua9I9f0i62v6A34/6JMT0XBwD2YIG3G/U5/2s79CGUS9NpUsP86SRDONRwJ8+etKifwPpK1LnDNdMwLdwRby6NWRRNCcfl2+wrUHgi1Era/SjjTlqjqw3aDq0XxY6sj9SNDMd2+bpbFRm6uG4Yv6mH+jCD3PyuHRY8mSRK4wlyhB</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0011 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>vfYloEiyOuLF3xVVi3VQkBj7i6Y=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(400) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0012 08/2024</Name>
+                            <Name xml:lang="cs">(400) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0012 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0012 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>htvL/NKOJ5CV6HUgwbHIS79zhsg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(401) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0141 08/2024</Name>
+                            <Name xml:lang="cs">(401) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0141 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0141 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lEkjm/AzhxZwd4iTa9VMi8bAFyo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(402) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0142 08/2024</Name>
+                            <Name xml:lang="cs">(402) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0142 08/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICSlcwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwODI5MTMxMDAwWhcNMzAwODI4MTMxMDAwWjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAxNDIgMDgvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAjc3K+O3if7z/oQsB32kv8eDRE+68Gu02gYpqunjoVokAYd4nhcX6kCCBJEdKSrs4ZAdSCYMb1l3Rd1UAthPOciL4NYPaaC1/mBgGxkl/zlvjmmzJxT9I3mzgfanXZFxPKkhZ6OCR0k0WUp+y+8SfLVRcy2IytmowBl+G4PO8ENbN13at8aRsIIW2tu3Ds8p+yCihygyNLACntPlmLW9J2451ejWVC6R9XnIOgIeNrSPNV3LtDBPVwVphcuiPxGz42wJ6/evpEvn0pvGv8p+n4KjRlUljxS45ULhV7dBos907PHv04HZN9F08RS1Ec6EnFoAZ6dx5Y+dQQHysOfSgLwIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBTTQV1xhiIZZoKOwk6miESv2hTowjAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAUtnu8m9zgDgKTSLBDFRnQ5CK5FLY6J/eGVbBdoGUK8ZaWfYYAY4UIz8kI0Q4aCoRrmNpgLtr0qxXsj+tdfMvDD/g6GRMpI3H31lveVFt8LBQxf6MiV2Olr6F4mDdJY8AqUuTZJd8p6YCljEIxABiYkBxZVgzfSKLow9MF17Oe3JIzsvjfUY6fjvSS3+9el0oak5BIHvo1wWHAJPNyS3uA9jzuwQ5z381MHdqJ2br51+zQYTrICd7LQg1cSPolgNDFY1FKUw6cV+Oq7Ab/UyI2BLvRLG638aL+K6Nbyp+/PdA1NMkdugvcBJgjBvHi5Q5CK1/TMw9OFNUjuWZv+l3UDkXn4aQUJIMkUfcqqoB1919Qms8iMsA96DbLzILAwW+nbUY7KeQDYd4QgA7SXff+wPP/cbajdqEmjW5rgjv2B2KSyyfwIKkHfLwIC8YuNnY6w3CbBmVRrfJW3yGwhaBxliGOOvQ/TeN0fKIbNMKX+VuOv+ODXqP9W0Evu3zDadu</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0142 08/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>00FdcYYiGWaCjsJOpohEr9oU6MI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(403) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0061 09/2024</Name>
+                            <Name xml:lang="cs">(403) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0061 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0061 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>wME4T1VXzBaZIzfpGp1EipiXArU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(404) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0062 09/2024</Name>
+                            <Name xml:lang="cs">(404) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0062 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0062 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>qt+DhzASYv9PmByjr6lYTzx1gQs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(405) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0071 09/2024</Name>
+                            <Name xml:lang="cs">(405) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0071 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICS+EwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwOTIwMDg0MTQ1WhcNMzAwOTE5MDg0MTQ1WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAwNzEgMDkvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA084t69H97SZ3FGVJ/Hn7LRPrb9fF8Ztuuv/DHD2Yy+mWAtCWNMu0oRs1efFJ5uYpzmqMBllyb19wRq5VtoDZz2wdzNU3B8WaPh8c0uhOGv2S4PYWZ9s4+IvdtkmnDpNKoGqcBGDtz5Z1AdShQo9v7ec9kBRiJISXCcs/cvoyiYYomtSyDrrINxYkJ26qAnRrPFCOQFpVbiBblwMF6Z6ra8t2Uoilyfq3idi9fvDbevWMNmdcUjtgqpl28CjPh7w3foryl6vz6AMaMsDFxf9Vd7jNAUs7cDmt07++j9tTqHLKbl4JuHf3aDElyWwVfHuDJ0QBDJfsrgovqaGVEFvmswIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBQmgwEqhSSDJEFPbHRyoZTf7wV+YjAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAS7Hg3FJLDG8bbvMN2L6Yj/gYJFz8m8Xsp4UHn5oTHw9v51JD0zKASOWivFNylAOXz+c0hDXaE8LXhuiGQ3En205CZ3iSxU3KOBFIYQll4HEyq+FzUX4DospFEJp23E0vpnyjrUlBp23gdIPfqMXIyq6LRyLn1/mzx7A2ElhBd1L1nYmQdgVennmXHdPMlkSoOfLBzA5PNLie5q+jArqAOTMr7qs0N/SWc2VHFMUfLUWuL21bEtWQxiQWu7Lg+pHxbvTDYTYXDee5TbRmRlHY/5fgU+pDpwZLejoiQ5LEAyRL/k0NqCl4TLa9GWW8iW79BZsD9zHOzy3Kf5OZ1ygAtlxF/MgOuFOtSK1yUYnyfbeuTITSIrm9O6wa9jUobLMQ9Is3j03Tn9gQtxeHi+8VDfydpHkQKQJ8V9XOGyZpw7cgQdtgftzZiUk0uNTpNTHZcGmVqMNnwZcoy6XWPO+0kgsLsBcxrQ1a2/NR6YLlyexDje3J4AzIQlMrcYf06HE2</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0071 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>JoMBKoUkgyRBT2x0cqGU3+8FfmI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(406) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0072 09/2024</Name>
+                            <Name xml:lang="cs">(406) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0072 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0072 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>yWx3pOtuhdXYiFLa5k1Gho5tqxw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(407) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0021 09/2024</Name>
+                            <Name xml:lang="cs">(407) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0021 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHiDCCBfCgAwIBAgICS+MwDQYJKoZIhvcNAQELBQAwgYcxHzAdBgNVBAMMFk5DQSBTdWJDQTEvUlNBIDEwLzIwMjMxPjA8BgNVBAoMNVNwcsOhdmEgc3TDoXRuw61jaCBzbHXFvmViIHZ5dHbDocWZZWrDrWPDrWNoIGTFr3bEm3J1MRcwFQYDVQRhDA5OVFJDWi0xOTEyMjA2MzELMAkGA1UEBhMCQ1owHhcNMjQwOTIwMDg1MzU4WhcNMzAwOTE5MDg1MzU4WjCBhjELMAkGA1UEBhMCQ1oxHjAcBgNVBAMMFVNTU1ZEIFRTVTAwMjEgMDkvMjAyNDE+MDwGA1UECgw1U3Byw6F2YSBzdMOhdG7DrWNoIHNsdcW+ZWIgdnl0dsOhxZllasOtY8OtY2ggZMWvdsSbcnUxFzAVBgNVBGEMDk5UUkNaLTE5MTIyMDYzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAx5UsJIcATDo5j7iZQ30SzGednj5Neseq+CgaDgHu6HfgWoNKEdbEwGnsZmseq+a6XDMxVgRCCyK6vg5gwkCT0WaPo5HcUMvehIdu3tgYZCI5BnHfzUIm2Zwkw4R7g0QhzhFSUzrW3zq/HMVh/e9UoyK1ibzq8ebHSQuWWPRNGEQO0bd041Oh+DU9QBDg53LJSMMKlHUJo0xmUn0Use1/dfsySHDQvlvRWFIP85Oivv/ZARsYKKJs2yA4EJWAS+scXwO6pLCUIytmhDgrs8XkOAJZy0pN8ZRo8251bmMkgUKnyOQPtiB2+LlmG5r2G1HiSMcfZc8OdU+O3aOC7cNDgwIDAQABo4IDezCCA3cwggEkBgNVHSAEggEbMIIBFzCCARMGDCqBS4mPjw8KASABADCCAQEwKQYIKwYBBQUHAgEWHWh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6MIHTBggrBgEFBQcCAjCBxhqBw1RlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LlRoaXMgaXMgYSBxdWFsaWZpZWQgY2VydGlmaWNhdGUgZm9yIGVsZWN0cm9uaWMgc2VhbCBhY2NvcmRpbmcgdG8gUmVndWxhdGlvbiAoRVUpIE5vIDkxMC8yMDE0LjCBmwYIKwYBBQUHAQMEgY4wgYswCAYGBACORgEBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19jcy5wZGYTAmNzMC4WKGh0dHBzOi8vd3d3Lm5hcm9kbmktY2EuZ292LmN6L3Bkc19lbi5wZGYTAmVuMBMGBgQAjkYBBjAJBgcEAI5GAQYCMIGzBgNVHR8EgaswgagwNqA0oDKGMGh0dHA6Ly9jcmxkcDEubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMi5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMDagNKAyhjBodHRwOi8vY3JsZHAzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwgYUGCCsGAQUFBwEBBHkwdzA9BggrBgEFBQcwAoYxaHR0cDovL2NhY2VydHMubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNlcjA2BggrBgEFBQcwAYYqaHR0cDovL29jc3AubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMB0GA1UdDgQWBBQSZyGdERw/U2eG3eynkiOaHi5+xDAfBgNVHSMEGDAWgBRtx4Qgb6GUj+jQwiY5CEDQoxwiOTANBgkqhkiG9w0BAQsFAAOCAYEAWZzKWlMwo552s1Q3s41qyg5IlzShprXjq3yjeZ6mLDIEWYGGs435bVpfn9VQBb4bhZI8rApwA6Vo4lLf/JcDBkFvSX1ueinm6JJUsFGAiB3wvI6+oCnlwi285LdsmbMId3u5FW1+fhtxSh3PGyhKTNJDxdC1HC+mSZsOciF2cldOBsOCgbrqg23phQbHdyPZQNFVG6iK+6IqF1FaDusZfqZ+ss6bPwMMl1nZHJqFQK1aHZB6F1KeOTqUrcu1k67W4I1Mv78ayEXzRrxUzLTll4nk5GSYJnX+AVcEhZTQI+yT1LPhVm8OvYxkp+Bs5r4uskoY9k6vwZwccbDrzygtz9HXwbrpGdv9y69MKp82ujoXF6UCH57VEtuEhOMdMGFJt5354bjHvaC890tc2sjpkcLa4HXhU6Zk2gyOI1jA9wp6fAgWd3cYH1dYyD+nVhcw8WpYTSkPCoyJ2RyDfrSTOgQp2bmtpnXfYZREBm3KJf1DhziU4KsinGCz75Ng3QVB</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0021 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>EmchnREcP1Nnht3sp5Ijmh4ufsQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(408) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0022 09/2024</Name>
+                            <Name xml:lang="cs">(408) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0022 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0022 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>YCDqWe9vBvSjONRC+hpLWEewq9E=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(409) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0901 09/2024</Name>
+                            <Name xml:lang="cs">(409) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0901 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, C=CZ, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0901 09/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>1V0J3huG1w4Kewyu6hjL5yEVlas=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(410) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0902 09/2024</Name>
+                            <Name xml:lang="cs">(410) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0902 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, C=CZ, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0902 09/2024</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>6jAD9fWC4+efj5EsyLKcsCeRPJw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(411) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0041 09/2024</Name>
+                            <Name xml:lang="cs">(411) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0041 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0041 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>AbIxFeTB/dNoEakkzqNM2Sz6Do0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(412) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0042 09/2024</Name>
+                            <Name xml:lang="cs">(412) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0042 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0042 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>I4kzvvm0RgS8uMm0UqcUvL/sDK8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(413) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0101 09/2024</Name>
+                            <Name xml:lang="cs">(413) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0101 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0101 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>eLe+KUPlH/WvZVNzDEBCZpjArG4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(414) SSSVD TSU - issuing qualified time stamping - SSSVD TSU0102 09/2024</Name>
+                            <Name xml:lang="cs">(414) SSSVD TSU - vydávání kvalifikovaných časových razítek - SSSVD TSU0102 09/2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRCZ-19122063, O=Správa státních služeb vytvářejících důvěru, CN=SSSVD TSU0102 09/2024, C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>aNLM2RMbqEyKO183lwj0wq6hyDs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-11-12T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-a1dcfa804e2f9454ed662afe275f7372"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>hRVmNwuk6wryhSMFb2Km0oyvugvjGs4qiUlUyOvfeIk=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-a1dcfa804e2f9454ed662afe275f7372"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RNlyt4IGqeYiz298nGpP2uTT3mu8hW/e39CpgiWvgPg=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-a1dcfa804e2f9454ed662afe275f7372">qc5+0zF4Pn1+VxWWILVsF9/cl0YsKUA50S2AZvnMrfEIwuuKjoki3FmrEEczJ6G3WE38yDwvYeqx2XGWwuMgFR6uuheYHc1HEHW556M85N6dUVX4LUDydsY3MyKfK98FDdl0ZtcujQeJUzZDM1qykeGBk6+vsGFGTI9Gua3YDTvGms+ERj2bdmYYJYiE98uIqYNhckaj0FXoO0KCv21qytOyMh6bC3pd5wVOqtNtT7I/zEwPOIIp/i7V4cT2mmSXAVd1lcCUMZ/F8XvPzZ5H+O1DbozLc8eD+wtYcNEysdGlOfhGChqy7yh0MvgHsh8VSiLkl7Z7ILhqjmZnCLbh7w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-a1dcfa804e2f9454ed662afe275f7372"><xades:SignedProperties Id="xades-id-a1dcfa804e2f9454ed662afe275f7372"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-09T14:33:34Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>923NyzEgPhPBcpbncM4UKLthtoyKLHHQ1UmpMoRbtGyFmub/dPGXd+zQAFQUw70aT+wpHwVMrPt3UxqhWZ8DDw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CZ,2.5.4.97=#0c0e4e5452435a2d3732303534353036,O=Správa základních registrů,CN=NCA SubCA1/RSA 05/2022</ds:X509IssuerName><ds:X509SerialNumber>14307</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-37a8544683c5bd3f200dd3e60f754a2a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>iXHmOOy4iLoJ3ig80IA31SPf9yIY3loDqUY1IAiikas=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-37a8544683c5bd3f200dd3e60f754a2a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>zOE6LEK8xBHjSqCsjXbajxdNbrEo57TNUQMhJiGQxLE=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-37a8544683c5bd3f200dd3e60f754a2a">gnGQJAwgdFOlHktjjYlhd7X9VKl171Hpgufat50SWLP5ptzdEydtnaM6NK6CUbti2J8Zv73Zh7/tBgbR3V5FEPxrjyNK1nog7LwhGpbcUM8SdWtvcOhPfgnwAdkGwpS1N+6MQPR3tLpSrO4kgR1eVqcVHre+mMcka/z7eVX5qm3TqOOV32Bso0oN074WBYzfJBYKBp6me4HelpfboW7m1AXxkuiL6i99u7x7VQS15mpCi8TMg27BlAUJ4jbPVzUV+CxxA+6SclqLSd93PmnoY+EmoZW++J4zmm/7tuKD8ofU7BnBe3IaXnGo7EMujdmGWZdw4QyGFBLq0HvRUR0zgA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-37a8544683c5bd3f200dd3e60f754a2a"><xades:SignedProperties Id="xades-id-37a8544683c5bd3f200dd3e60f754a2a"><xades:SignedSignatureProperties><xades:SigningTime>2024-11-12T14:01:31Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>923NyzEgPhPBcpbncM4UKLthtoyKLHHQ1UmpMoRbtGyFmub/dPGXd+zQAFQUw70aT+wpHwVMrPt3UxqhWZ8DDw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CZ,2.5.4.97=#0c0e4e5452435a2d3732303534353036,O=Správa základních registrů,CN=NCA SubCA1/RSA 05/2022</ds:X509IssuerName><ds:X509SerialNumber>14307</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
