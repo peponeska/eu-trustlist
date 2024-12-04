@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20241108" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20241203" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>162</TSLSequenceNumber>
+        <TSLSequenceNumber>163</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="es">MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-11-08T02:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2024-12-03T00:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-05-06T02:00:00Z</dateTime>
+            <dateTime>2025-05-26T00:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://sedediatid.mineco.gob.es/Prestadores/TSL/TSL.xml</URI>
@@ -915,6 +915,7 @@
                     <Name xml:lang="es">ANCERT - Agencia Notarial de Certificación</Name>
                     <Name xml:lang="en">Agencia Notarial de Certificacion S.L.U. - CIF B83395988</Name>
                     <Name xml:lang="en">Agencia Notarial de Certificacion S.L. Unipersonal - CIF B83395988</Name>
+                    <Name xml:lang="en">Agencia Notarial de Certificación S.L.Unipersonal</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -2098,6 +2099,28 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2020-10-23T02:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified Time Stamp issued by «ANCERT Qualified Time-stamp Authority G3 (TSA/TSU)»</Name>
+                            <Name xml:lang="es">Sellos cualificados de tiempo emitidos por «ANCERT Qualified Time-stamp Authority G3 (TSA/TSU)»</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Qualified Time-stamp Authority G3, OID.2.5.4.97=VATES-B83395988, O=Agencia Notarial de Certificación S.L.Unipersonal, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>if6jTS0ob3wfdAj6g5OdNyAjpdk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -14719,9 +14742,28 @@
 <X509SKI>aRlt5SkAlaxt6Eimt5qMWYKdp3M=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-04-28T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="es">Sellos cualificados de tiempo emitidos por FIRMAPROFESIONAL CLOUD QUALIFIED TSU</Name>
+<Name xml:lang="en">Qualified timestamps issued by FIRMAPROFESIONAL CLOUD QUALIFIED TSU</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=FIRMAPROFESIONAL CLOUD QUALIFIED TSU, OID.2.5.4.97=VATES-A62634068, O=Firmaprofesional S.A., C=ES</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>aRlt5SkAlaxt6Eimt5qMWYKdp3M=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-04-28T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -14796,9 +14838,28 @@
 <X509SKI>/XtFDumAAv0+61WKqsjhm90/VVY=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-10-05T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">AC Firmaprofesional CLOUD QUALIFIED TSU-2020</Name>
+<Name xml:lang="es">AC Firmaprofesional CLOUD QUALIFIED TSU-2020</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=FIRMAPROFESIONAL CLOUD QUALIFIED TSU - 2020, OID.2.5.4.97=VATES-A62634068, O=Firmaprofesional S.A., C=ES</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>/XtFDumAAv0+61WKqsjhm90/VVY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-10-05T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17616,7 +17677,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-10-24T00:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -17628,46 +17689,75 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
                             </Extension>
-                            <Extension Critical="true">
-<ns5:Qualifications>
-    <ns5:QualificationElement>
-        <ns5:Qualifiers>
-            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
-        </ns5:Qualifiers>
-        <ns5:CriteriaList assert="atLeastOne">
-            <ns5:PolicySet>
-                <ns5:PolicyIdentifier>
-                    <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.2.3</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-            </ns5:PolicySet>
-            <ns5:PolicySet>
-                <ns5:PolicyIdentifier>
-                    <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.10.3</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-            </ns5:PolicySet>
-            <ns5:PolicySet>
-                <ns5:PolicyIdentifier>
-                    <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.5.3</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-            </ns5:PolicySet>
-            <ns5:PolicySet>
-                <ns5:PolicyIdentifier>
-                    <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.21.3</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-            </ns5:PolicySet>
-            <ns5:PolicySet>
-                <ns5:PolicyIdentifier>
-                    <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.3.3</ns4:Identifier>
-                </ns5:PolicyIdentifier>
-            </ns5:PolicySet>
-            <ns5:Description/>
-        </ns5:CriteriaList>
-    </ns5:QualificationElement>
-</ns5:Qualifications>
-                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="es">Certificados reconocidos emitidos por SIGNE Autoridad de Certificación - 2020</Name>
+<Name xml:lang="en">Qualified Certificates issued by SIGNE Autoridad de Certificación - 2020</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=SIGNE Autoridad de Certificacion - 2020, OU=Autoridad de Certificacion, OID.2.5.4.97=VATES-A11029279, O=SIGNE S.A., C=ES</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>IjqC5qg/qePqI6Cr9o0ES0h7aMw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-10-24T00:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.2.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.10.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.5.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.21.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURN">urn:oid:1.3.6.1.4.1.36035.1.3.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -20939,6 +21029,28 @@
                         <StatusStartingTime>2023-04-20T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified timestamps issued by ESFIRMA TSA QTSU 2024</Name>
+                            <Name xml:lang="es">Sellos de tiempo cualificados emitidos por ESFIRMA TSA QTSU 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIIATCCBemgAwIBAgIQMzdFg/hT9oQedSXYKMY9gjANBgkqhkiG9w0BAQ0FADCBvDELMAkGA1UEBhMCRVMxETAPBgNVBAcTCFpBUkFHT1pBMTYwNAYDVQQKEy1FU1BVQkxJQ08gU0VSVklDSU9TIFBBUkEgTEEgQURNSU5JU1RSQUNJT04gU0ExMjAwBgNVBAsTKUFVVE9SSURBRCBERSBDRVJUSUZJQ0FDSU9OIEVTRklSTUEgLSBBQVBQMRIwEAYDVQQFEwlBNTA4Nzg4NDIxGjAYBgNVBAMTEUVTRklSTUEgQUMgQUFQUCAyMB4XDTI0MDgyOTA5MDcwOVoXDTI5MDgyODA5MDcwOVowgYExCzAJBgNVBAYTAkVTMTYwNAYDVQQKEy1FU1BVQkxJQ08gU0VSVklDSU9TIFBBUkEgTEEgQURNSU5JU1RSQUNJT04gU0ExGDAWBgNVBGETD1ZBVEVTLUE1MDg3ODg0MjEgMB4GA1UEAxMXRVNGSVJNQSBUU0EgLSBRVFNVIDIwMjQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQCXGqkwPQEep0CaBcswKR2abIdsI2VfKn9uXyGwHxz1uySIOdGP9bC6dSTAu5quIgtG3u+cXFpKAG+im33cvHBRBlKInxVZQIoePvmT498m9ywWCk6YPoXenlHN3b38g8+XYVkNY2h+OQdDWOvQExn63SNPyvixwqL94I+33mYaUJ6OPvytHJFQnchZni9NFqYiS30irNuL2EEj3v0k64qGerCjWuDrYSyHmbtm1cHBwEmmA1myN0aANSPzj3Ed3VTnq9ZbASaos1CTGMhBAa1MqzHJ3sL+YEu3R0v9RmXGM1qqgxEh3lPESNxYH3n4XgXYo/Woi5YIanHEOMHRs/KR+JgEC6RjuIUBp5pxWnVwrTiJ48wdkKcOTZKJMIv9GcslUxLSqnkOAvHL5wBwXZ4vN4UtO2fQqUYm2IWxFMMnT5/Mmrl2g+zrca6Gj91/9x5PoxVWZdYOUty7PyYe20RJC3jniRaZgGy41TISbptv3Da0jhelH94a0xRukW3d/WfHUIgWSFalK3+OKPGF2vtCuJ6xaGEXmCinqxnfSlcTqWLYxFuyo1VA/prPhJzN4sdVMS8dKGO1Wklaia4TAmbB9asbHNSdinPopeoLxh9go0kO6XmUQEA1ecMKJyVtO+c2jojiLeyZLYSDGlMgXVzO51i7NzzGYWWu26WF+I16VwIDAQABo4ICNjCCAjIwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBT2QO/DpytN5b8x6fruw3l5HyoDWDB0BggrBgEFBQcBAQRoMGYwNgYIKwYBBQUHMAKGKmh0dHA6Ly93d3cuZXNmaXJtYS5jb20vZG9jLXBraS9hY2FhcHAyLmNydDAsBggrBgEFBQcwAYYgaHR0cDovL29jc3AuZXNmaXJtYS5jb20vYWNhYXBwMi8wUwYDVR0gBEwwSjA9BgsrBgEEAYLxMQEFAjAuMCwGCCsGAQUFBwIBFiBodHRwczovL3d3dy5lc2Zpcm1hLmNvbS9kb2MtcGtpLzAJBgcEAIvsQAEBMBYGA1UdJQEB/wQMMAoGCCsGAQUFBwMIMFEGCCsGAQUFBwEDBEUwQzAVBggrBgEFBQcLAjAJBgcEAIvsSQECMAgGBgQAjkYBATALBgYEAI5GAQMCAQ8wEwYGBACORgEGMAkGBwQAjkYBBgIwbwYDVR0fBGgwZjAxoC+gLYYraHR0cDovL2NybHMxLmVzZmlybWEuY29tL2FjYWFwcC9hY2FhcHAyLmNybDAxoC+gLYYraHR0cDovL2NybHMyLmVzZmlybWEuY29tL2FjYWFwcC9hY2FhcHAyLmNybDAdBgNVHQ4EFgQU9zCW9EB6mrN3qOh+a2GlwwDawwgwKwYDVR0QBCQwIoAPMjAyNDA4MjkwOTA3MDlagQ8yMDI2MDgyOTA5MDcwOVowDgYDVR0PAQH/BAQDAgZAMA0GCSqGSIb3DQEBDQUAA4ICAQA07XXeuJ5u3ywEerR8O9jgsDQ5UhbZt8U9F/XZN4KTZpSOln46m34xnMe4eEAhyLHLpJsUK+jSbWr7WgZax9gBPW5X0yYbdr9uMO3MnAg3RwPUH6vyu8EHkGDfKAHjdI3HjJOp+ZUx7gYfcjUlZMxSax5UhcqF/0v8AP4k3eiu4mp6fKKA5XKOEWpi3wF6q/A6x4fCI19faxfVQAZT1IV6Jr36HYJLNTHraewdXpUi13XUh9zS3VDqStEQOGRAw8ljQ4GpCzyOEu0PVemKgd5DIhXUgf+M74XM3JygVOIFxDIXFtnoupewNZvobnc4LotKNfvBnqG11wuvrOzkJ+80649p67w5hfKDLVxQPFFMl34829L57kjlPNIgXzU1LKgHRcWCPACbzdTtbJ0+/vZhffjjsUsbBoxa2ppghhASWzMsmeaxepAgFthUKPJZgR5GO67OLGb4jQo7jqvdYXIszPGEY9+7LsjlCgVKyt707LfalHgSjnVB71yGNLqrod0HwumcGo3QC+AhGWMGj6qCriaawZFPBAH6NslfpZ06kZZmlrt/K+fz6exu0hIshYqVZH9qoR1ouuynBwXpeCbwaXOb26+pOLi59puQhr9Q5ErWEMdLaxXAly7iXS8V4KP5jRQi+b394nwWyPuyGgvglJAYnHRJ6iT0yes8QTul/g==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ESFIRMA TSA - QTSU 2024, OID.2.5.4.97=VATES-A50878842, O=ESPUBLICO SERVICIOS PARA LA ADMINISTRACION SA, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>9zCW9EB6mrN3qOh+a2GlwwDawwg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -21794,6 +21906,7 @@
                     <Name xml:lang="es">VATES-B84492891</Name>
                     <Name xml:lang="en">Logalty Prueba por Interposicion SL</Name>
                     <Name xml:lang="es">Logalty Prueba por Interposicion SL</Name>
+                    <Name xml:lang="en">LOGALTY PRUEBA POR INTERPOSICION SL</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -22249,13 +22362,32 @@
 <X509SKI>hZhtk9GvYU7QovMa6Gr57uJPWZI=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-04-22T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
                             <URI xml:lang="en">https://avancedigital.mineco.gob.es/en-us/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
                             <URI xml:lang="es">https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
                         </SchemeServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Qualified electronic registered delivery service issued for “Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada”</Name>
+<Name xml:lang="es">Servicio Cualificado de entrega electrónica certificada emitido para “Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada”</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>C=ES, L=Alcobendas, O=Logalty Prueba por Interposicion SL, OID.2.5.4.97=VATES-B84492891, SERIALNUMBER=B84492891, CN=Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>hZhtk9GvYU7QovMa6Gr57uJPWZI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-04-22T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -22303,6 +22435,32 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2022-04-22T00:00:00Z</StatusStartingTime>
+                        <SchemeServiceDefinitionURI>
+                            <URI xml:lang="en">https://avancedigital.mineco.gob.es/en-us/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
+                            <URI xml:lang="es">https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
+                        </SchemeServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified electronic registered delivery service issued for “Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada” (2024)</Name>
+                            <Name xml:lang="es">Servicio Cualificado de entrega electrónica certificada emitido para “Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada” (2024)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Logalty Prueba por Interposicion SL - Entrega Electronica Cualificada, SERIALNUMBER=B84492891, OID.2.5.4.97=VATES-B84492891, O=LOGALTY PRUEBA POR INTERPOSICION SL, ST=MADRID, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>dnlM8f7US4jyvTv/iXQK1nknC34=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2024-12-03T00:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
                             <URI xml:lang="en">https://avancedigital.mineco.gob.es/en-us/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
                             <URI xml:lang="es">https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
@@ -27165,13 +27323,15 @@
         <TrustServiceProvider>
             <TSPInformation>
                 <TSPName>
-                    <Name xml:lang="en">Trustcloud Tech SL</Name>
-                    <Name xml:lang="es">Trustcloud Tech SL</Name>
+                    <Name xml:lang="en">TRUSTCLOUD TECH SL</Name>
+                    <Name xml:lang="es">TRUSTCLOUD TECH SL</Name>
                 </TSPName>
                 <TSPTradeName>
                     <Name xml:lang="en">TRUSTCLOUD TECH</Name>
                     <Name xml:lang="es">TRUSTCLOUD TECH</Name>
                     <Name xml:lang="en">VATES-B67693655</Name>
+                    <Name xml:lang="en">Trustcloud Tech SL</Name>
+                    <Name xml:lang="es">Trustcloud Tech SL</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -27229,4 +27389,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-19c72e2f66e4e1bd3bc21ff0636ffc9d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jy5dDPOkMrP75i8n7xQ7zYMPksZWtmliBkJwxtc5xdg=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-19c72e2f66e4e1bd3bc21ff0636ffc9d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wzPfs3BupvyRKWvyujZ1WUnZWaY1ScpxfC49KQYweDc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-19c72e2f66e4e1bd3bc21ff0636ffc9d">Y19RPXcDnMj++f8ocVx+MKUBFIA3zrfuQMTSeZf64nd4SCuOmyd2RyvezJq6RPKCg4KA7wygDp8Opp10gaDpP4xj3yFcHSjTfj/K/5Z+tCAOcnxW5nUhz3tMdhmdJvyrNcLI35Ht6u3defTgTFfhikM57l6BgbXbq+QtaxII7BtEeqJuZvb2G1s2bvmcA1X2fjJeDx1uNuaX/Fl2r44X0zrSQMvETVVz+TPTdWI9yvow4OC+Lf6Kn9iSqFekxlJNVEftIND58KNmG8sQT76Sg+KsqMOWA/g1paFEamFAp2vcSfVTrKacd0sFO3VUtdVtiPCAZNRBImixiyFMXpbcrJ9qbhZmsDKtW2ePpLraqGvsOJOOMng1eXPaRirfBy4LkJCczFeEVM1d1oKQ6SNf75KTGgQegYJWlEXS0ZY9+BVLXclJxgrgVh+oDEud4qmOms9xv9a85nsjXJwfiDblT8B+sAQzKm+/KuJjO0fbo+gLs7MOBW8cc01qKlDPaT4XrN6hij1MekeMN6irbWcFpLjIlU2dBaO09YDpT5J/sPyZ7OnJbu65SEapRvoGPB0UBB5PSW+nxsW12yKpfY55+5hkk+enSQiKj6SnX9jbfCzeLtsA8Ucl9rEIdYENKgjcVfKui9nPJEwcKP2f1BSf6Nv3hUxOm/VaiYcKpQVibj8=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-19c72e2f66e4e1bd3bc21ff0636ffc9d"><xades:SignedProperties Id="xades-id-19c72e2f66e4e1bd3bc21ff0636ffc9d"><xades:SignedSignatureProperties><xades:SigningTime>2024-11-08T08:15:22Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-d30b069ca58c7602b166aae6cc50fb31"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UYodI5aYs9iyOigyNU/toV5dcvQXkhbW45/Qd5gokBQ=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-d30b069ca58c7602b166aae6cc50fb31"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>BdwJUVmAYtcprKqCylt34MkHxzSmYUFjURSJlLGtATk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-d30b069ca58c7602b166aae6cc50fb31">N+YoWINhRbp5Vg/hvV4cZipLY2H2oKDYJbigMJSW+clN/lcuBS4y+H1xMglxMpLoLeN6uProeNCSU+6PjhhfcgbXlkc3MSJEepbsfPeNSlkeCbLV0PUb7y9wxpHC7TA0YjpgVRga8Cqyd0kMJCHvH9RnYCPtzMpYupOGKeneJOfedvBsX6/6iZPsMNPlZ1fdwk3pllIDDzhR41IRrbAurHUyvq3efMuoFP6e6ruWPM6bp+MA2iTahWHMmDtpd3eCwMCjf3ldCf/pybndBYS7KoeHJaUm9XMFpCGHEtR/bOwff1UJtM7aHI8GnLCWMvu4YRr26QEbDBDncDR9w6LAnIqRJC7b8J0Q4P1uqhsxsTbvhMoqpkBhji2nyjpl6qy/U204d3/fA1/0Id0nsp9yPDlLxzeswl+pE94RbEi29z5mn5PEfNPEYe+ck3UzZZWC6v/ryEovD5ufEz9O+I5zakFsxBi+u/guhp/ldlpzU0QK74kJePHK1vbCgdvndmxAVWJc8uEM7NNMiQrEnYFj6eB5Wdn1fmhvODUYrqabEbDIipuxTzm4LNHadW14gFyNFmQFAEkX8tJiZCRhwSTSv59MHRdq9+uFaIN2ykiFAxWABRF+6yxH2Osy7O/TvA0WBdsJCms9MeXnqyeVsC9qoal5tr4L04Xl4l5SLJMp7to=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-d30b069ca58c7602b166aae6cc50fb31"><xades:SignedProperties Id="xades-id-d30b069ca58c7602b166aae6cc50fb31"><xades:SignedSignatureProperties><xades:SigningTime>2024-12-03T09:42:02Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
