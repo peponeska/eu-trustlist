@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#" TSLTag="http://uri.etsi.org/19612/TSLTag" Id="TLISK-179">
+<?xml version="1.0" encoding="utf-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#" TSLTag="http://uri.etsi.org/19612/TSLTag" Id="TLISK-181">
   <SchemeInformation>
     <TSLVersionIdentifier>5</TSLVersionIdentifier>
-    <TSLSequenceNumber>119</TSLSequenceNumber>
+    <TSLSequenceNumber>120</TSLSequenceNumber>
     <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
     <SchemeOperatorName>
       <Name xml:lang="en">National Security Authority</Name>
@@ -407,9 +407,9 @@ GKqMCPakQiiUoIg/BkLIUVYClIoQ8zsk</X509Certificate>
         </AdditionalInformation>
       </OtherTSLPointer>
     </PointersToOtherTSL>
-    <ListIssueDateTime>2024-10-01T08:00:00Z</ListIssueDateTime>
+    <ListIssueDateTime>2024-12-17T08:00:00Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2025-04-01T01:00:10Z</dateTime>
+      <dateTime>2025-05-01T01:00:10Z</dateTime>
     </NextUpdate>
     <DistributionPoints>
       <URI>http://tl.nbu.gov.sk/kca/tsl/tsl.xml</URI>
@@ -661,97 +661,6 @@ JnbL2YXCVemtb9PUYdZG+gWpH5DlEAxhsMpY+qH7x1sunu4NtwIZmdBKZG76MDwz
               <ServiceDigitalIdentity>
                 <DigitalId>
                   <X509SKI>f/E9IcKXWi6XBw6xaYMl/SGGPgc=</X509SKI>
-                </DigitalId>
-              </ServiceDigitalIdentity>
-              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/setbynationallaw</ServiceStatus>
-              <StatusStartingTime>2002-03-15T00:00:00Z</StatusStartingTime>
-            </ServiceHistoryInstance>
-          </ServiceHistory>
-        </TSPService>
-        <TSPService>
-          <ServiceInformation>
-            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/SignaturePolicyAuthority</ServiceTypeIdentifier>
-            <ServiceName>
-              <Name xml:lang="en">(3) Trusted publishing of signature policies 2</Name>
-              <Name xml:lang="sk">(3) Dôveryhodné zverejňovanie podpisových politík 2</Name>
-            </ServiceName>
-            <ServiceDigitalIdentity>
-              <DigitalId>
-                <X509Certificate>MIIIczCCBlugAwIBAgICBm0wDQYJKoZIhvcNAQELBQAwbTELMAkGA1UEBhMCU0sx
-EzARBgNVBAcMCkJyYXRpc2xhdmExIjAgBgNVBAoMGU5hcm9kbnkgYmV6cGVjbm9z
-dG55IHVyYWQxDjAMBgNVBAsMBVNJQkVQMRUwEwYDVQQDDAxLQ0EgTkJVIFNSIDMw
-HhcNMTMwNjA2MDc0MDE0WhcNMTYwOTA2MDczOTEzWjCBujELMAkGA1UEBhMCU0sx
-EzARBgNVBAcMCkJyYXRpc2xhdmExIjAgBgNVBAoMGU5hcm9kbnkgYmV6cGVjbm9z
-dG55IHVyYWQxDjAMBgNVBAsMBVNJQkVQMTYwNAYDVQQDDC1QU0VVRE9OWU0gLSBU
-U0wgYW5kIFNpZ25hdHVyZSBQb2xpY3kgU2lnbmVyIDIxKjAoBgNVBEEMIVRTTCBh
-bmQgU2lnbmF0dXJlIFBvbGljeSBTaWduZXIgMjCCASIwDQYJKoZIhvcNAQEBBQAD
-ggEPADCCAQoCggEBAOoNixEp0esybJLfVKXdo/aBuXA4GthgVl7luflgPASj8N58
-97b3qbapcPxRtWfjotv28ewCSqPAEh0PrNrBD+jyNKOjpXoGYOyvwkBIx6YygG2d
-uhWVg54IIuvmoXsjOyBzzOHvtbJO2P27Hu8QU3dQf3px3hB86CyqRydhVsVaOGwf
-BAAZ0WbN0NVQMWYo7X3xx95Wh34eAOvLEjT5qgjGsihTH4MQ3vWEpEJbev5JE3Qk
-Gi6DzZc+FCNlJToPYInFJsrb+rkjf/7BhdDperTvbOvNhmhLcDqUzvjXtKEHQtfz
-2teBsFkzatOcAhZqAZeYNOiaHPMu4BMF1XZKqkECAwEAAaOCA80wggPJMAkGA1Ud
-EwQCMAAwYgYDVR0gBFswWTBFBg0rgR6RmYQFAAAAAQICMDQwMgYIKwYBBQUHAgEW
-Jmh0dHA6Ly9lcC5uYnVzci5zay9rY2EvZG9jL2tjYV9jcHMucGRmMBAGDiuBHpGZ
-hAUAAAEKBQABMIIBQAYIKwYBBQUHAQEEggEyMIIBLjA/BggrBgEFBQcwAoYzaHR0
-cDovL2VwLm5idXNyLnNrL2tjYS9jZXJ0cy9rY2EzL2tjYW5idXNyM19wN2MucDdj
-MHoGCCsGAQUFBzAChm5sZGFwOi8vZXAubmJ1c3Iuc2svY249S0NBIE5CVSBTUiAz
-LG91PVNJQkVQLG89TmFyb2RueSBiZXpwZWNub3N0bnkgdXJhZCxsPUJyYXRpc2xh
-dmEsYz1TSz9jYUNlcnRpZmljYXRlO2JpbmFyeTBvBggrBgEFBQcwAoZjbGRhcDov
-Ly9jbj1LQ0EgTkJVIFNSIDMsb3U9U0lCRVAsbz1OYXJvZG55IGJlenBlY25vc3Ru
-eSB1cmFkLGw9QnJhdGlzbGF2YSxjPVNLP2NhQ2VydGlmaWNhdGU7YmluYXJ5MFUG
-A1UdEQROMEyBEnBvZGF0ZWxuYUBuYnVzci5za4Y2aHR0cDovL3d3dy5uYnVzci5z
-ay9lbi9lbGVjdHJvbmljLXNpZ25hdHVyZS9pbmRleC5odG1sMA4GA1UdDwEB/wQE
-AwIGQDARBgNVHSUECjAIBgYEAJE3AwAwHwYDVR0jBBgwFoAUf/E9IcKXWi6XBw6x
-aYMl/SGGPgcwggFYBgNVHR8EggFPMIIBSzAwoC6gLIYqaHR0cDovL2VwLm5idXNy
-LnNrL2tjYS9jcmxzMy9rY2FuYnVzcjMuY3JsMIGQoIGNoIGKhoGHbGRhcDovL2Vw
-Lm5idXNyLnNrL2NuJTNkS0NBJTIwTkJVJTIwU1IlMjAzLG91JTNkU0lCRVAsbyUz
-ZE5hcm9kbnklMjBiZXpwZWNub3N0bnklMjB1cmFkLGwlM2RCcmF0aXNsYXZhLGMl
-M2RTSz9jZXJ0aWZpY2F0ZVJldm9jYXRpb25MaXN0MIGDoIGAoH6GfGxkYXA6Ly8v
-Y24lM2RLQ0ElMjBOQlUlMjBTUiUyMDMsb3UlM2RTSUJFUCxvJTNkTmFyb2RueSUy
-MGJlenBlY25vc3RueSUyMHVyYWQsbCUzZEJyYXRpc2xhdmEsYyUzZFNLP2NlcnRp
-ZmljYXRlUmV2b2NhdGlvbkxpc3QwHQYDVR0OBBYEFE2lEI6SH/G8y1Qze4eFD6iP
-1924MA0GCSqGSIb3DQEBCwUAA4ICAQAbSmmukMl9d/8FJnpQEMpqUfnhHV+0USPQ
-c31C+eqAH7cZkBgKQXJc7xW1Q5stTnpvqrp5OcbCGtnFNHRm1PUf64S/hoAnDfmk
-3teQbGjgkrg5VFBMsf/dzBhZTRetbGx1tzt2M/gxh45vsJhA958O0S5haT1/Vytn
-OXMSh2SrxIDqzMzZCAl5UBUuuifC0nElfwrgvYkYwqd2jz4pbixEqUNzHJMEf92M
-ayJwW/FUAeP9VW03K3ox4pHkL5IO8NtSCOQPE66tUgXW/kC1zI3iqtt5z4mdwGVP
-NWLFeRWVlTXLuZNAfVu/nzOJAinLkRWZO94c340nJ39A1McB2TgPsN/82EOC0dtS
-Zo7WEvWZRZdxiLHbNSyuLdwFX9kV8E0PcrQD21MPeFWxHH5iIxUPM3Banuvoqan7
-u9zAR8E5/8AKuJEHQriwm/7FXMuiffjqsbAeQM0fTGdTkHTRi8wiqN/2HFgBvT3g
-Smy3MsYFqMlamchHtmjpNlB7FVE3i+yXNFikDcoon56gUOQFvcau+WpdS3xjO1wZ
-jY4GP0eIeUpeclG7NV49ky65d3LJE1sWBpztFLanMU7bI08TIBt5oeNwnnz0gSc7
-6FHJHzuFsA67MjuQAhy19dpAsy6z4Mztel31HwQ83OULzegqiVvIUVxS1mOPhWzG
-BsOIH0B8Bg==</X509Certificate>
-              </DigitalId>
-              <DigitalId>
-                <Other>
-                  <tlx509:TLServiceIdentifier xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#">TLISK-3</tlx509:TLServiceIdentifier>
-                </Other>
-              </DigitalId>
-            </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
-            <ServiceSupplyPoints>
-              <ServiceSupplyPoint>http://ep.nbu.gov.sk/trusted_data/TrustedList.p7m</ServiceSupplyPoint>
-              <ServiceSupplyPoint>http://ep.nbu.gov.sk/trusted_data/TrustedList.zep</ServiceSupplyPoint>
-            </ServiceSupplyPoints>
-            <TSPServiceDefinitionURI>
-              <URI xml:lang="en">https://www.nbu.gov.sk/en/trust-services/trusted-list/index.html</URI>
-              <URI xml:lang="sk">https://www.nbu.gov.sk/doveryhodne-sluzby/doveryhodne-zoznamy/index.html</URI>
-              <URI xml:lang="en">https://www.nbu.gov.sk/en/trust-services/trust-infrastructure/signature-policy/index.html</URI>
-            </TSPServiceDefinitionURI>
-          </ServiceInformation>
-          <ServiceHistory>
-            <ServiceHistoryInstance>
-              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/SignaturePolicyAuthority</ServiceTypeIdentifier>
-              <ServiceName>
-                <Name xml:lang="en">(3) Trusted publishing of signature policies 2</Name>
-                <Name xml:lang="sk">(3) Dôveryhodné zverejňovanie podpisových politík 2</Name>
-              </ServiceName>
-              <ServiceDigitalIdentity>
-                <DigitalId>
-                  <X509SKI>TaUQjpIf8bzLVDN7h4UPqI/X3bg=</X509SKI>
                 </DigitalId>
               </ServiceDigitalIdentity>
               <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/setbynationallaw</ServiceStatus>
@@ -16918,6 +16827,78 @@ tV0s2gBwkh65</X509Certificate>
       <TSPServices>
         <TSPService>
           <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name xml:lang="en">(179) NFQES VAL</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIHmzCCBYOgAwIBAgIUfXxcjkps9phETvEDIX82RA+ufJswDQYJKoZIhvcNAQEL
+BQAwgYYxCzAJBgNVBAYTAlNLMRAwDgYDVQQHDAfFvWlsaW5hMRswGQYDVQQKDBJi
+cmFpbml0LnNrLCBzLnIuby4xDjAMBgNVBAsMBU5GUUVTMRcwFQYDVQQFEw5OVFJT
+Sy01MjU3NzQ2NTEfMB0GA1UEAwwWQ0EgU2lnbmluZyBDZXJ0aWZpY2F0ZTAeFw0y
+NDA3MzEwODU3MzBaFw0zNDA3MzEwODU3MzBaMHgxCzAJBgNVBAYTAlNLMRAwDgYD
+VQQHDAfFvWlsaW5hMRowGAYDVQQKExFicmFpbml0LnNrIHMuci5vLjEOMAwGA1UE
+CxMFTkZRRVMxFzAVBgNVBAUTDk5UUlNLLTUyNTc3NDY1MRIwEAYDVQQDEwlORlFF
+UyBWQUwwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQC2T+2rMwJbBFWV
+yVYZ+1J5TXFvVoQczSEJbsqu+GGpJDBdjIbkmkM/bGb4wOy7LHZ3kfEmine+bPIa
+9Q8lNiXMl1B2CAq5cu1hNuSTvh9Z/9UfbLtUc3Ux/VNWfizlNrDy864bIgQv6ynw
+2MFvxoYx+qtXTVoYWHfk7Qc4f8ezs5nHcFvnUYExFWA9m4b2sx9Y8W7Km1llGYm+
+zUyQp3K6AW5XhTGh1PCBRLio/o0S/wlVXIuS2sqjOqPNw0PeIyMh5mLQU4rLvcFX
+aR3hVWD8Tyh00b64pWkbkfyxynVw7wc0PMX6RTHnROMyW258mPHk99cc38VgXtRw
+0abZG/2chip6TsOQ5YNUFXcoy5hULBRi/jJN602aOAHJxq8UfokW60SeM9Z65lkE
+7QotB+szN8/yB1O7qmcghxZ/LgUsrAofd3P2MEkUQJCymOJ6Dc2BL186v3dOmJ+g
+I9ZLxGwebnfq9k9yR3VRAM3d9xmFNzDdJuwbTgFFHDVlPXDlewbe53RDx4grBYmg
+OcbyIrmQ+oHIDThJTyc6VOIpH8My6HKrEpGt/0GwEUf7YXrVHMUhkF775JtZVtAa
+fNdTQhG3Bs4O9vmpD1TSfULR0qjaz+3ZolatDrBpG8CXpnhqrnAC1kteL8BmkqZS
+nAc3Rj4IbriS+J3OPA9FL4EnQ5odBQIDAQABo4ICDDCCAggwCQYDVR0TBAIwADCB
+kAYIKwYBBQUHAQEEgYMwgYAwMgYIKwYBBQUHMAKGJmh0dHA6Ly9vY3NwLm5mcWVz
+LnNrL2NlcnQvbmZxZXNfY2EuY2VyMCYGCCsGAQUFBzABhhpodHRwOi8vb2NzcC5u
+ZnFlcy5zay9vY3NwLzAiBggrBgEFBQcwAqQWMBQxEjAQBgNVBAUTCVRMSVNLLTE0
+NDA2BgNVHR8ELzAtMCugKaAnhiVodHRwOi8vb2NzcC5uZnFlcy5zay9jcmwvbmZx
+ZXNfY2EuY3JsMHIGCCsGAQUFBwEDBGYwZDAIBgYEAI5GAQEwCAYGBACORgEEMDkG
+BgQAjkYBBTAvMC0WJ2h0dHBzOi8vem9uZS5uZnFlcy5zay9fcGRmL3Bkc19xdHNw
+LnBkZhMCc2swEwYGBACORgEGMAkGBwQAjkYBBgIwbAYDVR0gBGUwYzAPBg0rgR6R
+mYQFAAAAAQIDMEUGDSuBHpmJiTkAAAABAwIwNDAyBggrBgEFBQcCARYmaHR0cHM6
+Ly96b25lLm5mcWVzLnNrL19wZGYvY3BfcXRzcC5wZGYwCQYHBACL7EABAzAfBgNV
+HSMEGDAWgBShPOFUp+sjmRS+qXruXfxVqFXy2zAdBgNVHQ4EFgQU4nyLAsf1CAfQ
+k2WNcRfg6ETD0kwwDgYDVR0PAQH/BAQDAgZAMA0GCSqGSIb3DQEBCwUAA4ICAQCG
+jr8vp41jPjDVhAK1ZU/WXKqQUmJ5FtZeAvt7C1MItWzAVzjyvJwlpgAtWgDfH4Yi
+T+G0Fk92J+ubJwpqZRfdobyRZLIFcp3AeJPtxvIOR4Hgq1uU6VYi2x2Y5URyhtx1
+r5UHwbxNE7rubVD4g3+qFDKLu4OBipcIxU1u5cQ0tL8H/BGuCzNk654oQhZKleYZ
+ornUgtww6MTtllNeQG6AFTwD5hRjlOzrEDFlnQPlIThebgQOWMIWzT2SNHFEDpmf
+pddH6SpzOfOIpUq91fNrUK1EE84uvV2ilP/bciLGM2YpN13hJo2lI3BzcbxkDbub
+JJBdZrzPImOJx/dVc8kGSmOI4BjxTH9vm12L7YGXwaOV9X6TFKr6I4flt7e9mwcR
+5tjVkqczyTUlbaPQQ/KJk/1o8UfaNKSKIZ2M+hhBEnndSyrp+93T4TiFe9KY712B
+5wMMnGgsQKEWoDbL64K0R5fBNorULyEBXZ909WsthL38yzI7JGPc7DE7dfO7MTVD
+Y5VaHn7NrIisv5Z228+xYmpRn1hhusZ/GQNzNol/1Oe6FsW/YtBU85rzf2J0jrsN
+UGVWPYWBMYFXi3+TmunDVGPFHvpiksErNeTbyKBffe0UlTmpi+kcMKaxX/sOW1dT
+fEtqWE9Ee4Wg3aPmRsKpg/xXOOpAz3UslfnTIYk0+Q==</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <Other>
+                  <tlx509:TLServiceIdentifier xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#">TLISK-179</tlx509:TLServiceIdentifier>
+                </Other>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2024-12-17T08:00:00Z</StatusStartingTime>
+            <ServiceInformationExtensions>
+              <Extension Critical="true">
+                <AdditionalServiceInformation>
+                  <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+                </AdditionalServiceInformation>
+              </Extension>
+              <Extension Critical="true">
+                <AdditionalServiceInformation>
+                  <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+                </AdditionalServiceInformation>
+              </Extension>
+            </ServiceInformationExtensions>
+          </ServiceInformation>
+        </TSPService>
+        <TSPService>
+          <ServiceInformation>
             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
             <ServiceName>
               <Name xml:lang="en">(129) CA Signing Certificate</Name>
@@ -17663,7 +17644,69 @@ DGmaODTHD7V0Chj+ZieQHtQIWLST2Q==</X509Certificate>
             </ServiceInformationExtensions>
           </ServiceInformation>
         </TSPService>
+        <TSPService>
+          <ServiceInformation>
+            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+            <ServiceName>
+              <Name xml:lang="en">(180) I.CA EU Qualified CA-SK/RSA 10/2022 OCSP responder</Name>
+            </ServiceName>
+            <ServiceDigitalIdentity>
+              <DigitalId>
+                <X509Certificate>MIIFsjCCA5qgAwIBAgIEAL08PTANBgkqhkiG9w0BAQsFADCBhTEsMCoGA1UEAwwj
+SS5DQSBFVSBRdWFsaWZpZWQgQ0EtU0svUlNBIDEwLzIwMjIxLzAtBgNVBAoMJlBy
+dm7DrSBjZXJ0aWZpa2HEjW7DrSBhdXRvcml0YSwgcy5yLm8uMRcwFQYDVQRhDA5O
+VFJTSy01NDg2OTA5OTELMAkGA1UEBhMCU0swHhcNMjQxMjAzMDkzODAzWhcNMjUw
+NjAxMDkzODAzWjCBlDE7MDkGA1UEAwwySS5DQSBFVSBRdWFsaWZpZWQgQ0EtU0sv
+UlNBIDEwLzIwMjIgT0NTUCByZXNwb25kZXIxLzAtBgNVBAoMJlBydm7DrSBjZXJ0
+aWZpa2HEjW7DrSBhdXRvcml0YSwgcy5yLm8uMRcwFQYDVQRhDA5OVFJTSy01NDg2
+OTA5OTELMAkGA1UEBhMCU0swggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIB
+AQCw3p8wvyngZLSdXLuFlHv3TYV81lQWpFY4LvzR0F4NwK6KrvrESExo/ImgJH8j
+wmxuFd2smNbXae/9oMNa1e4SFzpr3y3OOaSK0O+EruHE3iPkqBXOSEDlSwybnJfk
+P7XBj5Da9SVYkic6f3ROV+a2NNA+CzqTkulreJ+5Thwa5GMKiVcUUZkzY/ncVhKl
+GxKtFFBzUUd3E8YWq6594nGYJh0xrGzGHTtQhw7jY57T6NZ0ygVE27MVFvh3sEXx
+jiNbSeIgUisSPPTXmci3xljwg3O/ogzeM+5upTQKA/YxiMaD/OWGgmt0Ov/MQNJA
+mgIwR/sgWzCjqOO9KjhfCrUdAgMBAAGjggEXMIIBEzAsBgNVHSAEJTAjMBAGDisG
+AQQBgbhICgGBQwEAMA8GDSuBHpGZhAUAAAABAgIwCQYDVR0TBAIwADAOBgNVHQ8B
+Af8EBAMCB4AwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwkwDwYJKwYBBQUHMAEFBAIF
+ADAdBgNVHQ4EFgQU3wZQzxvF3e7QJ0S18KQeokvtrbAwHwYDVR0jBBgwFoAUL76V
+ejvptZMLYebpOAdIpIq9U58wXwYIKwYBBQUHAQEEUzBRMCsGCCsGAQUFBzAChh9o
+dHRwOi8vcS5pY2EuY3ovcWNhc2syMl9yc2EuY2VyMCIGCCsGAQUFBzACpBYwFDES
+MBAGA1UEBRMJVExJU0stMTU3MA0GCSqGSIb3DQEBCwUAA4ICAQCvSkXAXhTR3cd5
+JQRfQLoGIMU7lBxtjwpd4b7+L2WcnlP+hCzfUurTV7nmWBkhtS5f9/uKk2nTu+6m
+4jB+Rg0dmktQIWDyTv94jqrUBj1mlzAt13SdTnDmLRptR7Xo55QlER3UgowDCLo7
+KtbgyBTdQ7eBAO2rArNGm5PS4V/03Sk+zFUudcmQYyQQKY3hIxe+eXhz6wX7RUT8
+VDpD2NfoGappagEcfr55VH1CiFxWQN7y4xNgV2go2x1XexjK8pl3wtq4QQrjF+xi
+eWzNOqgkTYD8sHgJGU2AaFLN7i8pYi48/ZQwQG89rQD/ux+uJfsGioBFHQzDDJt0
+l1Ckgp3SV3mmcp3ZaoOYVxK6pCth5QnJaSIoiUIka+ve1zfKVLWwpfXIWGSheI7C
+OZ8OHDxDTWTSemJ/h9FWrnDb5p0CnW73NrqxpPYGbpBu5kil5Hp5YUbe+8xxWu+w
+iBrPLb5ijrwwGE6UQTd83wf8v7rLEgc3jERXPtu4oc4MTjDRLY7zXxPhpppnE5LM
+Ehna2tjarRX5leW4beGAJEgPAa6K43x8spRu/uZ+8jYqM8WQrSWtQ/xy9rplQonj
+NazifkROJt4G3ZEtMgYPSSVd+ZDEa2eis0D5xNM4tLoqv681ecP17AswS129cZix
++MlaTq8Xo/JceIsbNuuCJqAvFJIlyA==</X509Certificate>
+              </DigitalId>
+              <DigitalId>
+                <Other>
+                  <tlx509:TLServiceIdentifier xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#">TLISK-180</tlx509:TLServiceIdentifier>
+                </Other>
+              </DigitalId>
+            </ServiceDigitalIdentity>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+            <StatusStartingTime>2024-12-17T08:00:00Z</StatusStartingTime>
+            <ServiceInformationExtensions>
+              <Extension Critical="true">
+                <AdditionalServiceInformation>
+                  <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+                </AdditionalServiceInformation>
+              </Extension>
+              <Extension Critical="true">
+                <AdditionalServiceInformation>
+                  <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+                </AdditionalServiceInformation>
+              </Extension>
+            </ServiceInformationExtensions>
+          </ServiceInformation>
+        </TSPService>
       </TSPServices>
     </TrustServiceProvider>
-  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-177540196"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x1804301728" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>s91XrI6TPZ4Bz/o8zqJAjB6CV5Vcc/AZJfFpWnnHsEw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1743141783"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gge4AKbHba+pty/xdPpUybTNxWr+NRykk5dV4w1Mmas=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Q7vLse7X1FPKmOxJmvahclIEsWqS9td8h8OggyzJcri4nmOEEbEjCPChHGdMhjUhOyiEPHcXEwLsB0PRNnF9pSpQ3ueo53DmGYUVPApF5LXLcDs7WcYLjOa1XbsQHGz4jwNyiKu9AKFmVdxh6eSGj+b8kwNAOc4QQtiKht5dv0Jvso8m5AoBGtvvaEi29uWwuIGRaudtUmYXsiW6uNFnIOkhricfXECqKLCDO8pykCvkEVTQUTTERTzN3yoEVGzGtnwYNz5a5nVm3Fdd5ZA2NmJNZWEl9CGxtcfb6/DWABUiAqdokRz78FdFmb0vSBNCjzCSb3UNw3Gbme3zV4m1zA==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>keUXCXjFJQvKf0jN5xSDA4VtT1/Ftk0fcAq1QgYSfMrk5NbzhFfpVvMM8e4f1RkU2TNtZ4WRTq+OT9DODdoFoDRrUtEVg8yZKP/oZ6WPqPQT3wz/KeG2wYpWmZJiFmH07Bor4fwYXmtTQc/+7Tf/O/V1xXiBgJ5Mae56J79jHZZe7I3XqvZ12qKh6RpF7RTCkRApENPGCRoleoOz5cgwVv1pb5hF6vSsZyDFyxlgojJmY7kZrf74slI35oaZFwT1n5tMp5SF9RFXqoUkepWA2CgTVTcYgIS/X9HF5QXEIaJj5tW5+KpcQjX8NlsA6Pt0FaHnlgTGyStxkmQLFZcUpQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 8, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-177540196"><xades:SignedProperties Id="SignedProperties-1743141783"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-01T08:00:00.434Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UxijDtxLA3qqlYmWkTbH6+luJ6axmxMItoRCgP1rtzA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x1804301728"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-772426031"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x898668769" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>jsxGWYrF/CTxtP/YDyHtRIugCAazrrY02GN9MPwuCdE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-2067428192"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qp9SVIy9leCumZrncOh6LeOPzxnGdI2R6s9BjAyRWLs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Ec2LN8EAgrV9ErAgXZpHoidh88P0iNE9QTaFhgD/A2CXF6o4nnT9TJRS0kdtbKmWrCVvbRnQEnntt6wBTo7/bv/nCjroGtX7daaydF6rKPGXXbKrWMMOt9kIbEkk9DEx8Ej1pfUwpKS+Do2RogIF18yPtEgT4XNCl+H1DKdVdoxPwMKIjEC5/Xd4PLJnJypJVAMp7FDtVXY/KFlBVShI1cQdfXC+gPBZGyVz36TJIt/NfShui2Nvdwi9OxDKatCvY6LpEuIw5/6jdBfxA1Nz4MQrA9rm1wEHAv+k6/Ab9e1SArum/OGoukFDb5fFYVGMOiUSPASmr7zVy//25tDMdg==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>keUXCXjFJQvKf0jN5xSDA4VtT1/Ftk0fcAq1QgYSfMrk5NbzhFfpVvMM8e4f1RkU2TNtZ4WRTq+OT9DODdoFoDRrUtEVg8yZKP/oZ6WPqPQT3wz/KeG2wYpWmZJiFmH07Bor4fwYXmtTQc/+7Tf/O/V1xXiBgJ5Mae56J79jHZZe7I3XqvZ12qKh6RpF7RTCkRApENPGCRoleoOz5cgwVv1pb5hF6vSsZyDFyxlgojJmY7kZrf74slI35oaZFwT1n5tMp5SF9RFXqoUkepWA2CgTVTcYgIS/X9HF5QXEIaJj5tW5+KpcQjX8NlsA6Pt0FaHnlgTGyStxkmQLFZcUpQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 8, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-772426031"><xades:SignedProperties Id="SignedProperties-2067428192"><xades:SignedSignatureProperties><xades:SigningTime>2024-12-17T08:00:00.385Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>UxijDtxLA3qqlYmWkTbH6+luJ6axmxMItoRCgP1rtzA=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2464</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x898668769"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
 </TrustServiceStatusList>
