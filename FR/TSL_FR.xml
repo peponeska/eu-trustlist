@@ -1,10 +1,10 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>144</TSLSequenceNumber>
+        <TSLSequenceNumber>146</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
-            <Name xml:lang="en">French Network Information Security Agency</Name>
+            <Name xml:lang="en">French Cybersecurity Agency (ANSSI)</Name>
             <Name xml:lang="fr">Agence nationale de la sécurité des systèmes d'information (ANSSI)</Name>
         </SchemeOperatorName>
         <SchemeOperatorAddress>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-12-11T17:00:04Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-01-07T11:06:01Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-06-11T16:00:04Z</dateTime>
+            <dateTime>2025-07-07T10:06:01Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -5467,13 +5467,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0040000120_002, SERIALNUMBER=SN-UH120-002, 
 <X509SKI>YFg2MHEVvOdPzw75XF8Ham/mzx4=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-02-01T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2028-02-09T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certinomis - ETS 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="fr">Certinomis - SHE 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000498, SERIALNUMBER=211717LHM724, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>YFg2MHEVvOdPzw75XF8Ham/mzx4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-02-01T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -5494,13 +5513,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>hZp1+FU47cMH30lO9sYmYbSclXs=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-02-02T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2028-02-10T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certinomis - ETS 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="fr">Certinomis - SHE 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>hZp1+FU47cMH30lO9sYmYbSclXs=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-02-02T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -5520,11 +5558,108 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>ZC67iJEJkY6W1jpLTigenS8Pbb0=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-02-02T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2028-02-10T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="fr">Certinomis - SHE 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000585, SERIALNUMBER=211798QMR371, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>ZC67iJEJkY6W1jpLTigenS8Pbb0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-02-02T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="fr">Certinomis - ETS 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            <Name xml:lang="en">Certinomis - ETS 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIIEDCCBfigAwIBAgIQdXnIr/2si70lTl12F/SNnDANBgkqhkiG9w0BAQsFADBgMQswCQYDVQQGEwJGUjETMBEGA1UEChMKQ2VydGlub21pczEYMBYGA1UEYRMPTlRSRlItNDMzOTk4OTAzMSIwIAYDVQQDExlDZXJ0aW5vbWlzIC0gVGltZXN0YW1wIENBMB4XDTI0MTIzMTAxMjQyNloXDTI5MDEwOTAxMjQyNVowgdcxCzAJBgNVBAYTAkZSMQswCQYDVQQIDAI5NDEXMBUGA1UEBwwOSXZyeSBzdXIgU2VpbmUxHTAbBgNVBAoMFERPQ0FQT1NURSBDRVJUSU5PTUlTMRgwFgYDVQRhDA9OVFJGUi00MzM5OTg5MDMxFzAVBgNVBAsMDjAwMDIgNDMzOTk4OTAzMRkwFwYDVQQFExAyMTE3MTdMSE03MjQtMDAyMTUwMwYDVQQDDCxDRVJUSU5PTUlTX1VOSVRFX0hPUk9EQVRBR0VfODE2MTBfMDA1MDAwMDQ5ODCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK1cuODAa3qEXgCCGYEyy21f/3soCdT5eHe5cGcEpvXXYmWE7VbwsSLgtUl11REBsgHoYHv+0rB7hqJ2Llj5fo9uawqZknrQRobSkv2vzVNnPegUIvALO36yYET7GY6hPF1q/ldbxoeHC4P7TrMEKJ/tk8eXub5/Ue5PFqMA6bGEVNV9FddzgJp0GZ6j9loeCG3nuq/fqaj0InlXYmg16Qgulby+TqSAWhvAFZLYcC1ZOvH1rk3VHd8+gDXXo+lSG/6fuWGIcgvZyvdLvtQDSo9S5zhoOWy4Z2ULS+di5/UHCTrfEYUn0FPUhajPT47CVBve8+rZOo0BXkHhXjm8S8s5cK8AVvcLn7UiTufHc19CqYUfWpVXbCgWPtlDnfr7ytyJdEZ5y72pZ3DHXR+76Pa6/oEplK9o+uF4/t6IRW4qjeiLZrF1jnDNSyeXWUNso9hmZjWoEwRL6ipt9STYTg4mPCOqI8jltxNWoh3ZYbYhC4kLy2w2eGeWOiwubLD3HfgeeIiXpDGiRCmB6I9qYdJHJoumpPcZxXqdyGpvBhonUnR71D4q3aG3boBBGdqS4x+tq50hyekmg1Wrcua/rJEgFmoLsvbJYvhogQFvDrp2+olvPtZGbQ3pssDv3EC8bzTX0V6Em8kbmovUGOZ05KpMH2lF9DE+OrfdPuGQ4sAxAgMBAAGjggJMMIICSDAMBgNVHRMBAf8EAjAAMB8GA1UdIwQYMBaAFGSiji0JWOg0xEa5oewgUd+Ep3F4MIGCBggrBgEFBQcBAQR2MHQwRQYIKwYBBQUHMAKGOWh0dHBzOi8vd3d3LmNlcnRpbm9taXMuY29tL3B1YmxpL2Nlci9hYy1lamItdGltZXN0YW1wLmNlcjArBggrBgEFBQcwAYYfaHR0cDovL29jc3AtcGtpLmNlcnRpbm9taXMuY29tLzBtBgNVHSAEZjBkMFcGCiqBegFWAgYFGAEwSTBHBggrBgEFBQcCARY7aHR0cHM6Ly93d3cuY2VydGlub21pcy5mci9kb2N1bWVudHMtZXQtbGllbnMvbm9zLXBvbGl0aXF1ZXMwCQYHBACL7EABATAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDCBlQYIKwYBBQUHAQMEgYgwgYUwCAYGBACORgEBMBMGBgQAjkYBBjAJBgcEAI5GAQYCMGQGBgQAjkYBBTBaMFgWUmh0dHBzOi8vd3d3LmNlcnRpbm9taXMuZnIvZG9jdW1lbnRzLWV0LWxpZW5zL25vcy1jb25kaXRpb25zLWdlbmVyYWxlcy1kdXRpbGlzYXRpb24TAmVuMEQGA1UdHwQ9MDswOaA3oDWGM2h0dHBzOi8vd3d3LmNlcnRpbm9taXMuY29tL2NybC9hYy1lamItdGltZXN0YW1wLmNybDAdBgNVHQ4EFgQUEeU72rzXAKRGyTcB6mY2NOBZiKgwDgYDVR0PAQH/BAQDAgeAMA0GCSqGSIb3DQEBCwUAA4ICAQCbXOgkqqOPTw0dhfl72LmYgJnJEJtcUc/ZGL2I229PbWBTEQV9TrS+nuA5d1ZkjGMcQ5JUQw9s/XMrJbSFqDG3oKEzFyhpWR87Nj2ytKhcC6rpzbTZn6svfYhb1ebGNb5OfLFh9EX6Q8BCZadqUNj6AQELa5va9NoWCSNAQIyiiUpvO4QenkY+inp/fY7f9xfZhUwrqCnLRUZR9G2zJdPJijnsYj1Gn+JvPPFBMKbN51/EA8x20uNQDraAhKhKAz9ayMU8NiwWqu7OfR7XumaRqaMHcpXAwPDLHDsiYBCLHZ/ocftChSEPiq0kyABTuxF/CMGguIh15HL4RwyfnF/xrGPfOA3sTidgkUezD9cyv8fmR+XBkEsA2jwuqz1MhnXesPgQhYZyLq2/DtqY0xRqMIwZeKH9DySB9rCuTdG8exvEoKSCA89T8bxtp+ajLvAfol8NZFKwFxBPe9l0EZmkpDmLhgs9bIHcqoP/jwxFEcSzcQkd9zJsc76molOdaocrSBRU52vngRb2rLJfKsqPrq+KArz7t+IJ7GwdOEhvmoYoWd5TiMcTTGWsjH36fo6zlaupDOcmBYoPnQe0KTGiyG5kETLd7aGsyc+k1tCFYdYBLpimxjkFAtDd4kFICr5bRCGBgXs20ERiPAHfGg1OwfHkT5v8BYogayroETc4Qw==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000498, SERIALNUMBER=211717LHM724-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>EeU72rzXAKRGyTcB6mY2NOBZiKg=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                            <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certinomis - ETS 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            <Name xml:lang="fr">Certinomis - ETS 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>uIzC6Oez94TbvNygu++6ci2OmS8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                            <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            <Name xml:lang="fr">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000585, SERIALNUMBER=211798QMR371-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KkvJslZfr3IlkAYKTmpxgA+SZVU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                            <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
                 </TSPService>
@@ -21506,8 +21641,8 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="fr">https://tsa.datasure.net</URI>
-                    <URI xml:lang="en">https://tsa.datasure.net</URI>
+                    <URI xml:lang="fr">https://tsp.datasure.net</URI>
+                    <URI xml:lang="en">https://tsp.datasure.net</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -21587,6 +21722,171 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
                             <URI xml:lang="fr">https://tsp.datasure.net/documentation/</URI>
                             <URI xml:lang="en">https://tsp.datasure.net/documentation/</URI>
                         </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">DATASURE LRE - eIDAS Qualified Electronic Registered Mail Delivery Service - 1.3.6.1.4.1.58753.3.1.1.1</Name>
+                            <Name xml:lang="fr">DATASURE LRE - eIDAS Qualified Electronic Registered Mail Delivery Service - 1.3.6.1.4.1.58753.3.1.1.1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=DATASURE - LRE01, OID.2.5.4.97=NTRFR-904666203, O=DATASURE, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>QT98bmLVP5EKr2X0M6MhOg4Vbs4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-10T00:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://tsp.datasure.net/documentation/</URI>
+                            <URI xml:lang="fr">https://tsp.datasure.net/documentation/</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Datasure CA</Name>
+                            <Name xml:lang="fr">Datasure CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=DATASURE Global CA, OU=0002 90466620300016, OID.2.5.4.97=NTRFR-90466620300016, O=DATASURE, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>JCrYe7V8M+rNVWmUiwOq5iwvR0k=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-10T00:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://tsp.datasure.net/documentation/</URI>
+                            <URI xml:lang="fr">https://tsp.datasure.net/documentation/</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.58753.2.1.1.1.1.1.1</ns4:Identifier>
+                    <ns4:Description>DATASURE issues double usage certificates named DATASURE CA - eIDAS Qualified Identity+, signed by its Certification Authority DATASURE Global CA. The physical certified QSCD token contains a certificate with QCP-n-QSCD  profile, compliance and certified under ETSI 319411-2.</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>Datasure CA - eIDAS Qualified Identity+</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.58753.2.1.1.1.1.1.2</ns4:Identifier>
+                    <ns4:Description>DATASURE issues double usage certificates named DATASURE CA - eIDAS Qualified Identity, signed by its Certification Authority DATASURE Global CA. It consists in X509 software-based certificate with QCP-n profile, compliance and certified under ETSI 319411-2.	</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>DATASURE CA - eIDAS Qualified Identity</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.58753.2.1.1.1.1.1.3</ns4:Identifier>
+                    <ns4:Description>DATASURE issues signature certificates named SecuSign - eIDAS Qualified Electronic Signature, signed by its Certification Authority DATASURE Global CA. SecuSign operate a remote HSM certified QSCD with a certificate with QCP-n-QSCD  profile, compliance and certified under ETSI 319411-2.</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>SecuSign - eIDAS Qualified Electronic Signature</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.58753.2.1.1.1.1.2.1</ns4:Identifier>
+                    <ns4:Description>DATASURE issues electronic seals named DATASURE CA - eIDAS Qualified Enterprise+ Seal, signed by its Certification Authority DATASURE Global CA. 2 modalities are possible ; first with a physical certified QSCD token contains a certificate with QCP-l-QSCD  profile, compliance and certified under ETSI 319411-2. Second, with Click&amp;Cert operate a remote HSM certified QSCD with a certificate with QCP-l-QSCD profile, compliance and certified under ETSI 319411-2.	</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>DATASURE CA - eIDAS Qualified Enterprise+ Seal</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.58753.2.1.1.1.1.2.2</ns4:Identifier>
+                    <ns4:Description>DATASURE issues electronic seals named DATASURE CA - eIDAS Qualified Enterprise Seal, signed by its Certification Authority DATASURE Global CA. It consists in X509 software-based certificate with QCP-l profile, compliance and certified under ETSI 319411-2.</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>DATASURE CA - eIDAS Qualified Enterprise Seal</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -22656,4 +22956,4 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-269a71f17ae6d3220dfa0c0d61660399"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>weG5d49uIdEMLch+RshjPQE1HpdZfu3vkSU4Ba18AV0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-269a71f17ae6d3220dfa0c0d61660399"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>2uEa9GuJa8z5KQJ8USp3ssoK2KRaR1781XZxDKMD0Y8=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-269a71f17ae6d3220dfa0c0d61660399">gNY6mGQgN8ifUVQdf82EK3EEHjZphmX1tH30BqB/RGu2pYQNlCJLHgfoRTM56QVAnEIWnDnGTot9eHuZfWrp2fotBGsVH3cpSQNz4lkspkt/PZX0ZmLuLdNOcfSwzsdXgIfsrFotXY73OkVhaMPS2qNU4ZwF/fSs2zGYZ5nrKXp207YVY7oFBQglemRPcFo0X4xyZEBX4fcr2WK6IH653gzy/3bEeQiv3CE3P1fJ2fcKpNR7CgSK4Y2Tbb+9h9Llq2Bc2CUdw9uE+q/ROOWly9Dwto8YGAmhsfRJ3e2rvPywkXhIuyd9ka0SsT0jxT8Fr5Z1rtVNIwuVCxuO6RreyA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFXDCCBESgAwIBAgIUbR6J39k5qND1JSlgxEd+bJgAQx4wDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTAwODE1NTA0OFoXDTI3MTAwODE1NTA0OFowfDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSMwIQYDVQQDDBpNYXRoaWV1IEpPUlJZIDMzMTAwMDM4OThqbTEQMA4GA1UEKgwHTWF0aGlldTEOMAwGA1UEBAwFSk9SUlkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCTu9SgITZn9p36gIgDSndt/g7qpLJzj2Bt9t28BkprA6U8I7ukbgqcEeQwJKVhcx4OZ4FHMP43jZlCplU1bCYNL5+an98mlrDdSSFbV8ano4tWuDqD2d14jxwWpYxto6ZHtPC+23vzDP/xDUwdnnl6BIr5FemEmi946s8puLjDLtEMUTpWaAo+WH7/T8g1hxlco3x45v47z7nR/MkuukOcvYL09jcER1s+NWxVEb2whiiztgVbD1Od2aZh9H9uj1T7BfxDSlapHCQPmJfvfR6TSWy6GfJFe6FF/bud8o33etgCeNhq3DFG5oRbOtfOF5ekFJtuovf9lOv6RK4foNbFAgMBAAGjggG4MIIBtDAdBgNVHQ4EFgQUpLKvYlHeCngPPnQffCmCPOJRQx0wHwYDVR0jBBgwFoAUHGyk9w7WVN5Fz1CBst1ZiLMob94wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzQuY3JsMCQGA1UdEQQdMBuBGW1hdGhpZXUuam9ycnlAc3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBAKU9mevhWyrKGEUqXCiqROvQjwl9adUAcH0F8gqQnTc8notCarIg18cAMx82uIdzswKDEkz5ZHQbx562B1+CD2aIgm5ozvmzA+t1MdJuwUQDJghFLI85VwA0eIcrcmJDwxlArNWMAPnNBIwESEC82kCNMHza6Z821qp0Ei5YhfxomBMyNbDB1/riOnr8YOmMzlqUGfxUwB6V4P6bAQAJAKMhtmI7HioVeNp3dCHhc/f1R3sihdCDkwufsG2KMo3btyh++xGwx6jfbEaLxXNhBuCMw/YE+oGXGP3KRczIGyjvWNIwJ8ZtZXCrioVWB0VhfE6ZxNhQRonyS8KLIe7XVOQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-269a71f17ae6d3220dfa0c0d61660399"><xades:SignedProperties Id="xades-id-269a71f17ae6d3220dfa0c0d61660399"><xades:SignedSignatureProperties><xades:SigningTime>2024-12-11T16:19:49Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9oLvyTstOVov/du4GKxMXPHms1CQsv9Kf2wf2+RpRIRKh47rzvkvIA/UtC462ECPFYTx+F8n0vO+cz87z5wVpw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>622961026930636761365129893141106371542296576798</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-5d70c9d9f391e6b39b6803d923d57786"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qN/ta+jvvCmE/iPt5qSLHFBxCZJLmLcurJ+fy3pNl8E=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-5d70c9d9f391e6b39b6803d923d57786"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gSPCk8rHWnXwRz9GKxBKQFtKTxM2woAz55PRu4rCemM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-5d70c9d9f391e6b39b6803d923d57786">LyUT2lUOf9TvCutEIA8Mx7N2gcvzVoVKNoN7ZQRp0GLcAiBSPFfc5KnhTmz2x37w+VAZlYVkid1gpoumuKY+e/8jVlfzLeJWFqnW0pxqewKZoB6PhMWBoMsVYXa2fGyUp/l+fUBzMtoUpm7gfNfVnqLm9AhoyoN9QITxFS8TxHBoAVkw0FvCJo7URUPgxa/lS+bdfeIqkSXnjjy4oKmIl54NbB3Exh5V8ZXX35WNZqb9kxpn0AdhyfEpXpX2XxrfN1/spD0QPGU9wKxsbKgIJklMYp9mbtjYG/swrIvx1bsUGHHWRR+WywsNNTXGoPyBW/saamlbuMnuufWTy7b71w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-5d70c9d9f391e6b39b6803d923d57786"><xades:SignedProperties Id="xades-id-5d70c9d9f391e6b39b6803d923d57786"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-08T13:02:57Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
