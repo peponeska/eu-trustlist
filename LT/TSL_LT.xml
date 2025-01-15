@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="LT-TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="LT-TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>73</TSLSequenceNumber>
+        <TSLSequenceNumber>74</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Communications Regulatory Authority of the Republic of Lithuania</Name>
@@ -114,9 +114,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-08-29T10:38:41Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-01-14T13:42:16Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-02-28T11:38:41Z</dateTime>
+            <dateTime>2025-07-14T12:42:16Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://elektroninisparasas.lt/LT-TSL.xml</URI>
@@ -5376,6 +5376,50 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MIT-SOFT kvalifikuotų elektroninių laiko žymų kūrimo paslauga 1 2024</Name>
+                            <Name xml:lang="lt">MIT-SOFT kvalifikuotų elektroninių laiko žymų kūrimo paslauga 1 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIECjCCA2ygAwIBAgIUHMO0eO3UB/1Nccj9S0gugK8wsHkwCgYIKoZIzj0EAwQwYjELMAkGA1UEBhMCTFQxFzAVBgNVBAoMDlVBQiAiTUlULVNPRlQiMRgwFgYDVQRhDA9OVFJMVC0xMjA3OTIwODAxIDAeBgNVBAMMF01pdFNvZnQgUVRTQSBUU1UtMSBSb290MB4XDTI0MDkwMjExNTI0M1oXDTMyMDMwNDExNTI0M1owXTELMAkGA1UEBhMCTFQxFzAVBgNVBAoMDlVBQiAiTUlULVNPRlQiMRgwFgYDVQRhDA9OVFJMVC0xMjA3OTIwODAxGzAZBgNVBAMMEk1pdFNvZnQgUVRTQSBUU1UtMTB2MBAGByqGSM49AgEGBSuBBAAiA2IABNx1yLCPkmquSrlMW/RgUTPQjH0/t23CYwEtU2aK+CcQUKvGSX7LpTk/SI3ng8+FyO93VwFnKxsWHtXUv4M9OaOZ9YmzoJYITw7Ev/Xx/I9A75IkDd4kgqf1/QUe0860uaOCAeYwggHiMB0GA1UdDgQWBBSKYzNSsirVDs4+D7XV5wH4tPxU8zAfBgNVHSMEGDAWgBRkq/eGY3610c/KeBEzy3nKQCQn6DAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDCBiAYDVR0gBIGAMH4wfAYLKwYBBAGDxCIBAgEwbTBrBggrBgEFBQcCARZfaHR0cHM6Ly93d3cubWl0c29mdC5sdC9xdHNwLXJlcG8vTWl0U29mdF9RVFNTLUNQU19DZXJ0aWZpY2F0ZV9Qb2xpY3lfYW5kX1ByYWN0aWNlX1N0YXRlbWVudC5wZGYwUAYDVR0fBEkwRzBFoEOgQYY/aHR0cDovL3d3dy5taXRzb2Z0Lmx0L3F0c3AtcmVwby9jZHAvTWl0U29mdF9RVFNBX1RTVS0xX1Jvb3QuY3JsMGAGCCsGAQUFBwEBBFQwUjBQBggrBgEFBQcwAoZEaHR0cDovL3d3dy5taXRzb2Z0Lmx0L3F0c3AtcmVwby9jZHAvTWl0U29mdF9RVFNBX1RTVS0xX1Jvb3RfMjAyNC5jcnQwKwYDVR0QBCQwIoAPMjAyNDA5MDIwMDAwMDBagQ8yMDI3MDkwMjIzNTk1OVowCgYIKoZIzj0EAwQDgYsAMIGHAkEFxs8rNxFsVlYGblmK6ZwI0NM32DrBpmTeab63gyBHtaVJ9GcerSfjhYts/AqKzyUbcu0ObWZ8Ba7GAAebzrx8twJCAbsJOIEd0RlTLLnCMrLVf575AuzN5LODXf4IqjFdItsec37PF7ZjcpF1v4fD3BySJCJrzJyMQXYgCC40eT8JfD5h</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MitSoft QTSA TSU-1, OID.2.5.4.97=NTRLT-120792080, O="UAB \"MIT-SOFT\"", C=LT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>imMzUrIq1Q7OPg+11ecB+LT8VPM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-14T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MIT-SOFT qualified electronic time stamp generation service 2 2024</Name>
+                            <Name xml:lang="lt">MIT-SOFT kvalifikuotų elektroninių laiko žymų kūrimo paslauga 2 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIECjCCA2ygAwIBAgIUctzcmxuEhlKjM1PxXulhfjxX7VAwCgYIKoZIzj0EAwQwYjELMAkGA1UEBhMCTFQxFzAVBgNVBAoMDlVBQiAiTUlULVNPRlQiMRgwFgYDVQRhDA9OVFJMVC0xMjA3OTIwODAxIDAeBgNVBAMMF01pdFNvZnQgUVRTQSBUU1UtMiBSb290MB4XDTI0MDkwMjEyNDU1OVoXDTMyMDMwNDEyNDU1OVowXTELMAkGA1UEBhMCTFQxFzAVBgNVBAoMDlVBQiAiTUlULVNPRlQiMRgwFgYDVQRhDA9OVFJMVC0xMjA3OTIwODAxGzAZBgNVBAMMEk1pdFNvZnQgUVRTQSBUU1UtMjB2MBAGByqGSM49AgEGBSuBBAAiA2IABMM180GOnKOUAfgyNKtX8+Gy6bLB+9qWefim9d2A0oT/sIU1Lh3qCHrsfXGYh+3mbnECowx7ihpmoZYy9BQJ6UrvPUc4rMQx6khzuWMpVjrWuBeLCFHjAwwhKqvftIawVqOCAeYwggHiMB0GA1UdDgQWBBQNsynlRzdyPTVhP7LIJzFdoGZNKTAfBgNVHSMEGDAWgBSm6OI+Pqh4dNt0ww6OGViUH/8qGjAMBgNVHRMBAf8EAjAAMA4GA1UdDwEB/wQEAwIHgDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDCBiAYDVR0gBIGAMH4wfAYLKwYBBAGDxCIBAgEwbTBrBggrBgEFBQcCARZfaHR0cHM6Ly93d3cubWl0c29mdC5sdC9xdHNwLXJlcG8vTWl0U29mdF9RVFNTLUNQU19DZXJ0aWZpY2F0ZV9Qb2xpY3lfYW5kX1ByYWN0aWNlX1N0YXRlbWVudC5wZGYwUAYDVR0fBEkwRzBFoEOgQYY/aHR0cDovL3d3dy5taXRzb2Z0Lmx0L3F0c3AtcmVwby9jZHAvTWl0U29mdF9RVFNBX1RTVS0yX1Jvb3QuY3JsMGAGCCsGAQUFBwEBBFQwUjBQBggrBgEFBQcwAoZEaHR0cDovL3d3dy5taXRzb2Z0Lmx0L3F0c3AtcmVwby9jZHAvTWl0U29mdF9RVFNBX1RTVS0yX1Jvb3RfMjAyNC5jcnQwKwYDVR0QBCQwIoAPMjAyNDA5MDIwMDAwMDBagQ8yMDI3MDkwMjIzNTk1OVowCgYIKoZIzj0EAwQDgYsAMIGHAkIBMBYn2n7rBrF+D+MTHoNlqrXzYwC7B3TSPqq9lgIy8/vC8hv3+5AcQ2dhVoBKTGNQOZfqDBtYCzOf/RQUUE8z84MCQVPoWN0of9upfoETYXX/CNbjAWRi9gqTHzG5iW4qIUjRoPPC6tSDCqvr7F3Y0gf3QKgGxwf6sQwn3t5ZZ2y0EQ6r</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MitSoft QTSA TSU-2, OID.2.5.4.97=NTRLT-120792080, O="UAB \"MIT-SOFT\"", C=LT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>DbMp5Uc3cj01YT+yyCcxXaBmTSk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-14T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -5571,4 +5615,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c7527c5a36b540e731577e3c5b5c4245"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" Type="" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>mb3JWc9JGjiP/NULer7Lv3Z4R5nhMAkqZ3E/VEEAD3o=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c7527c5a36b540e731577e3c5b5c4245"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>W/FkstoZtK+1dfmvLpml+zryS26dYr6csn/w6Vykmbs=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c7527c5a36b540e731577e3c5b5c4245">wXAQn6dYXXtkUtEI2c/VdS4jLpdRirygGEmqUXe1iXHWbCCI2cMaaV0ks17GBOVK6DlPukWHB0DUgeXiAq2IAEoARe/G5b8XixxqV9sGw+u17ZKiTx4+kYBAr4RccFaaEhOq67qa9KpFQSVUi+W2ad9hw4gstp8oD0B/PbcpC4GdcY0zai6roc2VinjTScm71Hm77/w5Hu44bnZzfwKd1tF7u+KL4glDRSvfrVxVZA7x4+CLxqWsdCGQ49+5IrvUVOpT+Ti1SNE+//wpARbXIpSqAG8dhRFAeLfEvl1dy6qLqTVM1fCTDRuDrcUwA+g/d5+29w//a4JYjtIhYoYplw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID2TCCAsGgAwIBAgIFEirn5EgwDQYJKoZIhvcNAQELBQAwdzELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHTAbBgNVBAMMFFp5Z2ltYW50YXMgWmFiYXJza2FzMB4XDTIyMDEyNzAwMDAwMFoXDTI1MDEyNzAwMDAwMFowdzELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHTAbBgNVBAMMFFp5Z2ltYW50YXMgWmFiYXJza2FzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9UX7oQCNXWTZUcNo+nVZL1lCa5WyqqzZZGKC1smOxuFT7c5Z4Qy5h5sw4I/1cplFUC3KboGa0HZ5V1YaXVHKtkzglj+qgwQXsQG1ncpKaETBNdnIrA2DHAdfM0LP19KLskMhnoN7ChUwwYe5osTK38TTh0/6Njh7v1U9DMPGGRqD+nJUoCiSofouATCsVUriZOChbKiexqeqC0nwuuLQ7vjn3qQtR2d2flBsadDmEpeDAguGEmDpLToGQ/3KwghRL7SuUONrUD4uuPcFUG4rrGggeDipJsxQN45pH0XsUyh9nAFEGnZkALdboTgA6oB0kGYHRKHie7H9XwsmGqVzkwIDAQABo2wwajAdBgNVHQ4EFgQUrdCc26+WVMAgcGK/lKWdBQeSwecwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwEQYDVR0gBAowCDAGBgRVHSAAMBsGA1UdJQQUMBIGCCsGAQUFBwMDBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBAFdPqnFm0pGDkjUtNJXjLROUJAoqV7u3LJgMVIUj9xb7+DPB2IWdB4hBWy/kcOfaD9GXodvyZmfsDvKgxUL2IM2YqN0cGzPFRyHFgnAK84p7uG1/EJhYZ9/ov3R5lCdv1hWRAGWo5ldEalMcxn0aCAdJtu+4xpzzzQoGCqu6w2E0fWtMgzRkPpmBZ26KEaGaeXJip+Ll+dxs4dUGfx4lyVteVsLC9g4hLXMp3nnH1XivYXkmna9AVAAiXRPWOGa55oJbZGUUH8hw5jYGMXvlFIsUZcO5p1CGKSVtkmpCLAyigbRVWVdVdueDYV4qP5ROswREUcJmmvwQ+eRZfWC8G8s=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c7527c5a36b540e731577e3c5b5c4245"><xades:SignedProperties Id="xades-id-c7527c5a36b540e731577e3c5b5c4245"><xades:SignedSignatureProperties><xades:SigningTime>2024-08-29T10:48:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>SgDx2ZoXDcejQ6gG/fPO629Tj3U=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Zygimantas Zabarskas,O=Communications Regulatory Authority of the Republic of Lithuania,C=LT</ds:X509IssuerName><ds:X509SerialNumber>78029251656</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-870093b87e0e37a1e942dc9b5e5b672e"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9qLeTUJhOfHU9jFPUn14t6i+3oPYy1Vz9tjiHV/sePM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-870093b87e0e37a1e942dc9b5e5b672e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gRJSb/boEJrXYJhbP5VHrkW7P5I/qenyxm88P3gcKj0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-870093b87e0e37a1e942dc9b5e5b672e">AzkuHMeacc/upz1aARY5VD2Z6Dva+A3W1dXKqFaIMNLqZD5LWCExjb/WRVT7RCdX0hGm7WFCp/Z/NWFxdkeGuMt81DQqx+gXqm85frROvfp6HVeznAFK4gLW6HlwD60obg1LSi7YeD+GS5WiO8Dq2lSfUbMK7pmlFYfC338+9BzIY5//dbHaPyqvvTH8CaVhk4iFeLOAgTF+O94bu75NZoh8Pq/YYPtbe2jPCBFnmSsFyXfHSfbdhmxHFQKwpJArf7+p3Iab3TJ7pKI0ndE8qEwBA+uSqc52FCqJG5ei8VNAlvv+u0O4aqxmGMLEXEPkW9Y4oGcm4zSZdxNs15x+7Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID2TCCAsGgAwIBAgIFEirn5EgwDQYJKoZIhvcNAQELBQAwdzELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHTAbBgNVBAMMFFp5Z2ltYW50YXMgWmFiYXJza2FzMB4XDTIyMDEyNzAwMDAwMFoXDTI1MDEyNzAwMDAwMFowdzELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHTAbBgNVBAMMFFp5Z2ltYW50YXMgWmFiYXJza2FzMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA9UX7oQCNXWTZUcNo+nVZL1lCa5WyqqzZZGKC1smOxuFT7c5Z4Qy5h5sw4I/1cplFUC3KboGa0HZ5V1YaXVHKtkzglj+qgwQXsQG1ncpKaETBNdnIrA2DHAdfM0LP19KLskMhnoN7ChUwwYe5osTK38TTh0/6Njh7v1U9DMPGGRqD+nJUoCiSofouATCsVUriZOChbKiexqeqC0nwuuLQ7vjn3qQtR2d2flBsadDmEpeDAguGEmDpLToGQ/3KwghRL7SuUONrUD4uuPcFUG4rrGggeDipJsxQN45pH0XsUyh9nAFEGnZkALdboTgA6oB0kGYHRKHie7H9XwsmGqVzkwIDAQABo2wwajAdBgNVHQ4EFgQUrdCc26+WVMAgcGK/lKWdBQeSwecwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwEQYDVR0gBAowCDAGBgRVHSAAMBsGA1UdJQQUMBIGCCsGAQUFBwMDBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBAFdPqnFm0pGDkjUtNJXjLROUJAoqV7u3LJgMVIUj9xb7+DPB2IWdB4hBWy/kcOfaD9GXodvyZmfsDvKgxUL2IM2YqN0cGzPFRyHFgnAK84p7uG1/EJhYZ9/ov3R5lCdv1hWRAGWo5ldEalMcxn0aCAdJtu+4xpzzzQoGCqu6w2E0fWtMgzRkPpmBZ26KEaGaeXJip+Ll+dxs4dUGfx4lyVteVsLC9g4hLXMp3nnH1XivYXkmna9AVAAiXRPWOGa55oJbZGUUH8hw5jYGMXvlFIsUZcO5p1CGKSVtkmpCLAyigbRVWVdVdueDYV4qP5ROswREUcJmmvwQ+eRZfWC8G8s=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-870093b87e0e37a1e942dc9b5e5b672e"><xades:SignedProperties Id="xades-id-870093b87e0e37a1e942dc9b5e5b672e"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-14T13:48:07Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>FaEYNN8UNrd9vfawFMy4D6syM5C7pz7Indv13GtO7UG8Qm4k+WDWY3PcEnY/i/iKKtrHbbn88eY4WHKa92hf9A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Zygimantas Zabarskas,O=Communications Regulatory Authority of the Republic of Lithuania,C=LT</ds:X509IssuerName><ds:X509SerialNumber>78029251656</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
