@@ -4,7 +4,7 @@
 *******************************************************************************
 	Application: TL
 	API:         A2-Polysys CryptoSigno Interop JAVA API v2.6.0 b160
-	Date:        2024. 12. 13. 11:30:34.912 CET [2024-12-13T10:30:34Z]
+	Date:        2025. 01. 14. 13:32:19.141 CET [2025-01-14T12:32:19Z]
 *******************************************************************************
 -->
 <tsl:TrustServiceStatusList xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
@@ -13,12 +13,12 @@
 *******************************************************************************
 	Application: TL 5.2.0.2023.02.03.173141
 	API:         A2 TSL API v3.5.4 b20221012
-	Date:        2024. 12. 13. 11:30:25.633 CET [2024-12-13T10:30:25Z]
+	Date:        2025. 01. 14. 13:32:12.686 CET [2025-01-14T12:32:12Z]
 *******************************************************************************
 -->
 <tsl:SchemeInformation>
 <tsl:TSLVersionIdentifier>5</tsl:TSLVersionIdentifier>
-<tsl:TSLSequenceNumber>84</tsl:TSLSequenceNumber>
+<tsl:TSLSequenceNumber>85</tsl:TSLSequenceNumber>
 <tsl:TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</tsl:TSLType>
 <tsl:SchemeOperatorName>
 <tsl:Name xml:lang="en">National Media and Infocommunications Authority, Hungary</tsl:Name>
@@ -396,8 +396,8 @@ j7QF9v88kto=
 </tsl:AdditionalInformation>
 </tsl:OtherTSLPointer>
 </tsl:PointersToOtherTSL>
-<tsl:ListIssueDateTime>2024-12-13T11:00:00Z</tsl:ListIssueDateTime>
-<tsl:NextUpdate><tsl:dateTime>2025-05-29T22:00:00Z</tsl:dateTime></tsl:NextUpdate>
+<tsl:ListIssueDateTime>2025-01-14T13:00:00Z</tsl:ListIssueDateTime>
+<tsl:NextUpdate><tsl:dateTime>2025-06-30T12:00:00Z</tsl:dateTime></tsl:NextUpdate>
 <tsl:DistributionPoints>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.xml</tsl:URI>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.pdf</tsl:URI>
@@ -3002,6 +3002,94 @@ PQQDAwNoADBlAjA/Zq4Q/lEgkizw5ybKAWqd+p51Xu6n+4O+t6gASVbPAuxrZrEbXtMpIWt9V2yo
 <tsl:StatusStartingTime>2024-10-08T22:00:00Z</tsl:StatusStartingTime>
 <tsl:ServiceSupplyPoints>
 <tsl:ServiceSupplyPoint>http://eqtlsca2024-crl.e-szigno.hu/eqtlsca2024.crl</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+<tsl:ServiceInformationExtensions>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+</tsl:ServiceInformationExtensions>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">e-Szigno Qualified TLS CA 2025 EU</tsl:Name>
+<tsl:Name xml:lang="hu">e-Szigno Qualified TLS CA 2025 EU</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>c7e0n7pmr5ZLEeK9L81HJablDIg=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDajCCAvGgAwIBAgINARQVYIgy0lANt5wyCjAKBggqhkjOPQQDAzBYMQswCQYDVQQGEwJIVTER
+MA8GA1UEBwwIQnVkYXBlc3QxFjAUBgNVBAoMDU1pY3Jvc2VjIEx0ZC4xHjAcBgNVBAMMFWUtU3pp
+Z25vIFJvb3QgQ0EgMjAyNDAeFw0yNTAxMDYxMzAwMDBaFw00OTA3MTMxMTU5NTlaMH0xCzAJBgNV
+BAYTAkhVMREwDwYDVQQHDAhCdWRhcGVzdDEWMBQGA1UECgwNTWljcm9zZWMgTHRkLjEXMBUGA1UE
+YQwOVkFUSFUtMjM1ODQ0OTcxKjAoBgNVBAMMIWUtU3ppZ25vIFF1YWxpZmllZCBUTFMgQ0EgMjAy
+NSBFVTB2MBAGByqGSM49AgEGBSuBBAAiA2IABP7ijo9SwoCFtYKtXV2VI0UUGF4GaG56+OuSI0SA
+Ql+FbALRxu7FTxeJ5snQO9xRlbbLEgFU6X3Rh5yELEpjHbe2UBQ5DBBr/fXtd7KjZuZVxInCFKTV
+Fux7S3vUZiDHYqOCAVwwggFYMA8GA1UdEwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1Ud
+JQQWMBQGCCsGAQUFBwMBBggrBgEFBQcDAjARBgNVHSAECjAIMAYGBFUdIAAwHQYDVR0OBBYEFHO3
+tJ+6Zq+WSxHivS/NRyWm5QyIMB8GA1UdIwQYMBaAFHMqnltHCP7dQHSweB34X7+IhaesMEMGA1Ud
+HwQ8MDowOKA2oDSGMmh0dHA6Ly9lcm9vdGNhMjAyNC1jcmwuZS1zemlnbm8uaHUvZXJvb3RjYTIw
+MjQuY3JsMH4GCCsGAQUFBwEBBHIwcDAvBggrBgEFBQcwAYYjaHR0cDovL2Vyb290Y2EyMDI0LW9j
+c3AuZS1zemlnbm8uaHUwPQYIKwYBBQUHMAKGMWh0dHA6Ly9lcm9vdGNhMjAyNC1jYS5lLXN6aWdu
+by5odS9lcm9vdGNhMjAyNC5jcnQwCgYIKoZIzj0EAwMDZwAwZAIwMK7spcbaFj4o0QleevupiCau
+QXfyA5YSVNgXLWmp1GanP1Hxq6xfMC5VoH/vuACCAjBD8ksCtX6yamYmLHXagIXNH/3zwKAn4ayx
+HTNJikRJShX4bkhBOjQ6UgvfEGicXuA=
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2025-01-14T23:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://eqtlsca2025eu.crl.e-szigno.hu/eqtlsca2025eu.crl</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+<tsl:ServiceInformationExtensions>
+<tsl:Extension Critical="false">
+<tsl:AdditionalServiceInformation>
+<tsl:URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</tsl:URI>
+</tsl:AdditionalServiceInformation>
+</tsl:Extension>
+</tsl:ServiceInformationExtensions>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">e-Szigno Qualified TLS CA 2025</tsl:Name>
+<tsl:Name xml:lang="hu">e-Szigno Qualified TLS CA 2025</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>kqBLlERGvNwjfvw43xhEg0jMHAI=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDVDCCAtugAwIBAgINARNzMFkPdIQvDuHuCjAKBggqhkjOPQQDAzBcMQswCQYDVQQGEwJIVTER
+MA8GA1UEBwwIQnVkYXBlc3QxFjAUBgNVBAoMDU1pY3Jvc2VjIEx0ZC4xIjAgBgNVBAMMGWUtU3pp
+Z25vIFRMUyBSb290IENBIDIwMjQwHhcNMjUwMTA2MTMwMDAwWhcNMjgwMTA1MTI1OTU5WjB6MQsw
+CQYDVQQGEwJIVTERMA8GA1UEBwwIQnVkYXBlc3QxFjAUBgNVBAoMDU1pY3Jvc2VjIEx0ZC4xFzAV
+BgNVBGEMDlZBVEhVLTIzNTg0NDk3MScwJQYDVQQDDB5lLVN6aWdubyBRdWFsaWZpZWQgVExTIENB
+IDIwMjUwWTATBgcqhkjOPQIBBggqhkjOPQMBBwNCAASG/EKWX0FJUK9ipDrT9o7WdFY5YgjRjs5l
+v4qEoAuwmRKuUSKH9JBMEtQSQ5t05110fQsy3R/HAQ6OgjM6HPSyo4IBYjCCAV4wDwYDVR0TAQH/
+BAUwAwEB/zAOBgNVHQ8BAf8EBAMCAQYwEwYDVR0lBAwwCgYIKwYBBQUHAwEwEQYDVR0gBAowCDAG
+BgRVHSAAMB0GA1UdDgQWBBSSoEuUREa83CN+/DjfGESDSMwcAjAfBgNVHSMEGDAWgBSbsaPi2Y8T
+1yZqImfKg8wvUFd3ZTBJBgNVHR8EQjBAMD6gPKA6hjhodHRwOi8vZXRsc3Jvb3RjYTIwMjQtY3Js
+LmUtc3ppZ25vLmh1L2V0bHNyb290Y2EyMDI0LmNybDCBhwYIKwYBBQUHAQEEezB5MDIGCCsGAQUF
+BzABhiZodHRwOi8vZXRsc3Jvb3RjYTIwMjQtb2NzcC5lLXN6aWduby5odTBDBggrBgEFBQcwAoY3
+aHR0cDovL2V0bHNyb290Y2EyMDI0LWNhLmUtc3ppZ25vLmh1L2V0bHNyb290Y2EyMDI0LmNydDAK
+BggqhkjOPQQDAwNnADBkAjAKxRo0hLrtG6REzKGkK5OYIKq8WhbBw4JVGw4i6KyiT7PWH4ceNEge
+crXBICm5tRwCMGw81JzfBH8hdahhZpMF6xrKCc8wafgdgKnor2E4FkusDEyOZrxTO1/ZX2HhKOD+
+nQ==
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2025-01-14T23:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://eqtlsca2025.crl.e-szigno.hu/eqtlsca2025.crl</tsl:ServiceSupplyPoint>
 </tsl:ServiceSupplyPoints>
 <tsl:ServiceInformationExtensions>
 <tsl:Extension Critical="false">
@@ -23392,22 +23480,22 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>qPqn3vrDq3IUCwfRNQpGzh6l1K8FQ26VLM03YT90GKs=</ds:DigestValue>
+<ds:DigestValue>PN5LV4tYZCsW9KdkM7oXZW43mJdIlH95RBFBv8NmA/U=</ds:DigestValue>
 </ds:Reference>
 <ds:Reference Id="Signature-1__Reference-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature-1__SignedProperties-1">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>P09pdRA0BQkphxsHnFNcaCpLjfGiisbzTKxwTiGJw58=</ds:DigestValue>
+<ds:DigestValue>k+3l1TK7UEWqa82v/DZlBwc4Nz2N7YKh3P3VEQ94vdQ=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue Id="Signature-1__SignatureValue-1">
-TwEp75dvdfRIoU/Z7AkUAhvnBUJIg1XZAh1kE/JOw21my67FONmFxRKREnrhnFmRI5FQajBTsvkj
-Ow2hVKxubzYM0HOB1xVTLtPjW4LVttVhORzPb1ZCzybGz/lxnF13R6JwimctK9qHKeRQ6LxDgn9r
-6qJyV68Oc46iA93lsLWfWM5wXgh/GAct7ACA8e6g7svLHZ3BTMh6ulig+7B7d/HHL6vDa2CpwA1+
-UAkE4gj1xcv8XetgDbOra/sVIFA3wgXguBRecjqopFn5qYpfdP8LLFoUB6+1LkaRDoP2f9SSvxuC
-Au6sJpVfnO3/dKZtYVGp2oS776EfGSVelkJHFA==
+RiWXkYY9/galkvkqgd8cAKR2NsasgX5x6VK9HCor9FkXckNi21uezpKbOy0uJn4s7NkEaACOPrkf
+BObkhOcQz8NY3zBB2G18lmnZWpP4zS4rrjHwkzhutiP+7yQ9QTaT5QvX8r1vQCKYsIsKYrmicSJv
+qHS+LQmL/QKGy77uksMnrjVLI6O8/BeBYJKhr0ClvrMbob4L+y4bWV6oP4LP6LuL9KACeA4Q+Js1
++EH8zj5AzJe+RN0cUJaTqckc4JRSumLdtzK6LyI2fx5XXBRgZWSFhTimVkyyQJOYYpG0H9UxSR7f
+oxAl/ZlnBs63RFYvua6ewcoXjo8+crPqhLfWfQ==
 </ds:SignatureValue>
 <ds:KeyInfo Id="Signature-1__KeyInfo-1">
 <ds:X509Data>
@@ -23440,7 +23528,7 @@ SRF5CZ8=
 <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="Signature-1__QualifyingProperties-1" Target="#Signature-1">
 <xades:SignedProperties Id="Signature-1__SignedProperties-1">
 <xades:SignedSignatureProperties>
-<xades:SigningTime>2024-12-13T10:30:34Z</xades:SigningTime>
+<xades:SigningTime>2025-01-14T12:32:19Z</xades:SigningTime>
 <xades:SigningCertificate>
 <xades:Cert>
 <xades:CertDigest>
