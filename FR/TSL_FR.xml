@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>146</TSLSequenceNumber>
+        <TSLSequenceNumber>147</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Cybersecurity Agency (ANSSI)</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-01-07T11:06:01Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-01-21T15:42:14Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-07-07T10:06:01Z</dateTime>
+            <dateTime>2025-07-21T14:42:14Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -5661,6 +5661,61 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">AC Signature Contralia</Name>
+                            <Name xml:lang="fr">AC Signature Contralia</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=AC Signature Contralia, OID.2.5.4.97=NTRFR-433998903, O=Certinomis, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>8JKP4V4qPAsf8m9JcX5S5jcIIlE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-01-25T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.certinomis.fr/referentiel-eidas</URI>
+                            <URI xml:lang="fr">https://www.certinomis.fr/referentiel-eidas</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.86.2.6.9.34.1</ns4:Identifier>
+                    <ns4:Description>Issuance of qualified certificates for one-time electronic signature for personal purposes</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>Issuance of qualified certificates for one-time electronic signature for personal purposes	</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -22956,4 +23011,4 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-5d70c9d9f391e6b39b6803d923d57786"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>qN/ta+jvvCmE/iPt5qSLHFBxCZJLmLcurJ+fy3pNl8E=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-5d70c9d9f391e6b39b6803d923d57786"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gSPCk8rHWnXwRz9GKxBKQFtKTxM2woAz55PRu4rCemM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-5d70c9d9f391e6b39b6803d923d57786">LyUT2lUOf9TvCutEIA8Mx7N2gcvzVoVKNoN7ZQRp0GLcAiBSPFfc5KnhTmz2x37w+VAZlYVkid1gpoumuKY+e/8jVlfzLeJWFqnW0pxqewKZoB6PhMWBoMsVYXa2fGyUp/l+fUBzMtoUpm7gfNfVnqLm9AhoyoN9QITxFS8TxHBoAVkw0FvCJo7URUPgxa/lS+bdfeIqkSXnjjy4oKmIl54NbB3Exh5V8ZXX35WNZqb9kxpn0AdhyfEpXpX2XxrfN1/spD0QPGU9wKxsbKgIJklMYp9mbtjYG/swrIvx1bsUGHHWRR+WywsNNTXGoPyBW/saamlbuMnuufWTy7b71w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-5d70c9d9f391e6b39b6803d923d57786"><xades:SignedProperties Id="xades-id-5d70c9d9f391e6b39b6803d923d57786"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-08T13:02:57Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-32c7e47dc4a48080558bf4360d7b37f1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>F2NE90yyzfqJ//Rp2zgR+y2GsMbGkkJmGLzv/xhvz9I=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-32c7e47dc4a48080558bf4360d7b37f1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>thNu04w4u0owtL6+A/oKD1vv6tOz+hMxbW+yd3hf66M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-32c7e47dc4a48080558bf4360d7b37f1">jih9VFLwxuZvSuSsFFaEfsBIzTfqQJr7q8kyResXmX5PFt8qVPy6inGObRKafuY2C28qU0RaPmPsGhOGQij59TMiMKY/K1HKzyNY+g/NQk3/Yw+vb3PC4lxjSYTTe0tUsdmruO1pckfjXaJ+u5DzWnHO0Fa16tjj+sOVxDHgE910LSMA121Vojzx1W7dxmIGUfPYKFnWHO7lOVmc00KJtx6MpyRV8kCoi/Zx2WN9xAF4bH5j4A+pc515OhmEkISOT49m9LQW/2BU827crwCbERRkwbEug3RjVAxP91O/RumwPA5BTEgBEFfydwlPJvZHN7Y++h5WjRLPSBSH+JVUeg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-32c7e47dc4a48080558bf4360d7b37f1"><xades:SignedProperties Id="xades-id-32c7e47dc4a48080558bf4360d7b37f1"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-24T16:39:24Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
