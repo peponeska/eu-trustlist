@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="utf-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="NL-TL-71" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="utf-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="NL-TL-72" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>71</TSLSequenceNumber>
+        <TSLSequenceNumber>72</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="nl">Rijksinspectie Digitale Infrastructuur</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-11-11T10:00:36Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-02-12T10:00:19Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-05-11T09:00:36Z</dateTime>
+            <dateTime>2025-08-12T09:00:19Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml</URI>
@@ -2054,6 +2054,64 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2022-01-26T09:00:17Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Digidentity - G4 PKIo EUTL G-Sigs NP - 2024</Name>
+                            <Name xml:lang="nl">Digidentity - G4 PKIo EUTL G-Sigs NP - 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIHejCCBS6gAwIBAgIUGDo68kFI0lC+ZRKP6fcyq56nsrcwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgMFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgMFAKIDAgFAMG0xCzAJBgNVBAYTAk5MMR4wHAYDVQQKDBVTdGFhdCBkZXIgTmVkZXJsYW5kZW4xPjA8BgNVBAMMNVN0YWF0IGRlciBOZWRlcmxhbmRlbiAtIEc0IEludG0gRVVUTCBHLVNpZ3MgTlAgLSAyMDI0MB4XDTI0MDcyNTA4NTAyMVoXDTM5MDUxODAwMDAwMFowXjELMAkGA1UEBhMCTkwxGTAXBgNVBAoMEERpZ2lkZW50aXR5IEIuVi4xNDAyBgNVBAMMK0RpZ2lkZW50aXR5IC0gRzQgUEtJbyBFVVRMIEctU2lncyBOUCAtIDIwMjQwggIiMA0GCSqGSIb3DQEBAQUAA4ICDwAwggIKAoICAQDAbD7L6XyfXTNWxcx8sJPb2LMxNcTfz3IF0XmHNCZ8IXEAGLmb5IfgcIx7igYVA+50RoDcnqgenEGH6MsY8ZXM/HduFtXoABn8XF4py6nricPNgdvBf//g1MzAzm7+qvqMBhUZZC6zzT9aw2xOfQBBQhY5tccLQAqy+P9PLIFBnfbE2DE7OxHeRm+zp6tP8x4Out9nHbeuXskT7+kni7TEI7MW7KUWbqXa74J2D/vEGZzgYdYgH9Tf6DlUjv2u6deGUJL7HnuJlU10V4g5Qm84lWVD1abkoGrlFTSW8ZdgnJur3iiGVBwh/KMwUGCacHR7YYLwBoBSSVKSoKN/X0NR8TLlQaWKW2Au+q9b5sgu2xhJ4XHvatx5H9tqoUX7PDc99Li1qVHsDqFtdJvQJIgp0CDDP3kXzESCNMrtIiveO+vh3zKGveKWfLaBwjPHWqIPfFG8G9SMoH9+UPZElZyislBytP6E9IuU6fryuO5FwfHi6w54Fr+HNwbGN/BbibCuOaWmDtvm0n7ocNUmbi34LneAbb/3/JeClVz/Lv9PH9SRjUZKryoTHnDRRe4xpJ0igFr+1F8+C0JmHWWKv7y86cHkvytvxGb/Rp8Id22LyxbLuW6oOMgWvuLdTOkn1RnCjxvE2Pydf+z2yKh1wSSgvhCNoNLoC472DIJ8PsJzwwIDAQABo4IBtzCCAbMwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBRmALGP4BS4drbdBP1/YR3/SmNNcDBjBggrBgEFBQcBAQRXMFUwUwYIKwYBBQUHMAKGR2h0dHA6Ly9jZXJ0LnBraW92ZXJoZWlkLm5sL1N0YWF0ZGVyTmVkZXJsYW5kZW5HNEludG1FVVRMR1NpZ3NOUDIwMjQuY2VyMG4GA1UdIARnMGUwCAYGBACPegECMAkGBwQAi+xAAQIwDgYMYIQQAYdrAQIsDhMKMA4GDGCEEAGHawECLA4LBTAOBgxghBABh2sBAiwODAUwDgYMYIQQAYdrAQIsDg0FMA4GDGCEEAGHawECLA4OBTAfBgNVHSUEGDAWBggrBgEFBQcDJAYKKwYBBAGCNwoDDDBXBgNVHR8EUDBOMEygSqBIhkZodHRwOi8vY3JsLnBraW92ZXJoZWlkLm5sL1N0YWF0ZGVyTmVkZXJsYW5kZW5HNEludG1FVVRMR1NpZ3NOUDIwMjQuY3JsMB0GA1UdDgQWBBS3FNe0uwiy+A9BCZU6Wgw5uSyOrDAOBgNVHQ8BAf8EBAMCAYYwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgMFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgMFAKIDAgFAA4ICAQBGCYnejNLfF4VereYVwoF+Wi6zX5ybroBfrWTQJD8gTTHFiX/TTOLAKWTLn6EY/RTbx0gBihlzO13yfQua7YKgP/68/SHTxE/Q2Nh/vDF/MksegeMbAcSE/0nC4IKw16GWCEMKGjeiWPlLjdyMqf9Z+Q3gSNgzKL4UNqtO6zi4eZi6UZ1fgOSStNqa7TX2QUQSQ1DLQWMaK6CAVACYZ0tMOmOnjy3TzjnnfrWS/GxEym1Ywr9QnM1hTzZQbfztJLkRmibzJDtDxgZI+RJYYmc2nPI+8h7LGT/g2OSjjPLM0BeZz+aqwPI+VrX3gKayzmcIudnUhFoiu26M8XDdXVDwcX45KzHINrQS1XkQjo2/1hdad7d8Sm2aOBIUgB8qRk8OlDu1D2xFW/EpEwqdJuk8mKdD1Go5/9x34KMCmbWr0GLdt4zgp54k5j8d22/u7Pu3YOvFyO6KaRvNOtGDez4Vn2rVR4z0JT7f0BH71D9l5rTAIRzXnydPfN44FPlMxvpO0EwhC3uSN83s8tkAxTieo/VX7UryISz+Kytclo4y0Sdg6FrfRhIQSVqjDRXglzrJAHyLLr50zJh8BqLquoqcAKivp8DCbwfeCc6FXkXTh20XXbb1zX5npuIDJJFI2n0pNDSVBYIgKUzIIFz/2TPygJUmrCXJSFIqAUgc+MIECQ==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Digidentity - G4 PKIo EUTL G-Sigs NP - 2024, O=Digidentity B.V., C=NL</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>txTXtLsIsvgPQQmVOloMObksjqw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Digidentity - G4 PKIo EUTL G-Sigs LP - 2024</Name>
+                            <Name xml:lang="nl">Digidentity - G4 PKIo EUTL G-Sigs LP - 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Digidentity - G4 PKIo EUTL G-Sigs LP - 2024, O=Digidentity B.V., C=NL</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>oLkbK2710mTaEyfo3lD+Hzjp5ho=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -8343,9 +8401,28 @@
 <X509SKI>i8iwZSnwIjxQJsImHVR5GVQihNw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-02-07T12:00:08Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">QuoVadis EU RSA TSA 1 </Name>
+<Name xml:lang="nl">QuoVadis EU RSA TSA 1 </Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=tsaeursa1.quovadisglobal.com, O=QuoVadis Trustlink B.V., OID.2.5.4.97=NTRNL-30237459, C=NL</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>i8iwZSnwIjxQJsImHVR5GVQihNw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-02-07T12:00:08Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -8365,9 +8442,28 @@
 <X509SKI>BXxq24phrjFkTgf9NAPjGFZKpdA=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-02-07T12:00:44Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">QuoVadis EU RSA TSA 2 </Name>
+<Name xml:lang="nl">QuoVadis EU RSA TSA 2 </Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=tsaeursa2.quovadisglobal.com, O=QuoVadis Trustlink B.V., OID.2.5.4.97=NTRNL-30237459, C=NL</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>BXxq24phrjFkTgf9NAPjGFZKpdA=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-02-07T12:00:44Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -8387,9 +8483,28 @@
 <X509SKI>4qVuccK8l3DNK0phxUyyUJ+Jj5k=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-02-07T12:00:01Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">QuoVadis EU RSA TSA 3 </Name>
+<Name xml:lang="nl">QuoVadis EU RSA TSA 3</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=tsaeursa3.quovadisglobal.com, O=QuoVadis Trustlink B.V., OID.2.5.4.97=NTRNL-30237459, C=NL</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>4qVuccK8l3DNK0phxUyyUJ+Jj5k=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-02-07T12:00:01Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -9029,28 +9144,28 @@
                 <TSPAddress>
                     <PostalAddresses>
                         <PostalAddress xml:lang="nl">
-                            <StreetAddress>Hogehilweg 6, brievenbus: #5</StreetAddress>
-                            <Locality>Amsterdam</Locality>
-                            <PostalCode>1101 CC</PostalCode>
+                            <StreetAddress>Postbus 450</StreetAddress>
+                            <Locality>Groningen</Locality>
+                            <PostalCode>9700 AL</PostalCode>
                             <CountryName>NL</CountryName>
                         </PostalAddress>
                         <PostalAddress xml:lang="en">
-                            <StreetAddress>Hogehilweg 6, brievenbus: #5</StreetAddress>
-                            <Locality>Amsterdam</Locality>
-                            <PostalCode>1101 CC</PostalCode>
+                            <StreetAddress>Postbus 450</StreetAddress>
+                            <Locality>Groningen</Locality>
+                            <PostalCode>9700 AL</PostalCode>
                             <CountryName>NL</CountryName>
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="nl">https://www.notarisid.nl</URI>
-                        <URI xml:lang="en">https://www.notarisid.nl</URI>
-                        <URI xml:lang="nl">mailto:service@notarisid.nl</URI>
-                        <URI xml:lang="en">mailto:service@notarisid.nl</URI>
+                        <URI xml:lang="nl">https://www.rdi.nl/onderwerpen/elektronische-vertrouwensdiensten/statuslijst-van-vertrouwensdiensten</URI>
+                        <URI xml:lang="en">https://www.rdi.nl/onderwerpen/elektronische-vertrouwensdiensten/trust-service-providers</URI>
+                        <URI xml:lang="nl">mailto:eidas@rdi.nl</URI>
+                        <URI xml:lang="en">mailto:eidas@rdi.nl</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="nl">https://portal.notarisid.nl/</URI>
-                    <URI xml:lang="en">https://portal.notarisid.nl/</URI>
+                    <URI xml:lang="nl">https://www.rdi.nl/onderwerpen/elektronische-vertrouwensdiensten/statuslijst-van-vertrouwensdiensten</URI>
+                    <URI xml:lang="en">https://www.rdi.nl/onderwerpen/elektronische-vertrouwensdiensten/trust-service-providers</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -9127,8 +9242,8 @@
 <X509SKI>THPlZAp8zgdu+azycZJyQ/ewkoo=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-07-11T12:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-02-12T10:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -9137,6 +9252,32 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">NotarisID Subscriber CA G2</Name>
+<Name xml:lang="nl">NotarisID Subscriber CA G2</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=NotarisID Subscriber CA G2, OID.2.5.4.97=NTRNL-76121526, O=NotarisID B.V., C=NL</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>THPlZAp8zgdu+azycZJyQ/ewkoo=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-07-11T12:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -9202,5 +9343,5 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
-    </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1090060048"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x1578781352" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>gkdgiKP3KQpQa0vbQU16YVXOzGlj+q0lUm2gqMEBNxs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-134698282"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>weqJZhN79uEFGQTYWJiD33zQn9mooad4e2vBDOoTTZM=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>Jp8woSSUey/JrxxWa7ot6Fxeo+RC19A72CkzaBV3VlX3rpLEOBRqewlOPnEyB/wkhEsnlP93BLKoZnGaZj9WNpB0lSiLUSziUDNR3YJCYO604IM6IzJKJXKIpHJlh7NJFVI39WDiBjvZOHY2RG1eWkQPjekGNvBdTttVQ1Q6YSbqPyjM+JMirCOUPeIdtB7Gcl0uWI9IWqzFcw3bSODd0xrXYuL+je7mUMzKRKi4JpMDOOY5TymATT6DiL0czkXck2QGPoHCIn9pKQeUtEgwAGptPrKnpQLy0pfJ9Ru8N7DCL5kloZrBW9bwNAw9TmDCeouvBKbXXfx6HEPkJ/DcJ4h6M3xsNmmdvhpBdPW7va9auZfX8x5iHkx3nIgkA3qVIJw7l3aAZKzjnRNhn1dRPMyc44SXFnhofY8hGowjwkzDNTIGmR0XgerrhhjrAfKrOUs+n3YPSsksqfeZHynsvqZHHthYZvMZmDT5slxYJk39ROp8DnzcY85YmG18vMkbHOwvzcK6KN3eYrQUhSHWQnnXNxrw28XIBM4GqWi0n/cigQ+zXZFQ+e4SxSjbzD4httx/VfMQ9UKrBgwfeJ+M1i5znmmngJS1tRHGgFSS6iCRWUfEpSIc0lU+WJ0vNAu22H6oDElSSvv5iym2ZWZI0jg1Q65b3qE1ddzO3kOK6dY=</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>sTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFk=</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509SubjectName><ds:X509Certificate>MIIFyjCCA7KgAwIBAgIFFMyAj6UwDQYJKoZIhvcNAQELBQAwaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MB4XDTIzMDEwMTAwMDAwMFoXDTI4MDEwMTAwMDAwMFowaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFkCAwEAAaN7MHkwHQYDVR0OBBYEFISge/8g59F7ILYOZoaJ252V5+8kMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBEGA1UdIAQKMAgwBgYEVR0gADAXBgNVHREEEDAOgQxlaWRhc0ByZGkubmwwEQYDVR0lBAowCAYGBACRNwMAMA0GCSqGSIb3DQEBCwUAA4ICAQB31upkefX2Mty4o8REJ25aIj7kvSPzBfRIFuOrN9wFSzcddLNwIb2XZT55qZdTmXGh+gtipk881yvMQKYgz5g1LwijAJkAe6BlIyXM8XLIR44ktCvu+BWiTXt+mevGnHn65i56TQEpfGLzryl7tXnn3dvv1SowXkraL1piTsC6aPWNMdgmZp5wqHldQYN/Y/MkmMN7bla2TLQGLl7qxVRpZ/QXC/90gKXfxtKCrmVbwF2ezwa5u53bCXdSYqd+1gTCMdbmRYqYkJN1gSlmMtHWmPRtmPDMms/TanQXhkVepz71xfhFiaz310aF8jFhApxqhVCpK01Pd8Crg0LNaF97DeNBbOS6i9L6dDVFjM00vE6AbLaQCcc9XL41cTUoaarGaUkZJf3mOWUFWDrGP7gStyxf8k0a1NpoPCe7UZesqrDiyU4UPxgBVo3XfXXOJLp12GKiHJEGOTSi8dj6JkLQVPLJjU/tVXm9MsGXCH2LSoYeWf9R5l8IviO+qtcvUUP/rEw2uYM3bDxecF8ZNGAE2oL1M1kJQs+GJUKQ/U2nPzrIdQ9icx4Kedr/1sPgYmARNE6MCg+hHIzXqmsgnL6+uMtX290vQOnK2rmBeWESP5RNcXGKMA1dlF/OvEigVC3FXA9FS8tkskF7ls53yCrPhcbgBnztWTXosF0lkXyM7A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1090060048"><xades:SignedProperties Id="SignedProperties-134698282"><xades:SignedSignatureProperties><xades:SigningTime>2024-11-11T10:25:43.439Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1PnAAOYsn8dPPFwptm41cYpkS4EA7YJsW7jSC2br+Jo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x1578781352"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+    </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-591394536"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x1593542835" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>7e8DOdmd6e/9pTgfWCwTIPyDid1OLkEV37n1sulfU1g=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-671281416"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>9UJv/ziYprv/p75C7k/8hluVQjiOuKvAphLorwH4Ja0=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>EP4/cVklVFQIhdzbO/hsxiqNF0ul6IdQ0eEggpYY1wdRolQDCdeDMD7AyAaqIG6iB6+Cpu0fqlAF8i7zS3iKScylNHi39U+TnT6GrJomWRJ3yKyPBYZdn/DAIDZgYttT5jBF51l+fRExDyGHmfMWfy49cUtdEPNYvqxqRZhh/IhLyOML+Y8IC/zZh63DJ3lFyxEr88kxPz9ztqZebBbAY2zQj0zou8wekrz5joYUw7xdk8Yrae/Ak/9IWB/zFjjuZZzFUoVltyIo2CnF0wTNsKT9n0DaBC7j7FGgJlJ9VE6eH8h/7AvVWbCsC+Q2Zzad2wRxBAE2iT2qBbUld85NAZtCixv8sG4+4I/1PnK8ZWej/aYllQ9bCuRZemFuXEDom/TBH5VQftwMEWl6e9Law4CXEHN+aZde2Wgmz2tQGUOFcoRdFNlaTY+DetNamJhjt6+q0Dt75qQmqlipBsJoiNsl2gsdm+j5sczeNtggotW1fwcU8cpENGaFWieag6TvlUP5nwnlYvV4TleFWs4epk4WNvMIfl7JPmBhmT+8/O8FyvBSdOVAuea7FfyPQICrL6kbTBonJI8zIfQOlIxqLBaFkeAIXFzgzs36uaSOizXGHxwglgxOlZgeO96aNnaZhRuNoVdezPoNA/MvL1kL2waS2XA3Uu0GKPtUKDgolbw=</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>sTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFk=</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509SubjectName><ds:X509Certificate>MIIFyjCCA7KgAwIBAgIFFMyAj6UwDQYJKoZIhvcNAQELBQAwaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MB4XDTIzMDEwMTAwMDAwMFoXDTI4MDEwMTAwMDAwMFowaDELMAkGA1UEBhMCTkwxLzAtBgNVBAoMJlJpamtzaW5zcGVjdGllIERpZ2l0YWxlIEluZnJhc3RydWN0dXVyMRwwGgYDVQQDDBNSREkgTkwgVFNMIFNpZ25lciAxMQowCAYDVQQFEwE1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAsTqqg974T6mHiWPNGv9IrVYFB+4fWJboTXx+ACNzcGehwqAfN3aSTawnJ95nq3rol0bK/8TePjeu2OjkZFBAhZyBzh99Hr0QEyj+qJGOErcX3ujbSOu9/MxtoUZHCVXLChecm/dLDgqnVGGUI0EJEP+rW/fu9uz30Mb2bvTuCiWxa369LuntFFlALOo5OxTfdOEj1V7ubcdqyGVroUn/ePyTpaqOhD8el293Zv3qfi2y0t05IyngrbV2rDFk7Y5++pyXhlgxck9UbKv9clHkb5hzW7JS2CJaFo3PRo5dEWmYYc9YayvioRkI6BaoYypXXTuUc9Zu9A2jMS6ACG+cQwU48K0ZvQDWBopvJJ7kGc+PCmwWluUs0ECzM/HQq6pRNfw6ZUR0q/7xANPCU5/2VYKIEb7I/3HZC4v4Q0iu30QXltUmQQTIBjzX7ZYX3ZQFr8FCrGRwPmAgwCNvRGR+y2/vykYQTTZ1qcoubzhiJZvFSfRrmVz155nMOHGiY4R8xkM7rbEeE+Zjglg7OfvWIp/ecgNVhnUm+GAJnOZw5e337nsGigHMGlbCi1pBtw0f1+5jMN90QemamoC7xUn0xbbdH3p4tvxZbuTlcLwVB44OvVvTqQTBiWVX+u0gAPUpUzUKTb43wj0/vxKOFb7PZWiI3Lhrl5pJ6Sju6lnhwFkCAwEAAaN7MHkwHQYDVR0OBBYEFISge/8g59F7ILYOZoaJ252V5+8kMAkGA1UdEwQCMAAwDgYDVR0PAQH/BAQDAgbAMBEGA1UdIAQKMAgwBgYEVR0gADAXBgNVHREEEDAOgQxlaWRhc0ByZGkubmwwEQYDVR0lBAowCAYGBACRNwMAMA0GCSqGSIb3DQEBCwUAA4ICAQB31upkefX2Mty4o8REJ25aIj7kvSPzBfRIFuOrN9wFSzcddLNwIb2XZT55qZdTmXGh+gtipk881yvMQKYgz5g1LwijAJkAe6BlIyXM8XLIR44ktCvu+BWiTXt+mevGnHn65i56TQEpfGLzryl7tXnn3dvv1SowXkraL1piTsC6aPWNMdgmZp5wqHldQYN/Y/MkmMN7bla2TLQGLl7qxVRpZ/QXC/90gKXfxtKCrmVbwF2ezwa5u53bCXdSYqd+1gTCMdbmRYqYkJN1gSlmMtHWmPRtmPDMms/TanQXhkVepz71xfhFiaz310aF8jFhApxqhVCpK01Pd8Crg0LNaF97DeNBbOS6i9L6dDVFjM00vE6AbLaQCcc9XL41cTUoaarGaUkZJf3mOWUFWDrGP7gStyxf8k0a1NpoPCe7UZesqrDiyU4UPxgBVo3XfXXOJLp12GKiHJEGOTSi8dj6JkLQVPLJjU/tVXm9MsGXCH2LSoYeWf9R5l8IviO+qtcvUUP/rEw2uYM3bDxecF8ZNGAE2oL1M1kJQs+GJUKQ/U2nPzrIdQ9icx4Kedr/1sPgYmARNE6MCg+hHIzXqmsgnL6+uMtX290vQOnK2rmBeWESP5RNcXGKMA1dlF/OvEigVC3FXA9FS8tkskF7ls53yCrPhcbgBnztWTXosF0lkXyM7A==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-591394536"><xades:SignedProperties Id="SignedProperties-671281416"><xades:SignedSignatureProperties><xades:SigningTime>2025-02-12T10:40:34.144Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>1PnAAOYsn8dPPFwptm41cYpkS4EA7YJsW7jSC2br+Jo=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>SERIALNUMBER=5, CN=RDI NL TSL Signer 1, O=Rijksinspectie Digitale Infrastructuur, C=NL</ds:X509IssuerName><ds:X509SerialNumber>89330323365</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x1593542835"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
 </TrustServiceStatusList>
