@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>93</TSLSequenceNumber>
+        <TSLSequenceNumber>95</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-10-23T14:51:46Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-02-25T20:53:10Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-04-23T14:51:46Z</dateTime>
+            <dateTime>2025-08-25T19:53:10Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.gns.gov.pt/media/1894/TSLPT.xml</URI>
@@ -299,7 +299,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
                             <URI xml:lang="en">https://www.ecce.gov.pt</URI>
                             <URI xml:lang="pt">https://www.ecce.gov.pt</URI>
@@ -328,9 +328,62 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">https://www.ecce.gov.pt/</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>PT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCE 001 (CA-Qualified certificates)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCE 001, OU=ECEstado, O=SCEE, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>4xrYmgw2WtQOI6wOmG+BUp4uXQU=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.16.620.1.1.1.2.10</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -387,7 +440,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-08-23T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
                         <SchemeServiceDefinitionURI>
                             <URI xml:lang="en">https://www.ecce.gov.pt</URI>
                             <URI xml:lang="pt">https://www.ecce.gov.pt</URI>
@@ -432,9 +485,79 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">https://www.ecce.gov.pt/</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>PT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCE 002 (CA-Qualified certificates)</Name>
+<Name xml:lang="pt">ECCE 002 (CA-Qualified certificates)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCE 002, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>Ocfk5/4aGQjrRCdpKtiB7PmlGRs=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-08-23T23:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">0.4.0.194112.1.2</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">0.4.0.194112.1.3</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -585,9 +708,27 @@
 <X509SKI>5ZdDgz2C8cJQaCJJpUR6+s1mMnY=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-11-09T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCE-TSA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCE-TSA, OU=Entidade Certificadora Comum do Estado, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>5ZdDgz2C8cJQaCJJpUR6+s1mMnY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-11-09T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -607,8 +748,40 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-04-29T14:06:50Z</StatusStartingTime>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">https://www.ecce.gov.pt/</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>PT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCE- TSA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCE-TSA, OU=Entidade Certificadora Comum do Estado, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>KG0znVPtmxlj222yIph+wvu364Y=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-04-29T14:06:50Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -628,15 +801,52 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-04-29T14:15:13Z</StatusStartingTime>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">https://www.ecce.gov.pt/</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>PT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCEQ001</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCEQ001, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>t55CcSURYVm7/5qOsW8mXUfrXDk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-04-29T14:15:13Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -656,14 +866,72 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-04-29T14:20:42Z</StatusStartingTime>
+                        <StatusStartingTime>2025-03-01T00:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">https://www.ecce.gov.pt/</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>PT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">ECCEQ001</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ECCEQ001, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>t55CcSURYVm7/5qOsW8mXUfrXDk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-04-29T14:20:42Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ECCE -TSA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIFKzCCBBOgAwIBAgIQe+pRGWQ0Ar5lOSEVXMnqXjANBgkqhkiG9w0BAQUFADB+MQswCQYDVQQGEwJQVDE6MDgGA1UECgwxQ2VudHJvIGRlIEdlc3TDo28gZGEgUmVkZSBJbmZvcm3DoXRpY2EgZG8gR292ZXJubzENMAsGA1UECwwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xETAPBgNVBAMMCEVDQ0UgMDAyMB4XDTIzMTAyNTE0MDcxN1oXDTI4MTAyNTE0MDcxN1owga8xCzAJBgNVBAYTAlBUMTowOAYDVQQKDDFDZW50cm8gZGUgR2VzdMOjbyBkYSBSZWRlIEluZm9ybcOhdGljYSBkbyBHb3Zlcm5vMQ0wCwYDVQQLDARTQ0VFMREwDwYDVQQLDAhFQ0VzdGFkbzEvMC0GA1UECwwmRW50aWRhZGUgQ2VydGlmaWNhZG9yYSBDb211bSBkbyBFc3RhZG8xETAPBgNVBAMMCEVDQ0UtVFNBMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAqvReFTaTRzQiKqgW55odtqcOSmXf5tydCjGIocDV/nR7lvnw4KvaoW/BuR8NTmwW17Z/ieEF0WdactSAWEp2IsWwYcwM34yyOKAS3SXwwGLN6Dt1ProIJG1xjMQ/5xcurrU/9yFgF9+BEKtecWJoHMNY4NgWYr4k8h/6pDgQhkZw+DuF90TrhpjjNP2WsEHWlVZgmHTzsyAi92AN9m9CpdymeirfwtinPn0xhCrtXPC9VCbQ8Tz3+tuEyOUq1svUhtYQq92ff9q7yWz9YHO0PcTQXtuepY8karhjkaNKABXPv5NAkdZoiq92NrY8uvK8rE/uuqZRcs4Co0yJqTzX/wIDAQABo4IBcTCCAW0wGAYIKwYBBQUHAQMEDDAKMAgGBgQAjkYBATAOBgNVHQ8BAf8EBAMCBsAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgwHQYDVR0OBBYEFK5cVGnxFyJ32WPcnw+jdUDpsNvFMB8GA1UdIwQYMBaAFDnH5Of+GhkI60QnaSrYgez5pRkbMDsGA1UdIAQ0MDIwMAYEVR0gADAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmVjY2UuZ292LnB0L2RwYzBmBggrBgEFBQcBAQRaMFgwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVjY2UuZ292LnB0MDEGCCsGAQUFBzAChiVodHRwOi8vdHJ1c3QuZWNjZS5nb3YucHQvZWNjZS0wMDIuY3J0MAkGA1UdEwQCMAAwOQYDVR0fBDIwMDAuoCygKoYoaHR0cDovL2NybHMuZWNjZS5nb3YucHQvY3Jscy9jcmwtMDAyLmNybDANBgkqhkiG9w0BAQUFAAOCAQEAA6Tj/iBLiiFKzesSJ6ch81c4C86r4VeRPRDVJEv0sadaCGyKFyqgx26cPhAhdwCuGcALKZ1WfpSut4l2NNloUQTeHsHG51wYdhUXXkxywDDWJAT9Cniv1eLgMiUVrjx1NbUUq19OWACHrWHeEnJqyj2omQ7S9zWEu2+DEZjPurD3AKAGAVdluyWIylZYOdYOd7w+vUk1oAWAGAoERG90Xqb150ii0q0zVsn7rPc/helrO+gHOlIoJb0ID+p1PZJaBycLIq2IzPztm315hvjZDHAGS3JKMFMM6hvduTk4qqGVnr0t4SgROXmeQqAWYP/jtuIQDdtJwZtxB1eCVYOoVA==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ECCE-TSA, OU=Entidade Certificadora Comum do Estado, OU=ECEstado, OU=SCEE, O=Centro de Gestão da Rede Informática do Governo, C=PT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>rlxUafEXInfZY9yfD6N1QOmw28U=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-02-25T22:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -6237,4 +6505,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-a82b36e91bbdf90750b258c42ce1c2dd"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FqJZZCgrvLS1ZFkSRaSTiAei+VTf8aIsceauyLDZEik=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-a82b36e91bbdf90750b258c42ce1c2dd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>G0NA9XPy6tHIWDZwZrOo1MLUWBYak6vAc9eJH2p+R9Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-a82b36e91bbdf90750b258c42ce1c2dd">ldk1FKNQ7Sq3fEKezcnDLp//nhTlsNcv9B8vUpWNEXu6n5p2KnaZnuq6pCMZGfwQyrdzo4Qw/4CPCNuhQAyBJZvFMq/cqPR6IZrunnCCZf9sx7gcENVr3AcAknIxAArypwzOqWy6x9LCN5eW/WGUndEgNv+H7RdIck2koHpu0/ULmiOBG024VnNi7s0ziQjVqCrUVBXC6jVrMEXn44rEZphIHfz15ux2HqAbmfzWQhV3u7osC1gHM5gT22UwhD80YpFaJvdIfbBE8Mv8EWx6CGBGqNPgHpGSbtlUnse0jz4u82UsMzgXg0m0jgk0IJDKkfiVuBZEfIgv5nfE21twCQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIExjCCA66gAwIBAgIQYS7/D337SVpmO2CCEzbKKzANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJQVDE6MDgGA1UECgwxQ2VudHJvIGRlIEdlc3TDo28gZGEgUmVkZSBJbmZvcm3DoXRpY2EgZG8gR292ZXJubzENMAsGA1UECwwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xEjAQBgNVBAMMCUVDQ0VOUTAwMTAeFw0yNDA1MDgxMTIyNDJaFw0yNzA1MDgxMTIyNDJaMGcxCzAJBgNVBAYTAlBUMSgwJgYDVQQKDB9HYWJpbmV0ZSBOYWNpb25hbCBkZSBTZWd1cmFuw6dhMS4wLAYDVQQDDCVQT1JUVUdVRVNFIFRSVVNUIExJU1QgU0NIRU1FIE9QRVJBVE9SMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ILzhMTUwHxQCrpfTq6dgg6J+xyY/gptE7nsgNSK7RBkkjnsp77mY++ItweTCE/334glDa5zCsv6/59XK3lM6eJpXFVhqwbLvNT9KVgT3YEvek9fvy/DhCdmEisAv51M9b+K92WHkVaLpoURYYa9+k6sjF1iEDZ4hK8qtU7Gg5jqO00F7ghbzqFf4tnepWJRcRjrzQxD87tQYdGhErueMS6bq0LL+JHFenQC1Z2C+QkoHMrirbHHfZlwn9eKGihipvvvbJWX2t4gtU5Seo7Pv0VrL1xylJeO9dIkoNtaja8qyIZw4SvUg0imLdaYD9UfRIMEwewZ7PncNMxcvhqlQwIDAQABo4IBVDCCAVAwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBkAwEQYDVR0lBAowCAYGBACRNwMAMB0GA1UdDgQWBBSE/HUkA1hcvLjaBsVQw08yjWDXZzAfBgNVHSMEGDAWgBTeXZmFcW676uJV4ZaHFfMVbaFm2zA7BgNVHSAENDAyMDAGBFUdIAAwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lY2NlLmdvdi5wdC9kcGMwZgYIKwYBBQUHAQEEWjBYMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lY2NlLmdvdi5wdDAxBggrBgEFBQcwAoYlaHR0cDovL3RydXN0LmVjY2UuZ292LnB0L2VjY2UtMDAyLmNydDA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3Jscy5lY2NlLmdvdi5wdC9jcmxzL2VjY2VucTAwMS5jcmwwDQYJKoZIhvcNAQELBQADggEBANOzm11ltTG4BVmpPWIE+rmqRxN2HVPQEWjiw/N9HVg/SAIe7AlI9cjV6yr914AMVuIrl0P3zAexb35Y3bwoQYeJGcBO878A6brr2atA1wjHlYllFMyUZv+qJsbMwYQGndkjeEKOfkc8XOtJmDbs3scBjG8MQpcUgLedWvB6wy63GL/o947Udj6zUy81iJMXBk8IwtT6iY7CJND0CMdEn0M3hJu01/4HN/slpgUzR8AcR9vZapcXEtKtdfYyqmRrU/30EBEP6+dn/GcNsHlkkybtvTWaMlgsPJjsBacaDffZ8cdMIruc2j2wuWkaaWum0gyZ7yoNU1dKfwabRtyPbOw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-a82b36e91bbdf90750b258c42ce1c2dd"><xades:SignedProperties Id="xades-id-a82b36e91bbdf90750b258c42ce1c2dd"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-23T15:01:27Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>besf5GWSm2NVLeKm9QL55yrYnIXooj4jxiUo8/ps4iKmSrKbQU6fjUrwu40vAApdwuumotib0Gay1LO1/lBFNg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ECCENQ001,OU=ECEstado,OU=SCEE,O=Centro de Gestão da Rede Informática do Governo,C=PT</ds:X509IssuerName><ds:X509SerialNumber>129179134488490223641223067489262815787</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-1bf8283bdf99a0136c1a238010bc1b64"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pWcl3TvoUiVRiwu5vVU4Pl8ZSjtS94ZKjcE2DJpd1v8=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-1bf8283bdf99a0136c1a238010bc1b64"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>pDg/B2pz9V12i5q4QU9clTRuUwRDNALgN+SzjY6ox2Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-1bf8283bdf99a0136c1a238010bc1b64">n6qyDUIOVC6Nt5+ZKefQ3JWIKXZEnw4bn6Ljyb7Z/N51O7hbgggdyDf4T3Q8IezIYLB9mb77mlXqrmtpsjHQgTCHVDqoihtJ0bdHrZYKbOPeNtSizTC3CcZSNJZHsU5qsZIW8fF/PB/+rD606N4J4rlS3pbMJ1KtOBC4KmXIRsVcfusCIUgh+2mcr8L5cOOyMbfsC2jiWs63d/ehxdBNmofPKNrbs3tr4l3agY3wCMRHT8O+ZmMgPNpZNGziqQZ5t+vaIfC1VasY2C+6a94WnHY29kwco4PVMaIc+UiG/MV0T1E2Jdyik6uduTB4MAtt6SzRwXdR74oS1UhBz0ubiw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIExjCCA66gAwIBAgIQYS7/D337SVpmO2CCEzbKKzANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJQVDE6MDgGA1UECgwxQ2VudHJvIGRlIEdlc3TDo28gZGEgUmVkZSBJbmZvcm3DoXRpY2EgZG8gR292ZXJubzENMAsGA1UECwwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xEjAQBgNVBAMMCUVDQ0VOUTAwMTAeFw0yNDA1MDgxMTIyNDJaFw0yNzA1MDgxMTIyNDJaMGcxCzAJBgNVBAYTAlBUMSgwJgYDVQQKDB9HYWJpbmV0ZSBOYWNpb25hbCBkZSBTZWd1cmFuw6dhMS4wLAYDVQQDDCVQT1JUVUdVRVNFIFRSVVNUIExJU1QgU0NIRU1FIE9QRVJBVE9SMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ILzhMTUwHxQCrpfTq6dgg6J+xyY/gptE7nsgNSK7RBkkjnsp77mY++ItweTCE/334glDa5zCsv6/59XK3lM6eJpXFVhqwbLvNT9KVgT3YEvek9fvy/DhCdmEisAv51M9b+K92WHkVaLpoURYYa9+k6sjF1iEDZ4hK8qtU7Gg5jqO00F7ghbzqFf4tnepWJRcRjrzQxD87tQYdGhErueMS6bq0LL+JHFenQC1Z2C+QkoHMrirbHHfZlwn9eKGihipvvvbJWX2t4gtU5Seo7Pv0VrL1xylJeO9dIkoNtaja8qyIZw4SvUg0imLdaYD9UfRIMEwewZ7PncNMxcvhqlQwIDAQABo4IBVDCCAVAwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBkAwEQYDVR0lBAowCAYGBACRNwMAMB0GA1UdDgQWBBSE/HUkA1hcvLjaBsVQw08yjWDXZzAfBgNVHSMEGDAWgBTeXZmFcW676uJV4ZaHFfMVbaFm2zA7BgNVHSAENDAyMDAGBFUdIAAwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lY2NlLmdvdi5wdC9kcGMwZgYIKwYBBQUHAQEEWjBYMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lY2NlLmdvdi5wdDAxBggrBgEFBQcwAoYlaHR0cDovL3RydXN0LmVjY2UuZ292LnB0L2VjY2UtMDAyLmNydDA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3Jscy5lY2NlLmdvdi5wdC9jcmxzL2VjY2VucTAwMS5jcmwwDQYJKoZIhvcNAQELBQADggEBANOzm11ltTG4BVmpPWIE+rmqRxN2HVPQEWjiw/N9HVg/SAIe7AlI9cjV6yr914AMVuIrl0P3zAexb35Y3bwoQYeJGcBO878A6brr2atA1wjHlYllFMyUZv+qJsbMwYQGndkjeEKOfkc8XOtJmDbs3scBjG8MQpcUgLedWvB6wy63GL/o947Udj6zUy81iJMXBk8IwtT6iY7CJND0CMdEn0M3hJu01/4HN/slpgUzR8AcR9vZapcXEtKtdfYyqmRrU/30EBEP6+dn/GcNsHlkkybtvTWaMlgsPJjsBacaDffZ8cdMIruc2j2wuWkaaWum0gyZ7yoNU1dKfwabRtyPbOw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-1bf8283bdf99a0136c1a238010bc1b64"><xades:SignedProperties Id="xades-id-1bf8283bdf99a0136c1a238010bc1b64"><xades:SignedSignatureProperties><xades:SigningTime>2025-02-25T21:09:14Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>besf5GWSm2NVLeKm9QL55yrYnIXooj4jxiUo8/ps4iKmSrKbQU6fjUrwu40vAApdwuumotib0Gay1LO1/lBFNg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ECCENQ001,OU=ECEstado,OU=SCEE,O=Centro de Gestão da Rede Informática do Governo,C=PT</ds:X509IssuerName><ds:X509SerialNumber>129179134488490223641223067489262815787</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
