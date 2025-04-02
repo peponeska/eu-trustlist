@@ -2,7 +2,7 @@
 <TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>68</TSLSequenceNumber>
+        <TSLSequenceNumber>69</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Rundfunk und Telekom Regulierungs-GmbH</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2024-10-15T07:28:07Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-04-01T07:47:10Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-04-15T07:28:07Z</dateTime>
+            <dateTime>2025-10-01T07:47:10Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.signatur.rtr.at/currenttl.xml</URI>
@@ -3798,14 +3798,14 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
-    </TrustServiceProviderList><dsig:Signature Id="Signature-a8187df9-1" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><dsig:SignedInfo Id="SignedInfo-a8187df9-1"><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><dsig:Reference Id="Reference-a8187df9-1" URI=""><dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>gR04H7hx2CLKU9GvKwNoeyiq2xRZtd5kE8wS5IuvU0A=</dsig:DigestValue></dsig:Reference><dsig:Reference Id="Reference-a8187df9-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-a8187df9-1"><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>a5Srq0nTL4gjLIwILgKm9bu9BtXT6IZ8rna0DuKCHZo=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue Id="SignatureValue-a8187df9-1">jouLYp227o/tcXMQqcWrKcBmYjPMczJBTBymay7RWG0wXwJJMhEpJAaSQUwzFdr6
-B/U4Q3Q8NoBVPCrY0y5RiK1DmWni4PR1OA8+aYIsyERm/N290BbCyiw/ePi5N4ki
-wCcsPKdQvfN9efWPNSXaxMh3ufJxUnrxgWVn3JT11rE1iYcf0g14SwztkjS7jtHL
-zkg8dh7+kBNRm2X6KnlMSOIEG3+bEmG/Oba6RUzGm8HhntLDH1DfQE/ueHx83o6U
-H4HA5urkhSyuuDsloGjbW6wyZxB4BQF4bErUfZwk8b8gV0scNrME8XXKTfIzKmzg
-ONxnVsHkFMiY9Y+Rs0VYpjAqGQ8zScaNpoHZ7beMcCgICJIeaNmt8cimA294rBvE
-CRATiAHwSRLL7pgrV9isicRJppUkeEql98Do5XBE9n84cZsROKLsL+LPMarkVWTV
-haHgWB/smOKTfv9/uI2OcfNEI5qRImyrqXI2kIwwBWE7qWKSItyqjAECUv5FhEb6</dsig:SignatureValue><dsig:KeyInfo><dsig:X509Data><dsig:X509Certificate>MIIF5TCCA82gAwIBAgIJAJzqELfj2cW6MA0GCSqGSIb3DQEBCwUAMFcxCzAJBgNV
+    </TrustServiceProviderList><dsig:Signature Id="Signature-7f384c7c-1" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><dsig:SignedInfo Id="SignedInfo-7f384c7c-1"><dsig:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><dsig:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><dsig:Reference Id="Reference-7f384c7c-1" URI=""><dsig:Transforms xmlns:dsig="http://www.w3.org/2000/09/xmldsig#"><dsig:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><dsig:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></dsig:Transforms><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>nr5xCdwTgUF1lirkhxqBRCmnCynFF1mtsnvsVAFVWMw=</dsig:DigestValue></dsig:Reference><dsig:Reference Id="Reference-7f384c7c-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-7f384c7c-1"><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>L7Wn47CKhvLD+J8binxXwXTKE5SpbRueGdwxd/F7CmQ=</dsig:DigestValue></dsig:Reference></dsig:SignedInfo><dsig:SignatureValue Id="SignatureValue-7f384c7c-1">Uj0FHoVsOsxv4MwMlw/OJ69quu5Tdszm1MBNj6EG2XFooKCoKkGYyNfIAkiXGemy
+hyjY2fCTbXSHLp9fp0oPwds30k4Tr3HT/c4PK/u7neFlHoEsxyiyMeTHADHTzGHV
+uZ6mD3Lt2IxHlrmxJEjLgzsgj9qWGUsnIiLQGYNlo9mbpVcPG7wYu8CkmcyF1Dhd
+rCrfBjxXtSU2g3/cJcBU56ZFhL82a8cwOi+qeYzSle4cSU0Wde2duYze9+zod7sk
+u9VPCByS5Do0w9tZ5ASuY6/RPBB4BY0heUAgaIBZ/K+zreaXW1aAQt4XfXWMMv0b
+FJy2bxlxxJ9vsLGHtPB8q8RlCWv96B8S/Oe8tVElm02r9rdcD1mOlLbkS6lkV6+Z
+u2+KVQF+kERp6lSguar1/wgBND61Y23iHRc28Ncdrwgrk8eIt3Si3fSg8blI2iBT
+YP0gEsMONcwE2t8FIMbA9cV5aQMobCCETmytd+D0qr+QoXN5ZqaAKqmdE0/vtbfr</dsig:SignatureValue><dsig:KeyInfo><dsig:X509Data><dsig:X509Certificate>MIIF5TCCA82gAwIBAgIJAJzqELfj2cW6MA0GCSqGSIb3DQEBCwUAMFcxCzAJBgNV
 BAYTAkFUMS8wLQYDVQQKDCZSdW5kZnVuayB1bmQgVGVsZWtvbSBSZWd1bGllcnVu
 Z3MtR21iSDEXMBUGA1UEAwwOUlRSIFNlcnZpY2VzIDQwHhcNMjAxMDIxMTI0MDQ0
 WhcNMjUxMDIxMTI0MDQ0WjCBiDELMAkGA1UEBhMCQVQxLzAtBgNVBAoMJlJ1bmRm
@@ -3836,5 +3836,5 @@ dkoStNGIdMRAo0btaonhi/Z/AwE01QJ6oR4mP3tnmlRfRZEYDMOqYjTbRxR7Y8C6
 io/MqPODOvzDd+7RvcPw+IO0EkW96XzZVyFuPKRAc0fx04RhSZqNOK8NIrRWULEe
 fI8rfm/BOlQnaA5Zt+AA/013hHB9jKUxJsx+Im5/7Qks1zdy9XkPnNzPx6hrs4yX
 pDB/OdSvvVnZ+nsawx4Tapa8Kat9lLwCyEODdhzT0/Rsr2XD+VPNNGrkaX/RUKtQ
-JAsBqyB93yZtZstYS9Ni0XPezrgF8Srv+g==</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo><dsig:Object Id="Object-a8187df9-1"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns3="http://uri.etsi.org/01903/v1.4.1#" Target="#Signature-a8187df9-1" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:sl="http://www.buergerkarte.at/namespaces/securitylayer/1.2#"><xades:SignedProperties Id="SignedProperties-a8187df9-1"><xades:SignedSignatureProperties><xades:SigningTime>2024-10-15T07:48:09Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>SMAwJCCjVvxxY/Moec/guND29epY8iApTjf7cNw4mlQ=</dsig:DigestValue></xades:CertDigest><xades:IssuerSerial><dsig:X509IssuerName>CN=RTR Services 4,O=Rundfunk und Telekom Regulierungs-GmbH,C=AT</dsig:X509IssuerName><dsig:X509SerialNumber>11306868196454811066</dsig:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-a8187df9-1"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></dsig:Object></dsig:Signature>
+JAsBqyB93yZtZstYS9Ni0XPezrgF8Srv+g==</dsig:X509Certificate></dsig:X509Data></dsig:KeyInfo><dsig:Object Id="Object-7f384c7c-1"><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns3="http://uri.etsi.org/01903/v1.4.1#" Target="#Signature-7f384c7c-1" xmlns:dsig="http://www.w3.org/2000/09/xmldsig#" xmlns:sl="http://www.buergerkarte.at/namespaces/securitylayer/1.2#"><xades:SignedProperties Id="SignedProperties-7f384c7c-1"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-01T07:48:53Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><dsig:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><dsig:DigestValue>SMAwJCCjVvxxY/Moec/guND29epY8iApTjf7cNw4mlQ=</dsig:DigestValue></xades:CertDigest><xades:IssuerSerial><dsig:X509IssuerName>CN=RTR Services 4,O=Rundfunk und Telekom Regulierungs-GmbH,C=AT</dsig:X509IssuerName><dsig:X509SerialNumber>11306868196454811066</dsig:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#Reference-7f384c7c-1"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></dsig:Object></dsig:Signature>
 </TrustServiceStatusList>
