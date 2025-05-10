@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>98</TSLSequenceNumber>
+        <TSLSequenceNumber>99</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Gabinete Nacional de Segurança</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-04-16T16:20:02Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-05-08T10:08:48Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-10-16T16:20:02Z</dateTime>
+            <dateTime>2025-11-08T11:08:48Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.gns.gov.pt/media/1894/TSLPT.xml</URI>
@@ -6144,8 +6144,8 @@
 <X509SKI>xkKZkyMKpy8gxLe7QUzr9wXaxtw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2020-05-19T23:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/deprecatedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2025-05-08T11:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -6159,6 +6159,36 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Global Trusted Sign NQ Certification Authority 02</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Global Trusted Sign NQ Certification Authority 02, OU=Global Trusted Sign, O="ACIN iCloud Solutions, Lda", C=PT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>xkKZkyMKpy8gxLe7QUzr9wXaxtw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2020-05-19T23:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6674,6 +6704,34 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Chave Móvel Digital 00006</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=EC de Chave Móvel Digital de Assinatura Digital Qualificada do Cartão de Cidadão 00006, OU=subECEstado, OU=Cartão de Cidadão, O=AMA - AGÊNCIA PARA A MODERNIZAÇÃO ADMINISTRATIVA I. P., C=PT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>kozOmewWB6NnnvHJxiO+sNZmA9Q=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-08T11:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -6756,4 +6814,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-fc9f4cdcb2bef4cdad078817d60e6c7a"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Zq4c8o/qsiFPwZFp8Pr95iDuyHMDwdvS27NG0eVOPoXUhS7ZVBldS2ILl6Yh0Cps0TvoOaaKL7SxN8wZSOybGA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-fc9f4cdcb2bef4cdad078817d60e6c7a"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>s+k348X5n2/wUV5q9LvvN/2C3JhgHAqyxSh/a7wEv3SX8drGm0YdS6cqHr2mbeUglzQTjgxT1ZNBoApS6zCjRg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-fc9f4cdcb2bef4cdad078817d60e6c7a">WMfMutjWOpQ89a6Lvow4ppdEpKaY7HBQo/Ryg3G2R0GvsuejKv5BQBpTUTlxrAMF7gqZIGrL+cRcd2+Ll892VM3byhQ6WZ1uC7cjHZqGpnzxWZJbFIiNnJnh16WgaoRdAMnZkJuuUyR9V3qR727OrObhlprkl1NNLnPtkXurV4gjgijmSz61GniLEEL5G9m7CBW0t23fTRNAYhFuEcHIO1UA5UZWCAKG/NCQ1vTwk/TVTZG87MnUoYGQs/QB0kHZZDIvozc7ojAsLa+InQREZE2KOcvoG+BwNJu9z+6VgP4O70+KzkRER6kBmfcKcJNzCIhwD+2PkgarVv4ryGaY9g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIExjCCA66gAwIBAgIQYS7/D337SVpmO2CCEzbKKzANBgkqhkiG9w0BAQsFADB/MQswCQYDVQQGEwJQVDE6MDgGA1UECgwxQ2VudHJvIGRlIEdlc3TDo28gZGEgUmVkZSBJbmZvcm3DoXRpY2EgZG8gR292ZXJubzENMAsGA1UECwwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xEjAQBgNVBAMMCUVDQ0VOUTAwMTAeFw0yNDA1MDgxMTIyNDJaFw0yNzA1MDgxMTIyNDJaMGcxCzAJBgNVBAYTAlBUMSgwJgYDVQQKDB9HYWJpbmV0ZSBOYWNpb25hbCBkZSBTZWd1cmFuw6dhMS4wLAYDVQQDDCVQT1JUVUdVRVNFIFRSVVNUIExJU1QgU0NIRU1FIE9QRVJBVE9SMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEA3ILzhMTUwHxQCrpfTq6dgg6J+xyY/gptE7nsgNSK7RBkkjnsp77mY++ItweTCE/334glDa5zCsv6/59XK3lM6eJpXFVhqwbLvNT9KVgT3YEvek9fvy/DhCdmEisAv51M9b+K92WHkVaLpoURYYa9+k6sjF1iEDZ4hK8qtU7Gg5jqO00F7ghbzqFf4tnepWJRcRjrzQxD87tQYdGhErueMS6bq0LL+JHFenQC1Z2C+QkoHMrirbHHfZlwn9eKGihipvvvbJWX2t4gtU5Seo7Pv0VrL1xylJeO9dIkoNtaja8qyIZw4SvUg0imLdaYD9UfRIMEwewZ7PncNMxcvhqlQwIDAQABo4IBVDCCAVAwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBkAwEQYDVR0lBAowCAYGBACRNwMAMB0GA1UdDgQWBBSE/HUkA1hcvLjaBsVQw08yjWDXZzAfBgNVHSMEGDAWgBTeXZmFcW676uJV4ZaHFfMVbaFm2zA7BgNVHSAENDAyMDAGBFUdIAAwKDAmBggrBgEFBQcCARYaaHR0cDovL3d3dy5lY2NlLmdvdi5wdC9kcGMwZgYIKwYBBQUHAQEEWjBYMCMGCCsGAQUFBzABhhdodHRwOi8vb2NzcC5lY2NlLmdvdi5wdDAxBggrBgEFBQcwAoYlaHR0cDovL3RydXN0LmVjY2UuZ292LnB0L2VjY2UtMDAyLmNydDA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3Jscy5lY2NlLmdvdi5wdC9jcmxzL2VjY2VucTAwMS5jcmwwDQYJKoZIhvcNAQELBQADggEBANOzm11ltTG4BVmpPWIE+rmqRxN2HVPQEWjiw/N9HVg/SAIe7AlI9cjV6yr914AMVuIrl0P3zAexb35Y3bwoQYeJGcBO878A6brr2atA1wjHlYllFMyUZv+qJsbMwYQGndkjeEKOfkc8XOtJmDbs3scBjG8MQpcUgLedWvB6wy63GL/o947Udj6zUy81iJMXBk8IwtT6iY7CJND0CMdEn0M3hJu01/4HN/slpgUzR8AcR9vZapcXEtKtdfYyqmRrU/30EBEP6+dn/GcNsHlkkybtvTWaMlgsPJjsBacaDffZ8cdMIruc2j2wuWkaaWum0gyZ7yoNU1dKfwabRtyPbOw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-fc9f4cdcb2bef4cdad078817d60e6c7a"><xades:SignedProperties Id="xades-id-fc9f4cdcb2bef4cdad078817d60e6c7a"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-16T16:39:29Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>besf5GWSm2NVLeKm9QL55yrYnIXooj4jxiUo8/ps4iKmSrKbQU6fjUrwu40vAApdwuumotib0Gay1LO1/lBFNg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ECCENQ001,OU=ECEstado,OU=SCEE,O=Centro de Gestão da Rede Informática do Governo,C=PT</ds:X509IssuerName><ds:X509SerialNumber>129179134488490223641223067489262815787</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-9e685ddf1bfa2822935f8098f57ede25"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>3CQ/0kz4vuDG7DmOyYzDX5B1VlHB5gPSN0pkPM7pLe9PQORtvsV63CYC8NRTMMrshkTOZ6qg1EQSsAXdgzGU4A==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-9e685ddf1bfa2822935f8098f57ede25"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>jF5sWGtUQnpEgJt7rZh2pocnnLlXHpW7rLdir33VJ07D/4pMGaa0e0JdIgQF47hJ41sbUOhDGsvW49g8EZPx7Q==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-9e685ddf1bfa2822935f8098f57ede25">e9Awew+2o0cBSIjZuEzkqAY/KtnmJi+2SMoI0PzKHWdrGt64BqoynP9jEPAY21tI16JfhfD4QlCbh2tkXzGJq3sPIVAzYw9nzNAZcs4nSnuFF1knz0wzTy+wknc7XSLC4x0CtXVEkez6wil3NhfUDpFHbaiTM7p3ZNNPDV2h+5khv7RXEvJx2NYXrmIBEhTEI7K198CjKV0sBqhxXmck2S39Zz0Z3th0a+vw6cZ2EmOWxqZ7N2ls7sW23cgDbRBF/VwY5FtR1TzsdCf0v3VTmgel39WTF438Bshl3x/6sEJRyZXRW06Bbgfq2S0mhnsnzuzmShK97VX5hKpE0E2tkw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEwzCCA6ugAwIBAgIQA/SAHSCCpItky4mPttFvKjANBgkqhkiG9w0BAQsFADB+MQswCQYDVQQGEwJQVDE6MDgGA1UECgwxQ2VudHJvIGRlIEdlc3TDo28gZGEgUmVkZSBJbmZvcm3DoXRpY2EgZG8gR292ZXJubzENMAsGA1UECwwEU0NFRTERMA8GA1UECwwIRUNFc3RhZG8xETAPBgNVBAMMCEVDQ0UgMDAyMB4XDTIzMDgwMzExMDM0M1oXDTI2MDgwMzExMDM0M1owZzELMAkGA1UEBhMCUFQxKDAmBgNVBAoMH0dhYmluZXRlIE5hY2lvbmFsIGRlIFNlZ3VyYW7Dp2ExLjAsBgNVBAMMJVBPUlRVR1VFU0UgVFJVU1QgTElTVCBTQ0hFTUUgT1BFUkFUT1IwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC3CusbKGzhzKfTUvUfbhTkLMBfn85jiPfgmvFXbNBocRgeXSXkkgqK3NKoo4GSMq30y93oGZi/r2dsSupNWYmZWtUe9CsJLgy+5eqHAH++7PNfg/etOtmIL/q2FLo5ppY4eJiPY4H+oGZOquy0eBu92pJbhxlbhHOlb81LuZEjk9ChcF40z9iQ3KCGhP+OMdSfT5zBVQxfvYOW5n4409YmO1Nl586zOC5/HzZGZnVzmbiFGmn1LlA/mFBPmLrrsHTm41r1T8wPUPjLD7qyDheUhGri3gpFpMXMcRvWKgg+yI7rmvgtbBaq/IQg3fmZ2VL7mglVW8RaRy0iLqSLSXizAgMBAAGjggFSMIIBTjAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDARBgNVHSUECjAIBgYEAJE3AwAwHQYDVR0OBBYEFI8tfmCY0LxZNXAEr+Uf3gG5DNMlMB8GA1UdIwQYMBaAFDnH5Of+GhkI60QnaSrYgez5pRkbMDsGA1UdIAQ0MDIwMAYEVR0gADAoMCYGCCsGAQUFBwIBFhpodHRwOi8vd3d3LmVjY2UuZ292LnB0L2RwYzBmBggrBgEFBQcBAQRaMFgwIwYIKwYBBQUHMAGGF2h0dHA6Ly9vY3NwLmVjY2UuZ292LnB0MDEGCCsGAQUFBzAChiVodHRwOi8vdHJ1c3QuZWNjZS5nb3YucHQvZWNjZS0wMDIuY3J0MDkGA1UdHwQyMDAwLqAsoCqGKGh0dHA6Ly9jcmxzLmVjY2UuZ292LnB0L2NybHMvY3JsLTAwMi5jcmwwDQYJKoZIhvcNAQELBQADggEBAJ8J0o9KVheOgsPeCG7rvEWUF9tr4GXZEUsljrZKDbybPJIHL35nJutGozGjPq3+QL7J+tdZOD38NnV6bP8FXOYk1tj/rwDyAK77gw4NTDHvl57dVWfeSZ4emQvPi+SR0nVibN9uzxaFZO4WZcGP4GY53qGTWqvQv4UREK8moun/rbIjyIlplsQQ7GbZLg/YKGNhxkW7quAVmadooAeDUSBzd35NSIXzCaIP+lixC54+rpgY0SNJmJv++35ydfjnWGElsEwvIgwyRDTdtQDZVkCPzv7yDt3CFlYRCyaYqNnfHhaby9kCGx5a83qv+jX6t6rZobvQaxeB9YZoBIyASMs=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-9e685ddf1bfa2822935f8098f57ede25"><xades:SignedProperties Id="xades-id-9e685ddf1bfa2822935f8098f57ede25"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-08T10:30:36Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>eL1l2QcqlPBXJpecKOaRSm0WRLAmU86ImNncbRvGsOt3XuxCGP4uoJP1U5RutvQ1NuZ+1rA2IAXW7PozT1EqHw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=ECCE 002,OU=ECEstado,OU=SCEE,O=Centro de Gestão da Rede Informática do Governo,C=PT</ds:X509IssuerName><ds:X509SerialNumber>5257202876944683597849528679862988586</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
