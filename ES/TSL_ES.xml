@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20250416" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20250506" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>168</TSLSequenceNumber>
+        <TSLSequenceNumber>169</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="es">MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-04-16T02:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-05-06T00:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-10-14T02:00:00Z</dateTime>
+            <dateTime>2025-11-03T11:32:20Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://sedediatid.mineco.gob.es/Prestadores/TSL/TSL.xml</URI>
@@ -8780,6 +8780,116 @@
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+</Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified time stamps issued by "ACCV RSA1 TSA"</Name>
+                            <Name xml:lang="es">Servicio de expedición de sellos electrónicos cualificados de tiempo por "ACCV RSA1 TSA"</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ACCV RSA1 TSA, OID.2.5.4.97=VATES-A40573396, O=ISTEC, L=BURJASSOT, ST=VALENCIA, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4e8AJcqde0I7RqWtz4bR3OmKrKw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-06T00:00:00Z</StatusStartingTime>
+                        <SchemeServiceDefinitionURI>
+                            <URI xml:lang="en">https://avance.digital.gob.es/en-us/servicios/firmaelectronica/paginas/tsu_infraestructurasstc.aspx</URI>
+                            <URI xml:lang="es">https://avance.digital.gob.es/es-es/Servicios/FirmaElectronica/Paginas/TSU_InfraestructurasSTC.aspx</URI>
+                        </SchemeServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified time stamps issued by "ACCV ECC1 TSA"</Name>
+                            <Name xml:lang="es">Servicio de expedición de sellos electrónicos cualificados de tiempo por "ACCV ECC1 TSA"</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEEjCCA3SgAwIBAgIUCcKMaAeorAH+Q9jFdQbFOyKSXKQwCgYIKoZIzj0EAwQwgYUxCzAJBgNVBAYTAkVTMREwDwYDVQQIDAhWQUxFTkNJQTESMBAGA1UEBwwJQlVSSkFTU09UMQ4wDAYDVQQKDAVJU1RFQzEYMBYGA1UEYQwPVkFURVMtQTQwNTczMzk2MSUwIwYDVQQDDBxBQ0NWIFJPT1QgRUNDIFRTQSBFSURBUyAyMDI0MB4XDTI0MDIyNzE0MjE0NVoXDTQ4MDIyMTE0MjE0NFowdjELMAkGA1UEBhMCRVMxETAPBgNVBAgMCFZBTEVOQ0lBMRIwEAYDVQQHDAlCVVJKQVNTT1QxDjAMBgNVBAoMBUlTVEVDMRgwFgYDVQRhDA9WQVRFUy1BNDA1NzMzOTYxFjAUBgNVBAMMDUFDQ1YgRUNDMSBUU0EwgZswEAYHKoZIzj0CAQYFK4EEACMDgYYABAA0KLvwFn3EOPAFBm6OWSpQrwA0n7zVIGAJtJjGPYWeL+Vx70Rgu76qLeR7gejo6ImYEQRCBtpoVfOKLMS21jIYAwAcs956BT6vmdZaAXT9XtWdPtFec+4b3mHrTpSB1C0L0xrvUWKmzGHxFxfjtqsh9z+qIGUwK5W9Spht3ujhTW2k5qOCAYswggGHMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAU/wPPnqxRWg/saOvToJJ2sz02QeQweQYIKwYBBQUHAQEEbTBrMEgGCCsGAQUFBzAChjxodHRwOi8vd3d3LmFjY3YuZXMvZ2VzdGNlcnQvYWNjdl9yb290X2VjY19laWRhc190c2FfMjAyNC5jcnQwHwYIKwYBBQUHMAGGE2h0dHA6Ly9vY3NwLmFjY3YuZXMwRQYDVR0gBD4wPDA6BgRVHSAAMDIwMAYIKwYBBQUHAgEWJGh0dHA6Ly93d3cuYWNjdi5lcy9sZWdpc2xhY2lvbl9jLmh0bTATBgNVHSUEDDAKBggrBgEFBQcDCDBNBgNVHR8ERjBEMEKgQKA+hjxodHRwOi8vd3d3LmFjY3YuZXMvZ2VzdGNlcnQvYWNjdl9yb290X2VjY19laWRhc190c2FfMjAyNC5jcmwwHQYDVR0OBBYEFK1NiGwZJjT4WQsdG3RNFxzAU3rxMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDBAOBiwAwgYcCQXuo3minIe6V/JMuZSFJieFOz3FSOa2YPdHxkmteWMEEhLh4v+VbAvGbU9qt16WtSUiOHUXRJV/+G8lOWTOu5wKAAkIBbicHUXbjb+0Gd7xRlqPSettJHG28Q+n61IiQHVXaVHg+ZBEW4znRaxqc6y0lyfPjtVmTE5BxLbBzBMGA9rfttcA=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ACCV ECC1 TSA, OID.2.5.4.97=VATES-A40573396, O=ISTEC, L=BURJASSOT, ST=VALENCIA, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>rU2IbBkmNPhZCx0bdE0XHMBTevE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-06T00:00:00Z</StatusStartingTime>
+                        <SchemeServiceDefinitionURI>
+                            <URI xml:lang="en">https://avance.digital.gob.es/en-us/servicios/firmaelectronica/paginas/tsu_infraestructurasstc.aspx</URI>
+                            <URI xml:lang="es">https://avance.digital.gob.es/es-es/Servicios/FirmaElectronica/Paginas/TSU_InfraestructurasSTC.aspx</URI>
+                        </SchemeServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified certificates issued by "ACCV RSA1 TLS"</Name>
+                            <Name xml:lang="es">Certificados cualificados de autenticación de sitios web por "ACCV RSA1 TLS"</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ACCV RSA1 TLS, OID.2.5.4.97=VATES-A40573396, O=ISTEC, L=BURJASSOT, ST=VALENCIA, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Ly4DNVYx8wJDSZaNsfDwQgTPtPo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-06T00:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+</Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified certificates issued by "ACCV ECC1 TLS"</Name>
+                            <Name xml:lang="es">Certificados cualificados de autenticación de sitios web por "ACCV ECC1 TLS"</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDvzCCA0WgAwIBAgIUTH5uI/NvlitzeGUbimB/4FLDp6owCgYIKoZIzj0EAwMwfzELMAkGA1UEBhMCRVMxETAPBgNVBAgMCFZBTEVOQ0lBMRIwEAYDVQQHDAlCVVJKQVNTT1QxDjAMBgNVBAoMBUlTVEVDMRgwFgYDVQRhDA9WQVRFUy1BNDA1NzMzOTYxHzAdBgNVBAMMFkFDQ1YgUk9PVCBFQ0MgVExTIDIwMjQwHhcNMjQwMjI3MTQyMDA5WhcNMzkwMjIzMTQyMDA4WjB2MQswCQYDVQQGEwJFUzERMA8GA1UECAwIVkFMRU5DSUExEjAQBgNVBAcMCUJVUkpBU1NPVDEOMAwGA1UECgwFSVNURUMxGDAWBgNVBGEMD1ZBVEVTLUE0MDU3MzM5NjEWMBQGA1UEAwwNQUNDViBFQ0MxIFRMUzB2MBAGByqGSM49AgEGBSuBBAAiA2IABBoyYROw4WoTosNheJz9aDNEAwTRz/dP4nc80Z5yhyFhjSonHTzTcJ22DUzjOBntaxDhP1WPlHWQfNgnbZme2yG0JiAHb2d4o1AeOfKu3e+QrnT0mb2jbxaiqOZkqOrniaOCAYkwggGFMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUzvxwx4ekJVyeUpKqX8MmUiZuH+owcwYIKwYBBQUHAQEEZzBlMEIGCCsGAQUFBzAChjZodHRwOi8vd3d3LmFjY3YuZXMvZ2VzdGNlcnQvYWNjdl9yb290X2VjY190bHNfMjAyNC5jcnQwHwYIKwYBBQUHMAGGE2h0dHA6Ly9vY3NwLmFjY3YuZXMwRQYDVR0gBD4wPDA6BgRVHSAAMDIwMAYIKwYBBQUHAgEWJGh0dHA6Ly93d3cuYWNjdi5lcy9sZWdpc2xhY2lvbl9jLmh0bTAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwEwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL3d3dy5hY2N2LmVzL2dlc3RjZXJ0L2FjY3Zfcm9vdF9lY2NfdGxzXzIwMjQuY3JsMB0GA1UdDgQWBBSj7citqa4ObjYylgSyJxjU8FGmTTAOBgNVHQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwMDaAAwZQIwWIw3UWhFDB1a/DjoVmSP9C4V+6/Y2bk99/QQV+0sp5rtmoGGQTMLgHIwA8F/tr6VAjEA//fRUPR49kfzslb8w/E2/hlJkqprhsyZhGDsp6QWhwz/gCQn3FtyjPui6kSQqFE5</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=ACCV ECC1 TLS, OID.2.5.4.97=VATES-A40573396, O=ISTEC, L=BURJASSOT, ST=VALENCIA, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>o+3IramuDm42MpYEsicY1PBRpk0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-06T00:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
 </AdditionalServiceInformation>
 </Extension>
                         </ServiceInformationExtensions>
@@ -28424,4 +28534,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-18420b83bfd90d21ca0887bf386c41ca"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>l4EGRmUSru1RWO1ukgM0ug9g96kqjm6ZNfAGndhULreFW7LKDvrO+eC1wwQtMg7Hn+4rX6VBd1bPe29TKDTKoA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-18420b83bfd90d21ca0887bf386c41ca"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>M0Gezd2icsZIdyZxDW2ZdLpwoRTOrlvgTT1g05A9Drn4uCbr6Hgwk3klDa2zlWz6GN5EA8TiG7hVrk067TOnlQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-18420b83bfd90d21ca0887bf386c41ca">tVPG4l9MSDg2r12+eeWLo7GhrQTO/kVOc+oQMPA5WnngVoAxgGRfBVZeqTyNgpSvyEWn0F6UzksGHRv2Pxtn60LY3IIABTs1eob/r5z22bcPx2HoLPM8GlSyU1Dpuk6JnuRuDSgQxH4MD4HKLzT/MXIJcx28ZdPmPvRd8825jMk6KFtq/bWCvSCKOHfdwJ60a+2WLmIm6MAMk5peZbPC6uH6xaPXpAy3K4jmuEFG+GIilzG/fbjO/6IyDCl5sCpxPjFC6oZbf8QSb26gwU6kYYKPMsjjEfTHk8Bilpjy2rRKjTJFvLOEbJ4S66bBiKTfHEwPr1TsR3tiTzxDZ3eI2vyCrUAGcmV6XGoHO8/lNvKJX/JLJZg/bYk7RGPqyFKxq9VOK8LGZ/7f0gluCZrE4RPnzXESZkXOtIhjoNgCTmDvKPNTW/zl+WFT0XUnG6nji3zMW5nrSww/b0R+ijn5Z0D5qoZpWeRfKQAhnr3kTQERCliscuLyqgiC4WXA6jet11LRAOMBFE6w2oacCq2Cc1VMQXBmAS9q1LPx7HXqaTfhtGj845Ds+HFI+5x1vsL2WXLXJRKyWV3XWhRnlozfaSRG4tfe1yYFY7embxC78lJLy+RN0tuIv2s1J9a1nMN3oNC1iEp37N4MfGT5GO3+KPr8XHWzGoNUhhkLWecqnCw=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-18420b83bfd90d21ca0887bf386c41ca"><xades:SignedProperties Id="xades-id-18420b83bfd90d21ca0887bf386c41ca"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-16T08:08:14Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-9d602116c534c77164b0a0b65ee6b017"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>g/YsmYvflIMI8WK59wqN9/afmhIumccySiiF16rKcpiTKYM49cnoc1VEOi4Xs/vZNJvpvrYWXjm1qZxbi3zmIA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-9d602116c534c77164b0a0b65ee6b017"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>GEsdJo4hvUf8EHIC+o88EI9mAgL6kDNzupeZgA2E23R428J1ecu0sUg5xDMxNCCj8Kt/nu3L0ZeIhbt7jwoiew==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-9d602116c534c77164b0a0b65ee6b017">WbzPlZY+Uppzw3c8XFCW3lIA983GYyJcU86mad4yDVIsa+QtxrjATcglOsJsUZrjtDE31Aga5o7I7JrpIlTHucPO+ZN3b9OAwHLQS41UWkLn+vr3ilg/MTIWf1PYtOAY1WagG6+b+Gth6Q6WO/b4gMlJDFHsToyvuQdU5QtkuLvqYm3bbtqOSnd6lwOwbKBFPU8yjdCFQaPPn3uireBQie8iqLrbUKr8VWjtmWkNSBGQZAWbDD/sjBdeZN8R5tWck9PUR/4nFAsRjptQEb4XgtAW34sKv2pGFB7m1y0uNS059yjghNJrLqHk0tZfMyzWb5MKte9yqg9Dbt4OJnqi03YUZoTu1t2JjKGrEgrAKPw5YznHuE4PV/h1G9mUK5GyWZYXqsAGb4yk3GHk7mi4qsjYKZwCNoXT5UXIqOQmXvJqIYfx7akgTo/ReEoOSVovPV9uFX5pw9ssOD+7Thg3VwAERH+Su53wM997LEAVN5HmGrR6SKfTwuNAXkADuAdCm2tWA0Be2S1tDsQIqOAqKyFS5BvVrSnRGgJ9FayxIW3elfPej/BEKLYJF7KtUNMI4KFQ6VhBb2jL1UCP82yR83PAN5ht5fDAz16uHq6XZL9UbxuehuJleurfgKGMa/HZqnBW0Uf0NjjM4p6Z2OhgJNi4sPbelm59Dbfg/aL9oRI=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-9d602116c534c77164b0a0b65ee6b017"><xades:SignedProperties Id="xades-id-9d602116c534c77164b0a0b65ee6b017"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-06T07:06:18Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
