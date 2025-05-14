@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>149</TSLSequenceNumber>
+        <TSLSequenceNumber>150</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">National Bank of Poland</Name>
@@ -114,9 +114,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-04-04T10:40:57Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-05-13T11:17:31Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-07-04T10:40:57Z</dateTime>
+            <dateTime>2025-08-13T11:17:31Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.nccert.pl/tsl/PL_TSL.xml</URI>
@@ -8962,6 +8962,162 @@
                         <StatusStartingTime>2024-04-29T10:52:59Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certification Authority issuing Qualified Certificates</Name>
+                            <Name xml:lang="pl">Wydawanie kwalifikowanych certyfikatów</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=PL, OID.2.5.4.97=VATPL-9512352379, O=EuroCert Sp. z o.o., CN=Centrum Kwalifikowane EuroCert</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>0PXbfx08gRse8386jbIiciYDKkM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-13T11:20:00Z</StatusStartingTime>
+                        <ServiceSupplyPoints>
+                            <ServiceSupplyPoint>http://crl.eurocert.pl/qca06.crl</ServiceSupplyPoint>
+                        </ServiceSupplyPoints>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.2</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.4</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.5</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.3</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.6</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.7</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.11</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.12</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCStatement"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">1.2.616.1.113791.1.2.8</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -10311,4 +10467,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-a31c938e79f40534767bb5002db17974"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mbEt9HKrFrXUxqeXIcBP2TXwU4WkzOkD4xH1oRIxCW2S+SjlkjOYBQyBJC2Xo3dl3J869f/cWp5yt7BdI/FjUQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-a31c938e79f40534767bb5002db17974"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>eTb6hDTqH48AYafIg3C2w5hmz4Om6GDVdGY2znRcQRoUnNRCaZLPU9eW3RC77VHAukz/m+qCEroIXU5kj6nkjg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-a31c938e79f40534767bb5002db17974">uNTAhC8fcffzwWcTFdGGZe6vlUq+SmIPturtmYfPrjsgoV0EdK9OcO/ljoPkJs8PHGQK+tzAvmh6P9ViJh3QZZrme04V15kYxjh7XppfHpQiemcmCfRRBHsj2+bLtG1BTSo2xKTTvLSCiZrWsj9phHTG+uDl6DmQzHXN7MEyeUIeW85SOgQARQNWkAZnu7L/jFyfzUhgcaYdo29WGg6MP5k5xf3vuxP0QGvMNCEaaLrEkgV/GrAD8N/NYWTUp27kREYaEndai7xPk5+3YstpZL0aI9VbNOJj0wjrcJFOl5qesbJkULat4RW7JHkco1LGEe0nRbS+KkeiSA3JNotdfXRXVHDv3xMKW51x/+oje72a6QC+OVG7NvU2BVMtuzq72j7zhtEnBe+b6XmVkagHsEy+lxqMEHindTxJ6hE4qUBcqyEPgWwLmrEqODnd0UjSbo5gb2y4J4ZDVnFK5GzKvsJGgWErgjNjsjNatFbnTWkeKRbqvDNzZxM8iecC9zFaotdnWCQUhDIBC+E+bnZOyC0GsT3ekOTADgj34nJXCXWq9ezFsgIzJG4Hw2M+IG+XxqZkpdgVNJr0HwCrn44zueBa2z5J7RNcb1gX6yQso1JU4NYl7SArto6xJibwP/5KBpHThcz2isLNjpn0Rz5BfY83e+3oJnHdhtabGeQAWEw=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFaTCCA1GgAwIBAgIJAPkJD06+VcoxMA0GCSqGSIb3DQEBCwUAME0xCzAJBgNVBAYTAlBMMSAwHgYDVQQKExdOYXRpb25hbCBCYW5rIG9mIFBvbGFuZDEcMBoGA1UEAxMTUG9saXNoIFRTTCBPcGVyYXRvcjAeFw0yMjA3MDQwOTExMjdaFw0yNzA3MDMwOTExMjdaME0xCzAJBgNVBAYTAlBMMSAwHgYDVQQKExdOYXRpb25hbCBCYW5rIG9mIFBvbGFuZDEcMBoGA1UEAxMTUG9saXNoIFRTTCBPcGVyYXRvcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANl4s+Dyf/b4QN9rVmR4r0p7rWnJHf2KQsVFnqaWvx/OrQuwhUcPuzXMBR9CSRcckkXVPfRD/KEl0yiXpjadWzLUI6C85UIfBSn17nWsy25N4q5XjxzrD8xu1P9JDFiXmvNOl8s9pUgYJPKkRck52UQMr+ltVdH7tE6X/LiJ90X7EfU0tZTvTLd16ReI1UEJu54BUN1WziJ/ux7JVS0xUC0alNfwMwq7/VMADlrxSsFopKYTXBbwrr0mK7iVyqLoBJk4UOG7oG2m0r0HwtYQ9cnZSgDVII4tE9zII9uIr5Il7N8rRJBXPB96/5G0bONkPIiI5AshViL+0Z5YF2gOQNu7tedysSY5rzYprQ9KPFL9GlB2xV0YHNpDvKaP4/nZcubs+wGlFTHpJSiSEcTvybdt13qP+W8qCE0dYEfpUZirRX1E/RU5SiTfY7mMXOclQrOXcwzLTo3Avkh7j3Z4+ClJ5GvZdW0l50AurwoeJg0Rm8/Y1oFwrIIx8jHdx9B8mTkEJC89fCtBLpsBACKnstXC/OZsmBmevK+VWwO/P7xBxdrJPIeyh1lEVPcK23/AUlQpi4lZuwpiZ4cm0abErAsILhceQ0jMzy2ZFP35eiVUyAW/FuJTGVsBgw+hsgwUTuH7aJ9gY4n0xZWGvSBhSmDXnR8TYedfdetOKl12og0pAgMBAAGjTDBKMAsGA1UdDwQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwCQYDVR0TBAIwADAdBgNVHQ4EFgQUDiu8pAOXGI+AjoQq6URCYPARuVgwDQYJKoZIhvcNAQELBQADggIBAAH932XnAA4tRmTX0SAE1tNM7Q7mPewm1pzgM6MfAnadh7YD9FEmuNoWXTX42FQlAL36JXahGVy2vApcBLJn/QQyE4mh7fGCUl+tRjpHAcwTyhbL9Wprfy1gyNc3h1DQCQggW3HlWwPx2Sz2nHVF4ui8Hc5nl1CPaCUtyT5KRJFvDc8LSTa9SFxVeSaQE5yJVwyUlVqmRyTDUUlbsvWtEd2EPDgPjPMl0t0cd0H/3YvyQbeRGDIfGN82Q96diNQFjaiWlnqMI9ylBumJ1rUepq+bBUvw2ZPJi//G4X6QVagC8FxCNU6FuuPEyWQleBYslVkV8WzLNsIsaDp8TcNnWfHYdWmV/3ufhJa8M2rtFoDYtjvuDNZi9XEwKFbguXIcbQ/H/EsqN5T+O6WYWmEeQoenZnCAwYLCuOfrXrugMMABkMfTpE8txyX7H0NTGXxq9l8CiAK9zg8fEgaaUFQpEZcW1YC+ntnDc6hyhhnLHZE7CbhJVFVZidZvuqo/3IwVyEUhKOt5uFmHvfasBksZKDuaZmQcQU0I2FHF6BdqufmRtkrVAIAQfdZezl0+VDJ469ZkWAoKQBpK7b0xsGX/t4CeXGmVbY4cTYpNI7chGs5QZ2iWKRZC/eEeXZ0UNKul7cmNIertLCDfJngZT7AyknwdsqZzho82HsSxkm3YeLXc</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-a31c938e79f40534767bb5002db17974"><xades:SignedProperties Id="xades-id-a31c938e79f40534767bb5002db17974"><xades:SignedSignatureProperties><xades:SigningTime>2025-04-04T10:42:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>pToYTDYEKsM5M///Derp0CJDIXgiykZAuTfr3R8G3a778MQcvrR7R7aTq0PDHK1jZ86HoX9EtZEb8wIQPKOdhQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Polish TSL Operator,O=National Bank of Poland,C=PL</ds:X509IssuerName><ds:X509SerialNumber>17944891021109611057</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-0704640714e08e061a50414714b80857"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+daoI3MlhDZYQ8qSRMQuXss27XDu2j4xaNWbSR1cour5ikbQ/v2Kz9xo167zFnR1gEtKfWGhUYXs2J/lALoIOw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-0704640714e08e061a50414714b80857"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>i82VY/aR2LuL2gTQ6dD7bl1XQ0L8HPqOSv/4abRTrLMH5MlhzRGgYOcy5ewt3LBe0fO5WiE7eZnazpyrLGbWrQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-0704640714e08e061a50414714b80857">RCkVMic84wFn/aUSgZSGMOsjyVwNEGATWDeNaLovW+YkbhR/HSG8yUDYnqqjn1onYlnv12dgAv7AQhP+pQNV7RW8HIJzrFffSN/LRgi6D4sP7FBaFV3Wc7e23m0cXqoQXOnaQ2m5cd0RplaWjpSGQVfKz5gvc73oi6RhwfeCmI3Ww3gsklE99Vd+wmdR43zu+rSogcSaxa++q7llnHZiX9wSzgPPuoY5wonwQ99mXXYn5nVlDTTOPqjnHqJjJ/ySIO3Dule9otRnUkNFbSiQKfSJiv58Bp+z847hdxW2sR8zIc056Vv4ORE43C2/OK09eYWsDbukTdWgbl9JvRQubDSPRTJ5pay9MfrLX2BlR3i0NPZ3DmB61upi8qkYsPM3a3gwBefQ9x5AjGy4EZUFnCvJekc9J/ucxpgqGuZQdj6qHNTEVnqzu2sYoVkm7ESm6QviV+ZLxQ+b1HsIB8g4hIfzdGc01RlWxvrewmddEeGToy6XpvZ77DOiYK0fUhVLNUTkYjJFmrZ0WVIj0SxPuePFndPTVwx+nYtMB9XQiF+Vf2KJB83+Y9Ma+cVImNQlhNk21YoYizdpU1ZqwzR1+Fk2w0yOR483sxa7r40svVGJtKtr7aeYzs7EVoRwfdAiQD/CmA+8eAVLrmiOamVI2Hcjn5H/9KSHlTjlSRzvr/U=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFaTCCA1GgAwIBAgIJAPkJD06+VcoxMA0GCSqGSIb3DQEBCwUAME0xCzAJBgNVBAYTAlBMMSAwHgYDVQQKExdOYXRpb25hbCBCYW5rIG9mIFBvbGFuZDEcMBoGA1UEAxMTUG9saXNoIFRTTCBPcGVyYXRvcjAeFw0yMjA3MDQwOTExMjdaFw0yNzA3MDMwOTExMjdaME0xCzAJBgNVBAYTAlBMMSAwHgYDVQQKExdOYXRpb25hbCBCYW5rIG9mIFBvbGFuZDEcMBoGA1UEAxMTUG9saXNoIFRTTCBPcGVyYXRvcjCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANl4s+Dyf/b4QN9rVmR4r0p7rWnJHf2KQsVFnqaWvx/OrQuwhUcPuzXMBR9CSRcckkXVPfRD/KEl0yiXpjadWzLUI6C85UIfBSn17nWsy25N4q5XjxzrD8xu1P9JDFiXmvNOl8s9pUgYJPKkRck52UQMr+ltVdH7tE6X/LiJ90X7EfU0tZTvTLd16ReI1UEJu54BUN1WziJ/ux7JVS0xUC0alNfwMwq7/VMADlrxSsFopKYTXBbwrr0mK7iVyqLoBJk4UOG7oG2m0r0HwtYQ9cnZSgDVII4tE9zII9uIr5Il7N8rRJBXPB96/5G0bONkPIiI5AshViL+0Z5YF2gOQNu7tedysSY5rzYprQ9KPFL9GlB2xV0YHNpDvKaP4/nZcubs+wGlFTHpJSiSEcTvybdt13qP+W8qCE0dYEfpUZirRX1E/RU5SiTfY7mMXOclQrOXcwzLTo3Avkh7j3Z4+ClJ5GvZdW0l50AurwoeJg0Rm8/Y1oFwrIIx8jHdx9B8mTkEJC89fCtBLpsBACKnstXC/OZsmBmevK+VWwO/P7xBxdrJPIeyh1lEVPcK23/AUlQpi4lZuwpiZ4cm0abErAsILhceQ0jMzy2ZFP35eiVUyAW/FuJTGVsBgw+hsgwUTuH7aJ9gY4n0xZWGvSBhSmDXnR8TYedfdetOKl12og0pAgMBAAGjTDBKMAsGA1UdDwQEAwIHgDARBgNVHSUECjAIBgYEAJE3AwAwCQYDVR0TBAIwADAdBgNVHQ4EFgQUDiu8pAOXGI+AjoQq6URCYPARuVgwDQYJKoZIhvcNAQELBQADggIBAAH932XnAA4tRmTX0SAE1tNM7Q7mPewm1pzgM6MfAnadh7YD9FEmuNoWXTX42FQlAL36JXahGVy2vApcBLJn/QQyE4mh7fGCUl+tRjpHAcwTyhbL9Wprfy1gyNc3h1DQCQggW3HlWwPx2Sz2nHVF4ui8Hc5nl1CPaCUtyT5KRJFvDc8LSTa9SFxVeSaQE5yJVwyUlVqmRyTDUUlbsvWtEd2EPDgPjPMl0t0cd0H/3YvyQbeRGDIfGN82Q96diNQFjaiWlnqMI9ylBumJ1rUepq+bBUvw2ZPJi//G4X6QVagC8FxCNU6FuuPEyWQleBYslVkV8WzLNsIsaDp8TcNnWfHYdWmV/3ufhJa8M2rtFoDYtjvuDNZi9XEwKFbguXIcbQ/H/EsqN5T+O6WYWmEeQoenZnCAwYLCuOfrXrugMMABkMfTpE8txyX7H0NTGXxq9l8CiAK9zg8fEgaaUFQpEZcW1YC+ntnDc6hyhhnLHZE7CbhJVFVZidZvuqo/3IwVyEUhKOt5uFmHvfasBksZKDuaZmQcQU0I2FHF6BdqufmRtkrVAIAQfdZezl0+VDJ469ZkWAoKQBpK7b0xsGX/t4CeXGmVbY4cTYpNI7chGs5QZ2iWKRZC/eEeXZ0UNKul7cmNIertLCDfJngZT7AyknwdsqZzho82HsSxkm3YeLXc</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-0704640714e08e061a50414714b80857"><xades:SignedProperties Id="xades-id-0704640714e08e061a50414714b80857"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-13T12:31:44Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>pToYTDYEKsM5M///Derp0CJDIXgiykZAuTfr3R8G3a778MQcvrR7R7aTq0PDHK1jZ86HoX9EtZEb8wIQPKOdhQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Polish TSL Operator,O=National Bank of Poland,C=PL</ds:X509IssuerName><ds:X509SerialNumber>17944891021109611057</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
