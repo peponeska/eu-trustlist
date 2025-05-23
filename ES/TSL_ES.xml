@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20250506" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL20250521" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>169</TSLSequenceNumber>
+        <TSLSequenceNumber>170</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="es">MINISTERIO DE ASUNTOS ECONOMICOS Y TRANSFORMACION DIGITAL</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-05-06T00:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-05-21T00:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-11-03T11:32:20Z</dateTime>
+            <dateTime>2025-11-19T00:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://sedediatid.mineco.gob.es/Prestadores/TSL/TSL.xml</URI>
@@ -3312,6 +3312,35 @@
                             <URI xml:lang="en">https://avancedigital.mineco.gob.es/en-us/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
                             <URI xml:lang="es">https://avancedigital.mineco.gob.es/es-es/Servicios/FirmaElectronica/Paginas/SchemeService.aspx</URI>
                         </SchemeServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified certificates issued by AC Consulares</Name>
+                            <Name xml:lang="es">Certificado Cualificado de firma electrónica de AC Consulares</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDTzCCAtagAwIBAgIUQ1pYGRjgRtsjymPa4PoGhzEbTDUwCgYIKoZIzj0EAwMwWDELMAkGA1UEBhMCRVMxETAPBgNVBAoMCEZOTVQtUkNNMRgwFgYDVQRhDA9WQVRFUy1RMjgyNjAwNEoxHDAaBgNVBAMME0FDIFJBSVogRk5NVC1SQ00gRzIwHhcNMjQxMDEwMTEwNjM3WhcNMzkxMDA3MTEwNjM2WjBVMQswCQYDVQQGEwJFUzERMA8GA1UECgwIRk5NVC1SQ00xGDAWBgNVBGEMD1ZBVEVTLVEyODI2MDA0SjEZMBcGA1UEAwwQQUMgQ09OU1VMQVJFUyBHMjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABK+v3Jr0y7fn3fIaj7u/5XaUct1JNyBg+j+2/CaBA9LRVEWMWTvpGE4pyOgNlYHvSvb3kajpwVyRODzlTqYet1ajggF/MIIBezASBgNVHRMBAf8ECDAGAQH/AgEAMB8GA1UdIwQYMBaAFOIpmUcq/1smisg0QWZFr1I6CPGAMIGVBggrBgEFBQcBAQSBiDCBhTA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy5jZXJ0LmZubXQuZXMvY2VydHMvQUNSQUlaRk5NVEcyLmNydDBHBggrBgEFBQcwAYY7aHR0cDovL29jc3BjYXJhaXpnMi5jZXJ0LmZubXQuZXMvb2NzcGNhcmFpekcyL09jc3BSZXNwb25kZXIwEQYDVR0gBAowCDAGBgRVHSAAMCoGA1UdJQQjMCEGCCsGAQUFBwMCBgorBgEEAYI3CgMMBgkqhkiG9y8BAQUwPgYDVR0fBDcwNTAzoDGgL4YtaHR0cDovL3d3dy5jZXJ0LmZubXQuZXMvY3Jscy9BUkxGTk1UUkNNRzIuY3JsMB0GA1UdDgQWBBQQQtW8WsCLv1jfLh2Uo/LlImkXeTAOBgNVHQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwMDZwAwZAIwW2yTAr2g2jUavgW8PHheK8TWcBHp1S/dWbu5xRghwL+BdsB8aXpoNtnygybI+TdBAjBUgefJpt5xPVjLh60SgE4Qtw3vGvlHyc98nNeX8nQIgQr0tgUCQ1kXT6EAr7k81Bw=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=AC CONSULARES G2, OID.2.5.4.97=VATES-Q2826004J, O=FNMT-RCM, C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>EELVvFrAi79Y3y4dlKPy5SJpF3k=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-21T00:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -7732,12 +7761,12 @@
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -7759,7 +7788,7 @@
                             <StatusStartingTime>2016-05-01T00:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -7826,7 +7855,7 @@
                             <StatusStartingTime>2007-03-16T00:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -7903,7 +7932,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -7980,12 +8009,12 @@
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -8007,7 +8036,7 @@
                             <StatusStartingTime>2016-05-01T00:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -8054,7 +8083,7 @@
                             <StatusStartingTime>2007-03-16T00:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -8128,12 +8157,12 @@
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -8155,7 +8184,7 @@
                             <StatusStartingTime>2018-01-16T01:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/NotQualified"/>
@@ -8174,7 +8203,7 @@
     </ns5:Qualifications>
 </Extension>
 <Extension Critical="true">
-<AdditionalServiceInformation>
+    <AdditionalServiceInformation>
         <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
     </AdditionalServiceInformation>
 </Extension>
@@ -8198,7 +8227,7 @@
                             <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/NotQualified"/>
@@ -8229,7 +8258,7 @@
     </ns5:Qualifications>
 </Extension>
 <Extension Critical="true">
-<AdditionalServiceInformation>
+    <AdditionalServiceInformation>
         <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
     </AdditionalServiceInformation>
 </Extension>
@@ -8253,7 +8282,7 @@
                             <StatusStartingTime>2012-04-15T22:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -8377,22 +8406,22 @@
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -8414,7 +8443,7 @@
                             <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/NotQualified"/>
@@ -8453,7 +8482,7 @@
     </ns5:Qualifications>
 </Extension>
 <Extension Critical="true">
-<AdditionalServiceInformation>
+    <AdditionalServiceInformation>
         <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
     </AdditionalServiceInformation>
 </Extension>
@@ -8477,7 +8506,7 @@
                             <StatusStartingTime>2012-04-15T22:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-<ns5:Qualifications>
+    <ns5:Qualifications>
         <ns5:QualificationElement>
             <ns5:Qualifiers>
                 <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
@@ -8544,7 +8573,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -8621,7 +8650,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8653,7 +8682,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8685,7 +8714,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8717,7 +8746,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8749,7 +8778,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8781,7 +8810,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8862,7 +8891,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -8891,7 +8920,7 @@
 <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
 </AdditionalServiceInformation>
-</Extension>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -11484,6 +11513,28 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2025-02-05T00:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Qualified timestamps issued by "AC CAMERFIRMA QUALIFIED TSU - 2024"</Name>
+                            <Name xml:lang="es">Sellos de tiempo cualificados emitidos por "AC CAMERFIRMA QUALIFIED TSU - 2024”</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=AC CAMERFIRMA QUALIFIED TSU - 2024, OID.2.5.4.97=VATES-A82743287, O=AC CAMERFIRMA S.A., C=ES</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>J7kba+BxUicRPvjGwNoU/YWopgs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-05-21T00:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -28534,4 +28585,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-9d602116c534c77164b0a0b65ee6b017"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>g/YsmYvflIMI8WK59wqN9/afmhIumccySiiF16rKcpiTKYM49cnoc1VEOi4Xs/vZNJvpvrYWXjm1qZxbi3zmIA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-9d602116c534c77164b0a0b65ee6b017"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>GEsdJo4hvUf8EHIC+o88EI9mAgL6kDNzupeZgA2E23R428J1ecu0sUg5xDMxNCCj8Kt/nu3L0ZeIhbt7jwoiew==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-9d602116c534c77164b0a0b65ee6b017">WbzPlZY+Uppzw3c8XFCW3lIA983GYyJcU86mad4yDVIsa+QtxrjATcglOsJsUZrjtDE31Aga5o7I7JrpIlTHucPO+ZN3b9OAwHLQS41UWkLn+vr3ilg/MTIWf1PYtOAY1WagG6+b+Gth6Q6WO/b4gMlJDFHsToyvuQdU5QtkuLvqYm3bbtqOSnd6lwOwbKBFPU8yjdCFQaPPn3uireBQie8iqLrbUKr8VWjtmWkNSBGQZAWbDD/sjBdeZN8R5tWck9PUR/4nFAsRjptQEb4XgtAW34sKv2pGFB7m1y0uNS059yjghNJrLqHk0tZfMyzWb5MKte9yqg9Dbt4OJnqi03YUZoTu1t2JjKGrEgrAKPw5YznHuE4PV/h1G9mUK5GyWZYXqsAGb4yk3GHk7mi4qsjYKZwCNoXT5UXIqOQmXvJqIYfx7akgTo/ReEoOSVovPV9uFX5pw9ssOD+7Thg3VwAERH+Su53wM997LEAVN5HmGrR6SKfTwuNAXkADuAdCm2tWA0Be2S1tDsQIqOAqKyFS5BvVrSnRGgJ9FayxIW3elfPej/BEKLYJF7KtUNMI4KFQ6VhBb2jL1UCP82yR83PAN5ht5fDAz16uHq6XZL9UbxuehuJleurfgKGMa/HZqnBW0Uf0NjjM4p6Z2OhgJNi4sPbelm59Dbfg/aL9oRI=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-9d602116c534c77164b0a0b65ee6b017"><xades:SignedProperties Id="xades-id-9d602116c534c77164b0a0b65ee6b017"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-06T07:06:18Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-5072909a3b35140bb367a96eb9aa87d0"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>aVqvUwkOVZmYFMg7FgzDC4hjywAZ8AFpU4TS92Pyk7y/t43+4OSEME7i7DsVeTqxWixi2tm0ypHsg7KfKGaI1A==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-5072909a3b35140bb367a96eb9aa87d0"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>GCUWjK4v8h5TwznDvkp45Ial0wtRZhJ3CP5Vh/1oGAJn8Qh8F0hRBqNxZSxmd+ihD/61zWTjwzlJ+XTjVFP3DQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-5072909a3b35140bb367a96eb9aa87d0">4bGr9hmL7YYJ3OsEicHP8UlQ8sv6vtYKWSjLIh34gctNspdMObtxA4rRGEIteNfuIe6ZCIbDOpuYOVODwbXN2FtnjIj1TWqrEldLwvha7Garf9wjBLucpeoGgSISTgy30yZkL618N8mmi91tMaQbJ+Z4tuh+f9oZVeNorfWUiGvEDt9s40w1JbhG55gcS9qscRxPTLsBRftReYMMFoT/DgrpDgBZvuZIolLvTNV8G9wVaTQTw3DdlYNJDBoVNA7XqVHyyMqaf4xiM29Yg1pES+wf1Nc+/axGYJb0WBAcr4hTF/xZGCNeQb+q2TMcOVENJiSxWM9yQzios0vkSA3vkALceSqsOG8X67hNFHZBnSWQO7TuqJ2G4pZH7R2QwODbFBXyINwOV2ESXA5gyEChMyclMCWdktaHjN7fwH6rtOdBzQoZrehq0aqJ5ZCUtRDN5ENfFzWrvNzY7cQUxb4j9HG6XJaYNikkjP642eKyh7If78Ol6vAUe7cc0Nm99jYd2zy7MhRdlxbDRr8OxHOP7/zxtXNiyimGZwIUjxR5b24ZaHIOlU9uF3+51lof//3ps9UfJiLzXh8mEpZ/LR2Fbi5QoZUUOyIjAmuNRFGfpe+Or6lWhLHNtzmEmb20f7pHUgFpXlYDbnil9WONN/kh3wZRxh1kXicLxMINrZZa4FA=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-5072909a3b35140bb367a96eb9aa87d0"><xades:SignedProperties Id="xades-id-5072909a3b35140bb367a96eb9aa87d0"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-21T07:54:35Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IxIeduhiVYpK5Tx84E4gRGwBJAhiqyn6IDjblm6WgTU/6mXvS3mh5XfiIYknDE2h01MRUZb7prFXGonPlW5keQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=SPANISH TRUST SCHEME OPERATOR,O=MINISTRY OF ECONOMIC AFFAIRS AND DIGITAL TRANSFORMATION,C=ES</ds:X509IssuerName><ds:X509SerialNumber>13409544357367201054</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
