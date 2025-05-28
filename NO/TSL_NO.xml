@@ -1,7 +1,7 @@
-<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns4="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
+<?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>82</TSLSequenceNumber>
+        <TSLSequenceNumber>83</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">NORWEGIAN COMMUNICATIONS AUTHORITY</Name>
@@ -94,7 +94,7 @@
                         <SchemeTerritory>EU</SchemeTerritory>
                     </OtherInformation>
                     <OtherInformation>
-                        <ns4:MimeType>application/vnd.etsi.tsl+xml</ns4:MimeType>
+                        <ns3:MimeType>application/vnd.etsi.tsl+xml</ns3:MimeType>
                     </OtherInformation>
                     <OtherInformation>
                         <SchemeOperatorName>
@@ -109,9 +109,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-01-21T01:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-05-23T09:29:19Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-07-21T00:00:00Z</dateTime>
+            <dateTime>2025-11-23T10:29:19Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://nkom.no/files/TSL/NO_TSL.pdf</URI>
@@ -3145,5 +3145,73 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">BankID BankAxept AS</Name>
+                    <Name xml:lang="no">BankID BankAxept AS</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">NTRNO-927611929</Name>
+                    <Name xml:lang="no">NTRNO-927611929</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Biskop Gunnerus' gate 14A</StreetAddress>
+                            <Locality>Oslo</Locality>
+                            <StateOrProvince>Oslo</StateOrProvince>
+                            <PostalCode>0185</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="no">
+                            <StreetAddress>Biskop Gunnerus' gate 14A</StreetAddress>
+                            <Locality>Oslo</Locality>
+                            <StateOrProvince>Oslo</StateOrProvince>
+                            <PostalCode>0185</PostalCode>
+                            <CountryName>NO</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:IDpolicyboard@bidbax.no</URI>
+                        <URI xml:lang="en">https://bankid.no/en/company/contact-us-company</URI>
+                        <URI xml:lang="en">https://bankid.no/en</URI>
+                        <URI xml:lang="no">mailto:IDpolicyboard@bidbax.no</URI>
+                        <URI xml:lang="no">https://bankaxept.no/hjelp/kontakt-oss</URI>
+                        <URI xml:lang="en">https://bankid.no/</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://bankid.no/en/documentation-qualified-signatures</URI>
+                    <URI xml:lang="en">https://bankid.no/en</URI>
+                    <URI xml:lang="no">https://bankid.no/dokumentasjon-kvalifisert-signering</URI>
+                    <URI xml:lang="no">https://bankid.no/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">BankID Qualified Timestamping Service</Name>
+                            <Name xml:lang="no">BankID Qualified Timestamping Service</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIC/zCCAoWgAwIBAgIUA3rbYdoFEeyTwx77gi7yLD3v4QYwCgYIKoZIzj0EAwMwYTEaMBgGA1UEAwwRQmFua0lEIFJvb3QgQ0EgRzIxGDAWBgNVBGEMD05UUk5PLTkyNzYxMTkyOTEcMBoGA1UECgwTQmFua0lEIEJhbmtBeGVwdCBBUzELMAkGA1UEBhMCTk8wHhcNMjQxMTI3MTkyOTE5WhcNMzYxMTI0MTkyOTE4WjBtMSYwJAYDVQQDDB1CYW5rSUQgQmFua0F4ZXB0IFFUU0EgLSBDQSAxYTEYMBYGA1UEYQwPTlRSTk8tOTI3NjExOTI5MRwwGgYDVQQKDBNCYW5rSUQgQmFua0F4ZXB0IEFTMQswCQYDVQQGEwJOTzB2MBAGByqGSM49AgEGBSuBBAAiA2IABM+s8JpKjVqJuvKi9koi5lsAMK2M/hynLi8UqyhVGAX5z/8NkqEbeYkkYUHDyiUJvu5P3+HWRD4ON5qVU7bKZY/OkFKodRHSPO21IcDelpIBOyM8FnzfSsr5QZsYcBoJq6OB8TCB7jAPBgNVHRMBAf8EBTADAQH/MB8GA1UdIwQYMBaAFGNI780OB6jHRX+hFmm64ZsShkwAMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAoYuaHR0cHM6Ly9wa2kuZXNpZ24uYmFua2lkLm5vL2JhbmtpZHJvb3RjYWcyLmNydDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL3BraS5lc2lnbi5iYW5raWQubm8vYmFua2lkcm9vdGNhZzIuY3JsMB0GA1UdDgQWBBRHqTs0iNMiSNo5lwTzYiL5OPjAcjAOBgNVHQ8BAf8EBAMCAQYwCgYIKoZIzj0EAwMDaAAwZQIwEy9cstqxG86wkakEvmg+HPDh/OZwL2g3Ei9mswNMkqmeyevkXE3qp4tbucY7Pf0kAjEAjzn6AHMZiDdwsomUKUvXo3tfWGDfDk8Yfavz3I+hn3cC90qP04Vx27B21rw9Xqbe</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=NO, O=BankID BankAxept AS, OID.2.5.4.97=NTRNO-927611929, CN=BankID BankAxept QTSA - CA 1a</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>R6k7NIjTIkjaOZcE82Ii+Tj4wHI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-08-17T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-ca4e33cf0347ac5ac64c456cbacc21a2"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>TsXBhYiTbzZdIjCWIUwWdayndn72NKRGSfdZulzzf9o=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-ca4e33cf0347ac5ac64c456cbacc21a2"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>kpvW9rUNM37KZyT2+6jOMKIk9j7mNkXkGzFmXO4NnVc=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-ca4e33cf0347ac5ac64c456cbacc21a2">iQNXJrqbEzuKxtg2dlOqOQ2BBcpYcTUmUjEcdJEi13ENPSzHlrvJbTFdX3HzMsXrzqASNFhz0AdJswvQEctmIlAu6H/lEgqMlmja6kGE63gZwAobkxlI8DFhB9S/DQCWhGwVi9yTxhd4DzBczl8nJKMTOCr8GnjpGdFY9wzYFKxy1Ys63igNbiSdRsCeupNAfXsAT23UF4U7Pk45jEmv/+t5bQ6AA2/ZIiK3JR7zSfXnTETykKT2mp3FjMYYK+eAxAGS/JNrQRXadvmL/JK6abnZk8RWMo5MLSDpPTenxLi1zW5s8xtYQ6NGOMxTAoqxCQaQUPWjyEAjUPJl3Oxm1Q==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFzjCCA7agAwIBAgIKB1uVj7q4nA3LUTANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJOTzEYMBYGA1UEYQwPTlRSTk8tOTgzMTYzMzI3MRMwEQYDVQQKDApCdXlwYXNzIEFTMSowKAYDVQQDDCFCdXlwYXNzIENsYXNzIDMgQ0EgRzIgSFQgQnVzaW5lc3MwHhcNMjMxMDIwMDcwMzUyWhcNMjYxMDIwMjE1OTAwWjCBijELMAkGA1UEBhMCTk8xKTAnBgNVBAoMIE5BU0pPTkFMIEtPTU1VTklLQVNKT05TTVlORElHSEVUMQswCQYDVQQLDAJJVDEpMCcGA1UEAwwgTkFTSk9OQUwgS09NTVVOSUtBU0pPTlNNWU5ESUdIRVQxGDAWBgNVBGEMD05UUk5PLTk3NDQ0Njg3MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxGdUULZsTe/tqvhUmrcRewV4jfPMrjJWDa3Ddw92NC8i0YedmPHT2gj0GvmCGNkBs9/Sf/4LHUY7tD5RGqQAWPDdclEagWb6dmTKs8mAs1o0untXrf7bc6uZvVKDV/cKYzDWa8ujswoSklHtwpCg6NolXjcDod5HqzH++R+vRVuH80G0z2piNzckuJ7L0qKTamYI1g37VCH5FV3w1ljyvek0QT0Z/8sMBn6/V4jnVk6yssnebw0VmPOZEF/QjdkOvL30UuLCoxIfOtr5IV4/twX5h9SzBvR1qmPxq9EKzWoP1aZ7F0dyEwq3IyR4p4U1fg3KnLqqb3ZgyS2oHC/8cCAwEAAaOCAVUwggFRMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUsJFqvU6NsgkZhKm2dq1C8mno+C8wHQYDVR0OBBYEFKIDoAkQmcDW91tjINUxEYTYb85NMA4GA1UdDwEB/wQEAwIGQDAfBgNVHSAEGDAWMAoGCGCEQgEaAQMFMAgGBgQAj3oBAjA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3JsLmJ1eXBhc3NjYS5jb20vQlBDbDNDYUcySFRCUy5jcmwwbwYIKwYBBQUHAQEEYzBhMCcGCCsGAQUFBzABhhtodHRwOi8vb2NzcGJzLmJ1eXBhc3NjYS5jb20wNgYIKwYBBQUHMAKGKmh0dHA6Ly9jcnQuYnV5cGFzc2NhLmNvbS9CUENsM0NhRzJIVEJTLmNlcjAlBggrBgEFBQcBAwQZMBcwFQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0BAQsFAAOCAgEAM8VBmkH2F5BwyWxxTjuBa5RBZGxqQZPPB7tR6pyhitzGbbp6wqK05dUpNAyjHulw8VCBDKz08Gsv0FWEBp2DR+tiaW/sv7TOkLXPJ4KouBWTj8TIsoiMRGs/Cusk7r3rTV0VxN8xNG/eaEMTergiVnsYB4i1tr7Uu0vbU82mzg+CMrUgZtelSuVbmko8hblqAbbr4+n2YiZxHAHcYVzpyMShaoqD+Ifs6AjF1bv0ExqcotnmW5fXACx4k7sFgqcfNATkoplUNHY6Y4/+5gGrP1CyD+TAn6u0ajjwM73DbHOPYUQWCPJdwJHg+uNMRtoF5qSdtVWNnZhViXOhNjyMDneSBrpFT98NlTAwu9pBwnMcIHl7vN0x0KTD+zJqOSL+91ur/VuqxTV8aXOIpcH+u/tDCfVj3RHkbKPWTNIC/BlD6NnMVmQYUUq5Lvj3nIfBk9bay+41EXXLLQEnZVWCE2Bk7b0xh1xR/6kQqsMZ0MgJ0Bf76DTd/ETDf8vZhE2c8Q5CxOMxrbDHQV1IN/TZ40tAHekDcNEp48lRNheM9qlWdituYg1Wm1TQ7uYaOlxOCh5GuTtv3UqSx+u/7t9gcdb3dg2FPdtx3NYpImZX0BYsjF8/JzGukGOlnzzQv3/HqjksILTOtzbje//CKyb1szM8p0gTZbJZ0DUDW1V+cKc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-ca4e33cf0347ac5ac64c456cbacc21a2"><xades:SignedProperties Id="xades-id-ca4e33cf0347ac5ac64c456cbacc21a2"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-22T02:13:46Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>yBRJHyt3poXWfTsdKAmWcVm4RpB7xLF4nNPSQL8tJiI+9McwsIhnoIGn1Egg5behYhqWlWdNYjAUjQMlWyNCYw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Buypass Class 3 CA G2 HT Business,O=Buypass AS,2.5.4.97=#0c0f4e54524e4f2d393833313633333237,C=NO</ds:X509IssuerName><ds:X509SerialNumber>34745996128530461477713</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-755cab2991c79bf736f3417e686e9162"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>nZYAdwyk+robtnOuyRsYotWgpQaMDwjfo4SGCgcLs3CPFOm8gZLwHviyfJKo81UHDolTSN7aQ7ZgrSNmAdPR4A==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-755cab2991c79bf736f3417e686e9162"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>tmId4oJ7AgV7A7mIvCCZu5NDON570ee0pFJY/BI3c0c/CDD9dR2BPWT/CjwSkbXJbvAjDguNszJVt4SK1uMyVg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-755cab2991c79bf736f3417e686e9162">Tr87cnQdLwe+7+pphMSY2bOwKP47FA2gQ6+IJkvqfXvFEu0XzqWQ8DotQYWLfKgzAYi7qOOFbZbw4ACfZCzkmSbCrevZQCRoe9RLJjzTLDla2EwmGGI8Nv/zrgDYxzvOkR3eDwbqvQRb5srgbZM64ZdlhBUtRja5n/8v59PjzOPmMvYxyfyPDImFRxQe8kfMflBlengxuS5gu6Y6QZtdsafxQTaHND++KfAAfyj9rQWxcO2hDIGF7RkLszXuo1OJcKp5wCm8h5bvuRXL1+Wgu98kH6QXiTpadSelJq1BHZ5f8z8NzTgcEd9Too3wFz3rNzqo+WYrL7wYdZgawVClDA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFzjCCA7agAwIBAgIKB1uVj7q4nA3LUTANBgkqhkiG9w0BAQsFADBoMQswCQYDVQQGEwJOTzEYMBYGA1UEYQwPTlRSTk8tOTgzMTYzMzI3MRMwEQYDVQQKDApCdXlwYXNzIEFTMSowKAYDVQQDDCFCdXlwYXNzIENsYXNzIDMgQ0EgRzIgSFQgQnVzaW5lc3MwHhcNMjMxMDIwMDcwMzUyWhcNMjYxMDIwMjE1OTAwWjCBijELMAkGA1UEBhMCTk8xKTAnBgNVBAoMIE5BU0pPTkFMIEtPTU1VTklLQVNKT05TTVlORElHSEVUMQswCQYDVQQLDAJJVDEpMCcGA1UEAwwgTkFTSk9OQUwgS09NTVVOSUtBU0pPTlNNWU5ESUdIRVQxGDAWBgNVBGEMD05UUk5PLTk3NDQ0Njg3MTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxGdUULZsTe/tqvhUmrcRewV4jfPMrjJWDa3Ddw92NC8i0YedmPHT2gj0GvmCGNkBs9/Sf/4LHUY7tD5RGqQAWPDdclEagWb6dmTKs8mAs1o0untXrf7bc6uZvVKDV/cKYzDWa8ujswoSklHtwpCg6NolXjcDod5HqzH++R+vRVuH80G0z2piNzckuJ7L0qKTamYI1g37VCH5FV3w1ljyvek0QT0Z/8sMBn6/V4jnVk6yssnebw0VmPOZEF/QjdkOvL30UuLCoxIfOtr5IV4/twX5h9SzBvR1qmPxq9EKzWoP1aZ7F0dyEwq3IyR4p4U1fg3KnLqqb3ZgyS2oHC/8cCAwEAAaOCAVUwggFRMAkGA1UdEwQCMAAwHwYDVR0jBBgwFoAUsJFqvU6NsgkZhKm2dq1C8mno+C8wHQYDVR0OBBYEFKIDoAkQmcDW91tjINUxEYTYb85NMA4GA1UdDwEB/wQEAwIGQDAfBgNVHSAEGDAWMAoGCGCEQgEaAQMFMAgGBgQAj3oBAjA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vY3JsLmJ1eXBhc3NjYS5jb20vQlBDbDNDYUcySFRCUy5jcmwwbwYIKwYBBQUHAQEEYzBhMCcGCCsGAQUFBzABhhtodHRwOi8vb2NzcGJzLmJ1eXBhc3NjYS5jb20wNgYIKwYBBQUHMAKGKmh0dHA6Ly9jcnQuYnV5cGFzc2NhLmNvbS9CUENsM0NhRzJIVEJTLmNlcjAlBggrBgEFBQcBAwQZMBcwFQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0BAQsFAAOCAgEAM8VBmkH2F5BwyWxxTjuBa5RBZGxqQZPPB7tR6pyhitzGbbp6wqK05dUpNAyjHulw8VCBDKz08Gsv0FWEBp2DR+tiaW/sv7TOkLXPJ4KouBWTj8TIsoiMRGs/Cusk7r3rTV0VxN8xNG/eaEMTergiVnsYB4i1tr7Uu0vbU82mzg+CMrUgZtelSuVbmko8hblqAbbr4+n2YiZxHAHcYVzpyMShaoqD+Ifs6AjF1bv0ExqcotnmW5fXACx4k7sFgqcfNATkoplUNHY6Y4/+5gGrP1CyD+TAn6u0ajjwM73DbHOPYUQWCPJdwJHg+uNMRtoF5qSdtVWNnZhViXOhNjyMDneSBrpFT98NlTAwu9pBwnMcIHl7vN0x0KTD+zJqOSL+91ur/VuqxTV8aXOIpcH+u/tDCfVj3RHkbKPWTNIC/BlD6NnMVmQYUUq5Lvj3nIfBk9bay+41EXXLLQEnZVWCE2Bk7b0xh1xR/6kQqsMZ0MgJ0Bf76DTd/ETDf8vZhE2c8Q5CxOMxrbDHQV1IN/TZ40tAHekDcNEp48lRNheM9qlWdituYg1Wm1TQ7uYaOlxOCh5GuTtv3UqSx+u/7t9gcdb3dg2FPdtx3NYpImZX0BYsjF8/JzGukGOlnzzQv3/HqjksILTOtzbje//CKyb1szM8p0gTZbJZ0DUDW1V+cKc=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-755cab2991c79bf736f3417e686e9162"><xades:SignedProperties Id="xades-id-755cab2991c79bf736f3417e686e9162"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-23T12:09:20Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>yBRJHyt3poXWfTsdKAmWcVm4RpB7xLF4nNPSQL8tJiI+9McwsIhnoIGn1Egg5behYhqWlWdNYjAUjQMlWyNCYw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Buypass Class 3 CA G2 HT Business,O=Buypass AS,2.5.4.97=#0c0f4e54524e4f2d393833313633333237,C=NO</ds:X509IssuerName><ds:X509SerialNumber>34745996128530461477713</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
