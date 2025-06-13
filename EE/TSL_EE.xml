@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="EE0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>67</TSLSequenceNumber>
+        <TSLSequenceNumber>68</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Estonian Information System Authority</Name>
@@ -104,9 +104,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-02-13T12:36:31Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-06-12T11:57:48Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-08-13T11:36:31Z</dateTime>
+            <dateTime>2025-12-12T12:57:48Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://sr.riik.ee/tsl/estonian-tsl.xml</URI>
@@ -4834,9 +4834,28 @@
 <X509SKI>Bp6ycACWd5+pAx0R8XafiqxMdBc=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2021-02-13T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-06-12T09:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="et">Guardtime KSI ajatempliteenus (2021)</Name>
+<Name xml:lang="en">Guardtime KSI timestamp service (2021)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=VATEE-101114112, EMAILADDRESS=publications@guardtime.com, CN=GuardTime OÜ, O=GuardTime OÜ, OU=KSI Publications, L=Tallinn, ST=Harju maakond, C=EE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>Bp6ycACWd5+pAx0R8XafiqxMdBc=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2021-02-13T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -4856,11 +4875,30 @@
 <X509SKI>jrPlzXa2x2UOTeFrqb3wjiX8vXc=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-08-20T09:00:01Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-06-12T09:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en"> Guardtime KSI Time-stamping service (2023)</Name>
+<Name xml:lang="et"> Guardtime KSI ajatempliteenus (2023)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>OID.2.5.4.97=VATEE-101114112, EMAILADDRESS=publications@guardtime.com, CN=GuardTime OÜ, O=GuardTime OÜ, OU=KSI Publications, L=Tallinn, ST=Harju maakond, C=EE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>jrPlzXa2x2UOTeFrqb3wjiX8vXc=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-08-20T09:00:01Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-e3a3c549060866fe8cda17f8ad27a0f8"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>4ykabUTV0U/z09rGLPEROMLPqKjuqKj8VmQl5OstOkE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-e3a3c549060866fe8cda17f8ad27a0f8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>WR2kyOAicpQX1h2oivDBQ+KH7bjt/JbNX861o5BsuvQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e3a3c549060866fe8cda17f8ad27a0f8">ZlDwXgMR9GUaeaBsIC77/IKHmBExz80ioRJz+NfNE3dd+v9NhJ3O6dqh1HNVAxjretx68M7n7eOpAEGU7xQXGSSJNFzxOLS5DTJoo407sJlTwuu+W1HG9ofcnf+FN0Pn/lZq1GOoDOJYFXpVeB7iq/hxXg1ScLJ2xD2KVXvS2cK2c5KKF79NwTxsFbcEOMEJMoSD7aggR1wqeh17yC/YPS9W0phwx891w4BUx2VzjpAWJLTaOSzOGqeQbzG3aNuZWOBaXJOZUfK7p7wMmHjTuiVu/+CKYg9Eu0Hk088EsZ9NZB4R0f0PKPg6Bw1WykTf0XwBAzgXtsNxSkzuFbQpcA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDrDCCApSgAwIBAgIJAJp9F/NFeDmmMA0GCSqGSIb3DQEBDQUAMG0xLjAsBgNVBAMMJUVzdG9uaWFuIFRydXN0ZWQgTGlzdCBTY2hlbWUgT3BlcmF0b3IxCzAJBgNVBAYTAkVFMS4wLAYDVQQKDCVFc3RvbmlhbiBJbmZvcm1hdGlvbiBTeXN0ZW0gQXV0aG9yaXR5MB4XDTE5MDEyNTA5NDAwNloXDTI4MDcyNDA5NDAwNlowbTEuMCwGA1UEAwwlRXN0b25pYW4gVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvcjELMAkGA1UEBhMCRUUxLjAsBgNVBAoMJUVzdG9uaWFuIEluZm9ybWF0aW9uIFN5c3RlbSBBdXRob3JpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBMux4ivfdlZy9W75NgMWfD7ahajygYHCp8Tw9LxQ0vkmpuyaNNlXU+uj+yffWfekVgMoLaQrCpVIN0FF8ZMnnlsK600hpgnQNI+snPxU1u9BK6P87ZpoQU2wvan2oqjWflm06ybLzvvJrPJVNoVelrUDTY6SPngMbyqqpsdXo+dW8916ZoRUcEkTFWjQXVjhY1Lqsorbpaop1iv9BV2SXmsh4szRlqpu4dDSElWViBn0+A1ptiSAt7JINr0DDjfswqE+dhvjf6xq+IEaqUoMtGPKgz7SDqKKyg/KBO1ZGunUZE+91HKUASt+sPy3O3wMZM1SpZe1INEXQ0EQ4gytdAgMBAAGjTzBNMAwGA1UdEwQFMAMCAQAwCwYDVR0PBAQDAgeAMB0GA1UdDgQWBBScAndEhykw8vEHVFuQ7XPtHnqFajARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQENBQADggEBAHaLcIDZmUA9Bcv7TjuQW2Q3cFWFSmKc8aT5HaRKBxRRy10j9czqT439w/smT4De8JYyULXU+SoUX6/5sjmcpYxczFIC6imH8XLTgOca3vRAhek5iM80+h6v8CvxQHrsqNiSrLImE4LWfXWhQ/WPcyQdNrHCFrynJ9Gf6Q1DzQBRstpj5I8WjE+ME+w+vDj+VHHjI4wd5NkJhwwaF5PFB6uRrdb95e1dqLe4CTALe6+dh2QYhzSWZ+AZ2GaF+LlFreHhyV0sl+KwcNKSzSotStHL0zPTnq/yxPNaihhFmAlPdZdwq7vTN+yn5PAqEcfhTn06Gf5yDZjrmf5JO5eMpzM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-e3a3c549060866fe8cda17f8ad27a0f8"><xades:SignedProperties Id="xades-id-e3a3c549060866fe8cda17f8ad27a0f8"><xades:SignedSignatureProperties><xades:SigningTime>2025-02-13T13:02:12Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>R14uA1QdIRBhGMN270QwubqLrkRR+Vg+UPT+uSs7gebBC1+F+qyvGFWCwonfGaYPDppY0O4KYJW6HA01hHWOvw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>O=Estonian Information System Authority,C=EE,CN=Estonian Trusted List Scheme Operator</ds:X509IssuerName><ds:X509SerialNumber>11132080187539732902</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-6fe6a8ce1c109d25015e2999c95b42ac"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>DoHBasWD8UoZFb/NzCE752ap7L4hscAyRiv43CWRacw=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-6fe6a8ce1c109d25015e2999c95b42ac"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3A0bjTMYuAXzglaG8Xq37si6WAIZ/XKMH3j28/Ou4kk=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-6fe6a8ce1c109d25015e2999c95b42ac">PYViklrbXOl7FRMa8Sv2sWcpN6Yf1BqlcwoS7yUKgtsmSqlL/ODm5l0ihNhWUD3/8dMSGBFxFx1RoLzjpoGRu/FWqh1b5sw9KGhXS8xvjxSj6FfQZ6fSzGm+lN1k0d68UQ4vye8i4ezf6uKzR1WzSIq2L4W/pUct2Y2cAH6rVbRZ6W0Z0ln2eCRpIiKVt2sog+5DYOnCKKLIuA9MHLc/fp8C2keUE3uMNipUhaPm7DmplJ1pD43S9SWAOsvUhidIfCJacr6x/y0Rxe1kpIRoc2ahlHFO0+JkQHDtYS0zX+vvLa1U8d3q3+PkXkZtCyJfEECCEKhNqKnsi6LtdJwbaA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIDrDCCApSgAwIBAgIJAJp9F/NFeDmmMA0GCSqGSIb3DQEBDQUAMG0xLjAsBgNVBAMMJUVzdG9uaWFuIFRydXN0ZWQgTGlzdCBTY2hlbWUgT3BlcmF0b3IxCzAJBgNVBAYTAkVFMS4wLAYDVQQKDCVFc3RvbmlhbiBJbmZvcm1hdGlvbiBTeXN0ZW0gQXV0aG9yaXR5MB4XDTE5MDEyNTA5NDAwNloXDTI4MDcyNDA5NDAwNlowbTEuMCwGA1UEAwwlRXN0b25pYW4gVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvcjELMAkGA1UEBhMCRUUxLjAsBgNVBAoMJUVzdG9uaWFuIEluZm9ybWF0aW9uIFN5c3RlbSBBdXRob3JpdHkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBMux4ivfdlZy9W75NgMWfD7ahajygYHCp8Tw9LxQ0vkmpuyaNNlXU+uj+yffWfekVgMoLaQrCpVIN0FF8ZMnnlsK600hpgnQNI+snPxU1u9BK6P87ZpoQU2wvan2oqjWflm06ybLzvvJrPJVNoVelrUDTY6SPngMbyqqpsdXo+dW8916ZoRUcEkTFWjQXVjhY1Lqsorbpaop1iv9BV2SXmsh4szRlqpu4dDSElWViBn0+A1ptiSAt7JINr0DDjfswqE+dhvjf6xq+IEaqUoMtGPKgz7SDqKKyg/KBO1ZGunUZE+91HKUASt+sPy3O3wMZM1SpZe1INEXQ0EQ4gytdAgMBAAGjTzBNMAwGA1UdEwQFMAMCAQAwCwYDVR0PBAQDAgeAMB0GA1UdDgQWBBScAndEhykw8vEHVFuQ7XPtHnqFajARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQENBQADggEBAHaLcIDZmUA9Bcv7TjuQW2Q3cFWFSmKc8aT5HaRKBxRRy10j9czqT439w/smT4De8JYyULXU+SoUX6/5sjmcpYxczFIC6imH8XLTgOca3vRAhek5iM80+h6v8CvxQHrsqNiSrLImE4LWfXWhQ/WPcyQdNrHCFrynJ9Gf6Q1DzQBRstpj5I8WjE+ME+w+vDj+VHHjI4wd5NkJhwwaF5PFB6uRrdb95e1dqLe4CTALe6+dh2QYhzSWZ+AZ2GaF+LlFreHhyV0sl+KwcNKSzSotStHL0zPTnq/yxPNaihhFmAlPdZdwq7vTN+yn5PAqEcfhTn06Gf5yDZjrmf5JO5eMpzM=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-6fe6a8ce1c109d25015e2999c95b42ac"><xades:SignedProperties Id="xades-id-6fe6a8ce1c109d25015e2999c95b42ac"><xades:SignedSignatureProperties><xades:SigningTime>2025-06-12T12:16:26Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>R14uA1QdIRBhGMN270QwubqLrkRR+Vg+UPT+uSs7gebBC1+F+qyvGFWCwonfGaYPDppY0O4KYJW6HA01hHWOvw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>O=Estonian Information System Authority,C=EE,CN=Estonian Trusted List Scheme Operator</ds:X509IssuerName><ds:X509SerialNumber>11132080187539732902</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
