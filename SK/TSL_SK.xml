@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tlx509="http://ep.nbu.gov.sk/kca/tsl/x509types#" TSLTag="http://uri.etsi.org/19612/TSLTag" Id="TLISK-182">
   <SchemeInformation>
     <TSLVersionIdentifier>5</TSLVersionIdentifier>
-    <TSLSequenceNumber>124</TSLSequenceNumber>
+    <TSLSequenceNumber>126</TSLSequenceNumber>
     <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
     <SchemeOperatorName>
       <Name xml:lang="en">National Security Authority</Name>
@@ -404,9 +404,9 @@ GKqMCPakQiiUoIg/BkLIUVYClIoQ8zsk</X509Certificate>
         </AdditionalInformation>
       </OtherTSLPointer>
     </PointersToOtherTSL>
-    <ListIssueDateTime>2025-05-19T08:00:00Z</ListIssueDateTime>
+    <ListIssueDateTime>2025-06-25T14:00:00Z</ListIssueDateTime>
     <NextUpdate>
-      <dateTime>2025-11-02T01:00:10Z</dateTime>
+      <dateTime>2025-11-02T01:00:20Z</dateTime>
     </NextUpdate>
     <DistributionPoints>
       <URI>http://tl.nbu.gov.sk/kca/tsl/tsl.xml</URI>
@@ -11675,9 +11675,27 @@ XqdVI+p8InQ+gWJnPUqHbL1VYlLrGXkxe1Ec1fODLQULu7zMliPG+7qvYMze7/68
 XamZcDnF7A==</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2023-10-19T12:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(166) PSCA TSA1 2023</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>C=SK, L=Bratislava, O=Viasec s.r.o., OU=TSA, SERIALNUMBER=NTRSK-35848618, CN=PSCA TSA1 2023</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>TltTklPuFnp4vWxLWoo4tsj4JMg=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2023-10-19T12:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -11723,9 +11741,27 @@ soefM7ytfRTlt2aqegEIbaUvHieQcT/ChFTGDFgMR5aRNL2u/dLSdQJuM6TL3L7b
 nyitnFDrYw==</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2023-10-19T12:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(167) PSCA TSA2 2023</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>C=SK, L=Bratislava, O=Viasec s.r.o., OU=TSA, SERIALNUMBER=NTRSK-35848618, CN=PSCA TSA2 2023</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>QXlJ40XHiXHAvBwR0270ZUvoTt0=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2023-10-19T12:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12179,9 +12215,27 @@ PdrBnvnXo74P4ZHz17eT5JObge+7lCaXDuh2vAvwxE+62aWkaevHAj2pFCFyEa2z
 6sDGm8R944YdjNPfhASdZaYaAQzo</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(29) PSCA (TSA2007)</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA, OU=nCipher DSE ESN:2E11-213C-5302, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>2DwEGe5qkKM/uQwt5uyviaDkIkQ=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12224,9 +12278,27 @@ Z9WXdn4RqMwm3gpiJnxjpscyBzHFJT0zzTcDnDqmhxPmzNT6z1QTNgtf+W/s+om+
 nyMVlUaeaYAFWlgoSjWy0Ahabv3C</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(30) PSCA (TSA2008)</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA, OU=nCipher DSE ESN:2E11-213C-5302, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>AVdHPEOeckzN5jMXlasgy+W0eIU=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12269,9 +12341,27 @@ jRXgZQ870DRwhR+R+zTFHQPwq98RZY8LGgbyMLGEHEClZPKuGgJGIcQSFWGW2kiO
 45b1DsGn+O8srZ4yHDOS6/BWFGKjTfVyUtzmMLl4JduoMaI=</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(31) PSCA (TSA2010)</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA, OU=nCipher DSE ESN:7EF6-30D8-C3D7, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>7uEuw3Ft/t5zJK7oc/nsDFUnaCA=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12314,9 +12404,27 @@ us5zDAdqYe2Nk4UHYKhYpKllfsTNe77HygNp4nsGnS7FlVze1FDPZzqnAFoGyexN
 U3IlBuAPuNVyBOzqu6A0YPPri6TG2rPLhzPBxyKQ/J+m2Gw=</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(32) PSCA (TSA2012)</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA, OU=nCipher DSE ESN:7EF6-30D8-C3D7, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>C8K1pQZN7t7rn3ChPNFr1y/Ug6Q=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12355,9 +12463,27 @@ woW3rYuEdJdfnpKn2ImKXJUweqlODp0UgAL/CoGAeIKt8X9h4sh5kZ6TJgeP05C3
 4oUOiZr4bJrDCrw1</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2017-12-08T02:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(96) PSCA TSA 2017</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA TSA 2017, SERIALNUMBER=NTRSK-35848618, OU=nCipher DSE ESN:7EF6-30D8-C3D7, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>TRdx8c0dcR+9Eo4I+hZ27IkXptM=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2017-12-08T02:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12396,9 +12522,27 @@ eNeWFTbjSjOfXEHnaRpBL5mf6ylQKNz/Sddj6oeDxW7UzhKVOUC6j9kqyWbmMhAY
 tBLs2/h4gUO7XcT3</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2018-12-04T12:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(103) PSCA TSA2 2018</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>CN=PSCA TSA2 2018, SERIALNUMBER=NTRSK-35848618, OU=Thales TSS ESN:16A2-F6ED-DDC9, OU=TSA, O=Viasec s.r.o., L=Bratislava, C=SK</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>P1o9Vvwz4w/KAedRNNlhaEb8v/8=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2018-12-04T12:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12438,9 +12582,27 @@ W3LzM124QmUDk5/egn42pDXpZF/fRnlGpsWZfD8AS6yKt5+ZS5ax996Ft+Hi9haA
 DJ10v7kk2N1U8FlxxFyX0nVYR2BNKBPQd/XzUX3CDyxLvMQH</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2020-03-26T08:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(121) PSCA TSA1 2020</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>C=SK, L=Bratislava, O=Viasec s.r.o., OU=TSA, SERIALNUMBER=NTRSK-35848618, CN=PSCA TSA1 2020</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>4qkIPuwh4jJqJ7o5jYij55NPjKg=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2020-03-26T08:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
         <TSPService>
           <ServiceInformation>
@@ -12480,9 +12642,27 @@ GJQfFeRKVuWwFUtPWVZcazdOwho5LMsbwuHKfumXByAW3jXG+mpQhvC1BbeNNj3e
 1Ts/bT2laVdLBP+i+lE9tqDhhiFogsm+vYFZBotNHS+Fam8+</X509Certificate>
               </DigitalId>
             </ServiceDigitalIdentity>
-            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-            <StatusStartingTime>2020-03-26T08:00:00Z</StatusStartingTime>
+            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+            <StatusStartingTime>2025-06-25T10:00:00Z</StatusStartingTime>
           </ServiceInformation>
+          <ServiceHistory>
+            <ServiceHistoryInstance>
+              <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+              <ServiceName>
+                <Name xml:lang="en">(122) PSCA TSA2 2020</Name>
+              </ServiceName>
+              <ServiceDigitalIdentity>
+                <DigitalId>
+                  <X509SubjectName>C=SK, L=Bratislava, O=Viasec s.r.o., OU=TSA, SERIALNUMBER=NTRSK-35848618, CN=PSCA TSA2 2020</X509SubjectName>
+                </DigitalId>
+                <DigitalId>
+                  <X509SKI>uEHSazW7yyrDaknjsr9aJfm/GcI=</X509SKI>
+                </DigitalId>
+              </ServiceDigitalIdentity>
+              <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+              <StatusStartingTime>2020-03-26T08:00:00Z</StatusStartingTime>
+            </ServiceHistoryInstance>
+          </ServiceHistory>
         </TSPService>
       </TSPServices>
     </TrustServiceProvider>
@@ -17004,5 +17184,5 @@ lnaWEiaxIRmiwCtm0QPpYm8N72yZXQ==</X509Certificate>
         </TSPService>
       </TSPServices>
     </TrustServiceProvider>
-  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1543688692"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x943803203" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>YMhAibF8FCpLoFV+ICOYQ/x1D+mpu9IdNSyGeM788TE=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-1421322149"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>P078Kvm8yMO7doNAtwGyjVki2v0apQWigdrh/KI4O80=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>kSuMTgcYGlwo7QWxqy8et+mAgf+TStf0DuNGirrLQraoJWlf1OT3xzjEUGBqfyeI6qPic6FPdttlO58Td1gXFgDMuhghn9KPhYpzCUxEkCKoBUr4mUuOkG7vcTqHPq6mgObPt1hAipUCb8bt56rS3LhaJ+aMjlOouXUenML1r1MsRa0AkdMCnUoEisJm37CqmPryCR6ZzaiK1HuxnUzjb59BB/2apZi+rWAsY9SrBsh1b++8WxLc2PuSwNp4RUvKTjHL+S4TNoCoqTe/0fn0rOuL0clZmal5pAVpVwhRjO3H8eKXvymmLTo1Pp0hoo3qlPkivf0gdkNGsn+iWsBhwQ==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>llICIrTb3M20HT3XSV812mJkFrwEyKye7T/Bod01C6HeyHUZShFdfubCThRG7Uo2/AcOI7yLOB2tBZiNLQX8ly1e42I/bNcfnPALRiyczlTEwVS8udJ1B3RK9VCWY+fWzNHbiy2PU+gU4X8qCC96yBkIShVRbkyA7Cp3LwI5LVjyzp2XYwAkplGPFCaLxPIjwjtQT3wxqIHbw6wY4G5cu5Jq/u4Vbg3hMyOwgu9uZEsiF+F2u25o5ga3/zxGdAVIOeQyDXYGKwt7BdR6hsH8gNCmUW+W7cGmtX0U+08eE/N4p1CuJQmGEb7gxUYgwKWP78HZKYAT14FbSvD4polZsQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2465</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 9, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-1543688692"><xades:SignedProperties Id="SignedProperties-1421322149"><xades:SignedSignatureProperties><xades:SigningTime>2025-05-19T08:00:00.936Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>r4xH9AvJUmOra7bylIKvO17aVI70e7R+CubEgzzws4c=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2465</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x943803203"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
+  </TrustServiceProviderList><ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-754139790"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="id-LockItSignatureReference-1x753578255" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>iuyVaQYkrk9bykwn/SAMlqiqMhc7x3xZ1J3I22kyybM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#SignedProperties-328040719"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>0EwN9iEuaVWsk/hS6eoOGl5YN/dQOfXal5r5FdZGHfY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue>bC8N73bkxRuq6msyXF2FPcabVUsv6EVms3cLWhEsKxg9RVz3Ujq7tLn4bgq6yuIHHtgf12mDPwWBTPz+D/+CESi0dlOPO0HxGcNnHhCFuqu1UzrCAtAqoYXUy1Tkdwxd1tpD0MAbgNPtWuGZFLlaSu+qzYkv4zFoycuUQvf9Ege0X7bu9IXSG/bBT4tt/ZAbIDWGW3IT0JWbrV7GfqYCFeuACzh2btgVWKHcsVsHDB6+BvERB4dRjH1RQuALEDcRSOOKSXugir69MqCLtEQSCEEsp5c2ucXj11/OSTw3EURxNgB/p63DFbJyUaZMd8IWKld/vliCH4bd/on+e709ag==</ds:SignatureValue><ds:KeyInfo><ds:KeyValue><ds:RSAKeyValue><ds:Modulus>llICIrTb3M20HT3XSV812mJkFrwEyKye7T/Bod01C6HeyHUZShFdfubCThRG7Uo2/AcOI7yLOB2tBZiNLQX8ly1e42I/bNcfnPALRiyczlTEwVS8udJ1B3RK9VCWY+fWzNHbiy2PU+gU4X8qCC96yBkIShVRbkyA7Cp3LwI5LVjyzp2XYwAkplGPFCaLxPIjwjtQT3wxqIHbw6wY4G5cu5Jq/u4Vbg3hMyOwgu9uZEsiF+F2u25o5ga3/zxGdAVIOeQyDXYGKwt7BdR6hsH8gNCmUW+W7cGmtX0U+08eE/N4p1CuJQmGEb7gxUYgwKWP78HZKYAT14FbSvD4polZsQ==</ds:Modulus><ds:Exponent>AQAB</ds:Exponent></ds:RSAKeyValue></ds:KeyValue><ds:X509Data><ds:X509IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2465</ds:X509SerialNumber></ds:X509IssuerSerial><ds:X509SubjectName>SERIALNUMBER=NTRSK-36061701, CN=TL and Signature Policy List 9, O=Národný bezpečnostný úrad, L=Bratislava, C=SK</ds:X509SubjectName><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#Signature-754139790"><xades:SignedProperties Id="SignedProperties-328040719"><xades:SignedSignatureProperties><xades:SigningTime>2025-06-25T14:00:00.629Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>r4xH9AvJUmOra7bylIKvO17aVI70e7R+CubEgzzws4c=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=KCA NBU SR 3, OU=SIBEP, O=Narodny bezpecnostny urad, L=Bratislava, C=SK</ds:X509IssuerName><ds:X509SerialNumber>2465</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate><xades:SignaturePolicyIdentifier><xades:SignaturePolicyImplied/></xades:SignaturePolicyIdentifier><xades:SignatureProductionPlace><xades:City>Bratislava</xades:City><xades:CountryName>SK SLOVAKIA</xades:CountryName></xades:SignatureProductionPlace></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#id-LockItSignatureReference-1x753578255"><xades:Description>Content-Type: text/xml; charset=UTF-8; name="doc.xml"</xades:Description><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature>
 </TrustServiceStatusList>
