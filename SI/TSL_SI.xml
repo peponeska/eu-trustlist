@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="SI-TSL_1" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>77</TSLSequenceNumber>
+        <TSLSequenceNumber>78</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">REPUBLIC OF SLOVENIA, MINISTRY OF DIGITAL TRANSFORMATION, INFORMATION SOCIETY INSPECTORATE </Name>
@@ -110,9 +110,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-06-26T09:12:16Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-07-02T08:20:21Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-12-26T10:12:16Z</dateTime>
+            <dateTime>2026-01-02T09:20:21Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.tl.gov.si/SI_TL.xml</URI>
@@ -8263,6 +8263,7 @@
                     <Name xml:lang="sl">SETCCE D.O.O.</Name>
                     <Name xml:lang="en">VATSI-39705684</Name>
                     <Name xml:lang="sl">SI-39705684</Name>
+                    <Name xml:lang="en">SETCCE d.o.o.</Name>
                 </TSPTradeName>
                 <TSPAddress>
                     <PostalAddresses>
@@ -8374,8 +8375,73 @@
 <X509SKI>RMle65sOalo=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-07-02T12:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="sl"> BetrSign® Kvalificirana storitev za potrjevanje veljavnosti</Name>
+<Name xml:lang="en">BetrSign® Qualifield Validation Service</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>ST=Slovenija, T=BetrSign signing, OID.2.5.4.13=BetrSign signing, L=Ljubljana, SERIALNUMBER=0000004, CN=BetrSign, OU=e-seal certificates, OID.2.5.4.97=VATSI-39705684, OID.1.3.6.1.4.1.5939.2.3=39705684, O=SETCCE D.O.O., C=SI</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>RMle65sOalo=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-03-16T01:00:07Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="sl">BetrSign® Kvalificirana storitev za potrjevanje veljavnosti</Name>
+                            <Name xml:lang="en">BetrSign® Qualifield Validation Service</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>ST=Ljubljana, T=BetrSign Verify, OID.2.5.4.13=BetrSign Verify, L=Ljubljana, SERIALNUMBER=0000033, CN=BetrSign Verify, OU=e-seal certificates, OID.2.5.4.97=VATSI-39705684, OID.1.3.6.1.4.1.5939.2.3=39705684, O=SETCCE D.O.O., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>TLO3XpfZ9+k=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-03-16T01:00:07Z</StatusStartingTime>
+                        <StatusStartingTime>2025-07-02T12:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -8496,4 +8562,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-3e15eefcf1338b7b0ac9721fa102bda5"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Pr558Fh9m41cAWtcL1DJEI93sKIDNGZ7qXeQavJ5+rmicZj8QJMr6ZZLK/eIx8G6VZWVw+1b+y75Ax+vRoUp7Q==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-3e15eefcf1338b7b0ac9721fa102bda5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>pAfd39nDPyZ/TwS7UHdAP1iP9maUKsfNtSwEkn5fYUOXmCF0ouKHE1r4u5KiMsguNZTJz4Q2uTmUVHC6DDgc/A==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-3e15eefcf1338b7b0ac9721fa102bda5">Luan+fazYFGKbPStDnXXbNk20GlCeWO7NtFhaEBjWW7d+7Qj5d46bglbLbe5KUuHJyZzPwJl3+oah7o5Vjq66DiXd/k2buc2B+4PUpMb4LGFMtnWJ4sv0Z+JMCOcKs4azWPyfEpR9F+uFAViayUPG55nu+2ZIZ4zxfmPy4BQ7u8+ruzIzqu9WBhP1OBH+sywVV5S+lgjNhPDbjq39EJCTDTJV8eRJf9G0AGhXC/D0NC8u4sHaz/enVOihnMcF2EcT+IVZmjMfmd5C/yAYpkrl42W6NDjl45W04Ko8LpsX/q1dZ3+7GCSc73no9Nb8/dVnQO/14fFra0msDdaC9VK8w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEQjCCAyqgAwIBAgIIRvPCP6JFF4EwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAlNJMWcwZQYDVQQKDF5NSU5JU1RSU1RWTyBaQSBESUdJVEFMTk8gUFJFT0JSQVpCTywgSU7FoFBFS1RPUkFUIFJFUFVCTElLRSBTTE9WRU5JSkUgWkEgSU5GT1JNQUNJSlNLTyBEUlXFvUJPMRkwFwYDVQQDDBBEcmFnYW4gUGV0cm92acSHMQ8wDQYDVQQqEwZEcmFnYW4xEjAQBgNVBAQMCVBldHJvdmnEhzAeFw0yMzA0MTMxMjIxMDBaFw0yNjEwMTMxMjIxMDBaMIG2MQswCQYDVQQGEwJTSTFnMGUGA1UECgxeTUlOSVNUUlNUVk8gWkEgRElHSVRBTE5PIFBSRU9CUkFaQk8sIElOxaBQRUtUT1JBVCBSRVBVQkxJS0UgU0xPVkVOSUpFIFpBIElORk9STUFDSUpTS08gRFJVxb1CTzEZMBcGA1UEAwwQRHJhZ2FuIFBldHJvdmnEhzEPMA0GA1UEKhMGRHJhZ2FuMRIwEAYDVQQEDAlQZXRyb3ZpxIcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCMRkbnlpiCBbCUQB3pOnU87TzGpvMM5frqIDyX0zP3rRMsvw/gxZIAah0AzJRJNyPbhf1WZkhdjTo5a7K7tsUhfEsgjmOHCugITuH8YWyBSM2c0owmdDc6qZYiQ/bbYkR+PVU9EstVsmMKUkoVpdIg3bAoU6jZYPf0UiTMDMLEgdKGmUQj4QF/gzFBU1BhIXDDp/qeOSve7zmlFhazEGp6lQTsXxIlwN323ZExjY2vuP9ebI4TV1A7zT4Mp3P9USsZXhww1cXrq8qs68tHIb1sy1/FtmJPDyNL0ADglqFNhXLFCX0+oRxltEWf/yWn9W9SpC8JdG9YmovzNhxmvd5rAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFH6Xmzvr9cJG6wnPzvT3dhRerb3xMA4GA1UdDwEB/wQEAwIGwDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACrGOVbp6rE/I8BkACuwf1H5HSSmx77dnZksCHblg9TU08eotYyZ4SvWk8l3ceAHyzrg2x2fgpPa5e5CxVm2QmKayP0jNT/JvRP87Pu8hRObiWPwEJRVT6u4smLoR6tuLQ89NvtKRgT2s6ol06UEvjjWpS3YTNg13nsFSId0hQ3FesDqbNAHdMYLaHTvps9j19zuV66gSvyHXEEQJKsvHNtbTiHy/V6jlhKpSP8/bPSwwHwBQD2yU/DXRzJNker1UX1fxBNwKvG1eMxw89fTRrxskwUwDPtuTCWo34EgeFxwDIFlJV9GcpFZmPaPfpn3kCabPq9vrx4j4CzDKtoYjaw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-3e15eefcf1338b7b0ac9721fa102bda5"><xades:SignedProperties Id="xades-id-3e15eefcf1338b7b0ac9721fa102bda5"><xades:SignedSignatureProperties><xades:SigningTime>2025-06-26T11:48:46Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>zMJmaVxKFvUbBVKzqKMzOn2pfQSMJO2pRrZSnTCB9m191G7iD1sx4i51KKYuxHuS3F0GlpN+2BxoCayhn21MAQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#0c09506574726f7669c487,2.5.4.42=#130644726167616e,CN=Dragan Petrović,O=MINISTRSTVO ZA DIGITALNO PREOBRAZBO\, INŠPEKTORAT REPUBLIKE SLOVENIJE ZA INFORMACIJSKO DRUŽBO,C=SI</ds:X509IssuerName><ds:X509SerialNumber>5112643580556810113</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-07856a4bce2a66e4e9a0cc34292390bb"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>F/qn2JDoUeDZEW8Dgfp/rWk8EZ/1QUBu7SQH2WZ21UtLAF4lJ0+wLsAqr209/XdL+9wsgwyjTQ3lfLfEoz5Ncw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-07856a4bce2a66e4e9a0cc34292390bb"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>eco68PZzCH6JIMbTANqfJzSX6I7igVwfBjg9SRb9O8T/eigbpBI1969RnmeVoKmXVu7Pqz4txbHJiV/SsehqnA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-07856a4bce2a66e4e9a0cc34292390bb">GYgG0CoObaSLfYcd0h+2jg39JyCTKje3QpiNty23AjmePAT2vv+lbLuKmRMmKlI2KYrMMq5/YHOSMBFicAwmlCS8TJ+n7FPmZVdUgVdyM+YFwqX+bgGg4oIGc3FL+rMiEL1CtL+8962ND2AXJTOhvLRDICCschEEpOOcE4oP0XCqDHEh4a7TSmILb7yH45oI/mhmt2bqni0dJ6BvScty4Hc7sUWOX1J5y0h1BbRw+rfqgPH0M4SQkHol+244A7kck/J/YRLnfoO1tGaUh/fh0XZ6wLyqGlehxIRx38M3vAf7QfZvdus0jE6eUvXuH5tLMSHjO4YmOh9BYxjpgEr9fg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEQjCCAyqgAwIBAgIIRvPCP6JFF4EwDQYJKoZIhvcNAQELBQAwgbYxCzAJBgNVBAYTAlNJMWcwZQYDVQQKDF5NSU5JU1RSU1RWTyBaQSBESUdJVEFMTk8gUFJFT0JSQVpCTywgSU7FoFBFS1RPUkFUIFJFUFVCTElLRSBTTE9WRU5JSkUgWkEgSU5GT1JNQUNJSlNLTyBEUlXFvUJPMRkwFwYDVQQDDBBEcmFnYW4gUGV0cm92acSHMQ8wDQYDVQQqEwZEcmFnYW4xEjAQBgNVBAQMCVBldHJvdmnEhzAeFw0yMzA0MTMxMjIxMDBaFw0yNjEwMTMxMjIxMDBaMIG2MQswCQYDVQQGEwJTSTFnMGUGA1UECgxeTUlOSVNUUlNUVk8gWkEgRElHSVRBTE5PIFBSRU9CUkFaQk8sIElOxaBQRUtUT1JBVCBSRVBVQkxJS0UgU0xPVkVOSUpFIFpBIElORk9STUFDSUpTS08gRFJVxb1CTzEZMBcGA1UEAwwQRHJhZ2FuIFBldHJvdmnEhzEPMA0GA1UEKhMGRHJhZ2FuMRIwEAYDVQQEDAlQZXRyb3ZpxIcwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCMRkbnlpiCBbCUQB3pOnU87TzGpvMM5frqIDyX0zP3rRMsvw/gxZIAah0AzJRJNyPbhf1WZkhdjTo5a7K7tsUhfEsgjmOHCugITuH8YWyBSM2c0owmdDc6qZYiQ/bbYkR+PVU9EstVsmMKUkoVpdIg3bAoU6jZYPf0UiTMDMLEgdKGmUQj4QF/gzFBU1BhIXDDp/qeOSve7zmlFhazEGp6lQTsXxIlwN323ZExjY2vuP9ebI4TV1A7zT4Mp3P9USsZXhww1cXrq8qs68tHIb1sy1/FtmJPDyNL0ADglqFNhXLFCX0+oRxltEWf/yWn9W9SpC8JdG9YmovzNhxmvd5rAgMBAAGjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFH6Xmzvr9cJG6wnPzvT3dhRerb3xMA4GA1UdDwEB/wQEAwIGwDARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQELBQADggEBACrGOVbp6rE/I8BkACuwf1H5HSSmx77dnZksCHblg9TU08eotYyZ4SvWk8l3ceAHyzrg2x2fgpPa5e5CxVm2QmKayP0jNT/JvRP87Pu8hRObiWPwEJRVT6u4smLoR6tuLQ89NvtKRgT2s6ol06UEvjjWpS3YTNg13nsFSId0hQ3FesDqbNAHdMYLaHTvps9j19zuV66gSvyHXEEQJKsvHNtbTiHy/V6jlhKpSP8/bPSwwHwBQD2yU/DXRzJNker1UX1fxBNwKvG1eMxw89fTRrxskwUwDPtuTCWo34EgeFxwDIFlJV9GcpFZmPaPfpn3kCabPq9vrx4j4CzDKtoYjaw=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-07856a4bce2a66e4e9a0cc34292390bb"><xades:SignedProperties Id="xades-id-07856a4bce2a66e4e9a0cc34292390bb"><xades:SignedSignatureProperties><xades:SigningTime>2025-07-02T08:29:48Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>zMJmaVxKFvUbBVKzqKMzOn2pfQSMJO2pRrZSnTCB9m191G7iD1sx4i51KKYuxHuS3F0GlpN+2BxoCayhn21MAQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.4=#0c09506574726f7669c487,2.5.4.42=#130644726167616e,CN=Dragan Petrović,O=MINISTRSTVO ZA DIGITALNO PREOBRAZBO\, INŠPEKTORAT REPUBLIKE SLOVENIJE ZA INFORMACIJSKO DRUŽBO,C=SI</ds:X509IssuerName><ds:X509SerialNumber>5112643580556810113</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
