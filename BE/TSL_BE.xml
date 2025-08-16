@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BE-TL-071" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>74</TSLSequenceNumber>
+        <TSLSequenceNumber>75</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">FPS Economy, SMEs, Self-employed and Energy - Quality and Safety</Name>
@@ -111,9 +111,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-01-27T07:35:45Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-08-11T13:00:04Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-07-27T06:35:45Z</dateTime>
+            <dateTime>2026-02-11T14:00:04Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.belgium.be/tsl-be.xml</URI>
@@ -2685,8 +2685,8 @@
 <X509SKI>PkL8EdFADAnQOkzvqztMVxU6qw0=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-05-03T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-03-27T23:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -2732,6 +2732,68 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Universign CA Hardware</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Universign CA hardware, OID.2.5.4.97=NTRBE-0673755466, O=Universign, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>PkL8EdFADAnQOkzvqztMVxU6qw0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-05-03T00:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.3.6.1.4.1.15819.5.1.3.1</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/NotQualified"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="none">
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.3.6.1.4.1.15819.5.1.3.1</ns4:Identifier>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description/>
+                </ns5:CriteriaList>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2750,8 +2812,8 @@
 <X509SKI>PkL8EdFADAnQOkzvqztMVxU6qw0=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-05-03T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2024-03-27T23:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -2797,6 +2859,68 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Universign CA hardware</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Universign CA hardware, OID.2.5.4.97=NTRBE-0673755466, O=Universign, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>PkL8EdFADAnQOkzvqztMVxU6qw0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-05-03T00:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.3.6.1.4.1.15819.5.1.3.5</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/NotQualified"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="none">
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.3.6.1.4.1.15819.5.1.3.5</ns4:Identifier>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description/>
+                </ns5:CriteriaList>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -6799,4 +6923,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-fc09e13b9c076677bce5935aa7cdab06"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>3zqYAeQ0uCvt0by16fccz/PT27bT7R7G2G9CdqannGo=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-fc09e13b9c076677bce5935aa7cdab06"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>sjMtIkxTll5VOXZiF0oVyX3M/t5XNYMYet+Obk5/q6w=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-fc09e13b9c076677bce5935aa7cdab06">bDXjcZBHTCc4CTSEFX6nk9OZxcPJuQ/NlG1TIX8NyZ6CevAO0wASTqysoNIg6RzaPfGlL7be2xOpTXePWQxogc7MnDq6u8gzqzgIw5wL9aLmO5c+lEU+nILIwO0Vt2XhRpuH77xtZh0sabt1Fd8rEYDcawif2Sec0d+Br45RtYgaH4lYqTCEq0YwU8XAJna6PIlZk/PN4nV1QmoW++qOPIdM6WH2FOEOyHo+qeU2l0gDW3u6bOTxpm7dC5HbAUPPfUtYWkMyq0emiBkwCM5rYsiuSS47wL/bLuQSjwJLFmcsXGAPLeUJ7xqyKoQdojcKYiyGTRWt8B1TaO5UCfszLg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIID3zCCAsegAwIBAgIJAOv7FV6q0Or/MA0GCSqGSIb3DQEBBQUAMIGHMS0wKwYDVQQDEyRCZWxnaWFuIFRydXN0ZWQgTGlzdCBTY2hlbWUgT3BlcmF0b3IxSTBHBgNVBAoTQEZQUyBFY29ub215LCBTTUVzLCBTZWxmLWVtcGxveWVkIGFuZCBFbmVyZ3kgLSBRdWFsaXR5IGFuZCBTYWZldHkxCzAJBgNVBAYTAkJFMB4XDTE0MDIxOTEzMzgwNFoXDTI1MDYxMTEzMzgwNFowgYcxLTArBgNVBAMTJEJlbGdpYW4gVHJ1c3RlZCBMaXN0IFNjaGVtZSBPcGVyYXRvcjFJMEcGA1UEChNARlBTIEVjb25vbXksIFNNRXMsIFNlbGYtZW1wbG95ZWQgYW5kIEVuZXJneSAtIFF1YWxpdHkgYW5kIFNhZmV0eTELMAkGA1UEBhMCQkUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDAgEFkoDPTYDvGk+/IPnGSPm58NRE7mpzLHk8lxpYnTAtbMhn7FWru9GlNi+blYYNOEmzN2E5KO9+7AAAMmx2x8zmEMwc3oUQ7E0WN5Gl+Y+7n6NtX50D/4Sbw4IjVvwwRRru8Coj5vq5Hz3JKTgft8teEpwb5vSFZh6+o9irdX342RJU4AtG78sxZvzIqpa3WsddMf5XDyjnGK3dRgkDuOaBxWEexuUiN4LvO+MacwoaxEqLhEZ6TALGWS2WmNEW3OlUdf7nc0Tz/lnyQsuFn01c4pg56hjyxLtpjyHwNwbTDx+cjBpBveOT9Nb6UfKFHknC5AfrIOWnFLXUmyKD/AgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgbAMB0GA1UdDgQWBBRf745pXfv0l1rxBwgOUhlQqteQUTARBgNVHSUECjAIBgYEAJE3AwAwDQYJKoZIhvcNAQEFBQADggEBAJQt17IzKeqnxakdgysT1FlymocZUUHGhfbQAfr4OEm48LMoN4M5ZeeRMVIwk4jODURuhawtKJ3hRdGB+zTzIMLheOmAGGRDUNrDwctpn8G+RqEFjlgc5yi1ICHBZJrvyud7cPwz8AwMtV+K1iFmbEWqsGASZ96J9uilJJ+RkPcV3Olwtgi3+IxOxHfhmq0PCdRk1k8+c7frdT935Z8SfFgnaPy4RFg2eKdvC2qsvsF3J19eP/BKlGdVVe44yTB3UCE3KSLiySvgM/JXIQN5VE+lGPeURKnoXsW5E71IdUEi30Ptd0YBxTjEairZKyzhgGbZEnBUWSkn6n9uZ5Ai2lo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-fc09e13b9c076677bce5935aa7cdab06"><xades:SignedProperties Id="xades-id-fc09e13b9c076677bce5935aa7cdab06"><xades:SignedSignatureProperties><xades:SigningTime>2025-01-27T08:21:46Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+ucoYuWAIIei7c27c7h5SzmF5VaGd8gZBKbB4euB/b3/nBGRORjbtRcu1LlWq0Tt6AYyvSIGMgEo2bSDY8puKQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=BE,O=FPS Economy\, SMEs\, Self-employed and Energy - Quality and Safety,CN=Belgian Trusted List Scheme Operator</ds:X509IssuerName><ds:X509SerialNumber>17004208314404367103</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-1b005bad2759b9d5ee1ec7001b3e7e10"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Yl/SdAJgyvWdNQGTWWOj/u58jIJqKhEaQ599lphKaOVUvfYknBCGYd+fVYbKhQqMwOu/bzV4hCQbx7rLoV8qfQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-1b005bad2759b9d5ee1ec7001b3e7e10"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>MFbt2Zox3QPXuq1l633t2D/CLqL24cb5W7WOSfJ9FBE4vgIDBQLEWT1bhxaCsTU5nww8PKPZD34hzr5WA/Q10g==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-1b005bad2759b9d5ee1ec7001b3e7e10">cTxfhA+53uHHVJXqzDmhh+pInp1mZVH6uTVylyeiBQuTMkPoA8kojtZIvm8hmT96nTB49q4L08t9vIh5fIqLEKOMe+ALC80masOrn+17vxJ9Cve9yUNDfjQcIMfyxNG0MUXv/eYPCC1A6kHg2Wf9x8ZaHLnmHIkoofI5jdlYyqR3pcl9GnlpcLS2ErPzAVD7KcJsZSwa0pS8j3ISP84DWafuko+QhiZhIuhO+AKUaJ3gt/+rlSV+U4FXv4lIQqFfd9zW6d4KaudOtfBNzfp4l1xYDdBc4KdCC3HKWySiAjnY4NlOyXVnB++nmZlVP3Xx5tTGy3V3Ay2jS6xSX8XtaQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFeDCCBP6gAwIBAgIMWC5ThUy0RpptTp0uMAoGCCqGSM49BAMDMH8xCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTowOAYDVQQDEzFHbG9iYWxTaWduIEdDQyBFNDUgUXVhbGlmaWVkIFFTQ0QgU2lnbmluZyBDQSAyMDIwMRkwFwYDVQRhExBOVFJCRS0wNDU5MTM0MjU2MB4XDTI1MDcyMjE1MzUxOFoXDTI3MDcyMzE1MzUxOFowggEHMQswCQYDVQQGEwJCRTEnMCUGA1UECBMeQnJ1c3NlbHMgSG9vZmRzdGVkZWxpamsgR2V3ZXN0MRwwGgYDVQQHExNTaW50LUpvb3N0LXRlbi1Ob2RlMUkwRwYDVQQKE0BGZWRlcmFsZSBPdmVyaGVpZHNkaWVuc3QgRWNvbm9taWUsIEsuTS5PLCBNaWRkZW5zdGFuZCBlbiBFbmVyZ2llMUkwRwYDVQQDE0BGZWRlcmFsZSBPdmVyaGVpZHNkaWVuc3QgRWNvbm9taWUsIEsuTS5PLCBNaWRkZW5zdGFuZCBlbiBFbmVyZ2llMRswGQYDVQRhExJOVFJCRS0wMzE0LjU5NS4zNDgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCw1ThDEoFFZJhP2qJPJDyxzuL/G7AghC0dmWMwMKAACSgXuGhLnsNvLeaxe6nc/eVcDokU0bOdSD3c7d8RG7hv5OtQ22X2EH6Pve1IT1Lgg3+xfmBLrmHi/UGik75KrAN7ifuhzqFEgDOqku8ZSO4+PDs9HZg6X4phillTWIJ+H3rrm8Zb/msgKjdKgZZag9Ql0hzdoJwzkCXVqJrV32d2c5e2Z3t8ExAjlXcfjIdfW8ONOwIqCe/SefiXoabygmUhc+CzJ6b8ylahQCkIpMaqtAZoUQGeNXSBykUHZddpXNbikM7uwnAiCEUAa8jEa/YWG2CJs7swF7MNMG+yaaXpAgMBAAGjggIJMIICBTAOBgNVHQ8BAf8EBAMCBkAwgaMGCCsGAQUFBwEBBIGWMIGTME4GCCsGAQUFBzAChkJodHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc2djY2U0NXF1YWxxc2Nkc2lnbmNhMjAyMC5jcnQwQQYIKwYBBQUHMAGGNWh0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL2dzZ2NjZTQ1cXVhbHFzY2RzaWduY2EyMDIwMFkGA1UdIARSMFAwQwYLKwYBBAGgMgEoJAIwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wCQYHBACL7EABAzBJBgNVHR8EQjBAMD6gPKA6hjhodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL2dzZ2NjZTQ1cXVhbHFzY2RzaWduY2EyMDIwLmNybDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjAgBgNVHSUEGTAXBgkqhkiG9y8BAQUGCisGAQQBgjcKAwwwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBS1ixC9qo9vveNITthfKIMXFhc9OzAdBgNVHQ4EFgQUVTXDcVGqVUX3iJr2LRjemG+LzfkwCgYIKoZIzj0EAwMDaAAwZQIwWMjqbDmwwt5EGM5D/X09QIAQwXjfbTKmF+3w33aGdVTV8DDG7Gtku5EmtYQQU4LOAjEA3M3qbx5FFEXGFaNuGkLWbpOHVepkI84zZg5q+cRsdfhwGw7s98XZ7ESDnFvsC4YC</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-1b005bad2759b9d5ee1ec7001b3e7e10"><xades:SignedProperties Id="xades-id-1b005bad2759b9d5ee1ec7001b3e7e10"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-11T07:11:07Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>GpI0PMVgYxama1MeqFuqBN9bOrNOplKRo0VZgbo3yYbi4UlgBVkUkV3HxilpuAr0bRd8P7GLOskSeyIHUFKRjA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#13104e545242452d30343539313334323536,CN=GlobalSign GCC E45 Qualified QSCD Signing CA 2020,O=GlobalSign nv-sa,C=BE</ds:X509IssuerName><ds:X509SerialNumber>27290685867342799245503536430</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
