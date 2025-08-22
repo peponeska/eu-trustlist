@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>161</TSLSequenceNumber>
+        <TSLSequenceNumber>162</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Cybersecurity Agency (ANSSI)</Name>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-08-11T15:42:03Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-08-21T09:17:23Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-02-11T16:42:03Z</dateTime>
+            <dateTime>2026-02-21T10:17:23Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -6234,10 +6234,10 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="fr">http://www.chambersign.fr</URI>
+                        <URI xml:lang="fr">https://www.chambersign.fr</URI>
                         <URI xml:lang="en">mailto:support@chambersign.fr</URI>
                         <URI xml:lang="fr">mailto:support@chambersign.fr</URI>
-                        <URI xml:lang="en">http://www.chambersign.fr</URI>
+                        <URI xml:lang="en">https://www.chambersign.fr</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
@@ -6261,8 +6261,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
                         <StatusStartingTime>2023-08-23T00:00:48Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">http://pc.chambersign.fr/rgs/v2/3etoiles/eidas/</URI>
-                            <URI xml:lang="fr">http://pc.chambersign.fr/rgs/v2/3etoiles/eidas/</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/rgs/v2/3etoiles/eidas/</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/rgs/v2/3etoiles/eidas/</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
@@ -6400,8 +6400,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/FR/TS102042/NCP+</URI>
                         </SchemeServiceDefinitionURI>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">http://www.chambersign.fr/medias/documents/PC/ChamberSign-France_PC-Sign2_ENv01.pdf</URI>
-                            <URI xml:lang="fr">http://pc.chambersign.fr/docs/pc/LCR_Indirectes/fr/PC_Signature_2etoiles.pdf</URI>
+                            <URI xml:lang="en">https://www.chambersign.fr/medias/documents/PC/ChamberSign-France_PC-Sign2_ENv01.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/docs/pc/LCR_Indirectes/fr/PC_Signature_2etoiles.pdf</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
@@ -6471,8 +6471,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             <URI xml:lang="fr">http://uri.etsi.org/TrstSvc/eSigDir-1999-93-EC-TrustedList/schemerules/FR/Signature-3-Stars</URI>
                         </SchemeServiceDefinitionURI>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="fr">http://www.chambersign.fr/pc/rgs/2.2/3etoiles-signature/</URI>
-                            <URI xml:lang="en">http://www.chambersign.fr/medias/documents/PC/ChamberSign-France_PC-Sign3_ENv01.pdf</URI>
+                            <URI xml:lang="fr">https://www.chambersign.fr/pc/rgs/2.2/3etoiles-signature/</URI>
+                            <URI xml:lang="en">https://www.chambersign.fr/medias/documents/PC/ChamberSign-France_PC-Sign3_ENv01.pdf</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
@@ -6545,8 +6545,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
                         <StatusStartingTime>2023-08-23T00:00:37Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">http://pc.chambersign.fr/rgs/v2/2etoiles/eidas/</URI>
-                            <URI xml:lang="fr">http://pc.chambersign.fr/rgs/v2/2etoiles/eidas/</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/rgs/v2/2etoiles/eidas/</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/rgs/v2/2etoiles/eidas/</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
@@ -6629,16 +6629,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ServiceInformation>
                         <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                         <ServiceName>
-                            <Name xml:lang="fr">Eiducio</Name>
-                            <Name xml:lang="en">Eiducio</Name>
-                            <Name xml:lang="fr">Eiducio double usage</Name>
-                            <Name xml:lang="en">Eiducio double usage</Name>
-                            <Name xml:lang="fr">Europrobatio</Name>
-                            <Name xml:lang="en">Europrobatio</Name>
-                            <Name xml:lang="fr">Eurocomercio</Name>
-                            <Name xml:lang="en">Eurocomercio</Name>
-                            <Name xml:lang="fr">Eurocomercio+</Name>
-                            <Name xml:lang="en">Eurocomercio+</Name>
+                            <Name xml:lang="fr">ChamberSign France CA3 Qualified eID</Name>
+                            <Name xml:lang="en">ChamberSign France CA3 Qualified eID</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -6748,7 +6740,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Identifier>1.2.250.1.96.1.8.2.6</ns4:Identifier>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Délivrance de certificats de signatures électroniques  qualifiés eIDAS et d'authentification à destination de personnes physiques sur un support cryptographique</ns5:Description>
+            <ns5:Description>Délivrance de certificats de signatures électroniques qualifiés eIDAS et d'authentification à destination de personnes physiques sur un support cryptographique</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
@@ -6759,16 +6751,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
-<Name xml:lang="fr">Eiducio</Name>
-<Name xml:lang="en">Eiducio</Name>
-<Name xml:lang="fr">Eiducio double usage</Name>
-<Name xml:lang="en">Eiducio double usage</Name>
-<Name xml:lang="fr">Europrobatio</Name>
-<Name xml:lang="en">Europrobatio</Name>
-<Name xml:lang="fr">Eurocomercio</Name>
-<Name xml:lang="en">Eurocomercio</Name>
-<Name xml:lang="fr">Eurocomercio+</Name>
-<Name xml:lang="en">Eurocomercio+</Name>
+<Name xml:lang="fr">ChamberSign France CA3 Qualified eID</Name>
+<Name xml:lang="en">ChamberSign France CA3 Qualified eID</Name>
                             </ServiceName>
                             <ServiceDigitalIdentity>
 <DigitalId>
@@ -6871,7 +6855,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         <ns4:Identifier>1.2.250.1.96.1.8.2.6</ns4:Identifier>
                     </ns5:PolicyIdentifier>
                 </ns5:PolicySet>
-                <ns5:Description>Délivrance de certificats de signatures électroniques  qualifiés eIDAS et d'authentification à destination de personnes physiques sur un support cryptographique</ns5:Description>
+                <ns5:Description>Délivrance de certificats de signatures électroniques qualifiés eIDAS et d'authentification à destination de personnes physiques sur un support cryptographique</ns5:Description>
             </ns5:CriteriaList>
         </ns5:QualificationElement>
     </ns5:Qualifications>
@@ -6886,20 +6870,6 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         <ServiceName>
                             <Name xml:lang="fr">ChamberSign France CA3 NG Qualified eID</Name>
                             <Name xml:lang="en">ChamberSign France CA3 NG Qualified eID</Name>
-                            <Name xml:lang="fr">Europrobatio</Name>
-                            <Name xml:lang="en">Europrobatio</Name>
-                            <Name xml:lang="fr">EuroComercio</Name>
-                            <Name xml:lang="en">EuroComercio</Name>
-                            <Name xml:lang="fr">EuroComercio+</Name>
-                            <Name xml:lang="en">EuroComercio+</Name>
-                            <Name xml:lang="en">Eiducio+</Name>
-                            <Name xml:lang="fr">Eiducio+</Name>
-                            <Name xml:lang="en">Eiducio+ Double Usage</Name>
-                            <Name xml:lang="fr">Eiducio+ Double Usage</Name>
-                            <Name xml:lang="en">Eiducio</Name>
-                            <Name xml:lang="fr">Eiducio</Name>
-                            <Name xml:lang="en">Eiducio Double Usage</Name>
-                            <Name xml:lang="fr">Eiducio Double Usage</Name>
                         </ServiceName>
                         <ServiceDigitalIdentity>
                             <DigitalId>
@@ -6913,23 +6883,24 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-08-23T00:00:18Z</StatusStartingTime>
+                        <StatusStartingTime>2025-08-22T00:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
-                            <URI xml:lang="en">https://pc.chambersign.fr/ca3/ChamberSign_France_CA3_Qualified_eID.pdf</URI>
-                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/ChamberSign_France_CA3_Qualified_eID.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qcp-l.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/ChamberSign_France_CA3_NG_Qualified_eID.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/cgu/PRO%20ACC%2061%20CGU_ChamberSign%20France%20CA3%20Qualified%20eID_QCP-l.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qcp-n-doubleusage.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/cgu/PRO%20ACC%2063%20CGU_ChamberSign%20France%20CA3%20Qualified%20eID_QCP-double_usage.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qcp-n-qscd-doubleusage.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/cgu/PRO%20ACC%2083%20CGU_ChamberSign%20France%20CA3%20Qualified%20eID_QCP-n-qscd_double_usage.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qcp-n-qscd.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/cgu/PRO%20ACC%2060%20CGU_ChamberSign%20France%20CA3%20Qualified%20eID_QCP-n-qscd.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qcp-l-qscd.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/ca3/cgu/PRO%20ACC%2062%20CGU_ChamberSign%20France%20CA3%20Qualified%20eID_QCP-l-qscd.pdf</URI>
+                            <URI xml:lang="en">https://pc.chambersign.fr/docs/pds/ca3/PDS_Qualified_eID_qncp-w-gen.pdf</URI>
+                            <URI xml:lang="fr">https://pc.chambersign.fr/docs/cgu/ca3/CGU_Qualified_eID_qncp-w-gen.pdf</URI>
                         </TSPServiceDefinitionURI>
                         <ServiceInformationExtensions>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                            <Extension Critical="true">
-<AdditionalServiceInformation>
-    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
-</AdditionalServiceInformation>
-                            </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
@@ -6946,7 +6917,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Description>Europrobatio</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination of natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
     <ns5:QualificationElement>
@@ -6965,7 +6936,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Description>EuroComercio</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing advanced sealing</ns5:Description>
+            <ns5:Description>Issuance of eIDAS qualified electronic seal certificates to destination of legal persons with the use of qualified cryptographic support allowing advanced sealing</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
     <ns5:QualificationElement>
@@ -6984,7 +6955,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Description>EuroComercio+</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing qualified sealing</ns5:Description>
+            <ns5:Description>Issuance of eIDAS qualified electronic seal certificates to destination of legal persons with the use of qualified cryptographic support allowing qualified sealing</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
     <ns5:QualificationElement>
@@ -7003,7 +6974,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Description>Eiducio Double Usage</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Issuance of eIDAS qualified electronic certificates to natural persons  allowing advanced signature with qualified certificate on media cryptographic</ns5:Description>
+            <ns5:Description>Issuance of eIDAS qualified electronic certificates to natural persons allowing advanced signature with qualified certificate on media cryptographic</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
     <ns5:QualificationElement>
@@ -7013,6 +6984,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
         </ns5:Qualifiers>
         <ns5:CriteriaList assert="all">
             <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
                 <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
             </ns5:KeyUsage>
             <ns5:PolicySet>
@@ -7021,14 +6993,333 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns4:Description>Eiducio+ Double Usage</ns4:Description>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
-            <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination of natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="keyEncipherment">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.96.1.8.2.5</ns4:Identifier>
+                    <ns4:Description>ChamberSign France - QWAC</ns4:Description>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>Issuance of eIDAS qualified electronic seal certificates to destination of legal persons for TLS server authentication</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
                             </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="true">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="fr">ChamberSign France CA3 NG Qualified eID</Name>
+<Name xml:lang="en">ChamberSign France CA3 NG Qualified eID</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ChamberSign France CA3 NG Qualified eID, OID.2.5.4.97=NTRFR-433702479, OU=0002 433702479, O=ChamberSign France, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TA52rTJLnKUS7OFIu5L1jgwz4rk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-07-31T00:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.2</ns4:Identifier>
+                        <ns4:Description>Europrobatio</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.3</ns4:Identifier>
+                        <ns4:Description>EuroComercio</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing advanced sealing</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.4</ns4:Identifier>
+                        <ns4:Description>EuroComercio+</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing qualified sealing</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.6</ns4:Identifier>
+                        <ns4:Description>Eiducio Double Usage</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic certificates to natural persons  allowing advanced signature with qualified certificate on media cryptographic</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.8</ns4:Identifier>
+                        <ns4:Description>Eiducio+ Double Usage</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="keyEncipherment">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.5</ns4:Identifier>
+                        <ns4:Description>ChamberSign France - QWAC</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons for TLS server authentication</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="fr">ChamberSign France CA3 NG Qualified eID</Name>
+<Name xml:lang="en">ChamberSign France CA3 NG Qualified eID</Name>
+<Name xml:lang="fr">Europrobatio</Name>
+<Name xml:lang="en">Europrobatio</Name>
+<Name xml:lang="fr">EuroComercio</Name>
+<Name xml:lang="en">EuroComercio</Name>
+<Name xml:lang="fr">EuroComercio+</Name>
+<Name xml:lang="en">EuroComercio+</Name>
+<Name xml:lang="en">Eiducio+</Name>
+<Name xml:lang="fr">Eiducio+</Name>
+<Name xml:lang="en">Eiducio+ Double Usage</Name>
+<Name xml:lang="fr">Eiducio+ Double Usage</Name>
+<Name xml:lang="en">Eiducio</Name>
+<Name xml:lang="fr">Eiducio</Name>
+<Name xml:lang="en">Eiducio Double Usage</Name>
+<Name xml:lang="fr">Eiducio Double Usage</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=ChamberSign France CA3 NG Qualified eID, OID.2.5.4.97=NTRFR-433702479, OU=0002 433702479, O=ChamberSign France, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TA52rTJLnKUS7OFIu5L1jgwz4rk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-08-23T00:00:18Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.2</ns4:Identifier>
+                        <ns4:Description>Europrobatio</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.3</ns4:Identifier>
+                        <ns4:Description>EuroComercio</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing advanced sealing</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.4</ns4:Identifier>
+                        <ns4:Description>EuroComercio+</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic seal certificates at destination of legal persons with the use of qualified cryptographic support allowing qualified sealing</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.6</ns4:Identifier>
+                        <ns4:Description>Eiducio Double Usage</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic certificates to natural persons  allowing advanced signature with qualified certificate on media cryptographic</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.2.250.1.96.1.8.2.8</ns4:Identifier>
+                        <ns4:Description>Eiducio+ Double Usage</ns4:Description>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description>Issuance of eIDAS qualified electronic signature certificates to destination natural persons with the use of qualified cryptographic support allowing qualified signature</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -24633,4 +24924,4 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-8b76ad06ed51506cb5aa018ee450aaa1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>S7jHvTFfRjRskY6T4HmlfuN5mC66sSLHxN9aVdkMoEtaqdkfCCMCZ2I5C92n9ikqDeUyNCg3zJyOt9RSG0USSQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-8b76ad06ed51506cb5aa018ee450aaa1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>7bP0lPRHLUYE061e0wSbyqLB3dmKhLyBcYk3FrYCRpXoiTqPiO4y9V4YuAJONvW6X8l+eMtYzKSC72Jd9qO9SQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-8b76ad06ed51506cb5aa018ee450aaa1">ja3Ud4wLu3lqMjsCyx5cVLu4wrxKGpio/zFyG+ga7JOmH2HSniM4+eZ+782Uz/VpVUhzHZYK69CN6uRttPi2x9VpH4aqWl6+c3WIUJk997qMylpv/BvemX/xAk48cW4XXzaedrHykGNQI5WzDQjSLj77vNcFRwq55so1xvoY6TywvQlSuI7urT+EeQXdn67VhpjG9XMdBCLtxD4GOU0VT1L+SApWQLSwc5y0ZkDUDaDMdZYPdFdl7HOOCIr8klW8I9hwDS8MnlrJcU/G/HBXUgs6TiDcvyM1uUK43lzCStIA2U2d+KfQXqjQ7L5092uFykaCu1hL/IAoUPqne4oGPQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-8b76ad06ed51506cb5aa018ee450aaa1"><xades:SignedProperties Id="xades-id-8b76ad06ed51506cb5aa018ee450aaa1"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-12T12:38:56Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-943184dc1c4a515a3a68055b6b0c07bd"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>2lNvDFYx0CAtZT8Zm3gGpfDiM6HS/7BS1q+zC11CWeTxZr6mOjxqWfy6JopUIvpkjTbTRkyOpChjAwnp0f9Q2g==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-943184dc1c4a515a3a68055b6b0c07bd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>igfnYiPIqGlchju9+uRIq7vM++dig3BdI3OaLFIvO2IOM9X27nsyDpGBpwBHjIECa5/n3GgZH1cMWdP+ZgNQvA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-943184dc1c4a515a3a68055b6b0c07bd">KVMbYNC6p3fCfZbCCbYkSAKh1wUPcHt/8JKPsqOfr69c14ItJxctYPdTysn71reBgv598Zt/et2IoKyBxn+wo6OZH+SIVyIBkoO6fyTelqoLdtZ57T1sfV+gChFvy7HqDiZ9rOKdvY+k2fxYOWEsKJZeiPIqxGCevre8S3oXdd1XYT3tShrIgjNYrpD2VLAU/CZHnHgiH0Vlka1p/tFfFCK8wKg7dOj51J2MczlgnImC4YKevo1cq9ZABR07MQVFxWMlQykEvzcIYB4ZnE7fTPkI1A8EHBQQPlJKi17mFgMh+OXgjZQ9fcZPLZlVav4FUgn39BYnHZ+yEsJ7fOygng==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-943184dc1c4a515a3a68055b6b0c07bd"><xades:SignedProperties Id="xades-id-943184dc1c4a515a3a68055b6b0c07bd"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-21T09:49:33Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
