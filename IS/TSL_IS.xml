@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
-        <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>31</TSLSequenceNumber>
+        <TSLVersionIdentifier>6</TSLVersionIdentifier>
+        <TSLSequenceNumber>35</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Electronic Communications Office of Iceland</Name>
@@ -23,7 +23,7 @@
         </SchemeOperatorAddress>
         <SchemeName>
             <Name xml:lang="en">IS:Trusted list including information related to the qualified trust service providers which are supervised by the issuing Member State, together with information related to the qualified trust services provided by them, in accordance with the relevant provisions laid down in Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC.</Name>
-            <Name xml:lang="is">IS:Lagagrundvöllur fyrir innleiðingu á áreiðanlegum lista (e. Trusted List – TSL) yfir eftirlitsskylda vottunaraðila á Íslandi byggir á tilskipun Evrópuþingsins og ráðsins nr. 910/2014 frá 23. júlí 2014 um rafræna auðkenningu og trusta þjónustu fyrir rafræn viðskipti á innri markaði og niðurfellingu tilskipunar 1999/93EB.</Name>
+            <Name xml:lang="is">IS:Listi yfir eftirlitsskylda/faggilta vottunaraðila sem falla undir eftirlit/faggildingu í samræmi við viðeigandi eftirlit sem vísað er til telst uppfylla ákvæði reglugerðar (ESB) nr. 910/2014 Evrópuþingsins og ráðsins frá 23. júlí 2014 um rafræna auðkenningu og trausta þjónustu fyrir rafræn viðskipti á innri markaði og um niðurfellingu tilskipunar 1999/93/EB.</Name>
         </SchemeName>
         <SchemeInformationURI>
             <URI xml:lang="en">https://fjarskiptastofa.is/fjarskiptastofa/stafraent-oryggi/rafraen-audkenning-og-traustthjonusta/</URI>
@@ -36,7 +36,7 @@
         <SchemeTerritory>IS</SchemeTerritory>
         <PolicyOrLegalNotice>
             <TSLLegalNotice xml:lang="en">The applicable legal framework for the present trusted list is Regulation (EU) No 910/2014 of the European Parliament and of the Council of 23 July 2014 on electronic identification and trust services for electronic transactions in the internal market and repealing Directive 1999/93/EC.</TSLLegalNotice>
-            <TSLLegalNotice xml:lang="is">IS:Listi yfir eftirlitsskylda/faggilta vottunaraðila um  sem falla undir eftirlit/faggildingu í samræmi við viðeigandi eftirlit sem vísað er til telst uppfylla ákvæði reglugerðar (ESB) nr. 910/2014 Evrópuþingsins og ráðsins frá 23. júlí 2014 um rafræna auðkennigu og trausta þjónustu fyrir rafræn viðskipti á innri markaði og um niðurfellingu á tilskipun 1999/93/EC.</TSLLegalNotice>
+            <TSLLegalNotice xml:lang="is">Lagagrundvöllur fyrir innleiðingu á áreiðanlegum lista (e. Trusted List - TSL) yfir eftirlitsskylda vottunaraðila á Íslandi byggir á tilskipun Evrópuþingsins og ráðsins nr. 910/2014 frá 23. júlí 2014 um rafræna auðkenningu og trausta þjónustu fyrir rafræn viðskipti á innri markaði og um niðurfellingu tilskipunar 1999/93/EB.</TSLLegalNotice>
         </PolicyOrLegalNotice>
         <HistoricalInformationPeriod>65535</HistoricalInformationPeriod>
         <PointersToOtherTSL>
@@ -81,33 +81,33 @@
                 <TSLLocation>https://ec.europa.eu/tools/lotl/eu-lotl.xml</TSLLocation>
                 <AdditionalInformation>
                     <OtherInformation>
-                        <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
-                    </OtherInformation>
+            <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUlistofthelists</TSLType>
+          </OtherInformation>
                     <OtherInformation>
-                        <SchemeTerritory>EU</SchemeTerritory>
-                    </OtherInformation>
+            <SchemeTerritory>EU</SchemeTerritory>
+          </OtherInformation>
                     <OtherInformation>
-                        <ns3:MimeType>application/vnd.etsi.tsl+xml</ns3:MimeType>
-                    </OtherInformation>
+            <ns3:MimeType>application/vnd.etsi.tsl+xml</ns3:MimeType>
+          </OtherInformation>
                     <OtherInformation>
-                        <SchemeOperatorName>
+            <SchemeOperatorName>
                             <Name xml:lang="en">European Commission</Name>
                         </SchemeOperatorName>
-                    </OtherInformation>
+          </OtherInformation>
                     <OtherInformation>
-                        <SchemeTypeCommunityRules>
+            <SchemeTypeCommunityRules>
                             <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/schemerules/EUlistofthelists</URI>
                         </SchemeTypeCommunityRules>
-                    </OtherInformation>
+          </OtherInformation>
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-03-31T14:10:06Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-08-25T13:10:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-09-30T14:10:06Z</dateTime>
+            <dateTime>2026-02-24T13:10:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
-            <URI>https://fjarskiptastofa.is/library/skrar/tsl/tsl.xml</URI>
+            <URI>https://tsl.fjarskiptastofa.is/library/skrar/tsl/tsl.xml</URI>
         </DistributionPoints>
     </SchemeInformation>
     <TrustServiceProviderList>
@@ -132,6 +132,7 @@
                     <ElectronicAddress>
                         <URI xml:lang="en">http://www.audkenni.is</URI>
                         <URI xml:lang="en">mailto:audkenni@audkenni.is</URI>
+                        <URI xml:lang="en">tel:+354-530-0000</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
@@ -157,10 +158,10 @@
                         <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
-<AdditionalServiceInformation>
+                <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-                            </Extension>
+              </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -197,10 +198,10 @@
                         <StatusStartingTime>2018-06-20T22:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
-<AdditionalServiceInformation>
+                <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-                            </Extension>
+              </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
@@ -221,10 +222,10 @@
                             <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
                             <ServiceInformationExtensions>
 <Extension Critical="true">
-    <AdditionalServiceInformation>
+                  <AdditionalServiceInformation>
         <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
     </AdditionalServiceInformation>
-</Extension>
+                </Extension>
                             </ServiceInformationExtensions>
                         </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
@@ -266,10 +267,10 @@
                         <StatusStartingTime>2018-06-18T22:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
-<AdditionalServiceInformation>
+                <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-                            </Extension>
+              </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -295,15 +296,15 @@
                         <StatusStartingTime>2022-04-25T13:10:15Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
-<AdditionalServiceInformation>
+                <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
-                            </Extension>
+              </Extension>
                             <Extension Critical="false">
-<AdditionalServiceInformation>
+                <AdditionalServiceInformation>
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
-                            </Extension>
+              </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
@@ -329,6 +330,7 @@
                     <ElectronicAddress>
                         <URI xml:lang="en">https://www.advania.is/</URI>
                         <URI xml:lang="en">mailto:signet@signet.is</URI>
+                        <URI xml:lang="en">tel:+354-440-9000</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
@@ -402,4 +404,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-85c774ec10cf992f72409c57693498c5"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>LarkJ7Ah6VLflJrBHfV2zRDKnxHTwjXlQxBFU7pG3uM=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-85c774ec10cf992f72409c57693498c5"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>FS4aKa82L1Iia5HQcE1x+9I0HpaxQz18c5ysG7ARAgQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-85c774ec10cf992f72409c57693498c5">jt8Gbitbzr5gr1UgeBCRO7rJZdHftdhnvX832bsZWOlD56ium+JQyPCTQxD1Trg8txjBwWIfH2AsHgL9qt0bQ+qyCL+LVCRgH/zPKtWzHbDKJRPz6H6tlESHJpkrWq34tyx5c/aRE7rpnIx993jh/wnzUO68riLfCS14/tDhAifZUoGdn7b+U3fiZHIK2Aa7BF7YegpRTWcF1DUsx/91NQpJLaxLC2rYY5Wm397qpkdmMl93LKc3hx1+dH//vDuzeeVUCUo9LDHoc92NeQ62E9LK2tv+zoIGx2GdIhHpJUIrQWPBPxZtZi6G5mb/a/geMhrlhspd8FH1P/g/SYnoSg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-85c774ec10cf992f72409c57693498c5"><xades:SignedProperties Id="xades-id-85c774ec10cf992f72409c57693498c5"><xades:SignedSignatureProperties><xades:SigningTime>2025-03-31T14:12:23Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>BH+si30uFvYIvc6pCcjQ+1yWsK0ftVVswXiZAs3ZVKWzy/rJVwlmC8SnTVhMGuvu9z1Kha/qnh7LjUcs4CMtSg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Fullgilt audkenni,OU=Utgefandi fullgildra skilrikja,O=Audkenni hf.,2.5.4.5=#130a35323130303032373930,C=IS</ds:X509IssuerName><ds:X509SerialNumber>2325932</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-2e79c606e97e4bf69ebbf197f2d8f593"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vUG2QP2i9uBc0xIKZRjRpnTCHKO6V0O6BOVL1Jt97hm57X4gjWPPRnc98BTOLWpfc4KG0VcfHeFNG+gfKREHcg==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-2e79c606e97e4bf69ebbf197f2d8f593"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>zvul/we3zc2JSkCL+pAWpnoqDW5s+1RrR1Gmtvwd+UQGUASffNX8pXFlaXyV4ixK2OCPuGLjvbnvFvtZ7in3lg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-2e79c606e97e4bf69ebbf197f2d8f593">OSiRH2QqVPBRB26dMkY1CxYk0Qv0zvNINPw5PU1EcCNIsA4Vb2cL3TkYdwGGKJD/udWW7JPSdRSmCCKIe6uXwXZncDQl4PN3L+ouSheqG1a/qKA5qs67AK7L551ZyxTyTcHlStjD9mtFOfySD8XNd/GffNTq+db33eou0IF6rlXYGg9YikfwADFkrwPVBpZPJwbcJlXMQ3LUEPCly1QJGsu3abCxpjOELaAjiXw6hMAIenqrWuQJRHuAqG7aBHyT83JhlQWdY/UIcgG/QAhbFMuK5Llrqw3J3c3u9fVdHRhbsfyz2LIYlbOGd22whmEl+m/+of3fq/DF+FT+6X830g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-2e79c606e97e4bf69ebbf197f2d8f593"><xades:SignedProperties Id="xades-id-2e79c606e97e4bf69ebbf197f2d8f593"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-25T13:14:18Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>duGeToKd2e/gjmsF5c+SXpgoiDM5OvLmr7GAMtC15AKOT7L00suQiYQj7CHWRULVKff67dnLBwFKnj9heQgGBw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGTMH+kfTB7MQswCQYDVQQGEwJJUzEbMBkGA1UECgwSQXXDsGtlbm5pIHRlc3QgZWhmMRkwFwYDVQRhExBOVFJJUz01MjEwMDAyNzkwMR8wHQYDVQQDExZGdWxsZ2lsdCBhdWRrZW5uaSBUZXN0MRMwEQYDVQQFEwo1MjEwMDAyNzkwAhB6zc8ywt0szGM8zA4xKx7C</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
