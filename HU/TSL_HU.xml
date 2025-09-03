@@ -4,7 +4,7 @@
 *******************************************************************************
 	Application: TL
 	API:         A2-Polysys CryptoSigno Interop JAVA API v2.6.0 b160
-	Date:        2025. 06. 06. 10:20:29.623 CEST [2025-06-06T08:20:29Z]
+	Date:        2025. 08. 29. 10:41:46.840 CEST [2025-08-29T08:41:46Z]
 *******************************************************************************
 -->
 <tsl:TrustServiceStatusList xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
@@ -13,12 +13,12 @@
 *******************************************************************************
 	Application: TL 5.2.0.2023.02.03.173141
 	API:         A2 TSL API v3.5.4 b20221012
-	Date:        2025. 06. 06. 10:20:23.716 CEST [2025-06-06T08:20:23Z]
+	Date:        2025. 08. 29. 10:41:41.886 CEST [2025-08-29T08:41:41Z]
 *******************************************************************************
 -->
 <tsl:SchemeInformation>
 <tsl:TSLVersionIdentifier>5</tsl:TSLVersionIdentifier>
-<tsl:TSLSequenceNumber>90</tsl:TSLSequenceNumber>
+<tsl:TSLSequenceNumber>91</tsl:TSLSequenceNumber>
 <tsl:TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</tsl:TSLType>
 <tsl:SchemeOperatorName>
 <tsl:Name xml:lang="en">National Media and Infocommunications Authority, Hungary</tsl:Name>
@@ -396,8 +396,8 @@ j7QF9v88kto=
 </tsl:AdditionalInformation>
 </tsl:OtherTSLPointer>
 </tsl:PointersToOtherTSL>
-<tsl:ListIssueDateTime>2025-06-06T09:00:00Z</tsl:ListIssueDateTime>
-<tsl:NextUpdate><tsl:dateTime>2025-12-01T09:00:00Z</tsl:dateTime></tsl:NextUpdate>
+<tsl:ListIssueDateTime>2025-08-29T09:00:00Z</tsl:ListIssueDateTime>
+<tsl:NextUpdate><tsl:dateTime>2026-02-01T11:00:00Z</tsl:dateTime></tsl:NextUpdate>
 <tsl:DistributionPoints>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.xml</tsl:URI>
 <tsl:URI>http://www.nmhh.hu/tl/pub/HU_TL.pdf</tsl:URI>
@@ -23600,22 +23600,22 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>qHzTgP5M+x1/MSbcUpTM/0ob627CK9IDxGQQgnwPwzI=</ds:DigestValue>
+<ds:DigestValue>Jn2OPRDMHVtSvQYr6Ry0kssstXgHRftnVDOhy0pDPrA=</ds:DigestValue>
 </ds:Reference>
 <ds:Reference Id="Signature-1__Reference-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature-1__SignedProperties-1">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>RfXk0/5HNa3ifqtPKvWaw2IyE9dz48knIpoo06k99uQ=</ds:DigestValue>
+<ds:DigestValue>xK/fqE1Q0xBgIMAjBTfDfX6qTUAy9a14l4+m9Fy5LnY=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue Id="Signature-1__SignatureValue-1">
-WxLScYNwa385uA63xOvdGpzanT2YLHnvG6X8F7Ss7P5M7lUByYJAEjIMyImzq8XiCzshkcOTrx4X
-OIarle32DKhhcIv8XLIPSUVClOyccyW5a1PGfxPTGtfRJr/7H1Wm5SCxq75q60OBnxdqnUU9iWSn
-BqkQ0bdKh8t3kAEN786EtXSVEFSbXS1Zctpq5zux9YKUp3LJJfKGLO6iTQkXPpdr9b62IGVGfOm4
-jpAoBv5XiYnV8YEv5hE10kHQYGIJzUA9nSS5UgQ6heqN+zHWgTax2JQSYWnGDy1fKxhFQ7qel9Pq
-H45DBsvQF934lsLy/OyMgdqYgfrj/WfkjyOJQQ==
+gKAxIB0t/CiJzvDIBX/8wga8ZgqibIepiYrqetW7nwEYbwsg5UeWARn/+Ob8pOd1LmLBjPMSto8J
+/fz7a5H640RvUEZ9TW+D2BpXP4jJJJeFuFlYXAm+DfbVlzmqHIa8bQWehDmn65VXX78mty5f8FxS
+xIG2PASJhrZd2aZ7HnyeKYzkxl+aGle4TsEWum6k4lMHK3fVNewYrk8rxPSmaXkfLkQISHjHZftR
+qCe6+0+tPJC0Gt3UyTZeDf5zHWTqOm3pseoJrOVhF182CIG05Dlmevao5f+rRyDrjbNLVVFSl5mk
+50qhHpIqsn4njoAV1OrJm9j3boRlsAPr8bNnow==
 </ds:SignatureValue>
 <ds:KeyInfo Id="Signature-1__KeyInfo-1">
 <ds:X509Data>
@@ -23648,7 +23648,7 @@ FQunrd9d9Puv9yPmFmTc+KtkZWM8F2vdbd4Sgd6K2athG+hqQD2B/RC6Sy4UV7aC8QQjX/3hLHgA
 <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="Signature-1__QualifyingProperties-1" Target="#Signature-1">
 <xades:SignedProperties Id="Signature-1__SignedProperties-1">
 <xades:SignedSignatureProperties>
-<xades:SigningTime>2025-06-06T08:20:29Z</xades:SigningTime>
+<xades:SigningTime>2025-08-29T08:41:46Z</xades:SigningTime>
 <xades:SigningCertificate>
 <xades:Cert>
 <xades:CertDigest>
