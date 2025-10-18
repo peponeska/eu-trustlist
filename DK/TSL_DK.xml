@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>40</TSLSequenceNumber>
+        <TSLSequenceNumber>41</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Danish Agency for Digital Government// CVR:34051178</Name>
@@ -108,9 +108,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-06-17T13:51:12Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-10-17T08:57:46Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2025-12-17T14:51:12Z</dateTime>
+            <dateTime>2026-04-17T08:57:46Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.digst.dk/TSLDKxml</URI>
@@ -602,5 +602,111 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">IN Groupe Denmark A/S</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">NTRDK-30808460</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Teknikerbyen 5</StreetAddress>
+                            <Locality>Virum</Locality>
+                            <PostalCode>2830</PostalCode>
+                            <CountryName>DK</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@pki.ingroup.dk</URI>
+                        <URI xml:lang="en">https://www.ingroupe.com/</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://pki.ingroupe.dk/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">IN Groupe Denmark Qualified issuing CA I</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDNDCCApagAwIBAgIQRrfcjD5+lKUSAuHZACq6NzAKBggqhkjOPQQDBDBqMQswCQYDVQQGEwJESzEeMBwGA1UEChMVSU4gR3JvdXBlIERlbm1hcmsgQS9TMRcwFQYDVQRhEw5OVFJESy0zMDgwODQ2MDEiMCAGA1UEAxMZSU4gR3JvdXBlIERlbm1hcmsgUm9vdCBDQTAeFw0yNTA1MDkwOTQ0NDNaFw0zNTA1MDkwOTQ0NDNaMHkxCzAJBgNVBAYTAkRLMR4wHAYDVQQKExVJTiBHcm91cGUgRGVubWFyayBBL1MxFzAVBgNVBGETDk5UUkRLLTMwODA4NDYwMTEwLwYDVQQDEyhJTiBHcm91cGUgRGVubWFyayBRdWFsaWZpZWQgaXNzdWluZyBDQSBJMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAE+DGe09fD5TZKLInVpIldhqAoblIuQaj2n6MIeUtN/dbMMXQQiz3sVF/NcFGywDoMu4JaXHjAR7mgKleRN6K9DdNUUDvpfDnB1VWPYSG2Blsr3zQpuK5erRwWLQviqZCUo4HxMIHuMA8GA1UdEwEB/wQFMAMBAf8wHQYDVR0OBBYEFC/z2JKoVZsbATfkIyMItN0Mep8vMB8GA1UdIwQYMBaAFDirFfrH0b3XPB+BRcdEj63bj0fCMA4GA1UdDwEB/wQEAwIBBjBKBggrBgEFBQcBAQQ+MDwwOgYIKwYBBQUHMAKGLmh0dHBzOi8vcGtpLmluZ3JvdXBlLmRrL3JlcG9zaXRvcnkvY2Evcm9vdC5jcnQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9wa2kuaW5ncm91cGUuZGsvcmVwb3NpdG9yeS9jYS9yb290LmNybDAKBggqhkjOPQQDBAOBiwAwgYcCQUuX5yWnZuvE9rN+QUIbLZPJmozDy1bMkMNZZNjNqLlvNkNDR7ijlYEBguZkRgzH2nA4Rhmj4NwJBi2KHEVVjosIAkIBucDEXllQn4d7H64XmIv7X4hjbAGe/HNnV8A00hS01buRtv+6kjLLhrZYW2LoSC7Etum9D49ruAHrA3iEP3BxR7g=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=IN Groupe Denmark Qualified issuing CA I, OID.2.5.4.97=NTRDK-30808460, O=IN Groupe Denmark A/S, C=DK</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>L/PYkqhVmxsBN+QjIwi03Qx6ny8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-30T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">IN Groupe Denmark TimeStamping Unit I</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDKzCCAo2gAwIBAgIQU+NYJmt3a+TEkAi3ayAP2DAKBggqhkjOPQQDBDBqMQswCQYDVQQGEwJESzEeMBwGA1UEChMVSU4gR3JvdXBlIERlbm1hcmsgQS9TMRcwFQYDVQRhEw5OVFJESy0zMDgwODQ2MDEiMCAGA1UEAxMZSU4gR3JvdXBlIERlbm1hcmsgUm9vdCBDQTAeFw0yNTA1MTQxMjQxMDlaFw0zNTA1MTQxMjQxMDlaMHYxCzAJBgNVBAYTAkRLMR4wHAYDVQQKExVJTiBHcm91cGUgRGVubWFyayBBL1MxFzAVBgNVBGETDk5UUkRLLTMwODA4NDYwMS4wLAYDVQQDEyVJTiBHcm91cGUgRGVubWFyayBUaW1lU3RhbXBpbmcgVW5pdCBJMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEvWiT/4ySHLdiwA5eW1beag+9UEAY4/moCYy9aDGc1X771F8G9UWze7NZ5mhrvE6Y5hjsrznfE/749oKAZUaokKOCAQcwggEDMAwGA1UdEwEB/wQCMAAwFgYDVR0lAQH/BAwwCgYIKwYBBQUHAwgwHQYDVR0OBBYEFJTr5TGB2dSwBOdcQqomEsnJiZHaMB8GA1UdIwQYMBaAFDirFfrH0b3XPB+BRcdEj63bj0fCMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAoYuaHR0cHM6Ly9wa2kuaW5ncm91cGUuZGsvcmVwb3NpdG9yeS9jYS9yb290LmNydDAOBgNVHQ8BAf8EBAMCB4AwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cHM6Ly9wa2kuaW5ncm91cGUuZGsvcmVwb3NpdG9yeS9jYS9yb290LmNybDAKBggqhkjOPQQDBAOBiwAwgYcCQgDFljfbkdjkiXoxHRkhqq3BWOoJpPkjeSjISFKrM+Hz4RsXk2Q/1rLuQD4J9RnLjXJjU5XaF+mNIxXdGQ+uyD+PgQJBDdF0/n34xOj0Wd25pzWUqm1iJGCKDozxXFIqJz8zoccq/I1ef+dQwtBFs4pcpyhKvYuSvYT2NL2NxZgUv3mqVH0=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=IN Groupe Denmark TimeStamping Unit I, OID.2.5.4.97=NTRDK-30808460, O=IN Groupe Denmark A/S, C=DK</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lOvlMYHZ1LAE51xCqiYSycmJkdo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-30T23:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/PKC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">IN Groupe Denmark Advanced issuing CA I</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDNDCCApWgAwIBAgIQeAwwQFO/MR3Rp3vsr3f8PjAKBggqhkjOPQQDBDBqMQswCQYDVQQGEwJESzEeMBwGA1UEChMVSU4gR3JvdXBlIERlbm1hcmsgQS9TMRcwFQYDVQRhEw5OVFJESy0zMDgwODQ2MDEiMCAGA1UEAxMZSU4gR3JvdXBlIERlbm1hcmsgUm9vdCBDQTAeFw0yNTA3MDMxNDE5MjRaFw0zNTA3MDMxNDE5MjRaMHgxCzAJBgNVBAYTAkRLMR4wHAYDVQQKExVJTiBHcm91cGUgRGVubWFyayBBL1MxFzAVBgNVBGETDk5UUkRLLTMwODA4NDYwMTAwLgYDVQQDEydJTiBHcm91cGUgRGVubWFyayBBZHZhbmNlZCBpc3N1aW5nIENBIEkwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASjCM1Zqg/5k/FMLUyjyziQDUFfm5znpKHmXo5P7XPrt7P0WrmzJ4ifUj6J1gYUoZcV3j3UK2pELpI4vMzEW/J1+Z7GUMrSgJ0MOsNiQ9SjZ88BiKqBE2tm3OHr67rY98ujgfEwge4wDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUQisNU9qKnnDH1kd8RpU7MUQIQ8kwHwYDVR0jBBgwFoAUOKsV+sfRvdc8H4FFx0SPrduPR8IwDgYDVR0PAQH/BAQDAgEGMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAoYuaHR0cHM6Ly9wa2kuaW5ncm91cGUuZGsvcmVwb3NpdG9yeS9jYS9yb290LmNydDA/BgNVHR8EODA2MDSgMqAwhi5odHRwczovL3BraS5pbmdyb3VwZS5kay9yZXBvc2l0b3J5L2NhL3Jvb3QuY3JsMAoGCCqGSM49BAMEA4GMADCBiAJCASXWLFyZ+T66t2vx7lP4l22HASc3ngdda9iIjHsqwW4ARJ/f03zXjShi/BSGEvEA9C0xy+kSzYH7MZqR8rcO8h/sAkIBvaA5dzHc8Pam5DL5QsxlqywSgt/uPtuNaZi8EKq1ZkDgR1B+7oMEF9wQsLCmTSQfBuFrUqwG/fV7EtYVqoZbYJg=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=IN Groupe Denmark Advanced issuing CA I, OID.2.5.4.97=NTRDK-30808460, O=IN Groupe Denmark A/S, C=DK</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>QisNU9qKnnDH1kd8RpU7MUQIQ8k=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2025-11-30T23:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-c1ca6e42b5c5419e1954d17f86ebfb83"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>lW2d2XMpMQSXTwhPH4SdaKsQwMIZkuK555D64A5UZrgZbce4NBhAzSFWJgm24AZwOxpWLp93hcgB/Y9kTaEYvw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-c1ca6e42b5c5419e1954d17f86ebfb83"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>E3xmMElUbYBqoapCdwWEQPyRoCalCwYqr59lWUox01GLoflGG6mxHkDVK8kY6f9N0dhkWALKRoPoDQSlZUU5eA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-c1ca6e42b5c5419e1954d17f86ebfb83">qIU7jJ/FcqXPNaYngWCPguihwSyMn1iCGdYS5Jq75oCX1XHyoj7E1cHZ6NSN1Zg+YCnW3LemEixwNLeUsViwqx2GLU6qyEbAGjHfHcW5cuhyl78lRWHfDWVPj3gQ20OvLWYn4cA6GJavBL3ywQfQ6x51Ssr5D3QmmUtngqWIMS6VGilMb85y12+PZBbJowrPS/wrpAGaagJITAbHX2awKR2CxK4GBNm253mxmk+1QcZdZPQIWkj4KaN3M8WM4/8iW1PNt/oM3Udh788YAISr72jaNLU7M+ScZMsFfG1+888Zh2rLDaBm7xx1GV3jaIAfPi0yyLOndPvyfpgvInvkzZ0retukCHQVaevUtdUcB64oD7EzGQ0WNwbigsl1yHyYFE2hWR7rlbe1/76LqTArzHT7VsQkIxUgIffX2Qx3cobooSrtQcUFArbsd7lDJeR/vXmRxFwCgyIZ7+Z8EcxlRjNPZhrN4t/kMAKBQX3jvcLaEh9iuBPiOXGPaTG0sWxq</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-c1ca6e42b5c5419e1954d17f86ebfb83"><xades:SignedProperties Id="xades-id-c1ca6e42b5c5419e1954d17f86ebfb83"><xades:SignedSignatureProperties><xades:SigningTime>2025-06-17T14:10:37Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>cf0hq3MCfXzsldpAW0QbCfRh311VLwbWDCrP2cncvY4RvJy4WGhYJoN5rrCasA23Aibso0OzJktWRaef9kvAjQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=DK,O=Den Danske Stat,CN=Den Danske Stat OCES udstedende-CA 1</ds:X509IssuerName><ds:X509SerialNumber>696812058889933225407351448346079599943246898751</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-4b6b2c4ff185d20ce77c7b290aa6f175"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>AvglIC0uzkMu8Uyd7O6N3b5wgzNgEbg5S9mHbKS+83GJc9cph96uii1Px/MEVPYsiWr7jJxl5lT9MGSLoV9ZYQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-4b6b2c4ff185d20ce77c7b290aa6f175"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>FT5ZiR+tDAnLOcIx7TDml+1Lnu3GMbKgqep2WNQFU8qz8KL7a+OEB/Z4ukInOwv6MnkYtYnl5xDz0wq9mdVFcA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-4b6b2c4ff185d20ce77c7b290aa6f175">c2axO6iv3DZWpVw49+Kyv7vpZLDex5BH1z3JBaM8umVK1hJgjDWbgvsGLCrPCMlMUCyTzZgSQ4CxwhGwZ9mF1YMlFz1bHx2iO3M00ANGlBAs/REEX+m+pJ5P2jJzRaTLZhR5W8pzRGDWHpxw5+98YPJ+4ycsm5z3qVWsPVENxVLbFhT705ZTmCKWof4nxwMnq2haQ56SvlK7mNTJJI+aCdZlGlSUQmpll5K1mAgeT3qJQqc5BqC8Upe9+5TvwyKCwVZNfOdd8FKDRp3xEy/HLQL7YEVjdvR3ENCXCIScag/JFBenEWrt3FtWRYGYn0jYoVGkVqKgF7ugQvvNYDAZRMPNtviqHIYtZQXtG2iAVMRmvC2Vn7mHs12ONeJSZRasKZ/3yYmcuBnJqzYkT6JQ0zJGKgqv5Rijr//KaOJIYB52LTsm5M2xtQCoCEdwFdRMEoE6uJkMb/H1tHESXTjDG9MMFIs1UHj/H8l3O0i9WLc/rw9BOKpddv0QjIzpiCv8</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-4b6b2c4ff185d20ce77c7b290aa6f175"><xades:SignedProperties Id="xades-id-4b6b2c4ff185d20ce77c7b290aa6f175"><xades:SignedSignatureProperties><xades:SigningTime>2025-10-17T09:28:03Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>cf0hq3MCfXzsldpAW0QbCfRh311VLwbWDCrP2cncvY4RvJy4WGhYJoN5rrCasA23Aibso0OzJktWRaef9kvAjQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=DK,O=Den Danske Stat,CN=Den Danske Stat OCES udstedende-CA 1</ds:X509IssuerName><ds:X509SerialNumber>696812058889933225407351448346079599943246898751</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
