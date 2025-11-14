@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="LT-TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>80</TSLSequenceNumber>
+        <TSLSequenceNumber>82</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Communications Regulatory Authority of the Republic of Lithuania</Name>
@@ -114,9 +114,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-10-06T10:41:53Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-11-13T14:11:09Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-04-06T10:41:53Z</dateTime>
+            <dateTime>2026-05-13T13:11:09Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://elektroninisparasas.lt/LT-TSL.xml</URI>
@@ -5805,5 +5805,158 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Migration Department under the Ministry of the Interior of the Republic of Lithuania</Name>
+                    <Name xml:lang="lt">Migracijos departamentas prie Lietuvos Respublikos vidaus reikalų ministerijos</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Migration Department</Name>
+                    <Name xml:lang="lt">Migracijos departamentas</Name>
+                    <Name xml:lang="en">NTRLT-188610666</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>L. Sapiegos str. 1</StreetAddress>
+                            <Locality>Vilnius</Locality>
+                            <PostalCode>LT-10312</PostalCode>
+                            <CountryName>LT</CountryName>
+                        </PostalAddress>
+                        <PostalAddress xml:lang="lt">
+                            <StreetAddress>L. Sapiegos g. 1</StreetAddress>
+                            <Locality>Vilnius</Locality>
+                            <PostalCode>LT-10312</PostalCode>
+                            <CountryName>LT</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:info@migracija.gov.lt</URI>
+                        <URI xml:lang="en">https://www.nsc.vrm.lt/default_en.htm</URI>
+                        <URI xml:lang="lt">https://www.nsc.vrm.lt/default.htm</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.nsc.vrm.lt/policies_en.htm</URI>
+                    <URI xml:lang="lt">https://www.nsc.vrm.lt/policies.htm</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MD_Qualified_certificates_for_electronic signature_1 (MD CA)</Name>
+                            <Name xml:lang="lt">MD_Kvalifikuoti_elektroninio_parašo_sertifikatai_1 (MD CA)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDrTCCAw6gAwIBAgIOEHekeNcYL7oAAAAAAAUwCgYIKoZIzj0EAwQwZTELMAkGA1UEBhMCTFQxEjAQBgNVBGETCTE4ODYxMDY2NjEtMCsGA1UEChMkTWlncmFjaWpvcyBkZXBhcnRhbWVudGFzIHByaWUgTFIgVlJNMRMwEQYDVQQDEwpNRCBSb290IENBMB4XDTI1MDgyNzA4MjIwN1oXDTM1MDgyNzA4MjIwN1owYDELMAkGA1UEBhMCTFQxEjAQBgNVBGETCTE4ODYxMDY2NjEtMCsGA1UEChMkTWlncmFjaWpvcyBkZXBhcnRhbWVudGFzIHByaWUgTFIgVlJNMQ4wDAYDVQQDEwVNRCBDQTB2MBAGByqGSM49AgEGBSuBBAAiA2IABE9cbF7U3Bq5/pioIZEPllhdulIbBACQ7iozCQ0yjjdzOIBF8v2PzFe47K6SMx1Gy1Hz7AI+CDR5FIpeySc5y9KemCXOMRThkkMREc2hwWB5jTzJIYedqSN9h6l/DQHzcaOCAYgwggGEMA4GA1UdDwEB/wQEAwIBBjAQBgkrBgEEAYI3FQEEAwIBADAdBgNVHQ4EFgQUb5wkLFmM0HRhSBMzKYX79YNC6WcwRAYDVR0gBD0wOzA5BgRVHSAAMDEwLwYIKwYBBQUHAgEWI2h0dHBzOi8vd3d3Lm5zYy52cm0ubHQvcG9saWNpZXMuaHRtMBkGCSsGAQQBgjcUAgQMHgoAUwB1AGIAQwBBMA8GA1UdEwEB/wQFMAMBAf8wHwYDVR0jBBgwFoAUmHezl4VcUpgG06gLU3xj800HTpcwNQYDVR0fBC4wLDAqoCigJoYkaHR0cDovL25zYy52cm0ubHQvY2RwL01EX1Jvb3RfQ0EuY3JsMHcGCCsGAQUFBwEBBGswaTA1BggrBgEFBQcwAYYpaHR0cDovL25zYy52cm0ubHQvT0NTUDIvb2NzcHJlc3BvbmRlci5uc2MwMAYIKwYBBQUHMAKGJGh0dHA6Ly9uc2MudnJtLmx0L2FpYS9NRF9Sb290X0NBLmNydDAKBggqhkjOPQQDBAOBjAAwgYgCQgC+7U5/7OXd8Q43GX0faybylZpE+xHw8uFOTufjcNYoSbRW6svkrog7EIEa3kpZVoznww+FJ0/+sb0wmVB5O+NL9AJCAK0eigoLQa+gUJpGxXe4g3xnstonNGN5fkVOlTclwTUTBqGs+7tTa8yFYCjJIArTNQpwAwpHd9n5B4WUb92+U3f5</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=MD CA, O=Migracijos departamentas prie LR VRM, OID.2.5.4.97=188610666, C=LT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>b5wkLFmM0HRhSBMzKYX79YNC6Wc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-13T14:15:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MD_OCSP_Service_1 (OCSP for MD CA)</Name>
+                            <Name xml:lang="lt">MD_OCSP_Paslauga_1 (OCSP for MD CA)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIChTCCAgugAwIBAgIOaZtSXex25S4AAAAAAAcwCgYIKoZIzj0EAwMwYDELMAkGA1UEBhMCTFQxEjAQBgNVBGETCTE4ODYxMDY2NjEtMCsGA1UEChMkTWlncmFjaWpvcyBkZXBhcnRhbWVudGFzIHByaWUgTFIgVlJNMQ4wDAYDVQQDEwVNRCBDQTAeFw0yNTA5MTAxMTI1MzFaFw0zMDA5MDkxMTI1MzFaMFUxCzAJBgNVBAYTAkxUMS0wKwYDVQQKEyRNaWdyYWNpam9zIGRlcGFydGFtZW50YXMgcHJpZSBMUiBWUk0xFzAVBgNVBAMTDk9DU1AgZm9yIE1EIENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEs4eJFeEbYH5h6ipcEvwLMDBKmCuViPd/W28ABrHYSIDEr0pnmm/6VHRbixP5kYA+n5M4Kufk+cjCQDhVQXDK4tSS6ScWaGopV+LXqhh0jgOwjbRn3UIv5/nZoVfQAHxDo4GWMIGTMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDCTAbBgkrBgEEAYI3FQoEDjAMMAoGCCsGAQUFBwMJMB0GA1UdDgQWBBTQMEOKQ0gWjunDliWtzBJxn1dOGTAfBgNVHSMEGDAWgBRvnCQsWYzQdGFIEzMphfv1g0LpZzAPBgkrBgEFBQcwAQUEAgUAMAoGCCqGSM49BAMDA2gAMGUCMQC8JP+JN7iuQSz6DsqpGBclsFhEAL4v7htBobNwYOLPB9KxtpSVWaCWWkquy7/aKN4CMG9ayvDdfB3GBw9xCtD3kR8nuALj6MhUBS3zHOJ34DMn9MZbGlPIO7z/jFBqzL1Nqw==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=OCSP for MD CA, O=Migracijos departamentas prie LR VRM, C=LT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>0DBDikNIFo7pw5YlrcwScZ9XThk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-11-13T14:50:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">MD_OCSP_Service_1 (OCSP for MD CA)</Name>
+<Name xml:lang="lt">MD_OCSP_Paslauga_1 (OCSP for MD CA)</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=OCSP for MD CA, O=Migracijos departamentas prie LR VRM, C=LT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>0DBDikNIFo7pw5YlrcwScZ9XThk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-11-13T14:15:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">MD_OCSP_Service_1 (OCSP for MD CA)</Name>
+                            <Name xml:lang="lt">MD_OCSP_Paslauga_1 (OCSP for MD CA)</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIChTCCAgugAwIBAgIOaZtSXex25S4AAAAAAAcwCgYIKoZIzj0EAwMwYDELMAkGA1UEBhMCTFQxEjAQBgNVBGETCTE4ODYxMDY2NjEtMCsGA1UEChMkTWlncmFjaWpvcyBkZXBhcnRhbWVudGFzIHByaWUgTFIgVlJNMQ4wDAYDVQQDEwVNRCBDQTAeFw0yNTA5MTAxMTI1MzFaFw0zMDA5MDkxMTI1MzFaMFUxCzAJBgNVBAYTAkxUMS0wKwYDVQQKEyRNaWdyYWNpam9zIGRlcGFydGFtZW50YXMgcHJpZSBMUiBWUk0xFzAVBgNVBAMTDk9DU1AgZm9yIE1EIENBMHYwEAYHKoZIzj0CAQYFK4EEACIDYgAEs4eJFeEbYH5h6ipcEvwLMDBKmCuViPd/W28ABrHYSIDEr0pnmm/6VHRbixP5kYA+n5M4Kufk+cjCQDhVQXDK4tSS6ScWaGopV+LXqhh0jgOwjbRn3UIv5/nZoVfQAHxDo4GWMIGTMA4GA1UdDwEB/wQEAwIHgDATBgNVHSUEDDAKBggrBgEFBQcDCTAbBgkrBgEEAYI3FQoEDjAMMAoGCCsGAQUFBwMJMB0GA1UdDgQWBBTQMEOKQ0gWjunDliWtzBJxn1dOGTAfBgNVHSMEGDAWgBRvnCQsWYzQdGFIEzMphfv1g0LpZzAPBgkrBgEFBQcwAQUEAgUAMAoGCCqGSM49BAMDA2gAMGUCMQC8JP+JN7iuQSz6DsqpGBclsFhEAL4v7htBobNwYOLPB9KxtpSVWaCWWkquy7/aKN4CMG9ayvDdfB3GBw9xCtD3kR8nuALj6MhUBS3zHOJ34DMn9MZbGlPIO7z/jFBqzL1Nqw==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=OCSP for MD CA, O=Migracijos departamentas prie LR VRM, C=LT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>0DBDikNIFo7pw5YlrcwScZ9XThk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-13T14:40:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-5d670eb36d5c91e52423881238991351"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>AxbHldlUQHpxt4ziA9ZhactbEhwoFLVHsG3a3B4Ip32BHnIBBngwf2ZkqRhKSGSmPh/CGIFnbJtZ50WwEJ60bQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-5d670eb36d5c91e52423881238991351"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>syp5UarO3C1nHXX71NvQavK5nHOKc028y1eACXV5/8U5Bkt5RV3uUIUO0vRt2DqfrPhgjspWh50hD2DSSJPk0w==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-5d670eb36d5c91e52423881238991351">dREPJOwuZyP2xyvabZ8wDKAYqfHPdGu40GtgRSLIAUyLXe7f18wljPEyqoBtz3o1Aa6QTJMrdrSzFlED9xAygYi2Ba/0h86efrCA2x/oW/BOQQC76MPPebhw92JkTNXOZo1IDVDoM/9tfbDCLXtRdmuw4As4fMGSd7om/7LROOZcvLMTmwS8Pd38jQb4fHtuKdONc7+VBCwGLx/QFQ8lxfLbLJpk3peXu0k3rBiYDcDsO+QfE/pG0w87386lSzxLHthwKJ6PLAif599zk06yB2GPDjGl3JkwH7EZrUUyBkI17uQfdPNjxaPeogAJgJIxYycTTJ2zJXbEOTmSILB0Mg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECDCCAvCgAwIBAgIFEj2M/kIwDQYJKoZIhvcNAQELBQAweTELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHzAdBgNVBAMMFkRhcml1cyBNaWNoYWxjZXZpw6hpdXMwHhcNMjUwNzMxMDAwMDAwWhcNMzAxMDMwMDAwMDAwWjB5MQswCQYDVQQGEwJMVDFJMEcGA1UECgxAQ29tbXVuaWNhdGlvbnMgUmVndWxhdG9yeSBBdXRob3JpdHkgb2YgdGhlIFJlcHVibGljIG9mIExpdGh1YW5pYTEfMB0GA1UEAwwWRGFyaXVzIE1pY2hhbGNldmnDqGl1czCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXtrQW2emWhH/Bx/u1BBBo0R9fH72PPkWNP9RHnF13iFPSG41ohDn1aHFoUFV3nVSFqQnHShJ0mfiGGnRKeVJA6p58N0/PhDa0zEMfwdCR+bHH7lhCuH4C5++C+72dGo6YrlM2REHK6q1F+4ZvFiowxCXgOQcLHOO43JWZrWLxqjDbg1ts+Vy2s0/ojS6mictM2VqmJbpwLFSEeLucdADuqRi31irVxD7Fface1cMgum3BxlIkatxrQmVR2q24VSmrZlLMz4ewpTSMwPXASMevwLyfrh08HQWsCtliZVVulP8m0GCzWf2RqiyrCjmX04vu8j6iR0lDiO22cK0tTHyUCAwEAAaOBljCBkzAdBgNVHQ4EFgQUILziyZUuKX4eX/o6O7Zy0b8qrWwwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwEQYDVR0gBAowCDAGBgRVHSAAMCcGA1UdEQQgMB6BHGRhcml1cy5taWNoYWxjZXZpY2l1c0BycnQubHQwGwYDVR0lBBQwEgYIKwYBBQUHAwMGBgQAkTcDADANBgkqhkiG9w0BAQsFAAOCAQEALuB39C7+QZkrgVL/CqBrFyzo5/c+jOVdj0PEDAxsrINb0oZNkJD+EUMqpLVASENkt5RKf560hmRe2Q8kD0357ucEonuEQTpYFYdqs/D/q2XVEEwVOR4SctVfmQwmtuLqPjbIG9A0wKzLLeRrucsKJUg+2YW5bCTqKpyBs/zG4OY/5TMEbni1QReUx/QoMYSUeiHJ2EUMNW2POSSlDmzHWTJTCjcg+cu8+9oNGgJakIwxWDFRmlanYSbWZkjLN4+MRkF9TSs9umMc3yf10LYJvTWZ4WJPIQhbpb9apl9IKz0CzEd11gI8lYisFiNfcF4UKez+c/5K2VlgVa/PrvqPQQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-5d670eb36d5c91e52423881238991351"><xades:SignedProperties Id="xades-id-5d670eb36d5c91e52423881238991351"><xades:SignedSignatureProperties><xades:SigningTime>2025-10-06T10:48:13Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>JMyq2d2VZHl13NpHKe2ETEBYtd+drwGANwQOp3SULMFOgPAjBdrK6jX3aP22IKPOZh0QsxohuMAyX7vm3rzT/g==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Darius Michalcevièius,O=Communications Regulatory Authority of the Republic of Lithuania,C=LT</ds:X509IssuerName><ds:X509SerialNumber>78342061634</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-94beae0353bc09b5f4bb68afba46d220"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>G5eWWgRylDod1Fnxz6ID6k6cS5cu7M2dSgBoc8/BY+JrlZX778VLheKpd5qF6AM0tffUDF+bSyMPWcsEQH63nQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-94beae0353bc09b5f4bb68afba46d220"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>j4jsgmNhxWMAPK5h3GT+w0sk9fo3NgJ8o8o2xy5hvaLtBiRKLk3wJvrOrNnAxJt7XGFJHeQ/UxQ9ZB+r4bBpgg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-94beae0353bc09b5f4bb68afba46d220">XZ4ecahHe10kf21gRnyBqljM35yo4siN4CKjGGMbSwrPHp1uFzrhEoj/v5R3nzRizJhA3MScU7u1Eaa51uM84jTxvamLNKkW+OjWnF7XrJWXv0iJsrPdAMMePDpgntkoJF114ZmNc7UtORkUzAKvxtyleWJFE1BZcK52h123/1ACSRy28zOtZWvDW96+FpOYn3vqYz0OblqOAB7eCLOXp/Qxe4rJWH4vjWGKZ5/XIiAVsf4d0UfuCwAukI5jc9ptO1i4VKpZmluc6+ICNgHYt1op2iqd+LwhKVml5mI3IwVkHjvo0ChjVzPk/jj+R5L7Nze9rNzoPzGS6Ja+lqAleQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIECDCCAvCgAwIBAgIFEj2M/kIwDQYJKoZIhvcNAQELBQAweTELMAkGA1UEBhMCTFQxSTBHBgNVBAoMQENvbW11bmljYXRpb25zIFJlZ3VsYXRvcnkgQXV0aG9yaXR5IG9mIHRoZSBSZXB1YmxpYyBvZiBMaXRodWFuaWExHzAdBgNVBAMMFkRhcml1cyBNaWNoYWxjZXZpw6hpdXMwHhcNMjUwNzMxMDAwMDAwWhcNMzAxMDMwMDAwMDAwWjB5MQswCQYDVQQGEwJMVDFJMEcGA1UECgxAQ29tbXVuaWNhdGlvbnMgUmVndWxhdG9yeSBBdXRob3JpdHkgb2YgdGhlIFJlcHVibGljIG9mIExpdGh1YW5pYTEfMB0GA1UEAwwWRGFyaXVzIE1pY2hhbGNldmnDqGl1czCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAMXtrQW2emWhH/Bx/u1BBBo0R9fH72PPkWNP9RHnF13iFPSG41ohDn1aHFoUFV3nVSFqQnHShJ0mfiGGnRKeVJA6p58N0/PhDa0zEMfwdCR+bHH7lhCuH4C5++C+72dGo6YrlM2REHK6q1F+4ZvFiowxCXgOQcLHOO43JWZrWLxqjDbg1ts+Vy2s0/ojS6mictM2VqmJbpwLFSEeLucdADuqRi31irVxD7Fface1cMgum3BxlIkatxrQmVR2q24VSmrZlLMz4ewpTSMwPXASMevwLyfrh08HQWsCtliZVVulP8m0GCzWf2RqiyrCjmX04vu8j6iR0lDiO22cK0tTHyUCAwEAAaOBljCBkzAdBgNVHQ4EFgQUILziyZUuKX4eX/o6O7Zy0b8qrWwwCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBsAwEQYDVR0gBAowCDAGBgRVHSAAMCcGA1UdEQQgMB6BHGRhcml1cy5taWNoYWxjZXZpY2l1c0BycnQubHQwGwYDVR0lBBQwEgYIKwYBBQUHAwMGBgQAkTcDADANBgkqhkiG9w0BAQsFAAOCAQEALuB39C7+QZkrgVL/CqBrFyzo5/c+jOVdj0PEDAxsrINb0oZNkJD+EUMqpLVASENkt5RKf560hmRe2Q8kD0357ucEonuEQTpYFYdqs/D/q2XVEEwVOR4SctVfmQwmtuLqPjbIG9A0wKzLLeRrucsKJUg+2YW5bCTqKpyBs/zG4OY/5TMEbni1QReUx/QoMYSUeiHJ2EUMNW2POSSlDmzHWTJTCjcg+cu8+9oNGgJakIwxWDFRmlanYSbWZkjLN4+MRkF9TSs9umMc3yf10LYJvTWZ4WJPIQhbpb9apl9IKz0CzEd11gI8lYisFiNfcF4UKez+c/5K2VlgVa/PrvqPQQ==</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-94beae0353bc09b5f4bb68afba46d220"><xades:SignedProperties Id="xades-id-94beae0353bc09b5f4bb68afba46d220"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-13T14:52:18Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>JMyq2d2VZHl13NpHKe2ETEBYtd+drwGANwQOp3SULMFOgPAjBdrK6jX3aP22IKPOZh0QsxohuMAyX7vm3rzT/g==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=Darius Michalcevièius,O=Communications Regulatory Authority of the Republic of Lithuania,C=LT</ds:X509IssuerName><ds:X509SerialNumber>78342061634</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
