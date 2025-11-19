@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID100001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>214</TSLSequenceNumber>
+        <TSLSequenceNumber>215</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="it">Agenzia per l'Italia Digitale</Name>
@@ -110,9 +110,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-10-14T13:38:48Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-11-18T10:51:18Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-04-14T13:38:48Z</dateTime>
+            <dateTime>2026-05-18T09:51:18Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://eidas.agid.gov.it/TL/TSL-IT.xml</URI>
@@ -11710,6 +11710,62 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CN=Intesa Sanpaolo Qualified Electronic Signature CA B1, OID.2.5.4.97=VATIT-11991500015, OU=Qualified Trust Service Provider, O=Intesa Sanpaolo S.p.A., C=IT</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDMTCCAregAwIBAgIURlUrX20KYQl+ciP5DmX7lGWOzWkwCgYIKoZIzj0EAwMwgbQxCzAJBgNVBAYTAklUMR8wHQYDVQQKDBZJbnRlc2EgU2FucGFvbG8gUy5wLkEuMSkwJwYDVQQLDCBRdWFsaWZpZWQgVHJ1c3QgU2VydmljZSBQcm92aWRlcjEaMBgGA1UEYQwRVkFUSVQtMTE5OTE1MDAwMTUxPTA7BgNVBAMMNEludGVzYSBTYW5wYW9sbyBRdWFsaWZpZWQgRWxlY3Ryb25pYyBTaWduYXR1cmUgQ0EgQjEwHhcNMjUwMzA3MTA0NDM0WhcNNDEwMzA3MTA0NDMzWjCBtDELMAkGA1UEBhMCSVQxHzAdBgNVBAoMFkludGVzYSBTYW5wYW9sbyBTLnAuQS4xKTAnBgNVBAsMIFF1YWxpZmllZCBUcnVzdCBTZXJ2aWNlIFByb3ZpZGVyMRowGAYDVQRhDBFWQVRJVC0xMTk5MTUwMDAxNTE9MDsGA1UEAww0SW50ZXNhIFNhbnBhb2xvIFF1YWxpZmllZCBFbGVjdHJvbmljIFNpZ25hdHVyZSBDQSBCMTB2MBAGByqGSM49AgEGBSuBBAAiA2IABD/e3dM5NWVDM2Ok5+W9FEyXR2+I2c/Dyp5lj38PiwIm53UxifF61PRtcZdY1O86vlGwkFgATq4mtdzmRp1fjvQeRZEFPDomBbXy9jDxBFb3PmgI7AX8vgv0rRDRk5Piw6OBhzCBhDASBgNVHRMBAf8ECDAGAQH/AgEAMD8GA1UdIAQ4MDYwNAYEVR0gADAsMCoGCCsGAQUFBwIBFh5odHRwczovL2NhLmludGVzYXNhbnBhb2xvLmNvbS8wHQYDVR0OBBYEFP7jcTzdZ75q6UV2dlO7ZZxpvYZlMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjEAinQxYg27rpjTtQNBRyGHywLw+vq1yTRO/BrXkCWkB46v+yF9uA3gpALab6arYat/AjBk0WG6BzB9XrCFfg2wznylryGnSaOxgq4Ri5sgX4vitJlMXZ1dXOpzbteGLvsdCUY=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Intesa Sanpaolo Qualified Electronic Signature CA B1, OID.2.5.4.97=VATIT-11991500015, OU=Qualified Trust Service Provider, O=Intesa Sanpaolo S.p.A., C=IT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>/uNxPN1nvmrpRXZ2U7tlnGm9hmU=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-18T13:50:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">CN=Intesa Sanpaolo S.p.A. IdenTrust Certification Authority B1, OID.2.5.4.97=VATIT-11991500015, OU=Intesa Sanpaolo S.p.A. IdenTrust Infrastructure, O=Intesa Sanpaolo S.p.A., C=IT</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Intesa Sanpaolo S.p.A. IdenTrust Certification Authority B1, OID.2.5.4.97=VATIT-11991500015, OU=Intesa Sanpaolo S.p.A. IdenTrust Infrastructure, O=Intesa Sanpaolo S.p.A., C=IT</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>6RfgDBktmtpalg62q/a9S1Y8A08=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-18T13:50:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -14955,8 +15011,8 @@
 <X509SKI>p1tAHH8l4lmf5JnkD2Cf/i9GQe4=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2017-03-31T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/deprecatedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2025-11-18T17:50:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <ns3:TakenOverBy>
@@ -14973,6 +15029,36 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Regione Autonoma della Sardegna - CA Cittadini, OU=Servizi di Certificazione, O=Postecom S.p.A., C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Regione Autonoma della Sardegna - CA Cittadini, OU=Servizi di Certificazione, O=Postecom S.p.A., C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>p1tAHH8l4lmf5JnkD2Cf/i9GQe4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2017-03-31T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <ns3:TakenOverBy>
+        <ns3:URI xml:lang="en">http://postecert.poste.it/TSPdoc/TakenOverBy.shtml</ns3:URI>
+        <ns3:TSPName>
+            <Name xml:lang="en">Poste Italiane S.p.A.</Name>
+        </ns3:TSPName>
+        <SchemeOperatorName>
+            <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+        </SchemeOperatorName>
+        <SchemeTerritory>IT</SchemeTerritory>
+    </ns3:TakenOverBy>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
                             <ServiceName>
@@ -15008,8 +15094,8 @@
 <X509SKI>FSbs3HbmYLdsqh2kQGXw5bxyoCk=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2017-03-31T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/deprecatedatnationallevel</ServiceStatus>
+                        <StatusStartingTime>2025-11-18T10:50:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <ns3:TakenOverBy>
@@ -15026,6 +15112,36 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Regione Siciliana - CA Cittadini, OU=Servizi di Certificazione, O=Postecom S.p.A., C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Regione Siciliana - CA Cittadini, OU=Servizi di Certificazione, O=Postecom S.p.A., C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>FSbs3HbmYLdsqh2kQGXw5bxyoCk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2017-03-31T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <ns3:TakenOverBy>
+        <ns3:URI xml:lang="en">http://postecert.poste.it/TSPdoc/TakenOverBy.shtml</ns3:URI>
+        <ns3:TSPName>
+            <Name xml:lang="en">Poste Italiane S.p.A.</Name>
+        </ns3:TSPName>
+        <SchemeOperatorName>
+            <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+        </SchemeOperatorName>
+        <SchemeTerritory>IT</SchemeTerritory>
+    </ns3:TakenOverBy>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/IdV</ServiceTypeIdentifier>
                             <ServiceName>
@@ -28987,4 +29103,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-cacb0eca11a14dfdfed6b81d42621e4b"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" Type="" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RKKb3HB6HG7CWYCxVFBFdmkw/GklW6Qq3JxVi9lEvZs=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-cacb0eca11a14dfdfed6b81d42621e4b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>RKdqbDhz7/rj03cr30iehYxgeo06FECc/tK86dChOCw=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-cacb0eca11a14dfdfed6b81d42621e4b">DZHmbvJ3Ewq48GZIhvTzlIl49SRSKh0t/Ee1LCIFwaZc2e9tD0GwpXMtxt+886CEekOg27ZGKTJJI+zJsw8/7rSUxKJF79vCxkBJj14Qm70+cM1KBMrEznEdZGrW0N+cew/mIrdIp+3AS8QeuzGH3Feov0xltGY5h6rWNUsD5xJnTQHNXsFMIJJNk32YOPZIN6G69V3YWBNAZ9zrUzExG7hhYqfcgXLwj0naDLYYzOJSJ4WSqtKVMNylt6BqNtBx/5DIB6Lr+RfYJUcAWd55wIKxb0Kx3W3kO/k87lb2oyQk2u+90zXAacyZjHusajrec+aEgRmLK67l0g/P0dmp0w==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFUTCCBDmgAwIBAgIQZTsBHXHnMEWLMsMhC1buxjANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMRowGAYDVQQFDBFWQVRJVC05NzczNTAyMDU4NDENMAsGA1UEAwwEQWdJRDEhMB8GCSqGSIb3DQEJARYSaXRfdHNsQGFnaWQuZ292Lml0MB4XDTIwMTIwMTA5MzQ0MVoXDTI2MDExNDA5MzQ0MVowgbMxCzAJBgNVBAYTAklUMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEvMC0GA1UECwwmSXRhbGlhbiBUcnVzdGVkIExpc3QgTWFuYWdlbWVudCBPZmZpY2UxGTAXBgNVBAUMEFZBVElULTk3NzM1MDIwNTgxDTALBgNVBAMMBEFnSUQxITAfBgkqhkiG9w0BCQEWEml0X3RzbEBhZ2lkLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxsC/kmEJJO7/hcupCbonzR0UBxgO2Qud6/M4kvAE1NyRdd6soE6wLFSUcIoZCw6by31ddfaNTJbFkevNDUS31u2ycsOqMobPm/uTOTNpDhMLrsncY5O8aSGNYYMVn9Og2AtDhYDdkqnWR4jigzgTSJ/Fk5PFJarFZ/tk+kl3jLvrI9qOP861yQ+QCc/I+C04ugcpDONwkoWukZJtHayVrOoUZwgQGHBVFeD4nFbdZFH33le9YHN9vg7lczdTbLsYhEJp0WUwMsewC/NuPJ/grpr7hj6UcM4h4qEC/eS5d63pZHnwXqvgMW1AN6P38sSbXdd+45hDDcxVBhQ/JH5M8CAwEAAaOCAY0wggGJMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgbAMB0GA1UdDgQWBBSGmjb0h4WtXP3TDc0Njk9qZcpSNDARBgNVHSUECjAIBgYEAJE3AwAwOQYDVR0fBDIwMDAuoCygKoYoaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvSVRfQ1JMLmNybDCBxgYDVR0gBIG+MIG7MAoGCCsGAQUFBwIBMIGsBgMrTBAwgaQwOQYIKwYBBQUHAgEWLWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0lUX0NQU19BR0lELnBkZjBnBggrBgEFBQcCAjBbMCQWHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMAMCAQEaM0NlcnRpZmljYXRlIHVzYWJsZSB0byB2YWxpZGF0ZSBJdGFsaWFuIFRydXN0ZWQgTGlzdDAfBgNVHSMEGDAWgBQQblejCQGUNLDtGclWwzjkDxJiQzAYBggrBgEFBQcBAwQMMAowCAYGBACORgEEMA0GCSqGSIb3DQEBCwUAA4IBAQFLLVVR81eBCxGXEDtvpltOERl7r/WbolQ62qYd2YfRCf7Xj9Qb65ZayvVtb9XQLO3h6sGFpKZ5tyXiA9HVbt+om9J+ezxaYMhWomNntJ2oi8g2rk3DV9jhkBxTwLrkFjU9yQokHzFBE4jy9OBciktmGZ22EOL03CAQD0OVc7ukr9zI8ICw5DL5t/v8o86Stu3y1DuvyZ519xRNJ6CZTTYiaD9iFOHma+VDbUy4yzZ642Z2FnUxxLxZZAnjJe1iKND6OGApxnB512So63VFLtPTcC26js10j6MFR+A7evqbWsVZTx1mlA0uQIro7c/NbZodboJ27jqJwwnLcsBqyPZG</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-cacb0eca11a14dfdfed6b81d42621e4b"><xades:SignedProperties Id="xades-id-cacb0eca11a14dfdfed6b81d42621e4b"><xades:SignedSignatureProperties><xades:SigningTime>2025-10-14T14:10:13Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>K3F7fpVKMVVz2AGWdk0G937mO4E=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>1.2.840.113549.1.9.1=#161269745f74736c40616769642e676f762e6974,CN=AgID,2.5.4.5=#0c1156415449542d3937373335303230353834,O=Agenzia per l'Italia Digitale,C=IT</ds:X509IssuerName><ds:X509SerialNumber>134558395704207670489293811332750438086</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-e729f58b258d2bad61e90ed62c53eccf"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="tl_signing_tool" Type="" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>wj6tFQbJI1K+Rz9alKd87S9PRHPK7fX3BqVxLBX6/go=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-e729f58b258d2bad61e90ed62c53eccf"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/c3mrd5QJ4Jy1s75znVyMtUjh5xquJ89lQoGzMdyZ3M=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e729f58b258d2bad61e90ed62c53eccf">eBqhreOBIwpT4/G1VTMMIIwYfuTgQ8IvOAFtZr5ABlW7E1VmnB8Cp02lq2+pFpL2tt/Vzstj2Rk6OUUdhMqGTYi4Tv6uDNmiBuDjtGfkZ+j5dDuLRQ3q7aHWlPjNPCR9jMHoOnZ98sPcXoG0WQzLM0PQDIk08PLDBrxpJDvjXMrcQ2eKjpPqkHCKm56OD/GeZOIfK+fpKXiA35nkxA6L0OOJ/PxNzDdG7Dah96sYMSSQAQsC/CfDD3y/EQKbTdOleYJ38P7ilNGbwuS3THEIu7eIvpw+9l6ntihMbYpiirEL8Unmnx7r4FMS8ceb7uIULVUHvNFIWnP1is8BBKyRXQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFUTCCBDmgAwIBAgIQZTsBHXHnMEWLMsMhC1buxjANBgkqhkiG9w0BAQsFADCBgzELMAkGA1UEBhMCSVQxJjAkBgNVBAoMHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMRowGAYDVQQFDBFWQVRJVC05NzczNTAyMDU4NDENMAsGA1UEAwwEQWdJRDEhMB8GCSqGSIb3DQEJARYSaXRfdHNsQGFnaWQuZ292Lml0MB4XDTIwMTIwMTA5MzQ0MVoXDTI2MDExNDA5MzQ0MVowgbMxCzAJBgNVBAYTAklUMSYwJAYDVQQKDB1BZ2VuemlhIHBlciBsJ0l0YWxpYSBEaWdpdGFsZTEvMC0GA1UECwwmSXRhbGlhbiBUcnVzdGVkIExpc3QgTWFuYWdlbWVudCBPZmZpY2UxGTAXBgNVBAUMEFZBVElULTk3NzM1MDIwNTgxDTALBgNVBAMMBEFnSUQxITAfBgkqhkiG9w0BCQEWEml0X3RzbEBhZ2lkLmdvdi5pdDCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKxsC/kmEJJO7/hcupCbonzR0UBxgO2Qud6/M4kvAE1NyRdd6soE6wLFSUcIoZCw6by31ddfaNTJbFkevNDUS31u2ycsOqMobPm/uTOTNpDhMLrsncY5O8aSGNYYMVn9Og2AtDhYDdkqnWR4jigzgTSJ/Fk5PFJarFZ/tk+kl3jLvrI9qOP861yQ+QCc/I+C04ugcpDONwkoWukZJtHayVrOoUZwgQGHBVFeD4nFbdZFH33le9YHN9vg7lczdTbLsYhEJp0WUwMsewC/NuPJ/grpr7hj6UcM4h4qEC/eS5d63pZHnwXqvgMW1AN6P38sSbXdd+45hDDcxVBhQ/JH5M8CAwEAAaOCAY0wggGJMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgbAMB0GA1UdDgQWBBSGmjb0h4WtXP3TDc0Njk9qZcpSNDARBgNVHSUECjAIBgYEAJE3AwAwOQYDVR0fBDIwMDAuoCygKoYoaHR0cHM6Ly9laWRhcy5hZ2lkLmdvdi5pdC9jcmwvSVRfQ1JMLmNybDCBxgYDVR0gBIG+MIG7MAoGCCsGAQUFBwIBMIGsBgMrTBAwgaQwOQYIKwYBBQUHAgEWLWh0dHBzOi8vZWlkYXMuYWdpZC5nb3YuaXQvY3BzL0lUX0NQU19BR0lELnBkZjBnBggrBgEFBQcCAjBbMCQWHUFnZW56aWEgcGVyIGwnSXRhbGlhIERpZ2l0YWxlMAMCAQEaM0NlcnRpZmljYXRlIHVzYWJsZSB0byB2YWxpZGF0ZSBJdGFsaWFuIFRydXN0ZWQgTGlzdDAfBgNVHSMEGDAWgBQQblejCQGUNLDtGclWwzjkDxJiQzAYBggrBgEFBQcBAwQMMAowCAYGBACORgEEMA0GCSqGSIb3DQEBCwUAA4IBAQFLLVVR81eBCxGXEDtvpltOERl7r/WbolQ62qYd2YfRCf7Xj9Qb65ZayvVtb9XQLO3h6sGFpKZ5tyXiA9HVbt+om9J+ezxaYMhWomNntJ2oi8g2rk3DV9jhkBxTwLrkFjU9yQokHzFBE4jy9OBciktmGZ22EOL03CAQD0OVc7ukr9zI8ICw5DL5t/v8o86Stu3y1DuvyZ519xRNJ6CZTTYiaD9iFOHma+VDbUy4yzZ642Z2FnUxxLxZZAnjJe1iKND6OGApxnB512So63VFLtPTcC26js10j6MFR+A7evqbWsVZTx1mlA0uQIro7c/NbZodboJ27jqJwwnLcsBqyPZG</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-e729f58b258d2bad61e90ed62c53eccf"><xades:SignedProperties Id="xades-id-e729f58b258d2bad61e90ed62c53eccf"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-18T14:29:00Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2000/09/xmldsig#sha1"/><ds:DigestValue>K3F7fpVKMVVz2AGWdk0G937mO4E=</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>1.2.840.113549.1.9.1=#161269745f74736c40616769642e676f762e6974,CN=AgID,2.5.4.5=#0c1156415449542d3937373335303230353834,O=Agenzia per l'Italia Digitale,C=IT</ds:X509IssuerName><ds:X509SerialNumber>134558395704207670489293811332750438086</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
