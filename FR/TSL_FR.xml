@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID0001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>166</TSLSequenceNumber>
+        <TSLSequenceNumber>167</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">French Cybersecurity Agency (ANSSI)</Name>
@@ -53,7 +53,7 @@
                 <ServiceDigitalIdentities>
                     <ServiceDigitalIdentity>
                         <DigitalId>
-                            <X509Certificate>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</X509Certificate>
+                            <X509Certificate>MIIICDCCBfCgAwIBAgIUSOnGJxOHWc5N+Nk12eZPPCwr7ZYwDQYJKoZIhvcNAQENBQAwXzELMAkGA1UEBhMCUFQxKjAoBgNVBAoMIURpZ2l0YWxTaWduIENlcnRpZmljYWRvcmEgRGlnaXRhbDEkMCIGA1UEAwwbRElHSVRBTFNJR04gUVVBTElGSUVEIENBIEcxMB4XDTI0MDUwNjEyNDUxNloXDTI3MDUwNjEyNDUxNlowggFZMQswCQYDVQQGEwJFUzE9MDsGA1UECww0Q2VydGlmaWNhdGUgUHJvZmlsZSAtIFF1YWxpZmllZCBDZXJ0aWZpY2F0ZSAtIE1lbWJlcjEjMCEGA1UEYQwaTEVJWEctMjU0OTAwWk5ZQTFGTFVROVUzOTMxHDAaBgNVBAoME0VVUk9QRUFOIENPTU1JU1NJT04xKTAnBgNVBAsMIEVudGl0bGVtZW50IC0gRUMgU1RBVFVUT1JZIFNUQUZGMTIwMAYJKoZIhvcNAQkBFiN2aWNlbnRlLmFuZHJldS1uYXZhcnJvQGVjLmV1cm9wYS5ldTEXMBUGA1UEBAwOQU5EUkVVIE5BVkFSUk8xEDAOBgNVBCoMB1ZJQ0VOVEUxHTAbBgNVBAsMFFJlbW90ZVFTQ0RNYW5hZ2VtZW50MR8wHQYDVQQDDBZWSUNFTlRFIEFORFJFVSBOQVZBUlJPMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAveJV7goW3mvqJq2kMT0cnrkFAnT/lyzbgaHVvd5jEMHy6RyoI1Af4JTlOWSjC+6fsNzApFR1Tv3w8/WuSgjHTWfDnpqs20iJh979A5WwvfXuzcuUqeFFptdR/tJm/08TsTAD+CeA+rQo6K23B1xMYRwX/BNt/EL03Q/TOQj5V4uV3Kyf0945yu5gOhmrMs/RZCZ8M+iahwTaVktf+ZvhocSsPt+a2OuPI8IpTU+xIWAXWuQ+27Q7zzD0d6sqBdruDr16clFtZXWNRikm9q6pCOAOKG/myszeUuy++TPtQnI3+OQlTuyDXsz9UNKboQCF2SNmfRoeBxcx02tS/zUgPwIDAQABo4ICvjCCArowDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBRzSfFAHBQEfJoSf/ovzVxnIxjpFDCBhgYIKwYBBQUHAQEEejB4MEYGCCsGAQUFBzAChjpodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9ESUdJVEFMU0lHTlFVQUxJRklFRENBRzEucDdiMC4GCCsGAQUFBzABhiJodHRwczovL3FjYS1nMS5kaWdpdGFsc2lnbi5wdC9vY3NwMC4GA1UdEQQnMCWBI3ZpY2VudGUuYW5kcmV1LW5hdmFycm9AZWMuZXVyb3BhLmV1MF8GA1UdIARYMFYwNwYLKwYBBAGBx3wEAQEwKDAmBggrBgEFBQcCARYaaHR0cHM6Ly9wa2kuZGlnaXRhbHNpZ24ucHQwEAYOKwYBBAGBx3wEAgEBAQQwCQYHBACL7EABAjAdBgNVHSUEFjAUBggrBgEFBQcDAgYIKwYBBQUHAwQwSwYDVR0fBEQwQjBAoD6gPIY6aHR0cHM6Ly9xY2EtZzEuZGlnaXRhbHNpZ24ucHQvRElHSVRBTFNJR05RVUFMSUZJRURDQUcxLmNybDAdBgNVHQ4EFgQUjueweY4PI0KGjetMh84vTsEnxQcwDgYDVR0PAQH/BAQDAgZAMIHTBggrBgEFBQcBAwSBxjCBwzAIBgYEAI5GAQEwCAYGBACORgEEMBMGBgQAjkYBBjAJBgcEAI5GAQYBMGoGBgQAjkYBBTBgMC4WKGh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19wdC5wZGYTAnB0MC4WKGh0dHBzOi8vcWNhLWcxLmRpZ2l0YWxzaWduLnB0L1BEU19lbi5wZGYTAmVuMBUGCCsGAQUFBwsCMAkGBwQAi+xJAQEwFQYIKwYBBQUHCwIwCQYHBACL7EkBAjANBgkqhkiG9w0BAQ0FAAOCAgEAHBjW4N8NKNCiJot414m/L76pB/15LKiGDi1/2V7MHe8u2GcplR1IjESrSEhhwUAW1hwDIK9xJrJ/hdDUMIQcKScSiJCqTCb0Yk39yj/gfOYaN/3fqw8Pjh9k++3Ox7KnvY3R/foFvGJlyiuqaai/JgBmc4qDBHSIDyo5gRw6v70osRPDR5sJs4Xh3FOJn9Y0JZPLF/skYtLrNVysL/4A4bbAxB2DcJ5MpoIegh/fnJ5s2BOVq2Xq8ADpeJoLFYbtlbP7NwsGgew2wKiDW963MlJL/Xa2AqcPVE/UnXFkIBCwZH+covxSEQH2iVcF8cEDHBiYHGERaSmL/uHK/F8soDO9VQwtKNxsiIKAWsQHTYcKfEgVuweyLj7TsCmh6T4pIHqaNDqWvrgEIo0ZwuBmfXVEd+JMSzSgIcJ2bPR2KNoJ14MO4FFYdAAnVlfdhipErsK6R23hlto7b3XKiMRUt9xrvPUjuEJdGI5hPm9CqGK1GxlRoKLewyX7A+OIcPMPu1KfuuUTUn+3hLJJZO5H9k4uVMJ/FOhwzc2VhRpyvNjfmFZksFvseFGvMl5EWIqp3JCo0ItkOBG59ulBwg/99Y0pT6LW9cviTzKIwDtHmQrIgYLa+lCYwWdGhIidXynvLpWiVRZJvYrPIGpzQCRcw9V2i8zT7nksj7QF9v88kto=</X509Certificate>
                         </DigitalId>
                     </ServiceDigitalIdentity>
                     <ServiceDigitalIdentity>
@@ -63,12 +63,7 @@
                     </ServiceDigitalIdentity>
                     <ServiceDigitalIdentity>
                         <DigitalId>
-                            <X509Certificate>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</X509Certificate>
-                        </DigitalId>
-                    </ServiceDigitalIdentity>
-                    <ServiceDigitalIdentity>
-                        <DigitalId>
-                            <X509Certificate>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</X509Certificate>
+                            <X509Certificate>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</X509Certificate>
                         </DigitalId>
                     </ServiceDigitalIdentity>
                     <ServiceDigitalIdentity>
@@ -78,12 +73,17 @@
                     </ServiceDigitalIdentity>
                     <ServiceDigitalIdentity>
                         <DigitalId>
+                            <X509Certificate>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</X509Certificate>
+                        </DigitalId>
+                    </ServiceDigitalIdentity>
+                    <ServiceDigitalIdentity>
+                        <DigitalId>
                             <X509Certificate>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</X509Certificate>
                         </DigitalId>
                     </ServiceDigitalIdentity>
                     <ServiceDigitalIdentity>
                         <DigitalId>
-                            <X509Certificate>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</X509Certificate>
+                            <X509Certificate>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</X509Certificate>
                         </DigitalId>
                     </ServiceDigitalIdentity>
                 </ServiceDigitalIdentities>
@@ -112,9 +112,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-11-03T15:56:50Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-11-24T12:00:57Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-05-03T14:56:50Z</dateTime>
+            <dateTime>2026-05-24T11:00:57Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://cyber.gouv.fr/sites/default/files/document/tl-fr.xml</URI>
@@ -6013,13 +6013,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>EeU72rzXAKRGyTcB6mY2NOBZiKg=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2029-01-08T23:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="fr">Certinomis - ETS 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="en">Certinomis - ETS 498 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000498, SERIALNUMBER=211717LHM724-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>EeU72rzXAKRGyTcB6mY2NOBZiKg=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6039,13 +6058,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>uIzC6Oez94TbvNygu++6ci2OmS8=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2029-01-08T23:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certinomis - ETS 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="fr">Certinomis - ETS 549 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>uIzC6Oez94TbvNygu++6ci2OmS8=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6065,13 +6103,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>KkvJslZfr3IlkAYKTmpxgA+SZVU=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2029-01-08T23:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                             <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
                         </TSPServiceDefinitionURI>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+<Name xml:lang="fr">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000585, SERIALNUMBER=211798QMR371-002, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=Ivry sur Seine, ST=94, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>KkvJslZfr3IlkAYKTmpxgA+SZVU=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-01-07T01:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -6319,6 +6376,32 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             </ServiceInformationExtensions>
                         </ServiceHistoryInstance>
                     </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                            <Name xml:lang="fr">Certinomis - ETS 585 - 1.2.250.1.86.5.1.1.1.1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000585, SERIALNUMBER=268040JNJ453, OU=0002 433998903, OID.2.5.4.97=NTRFR-433998903, O=DOCAPOSTE CERTINOMIS, L=IVRY-SUR-SEINE, ST=94, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>ruNOOa9sy3Ovi/1/XPv8REk/TXE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T12:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                            <URI xml:lang="fr">https://www.certinomis.fr/nos-certificats-racines/nos-politiques-de-certification</URI>
+                        </TSPServiceDefinitionURI>
+                    </ServiceInformation>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -8948,8 +9031,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="fr">https://www.certigna.com/autorite-crl</URI>
-                    <URI xml:lang="en">https://www.certigna.com/autorite-crl</URI>
+                    <URI xml:lang="fr">https://www.certigna.com/autorites-de-certification/</URI>
+                    <URI xml:lang="en">https://www.certigna.com/autorites-de-certification/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -9123,7 +9206,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-04-18T00:00:12Z</StatusStartingTime>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://politique.certigna.fr/en/PCunique.pdf</URI>
                             <URI xml:lang="fr">http://politique.certigna.fr/fr/PCunique.pdf</URI>
@@ -9136,7 +9219,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
                             </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
@@ -9151,26 +9234,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
             <ns5:CriteriaList assert="atLeastOne">
                 <ns5:PolicySet>
                     <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.4.1.6.1</ns4:Identifier>
-                        <ns4:Description>Certigna Identity Plus CA - ID *** - 1.2.250.1.177.2.4.1.6.1</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
                         <ns4:Identifier>1.2.250.1.177.2.4.1.1.1</ns4:Identifier>
                         <ns4:Description>Certigna Identity Plus CA - ID ** Pro - 1.2.250.1.177.2.4.1.1.1</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.4.1.3.1</ns4:Identifier>
-                        <ns4:Description>Certigna Identity Plus CA - ID *** Pro - 1.2.250.1.177.2.4.1.3.1</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.4.1.4.1</ns4:Identifier>
-                        <ns4:Description>Certigna Identity Plus CA - ID ** - 1.2.250.1.177.2.4.1.4.1</ns4:Description>
                     </ns5:PolicyIdentifier>
                 </ns5:PolicySet>
                 <ns5:PolicySet>
@@ -9239,21 +9304,6 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
             <ns5:KeyUsage>
                 <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
             </ns5:KeyUsage>
-            <ns5:CriteriaList assert="atLeastOne">
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.4.1.3.2</ns4:Identifier>
-                        <ns4:Description>Certigna Identity Plus CA - ID RGS *** /eIDAS (Qualifié/3072) Pro - 1.2.250.1.177.2.4.1.3.2</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.4.1.6.2</ns4:Identifier>
-                        <ns4:Description>Certigna Identity Plus CA - ID RGS *** / eIDAS (Qualifié/3072) - 1.2.250.1.177.2.4.1.6.2</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:Description>CERTIGNA issues signature certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
-            </ns5:CriteriaList>
             <ns5:Description>CERTIGNA issues signature certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
@@ -9262,6 +9312,153 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certigna Identity Plus CA</Name>
+<Name xml:lang="fr">Certigna Identity Plus CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Certigna Identity Plus CA, OID.2.5.4.97=NTRFR-48146308100036, OU=0002 48146308100036, O=DHIMYOTIS, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>ZjjzwlqN3683rWHZPBodPhdnB3U=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-04-18T00:00:12Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.6.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID *** - 1.2.250.1.177.2.4.1.6.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.1.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID ** Pro - 1.2.250.1.177.2.4.1.1.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.3.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID *** Pro - 1.2.250.1.177.2.4.1.3.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.4.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID ** - 1.2.250.1.177.2.4.1.4.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.8.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID eIDAS (qscd) - 1.2.250.1.177.2.4.1.8.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.1.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID RGS** / eIDAS (Qualifié/3072) Pro - 1.2.250.1.177.2.4.1.1.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.4.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID RGS ** / eIDAS (Qualifié/3072) -  1.2.250.1.177.2.4.1.4.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.8.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID eIDAS (Qualifié/3072) Pro - 1.2.250.1.177.2.4.1.8.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues signature and authentication certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues signature and authentication certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.7.1</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID eIDAS - 1.2.250.1.177.2.4.1.7.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.7.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID eIDAS (Avancé/3072) Pro - 1.2.250.1.177.2.4.1.7.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues signature and authentication certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues signature and authentication certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.3.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID RGS *** /eIDAS (Qualifié/3072) Pro - 1.2.250.1.177.2.4.1.3.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.4.1.6.2</ns4:Identifier>
+                            <ns4:Description>Certigna Identity Plus CA - ID RGS *** / eIDAS (Qualifié/3072) - 1.2.250.1.177.2.4.1.6.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues signature certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues signature certificates signed by its Certification Authority Certigna Identity Plus CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -9467,8 +9664,8 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
 <X509SKI>cZDFmcoIEslA85jTprMPyf2qx9Y=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-04-18T00:00:38Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://politique.certigna.fr/en/PCcertignaentitycsca.pdf</URI>
                             <URI xml:lang="fr">http://politique.certigna.fr/PCcertignaentitycsca.pdf</URI>
@@ -9512,6 +9709,60 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certigna Entity Code Signing CA</Name>
+<Name xml:lang="fr">Certigna Entity Code Signing CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Certigna Entity Code Signing CA, OID.2.5.4.97=NTRFR-48146308100036, OU=0002 48146308100036, O=DHIMYOTIS, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>cZDFmcoIEslA85jTprMPyf2qx9Y=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-04-18T00:00:38Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.8.1.2.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity Code Signing CA - Cachet de signature de code ** - 1.2.250.1.177.2.8.1.2.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.8.1.2.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity Code Signing CA - Cachet de signature de code RGS ** / eIDAS (Qualifié/3072) - 1.2.250.1.177.2.8.1.2.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues code signing certificates signed by its Certification Authority Certigna Entity Code Signing CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -9624,7 +9875,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-04-18T00:00:32Z</StatusStartingTime>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="en">http://politique.certigna.fr/en/PCunique.pdf</URI>
                             <URI xml:lang="fr">http://politique.certigna.fr/PCunique.pdf</URI>
@@ -9708,12 +9959,6 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                 </ns5:PolicySet>
                 <ns5:PolicySet>
                     <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.6.1.8.1</ns4:Identifier>
-                        <ns4:Description>Certigna Entity CA - Cachet de signature de mails et de documents eIDAS (Avancé) + PSD2 - 1.2.250.1.177.2.6.1.8.1</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
                         <ns4:Identifier>1.2.250.1.177.2.6.1.9.1</ns4:Identifier>
                         <ns4:Description>Certigna Entity CA - Cachet de signature de jetons d'horodatage eIDAS (Avancé) - 1.2.250.1.177.2.6.1.9.1</ns4:Description>
                     </ns5:PolicyIdentifier>
@@ -9722,12 +9967,6 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                     <ns5:PolicyIdentifier>
                         <ns4:Identifier>1.2.250.1.177.2.6.1.7.2</ns4:Identifier>
                         <ns4:Description>Certigna Entity CA - Cachet de signature de documents eIDAS (Avancé/3072) - 1.2.250.1.177.2.6.1.7.2</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.6.1.8.2</ns4:Identifier>
-                        <ns4:Description>Certigna Entity CA - Cachet de signature de mails et de documents eIDAS (Avancé/3072) + PSD2 - 1.2.250.1.177.2.6.1.8.2</ns4:Description>
                     </ns5:PolicyIdentifier>
                 </ns5:PolicySet>
                 <ns5:PolicySet>
@@ -9746,6 +9985,138 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certigna Entity CA</Name>
+<Name xml:lang="fr">Certigna Entity CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Certigna Entity CA, OID.2.5.4.97=NTRFR-48146308100036, OU=0002 48146308100036, O=DHIMYOTIS, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>pT8eJExs+IvSG3KYRlDK6IZVudg=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-04-18T00:00:32Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.4.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents RGS** /eIDAS (Qualifié)</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.41.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents eIDAS (Qualifié) - 1.2.250.1.177.2.6.1.41.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.6.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de jetons d'horodatage RGS**/ eIDAS - 1.2.250.1.177.2.6.1.6.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.4.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents RGS** /eIDAS (Qualifié/3072)</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.6.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de jetons d'horodatage RGS ** / eIDAS (Qualifié/3072) - 1.2.250.1.177.2.6.1.6.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.41.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents eIDAS (Qualifié/3072) - 1.2.250.1.177.2.6.1.41.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues mail and document seal certificates signed by its Certification Authority Certigna Entity CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues mail and document seal certificates signed by its Certification Authority Certigna Entity CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                    <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.7.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents eIDAS (Avancé) - 1.2.250.1.177.2.6.1.7.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.8.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de mails et de documents eIDAS (Avancé) + PSD2 - 1.2.250.1.177.2.6.1.8.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.9.1</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de jetons d'horodatage eIDAS (Avancé) - 1.2.250.1.177.2.6.1.9.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.7.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de documents eIDAS (Avancé/3072) - 1.2.250.1.177.2.6.1.7.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.8.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de mails et de documents eIDAS (Avancé/3072) + PSD2 - 1.2.250.1.177.2.6.1.8.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.6.1.9.2</ns4:Identifier>
+                            <ns4:Description>Certigna Entity CA - Cachet de signature de jetons d'horodatage eIDAS (Avancé/3072) - 1.2.250.1.177.2.6.1.9.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues mail and document seal certificates signed by its Certification Authority Certigna Entity CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues mail and document seal certificates signed by its Certification Authority Certigna Entity CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -10077,7 +10448,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-04-18T00:00:52Z</StatusStartingTime>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
                         <TSPServiceDefinitionURI>
                             <URI xml:lang="fr">http://politique.certigna.fr/PCunique.pdf</URI>
                             <URI xml:lang="en">http://politique.certigna.fr/en/PCunique.pdf</URI>
@@ -10088,7 +10459,7 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
 </AdditionalServiceInformation>
                             </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
@@ -10100,24 +10471,6 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                 <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
             </ns5:KeyUsage>
             <ns5:CriteriaList assert="atLeastOne">
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.5.1.3.1</ns4:Identifier>
-                        <ns4:Description>Certigna Service CA - Authentification serveur/client SSL/TLS</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.5.1.4.1</ns4:Identifier>
-                        <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS + PSD2 3072</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
-                <ns5:PolicySet>
-                    <ns5:PolicyIdentifier>
-                        <ns4:Identifier>1.2.250.1.177.2.5.1.4.2</ns4:Identifier>
-                        <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS + PSD2 3072</ns4:Description>
-                    </ns5:PolicyIdentifier>
-                </ns5:PolicySet>
                 <ns5:PolicySet>
                     <ns5:PolicyIdentifier>
                         <ns4:Identifier>1.2.250.1.177.2.5.1.5.1</ns4:Identifier>
@@ -10140,6 +10493,79 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="fr">Certigna Services CA</Name>
+<Name xml:lang="en">Certigna Services CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Certigna Services CA, OID.2.5.4.97=NTRFR-48146308100036, OU=0002 48146308100036, O=DHIMYOTIS, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>rOyGj0s3HLh/FxsZ0K7oTuM0XBI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-04-18T00:00:52Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="all">
+                <ns5:KeyUsage>
+                    <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                </ns5:KeyUsage>
+                <ns5:CriteriaList assert="atLeastOne">
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.5.1.3.1</ns4:Identifier>
+                            <ns4:Description>Certigna Service CA - Authentification serveur/client SSL/TLS</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.5.1.4.1</ns4:Identifier>
+                            <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS + PSD2 3072</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.5.1.4.2</ns4:Identifier>
+                            <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS + PSD2 3072</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.5.1.5.1</ns4:Identifier>
+                            <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS -  1.2.250.1.177.2.5.1.5.1</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:PolicySet>
+                        <ns5:PolicyIdentifier>
+                            <ns4:Identifier>1.2.250.1.177.2.5.1.5.2</ns4:Identifier>
+                            <ns4:Description>Certigna Service CA - Authentification serveur SSL/TLS eIDAS 3072 - 1.2.250.1.177.2.5.1.5.2</ns4:Description>
+                        </ns5:PolicyIdentifier>
+                    </ns5:PolicySet>
+                    <ns5:Description>CERTIGNA issues SSL/TLS web authentication certificates signed by its Certification Authority Certigna Services CA.</ns5:Description>
+                </ns5:CriteriaList>
+                <ns5:Description>CERTIGNA issues SSL/TLS web authentication certificates signed by its Certification Authority Certigna Services CA.</ns5:Description>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -11044,6 +11470,798 @@ CN=CERTINOMIS_UNITE_HORODATAGE_81610_0050000549, SERIALNUMBER=211798ODI342, OU=0
                             <URI xml:lang="en">http://politique.certigna.fr/en/PHcertignaTSA.pdf</URI>
                             <URI xml:lang="fr">http://politique.certigna.fr/PHcertignaTSA.pdf</URI>
                         </TSPServiceDefinitionURI>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Document Signing Natural Person EU CA </Name>
+                            <Name xml:lang="fr">Certigna Document Signing Natural Person EU CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Document Signing Natural Person EU CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>qgvZqOEZA6qZlCKBIpq9ZmP90u8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaMultipurposeCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaMultipurposeCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.16.2.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document signing certificates, signed by its Certigna Document Signing Natural Person EU CA. 1.2.250.1.177.16.2.1.3.1  EN 319 411-2 QCP-n-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Document Signing Natural Person plus CA</Name>
+                            <Name xml:lang="fr">Certigna Document Signing Natural Person plus CA </Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Document Signing Natural Person Plus CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>kLlKGnGBx1nGi/85RboPB1KRpeo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaMultipurposeCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaMultipurposeCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.9.3.1.1.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document signing certificates, signed by its Certigna Document Signing Natural Person Plus CA. 1.2.250.1.177.9.3.1.1.1  EN 319 411-2 QCP-n</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.9.3.1.4.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document signing certificates, signed by its Certigna Document Signing Natural Person Plus CA. 1.2.250.1.177.9.3.1.4.1  EN 319 411-2 QCP-n-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Email Protection Natural Person CA</Name>
+                            <Name xml:lang="fr">Certigna Email Protection Natural Person CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Email Protection Natural Person CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>PyoNDZ3jG48bEeQdaYxhkDWPTQE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaSMIMECA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaSMIMECA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.8.2.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email protection certificates, signed by its Certigna Email Protection Natural Person CA. 1.2.250.1.177.8.2.1.3.1   EN 319 411-2 QCP-n</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.8.2.1.4.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email protection certificates, signed by its Certigna Email Protection Natural Person CA. 1.2.250.1.177.8.2.1.4.1   EN 319 411-2 QCP-n-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Email Protection Natural Person EU CA</Name>
+                            <Name xml:lang="fr">Certigna Email Protection Natural Person EU CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Email Protection Natural Person EU CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>wkhnvoniWtYfolRYaz0LGIj3olQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaSMIMECA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaSMIMECA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.17.2.1.2.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email protection certificates, signed by its Certigna Email Protection Natural Person EU CA. 1.2.250.1.177.17.2.1.2.1    EN 319 411-2 QCP-n</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESig"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.17.2.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email protection certificates, signed by its Certigna Email Protection Natural Person EU CA. 1.2.250.1.177.17.2.1.3.1   EN 319 411-2 QCP-n-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Certigna Email Protection Natural Person EU CA</Name>
+<Name xml:lang="fr">Certigna Email Protection Natural Person EU CA</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Certigna Email Protection Natural Person EU CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>wkhnvoniWtYfolRYaz0LGIj3olQ=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Document Signing Legal Person CA</Name>
+                            <Name xml:lang="fr">Certigna Document Signing Legal Person CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIG7TCCBNWgAwIBAgIUH2mhe+ZNPGHUuUbQ85zyod7pqNUwDQYJKoZIhvcNAQEMBQAwTDELMAkGA1UEBhMCRlIxETAPBgNVBAoMCENlcnRpZ25hMSowKAYDVQQDDCFDZXJ0aWduYSBEb2N1bWVudCBTaWduaW5nIFJvb3QgQ0EwHhcNMjQwMzEzMTAxNzA1WhcNMzkwMzEyMTAxNzA0WjBzMQswCQYDVQQGEwJGUjERMA8GA1UECgwIQ2VydGlnbmExHTAbBgNVBGEMFE5UUkZSLTQ4MTQ2MzA4MTAwMDM2MTIwMAYDVQQDDClDZXJ0aWduYSBEb2N1bWVudCBTaWduaW5nIExlZ2FsIFBlcnNvbiBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBALoWsRDUOfTv5fbS7b6/w/TK4f/rp7QsayZUzudUmQqOLz2lpVrnMlvRQKN7TC9oXRA3T8nefIE1iGz+KvKzABAwmCr+mb6dWUM4q4iRLF3E9RnGS5bpImIsZ8r+V5zldP8q/kE1RqfWjHU3lkWWHlog/kWb/KpMByHWFluKoTXK8+dtJkVNh8t414zffuceUHg+WbrDDJP7mTNGDtkrvzoQfh6WkKSPe+2aya99YXiY0ovUXWiCRO+V2o5jwduHumYF0NuJt7VBIrRi1UTq3ojhC7p7MVuxvdHHoH+3b8lIjjuTWe2WBu42CqgDlfKh1qQtzqSafMHZikAaQzOMBGWt9PW2s4O3qlFSrWn9tL1i4/LNKY53og8q7dwWsVyOSkiqo630cxvvnY/BMxe5xellAXogb9rXyS62Mx5b9MglbDSgrrS8M0OgfqgblAqOzC9mE0LyB53u+sqUmGYmWYlUtz3aXWST322kgEIcyt5FBur1mgs/D0WAy94go/ZV+JNkOZtubpwXVEW3FmXcsZNyEhotcgNfr8vmio+MRaUp2QZ1AT+HTzVVcHO22YzxDPKdJwYA+pz9BNBMxcqx1oKQMCb6A6q0LzheIcj8xVlwMInGm87YI03SR29QObZSuoddt+wmkImS7xvUkgIASVVSzKXb1YbaCabA1iHHopUpAgMBAAGjggGeMIIBmjB8BggrBgEFBQcBAQRwMG4wRgYIKwYBBQUHMAKGOmh0dHA6Ly9jZXJ0LmNlcnRpZ25hLmNvbS9DZXJ0aWduYURvY3VtZW50U2lnbmluZ1Jvb3RDQS5jZXIwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmNlcnRpZ25hLmNvbTAfBgNVHSMEGDAWgBQUU9NElqBy86omQit6JPr8z/tvZTASBgNVHRMBAf8ECDAGAQH/AgEAMD4GA1UdIAQ3MDUwMwYKKoF6AYExCQABATAlMCMGCCsGAQUFBwIBFhdodHRwOi8vY3BzLmNlcnRpZ25hLmNvbTBKBgNVHR8EQzBBMD+gPaA7hjlodHRwOi8vY3JsLmNlcnRpZ25hLmNvbS9DZXJ0aWduYURvY3VtZW50U2lnbmluZ1Jvb3RDQS5jcmwwKgYDVR0lBCMwIQYJKoZIhvcvAQEFBgorBgEEAYI3CgMMBggrBgEFBQcDJDAOBgNVHQ8BAf8EBAMCAQYwHQYDVR0OBBYEFJZzaHpZOHg8e9MvhAjr0viJa+iQMA0GCSqGSIb3DQEBDAUAA4ICAQCaQONOLaI1/8Eqs9aLuidp7//WdyK9xK5vcjIcluMv3UUVMYufFAPep+pq9X8APnXdYiJogA9w5f3fjv2HO5MvRLtzj1FbaFm77NOjwa2q+Tq+5uHYpQRnyyh8Snn8yYdroJ/GfbQq5sWBtsrYzPcfwujGBmfwYi0SARKGYr11h/myVTbS0MnYqTPs//5Vbvkkf1goBX87qNN6viuwhH63fCUIkSRLK6NcNCoUftA2XWPNMxWP7RLkM9/yxuNsR7xMssP3udqODgZu5/elksYqrdDw81s1GbWWHl8a88YQGyDUYzGzMp20RksrHInK74zMUNJrw25759RAp3FOGR4ToR4gFGueto933SZYm4abE5UF30lcKkpNVqC+gUdmoxamYdlBsfu4NF+gLfFdUWvw146chKu5Lk+e2j5NUOxl5FAXITgbHsDD5wqL/gXI3tnldP4N6MV3FsIxiZ80mjc8uj1O5FGiMpOfnBfSKy+PoN7OUiWf8n7EGDxNc9YqmrTwSzkujtjQG3DzmnWtM7NOlnFV5BOkF9uLoUqslkvVFXdeCnNCPTNi/0PJVfOXdHvpAsDHG043l1w/ff5PeY62a/fLcvE2f5fBoV0+6t52fviTpgCiG5PeO4daJTERiczQkAh3Fiwt/1Myv93a8/r5M9o1AsseCOO9qdR0yB7ifA==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Document Signing Legal Person CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lnNoelk4eDx70y+ECOvS+Ilr6JA=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaMultipurposeCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaMultipurposeCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.9.1.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal certificates, signed by its Certigna Document Signing Legal Person CA. 1.2.250.1.177.9.1.1.3.1  EN 319 411-2 QCP-l</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.9.1.1.5.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal certificates, signed by its Certigna Document Signing Legal Person CA. 1.2.250.1.177.9.1.1.5.1  EN 319 411-2 QCP-l-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Document Signing Legal Person EU CA</Name>
+                            <Name xml:lang="fr">Certigna Document Signing Legal Person EU CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Document Signing Legal Person EU CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>zE1AnZgqSTZa/v6INbTu6eNSZAw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaMultipurposeCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaMultipurposeCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.16.1.1.2.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal certificates, signed by its Certigna Document Signing Legal Person EU CA. 1.2.250.1.177.16.1.1.2.1  EN 319 411-2 QCP-l</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.16.1.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal certificates, signed by its Certigna Document Signing Legal Person EU CA. 1.2.250.1.177.16.1.1.3.1  EN 319 411-2 QCP-l-qscd</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Email Protection Legal Person CA</Name>
+                            <Name xml:lang="fr">Certigna Email Protection Legal Person CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Email Protection Legal Person CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>55fUKzdPOksVBRH1itbHDZth4d8=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaSMIMECA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaSMIMECA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.8.1.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email seal certificates, signed by its Certigna Email Protection Legal Person CA. 1.2.250.1.177.8.1.1.3.1    EN 319 411-2 QCP-l  </ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Email Protection Legal Person EU CA</Name>
+                            <Name xml:lang="fr">Certigna Email Protection Legal Person EU CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Email Protection Legal Person EU CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>D5imVhH5ycilsNt0J8QPlS/W7cE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaSMIMECA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaSMIMECA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.17.1.1.2.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email seal certificates, signed by its Certigna Email Protection Legal Person EU CA. 1.2.250.1.177.17.1.1.2.1    EN 319 411-2 QCP-l  </ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCWithQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.17.1.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues email seal certificates, signed by its Certigna Email Protection Legal Person EU CA. 1.2.250.1.177.17.1.1.3.1    EN 319 411-2 QCP-l-qscd </ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Certigna Time Stamping CA</Name>
+                            <Name xml:lang="fr"> Certigna Time Stamping CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Time Stamping CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>5+a1hN+D59162x2vznbGGKubV1Y=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaMultipurposeCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaMultipurposeCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.11.1.1.3.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal and timestamp token seal certificates, signed by its Certigna Entity CA.  1.2.250.1.177.11.1.1.3.1    EN 319 411-2 QCP-l</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForESeal"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+                <ns5:KeyUsageBit name="nonRepudiation">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.11.1.1.4.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues document seal and timestamp token seal certificates, signed by its Certigna Entity CA. 1.2.250.1.177.11.1.1.4.1  EN 319 411-2 QCP-l</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Server Authentication Auto QCP CA</Name>
+                            <Name xml:lang="fr">Certigna Server Authentication Auto QCP CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIG1DCCBLygAwIBAgIUF1eVOi66Vi6S8xkFQl+pRaHC2kwwDQYJKoZIhvcNAQEMBQAwUTELMAkGA1UEBhMCRlIxETAPBgNVBAoMCENlcnRpZ25hMS8wLQYDVQQDDCZDZXJ0aWduYSBTZXJ2ZXIgQXV0aGVudGljYXRpb24gUm9vdCBDQTAeFw0yNTAyMjgwOTU4MDZaFw0zOTAzMTIwOTU4MDVaMHQxCzAJBgNVBAYTAkZSMREwDwYDVQQKDAhDZXJ0aWduYTEdMBsGA1UEYQwUTlRSRlItNDgxNDYzMDgxMDAwMzYxMzAxBgNVBAMMKkNlcnRpZ25hIFNlcnZlciBBdXRoZW50aWNhdGlvbiBBdXRvIFFDUCBDQTCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBAK2roTDxOhoVYTar1nCDEU8+9w0jOj9jHZ/O+t1wPAakO5lABstIB764W9KLnVhee2eWsnKRitjEK7KKVgmeXmm4NhufAYeKNkDfWxE/2eJBtRgCBMLyzH0P2yrZWZuPT+z9DUp1I9MbzgITmM4IiMLwEG0WXXSHlUeVIyiEfJ3F3GnYMpkCSw53XHbZ8Q+Ek4Mb78oAucEm0WrWHWFinN/jnLas3qgG6eD5rN5KLs8Kvd0Nz+YYwE3g2BV26u0tYy9350pp45uHhvGJBKpqOVHt5yvYfw+DVZqmB3jh0le1zgRecdB+AXHHV3CNRGGaXV9Y0zcZRO6LRjRVRh7mxjX8R2AohfY9IvM/E/3FBKjlEgdLINJfsW+HCPnrfTTtoCHpxpLg+UIoVd0YYg1HZlLFM0za3KxrkejSBf0MT7wa5sECSe4vDP/H1/zqntaGktE4Nd2WGk2eH6uNFxE/s3TRqSf7XKvK18rGuTDarZWdPVH4X4I+CUsM/UJsPl3a/aBgkYUNea4/00SKULOr1J/Busj/7OBEiOy+AJh2mDsBgsUIjbzAgYR/U5Y4YENEE+jEw2zqu9wMVQxt/6xlSvPw+b45lBVGSkmY6402qJHrONJ8o6d3V2e//hFxvHoNiMnBDqrCcUHwpLm5eCg+FPiFlD2a6a1eTvrau1aP/wLhAgMBAAGjggF/MIIBezBbBggrBgEFBQcBAQRPME0wSwYIKwYBBQUHMAKGP2h0dHA6Ly9jZXJ0LmNlcnRpZ25hLmNvbS9DZXJ0aWduYVNlcnZlckF1dGhlbnRpY2F0aW9uUm9vdENBLmNlcjAfBgNVHSMEGDAWgBTWkpjnnR2t4eYKSpYEh2vu+ykaujASBgNVHRMBAf8ECDAGAQH/AgEAMEgGA1UdIARBMD8wCAYGZ4EMAQICMDMGCiqBegGBMQYAAQEwJTAjBggrBgEFBQcCARYXaHR0cDovL2Nwcy5jZXJ0aWduYS5jb20wTwYDVR0fBEgwRjBEoEKgQIY+aHR0cDovL2NybC5jZXJ0aWduYS5jb20vQ2VydGlnbmFTZXJ2ZXJBdXRoZW50aWNhdGlvblJvb3RDQS5jcmwwHQYDVR0lBBYwFAYIKwYBBQUHAwEGCCsGAQUFBwMCMA4GA1UdDwEB/wQEAwIBBjAdBgNVHQ4EFgQUzKpIk9ID8zXx/RimZvmXEPLW+CowDQYJKoZIhvcNAQEMBQADggIBALb17Yk1eyZ8u/cypMka4svXt/XbaKX8HMfUpnQzOPn+USV+QMuSejJWouoWRQrrYIr1WQMrVJTwgHh3Xx1va5DI2Q6WgyQylhTtWaLDTXymwGSHJ8DUnXTQdKCX6GrdLVy8MFZvDfbvMeKTPKvGbxmFQKXxboV10Lo/t2fPh3Z+aU7DqQl3uqdUl7NHKIGdwoK5bfH6gDmrhlrJ1FXaqwfpZ5GURaJYX3/Q8pSWqOPdCVcKGlaGytCEG105dctVJIePyuNx6iHNAKtttHaVvuicy63YbXKD4dfuvoddaCjRIef5ZbcmwH2u3rUEP4zs1M+XvnfOaD55ug2L7ozXdTKTIfSdWpcCbiGEinh1NFvST5HYYw1whkVsdDAT3cRJtTbj4ojwJvei3UHK4Q+OAL4AWIoqLBNCXhyEkSD4ibaB9rJ66R3reW0+/2X+m6mFtgHMip7wqlJnY5CIVkMWgnv4Aja7u2IruTvogNSvLeYT6FAATnz861PkoUyDg1AOrLC3uY8uVdXVJWGwNCCwNdRSz9lrbz81hBVXow+lPrN6sSYt6sECiNhN+CPCOpxMFb+04beOjwEblwPcOt+Q9ACZflBiSKKBcVhkBRMGrnh1YgiUH+EltuL4sb57A6ZWqTDFKsNRlrPeqyDMXGISrfXMdLom8K1iHahxBOvo2S+M</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Server Authentication Auto QCP CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>zKpIk9ID8zXx/RimZvmXEPLW+Co=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaTLSCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaTLSCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.6.7.1.1.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues eIDAS SSL/TLS authentication certificates, signed by its Certigna Server Authentication Auto QCP CA .  1.2.250.1.177.6.7.1.1.1 certifiés EN 319 411-2 QNCP-w</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Certigna Server Authentication QCP CA</Name>
+                            <Name xml:lang="fr">Certigna Server Authentication QCP CA</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Certigna Server Authentication QCP CA, OID.2.5.4.97=NTRFR-48146308100036, O=Certigna, C=FR</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>dTJS+dqNrU9RyTK4w18fZEsw4wM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-11-24T01:00:00Z</StatusStartingTime>
+                        <TSPServiceDefinitionURI>
+                            <URI xml:lang="en">https://cps.certigna.com/DPCCertignaTLSCA.pdf</URI>
+                            <URI xml:lang="fr">https://cps.certigna.com/fr/DPCCertignaTLSCA.pdf</URI>
+                        </TSPServiceDefinitionURI>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCNoQSCD"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForWSA"/>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCForLegalPerson"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="all">
+            <ns5:KeyUsage>
+                <ns5:KeyUsageBit name="digitalSignature">true</ns5:KeyUsageBit>
+            </ns5:KeyUsage>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.2.250.1.177.6.6.1.1.1</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description>CERTIGNA issues eIDAS SSL/TLS authentication certificates, signed by its Certigna Server Authentication QCP CA .  1.2.250.1.177.6.6.1.1.1 certifiés EN 319 411-2 QNCP-w</ns5:Description>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -25261,4 +26479,4 @@ CN=LA_POSTE_UNITE_HORODATAGE_ 81610_0050000601_002, SERIALNUMBER=113124ILE381, O
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-e84b7d040697000d715dbfff0b6b4046"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>dCVmCOs7tOZiEDBraSXS+kM7xfISYbWgMStAI+GodqvnhBkIkGPp5/AQpp07iDiH/zeByxDM/gg9o+eWSfA7gw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-e84b7d040697000d715dbfff0b6b4046"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>xiEoVb0M4tYyZ0Oum87YotxpS4WsMmTIsLY4ogpZeNRtSV6UP8wyenNNvo+ntjNFsh/lSn7fFaemIKua+7s6eA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e84b7d040697000d715dbfff0b6b4046">QL66DQD32WmZQJnim8ts8rE1WwszBi8X8bdamRG/sf1m7VubZ5TSkq8vr4BFSkfRu5JXOqVoXBgZmHxZvawciT0C0uWxg3mUtx8l99rYB3ON3Yzcxhw1nYQvyQvKWo2PTWK0AwWEX9HG8WXJu1d+DxB5iuf76WRrLvNUx3ArD6LKAveqsmNMk2GsgOAgG5m5FiiFnONaI9NFjRWgraM8sFQ8G+3F9CA9mZh7s5H53xSvPMCOhRQuHd1EK+xYIFDUjLTlGmtOQ0HEEkcO+KjjTsZ6/ZCSv2uwAYDHYx1HI4kf+22SCdYfu4/fDDJW80xVuNkQRPex5TqMIexkpJq5jQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFVjCCBD6gAwIBAgIUHE1n9yClv331y/gsa13fXOI5DJswDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTEwNzE0NTYzNloXDTI3MTEwNzE0NTYzNloweDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSEwHwYDVQQDDBhNaWNrYWVsIExBTSAzMzEwMDAzOTMzbG0xEDAOBgNVBCoMB01pY2thZWwxDDAKBgNVBAQMA0xBTTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKUW8n9LBx0f5sHeuPY00inYnNaYOIcQCN2ClddtJVL1avCHD9ia5h7nuNSannewcUZH1w/x/qTKwykMq6Vhi+LkQ0XkI8YshlzjgwLZK9FQxkoTofc/X26Vos6aQ/J9J2DHqwZaUoHhOX1tR2XcfFgdrSIHIdoB3O7ZhYvIcwWb4elN7iJKGjI3JMvHdeWDajB31MK6vbi7fGqIWY7OOEgCZ6fZ+evvEfJkaDvJVUDBi6BTGYjkBtZYBEDFuh5i2/YX9P3jIGZmKdeKT0u/qSiM6MDewJdTq6UEwWrdF05j/ggT7ZpCPkzGE0JYRFUoODLM0nMv3f8UCRyeEGRMQ9UCAwEAAaOCAbYwggGyMB0GA1UdDgQWBBQUOFpT+oXISDFNAQ5+UOu2XoNgFDAfBgNVHSMEGDAWgBQcbKT3DtZU3kXPUIGy3VmIsyhv3jAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGQDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGATBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jcmwwIgYDVR0RBBswGYEXbWlja2FlbC5sYW1Ac3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBADdYsf1tD4vJNQtEBYmVQq8i51ZxYlrYV/mdV2SF0kdDt+/Kz+Yp/jfONlCfp7l365NhbFnscOjFa1bLW8auHcBNV7ParXKCecknfRUowPWdse+Qiq8JnC2URLIFTbHNIAGoxCvQGPOwtexv1FXm3uAYYJO272pSk+ekdmzX5ICV7IOvELiT06/UjHY55KNC3NkiFpuMXafL/xs+UFIO/OfNL4A/rlNy/A+74SG7BjXZ1O1dRJz5LjuD/7xslFeCWZS7c/4Sm4hukfR7eafQyd+AFeEg5u7Bg5di4MV4G65J10rgxzBI4/LiQ80l1zGrl1EAg1jJFCkbqp66Bs2hTqg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-e84b7d040697000d715dbfff0b6b4046"><xades:SignedProperties Id="xades-id-e84b7d040697000d715dbfff0b6b4046"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-12T09:34:32Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>+z8/WvkKfxnv7pYcBHBE3OfoSr4I3BmV2oMt6KLADgKdzuren9zJ7se1y+/vGKzujrONVYzLwflZHz4ZgsxqQg==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>161577955621945874204231934158129094363245513883</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-b0a8c698b95d4199a64280af60c89879"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>E9IiaYw4e+Swj5Xp13y20fc1bXSEb3AE2S7h/giwscuajZLFeMgqIvhrBgYFDTUWwEBoz7V80UQD/4pwZzx0GQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-b0a8c698b95d4199a64280af60c89879"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>4W4oJNCgCwnfzrJEh6BA4Sxt1eYkp2+uwgD6Xxj5odA3uRdcVf2j7wTaO5Lkr55T+8mptExeJs3KbWKFyqwo6g==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-b0a8c698b95d4199a64280af60c89879">OJT7a1iQIRzQHNB+4yxBDXDtXzvubliVeM9kqKpZx+PYH4W+v2EI2pYRaunhplUHBr9brql9V8c3LvoTHEJaaeMuhjM+EvBkA/67oV5F3HvnaD44auy0PamvkWkse240vafiAxVjaVMzk9dmiGENnErUuiDdYW4T5EbM/Z85GTuPJ62Tig6qlBlDKB4Y5ZD3weL09qcHfbJVkUD3Ab2F2sxmne3ki0cVh4L76W5u87QwsiXJAkZJiuQ7k9UhTnoTgSLQshCHMUHAqwOE5uDgX+u3kRuT3hlnKAT+2MKpCP0lR5GcGdDLiwoRc7xDqlx/5qxnn6IJijbnjz26qk5dHQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFXDCCBESgAwIBAgIUbR6J39k5qND1JSlgxEd+bJgAQx4wDQYJKoZIhvcNAQELBQAwgZcxCzAJBgNVBAYTAkZSMTAwLgYDVQQKDCdBZ2VuY2UgTmF0aW9uYWxlIGRlcyBUaXRyZXMgU8OpY3VyaXPDqXMxFzAVBgNVBAsMDjAwMDIgMTMwMDAzMjYyMTEwLwYDVQQDDChBdXRvcml0w6kgZGUgQ2VydGlmaWNhdGlvbiBQZXJzb25uZXMgQUFFMQowCAYDVQQFEwE0MB4XDTI0MTAwODE1NTA0OFoXDTI3MTAwODE1NTA0OFowfDELMAkGA1UEBhMCRlIxDTALBgNVBAoMBEFOVFMxFzAVBgNVBAsMDjAwMDIgMTMwMDA3NjY5MSMwIQYDVQQDDBpNYXRoaWV1IEpPUlJZIDMzMTAwMDM4OThqbTEQMA4GA1UEKgwHTWF0aGlldTEOMAwGA1UEBAwFSk9SUlkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCTu9SgITZn9p36gIgDSndt/g7qpLJzj2Bt9t28BkprA6U8I7ukbgqcEeQwJKVhcx4OZ4FHMP43jZlCplU1bCYNL5+an98mlrDdSSFbV8ano4tWuDqD2d14jxwWpYxto6ZHtPC+23vzDP/xDUwdnnl6BIr5FemEmi946s8puLjDLtEMUTpWaAo+WH7/T8g1hxlco3x45v47z7nR/MkuukOcvYL09jcER1s+NWxVEb2whiiztgVbD1Od2aZh9H9uj1T7BfxDSlapHCQPmJfvfR6TSWy6GfJFe6FF/bud8o33etgCeNhq3DFG5oRbOtfOF5ekFJtuovf9lOv6RK4foNbFAgMBAAGjggG4MIIBtDAdBgNVHQ4EFgQUpLKvYlHeCngPPnQffCmCPOJRQx0wHwYDVR0jBBgwFoAUHGyk9w7WVN5Fz1CBst1ZiLMob94wCQYDVR0TBAIwADAOBgNVHQ8BAf8EBAMCBkAwNwYIKwYBBQUHAQMEKzApMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5hbnRzLmdvdXYuZnIvYW50c2F2My9hY19wZXJzb25uZXNfYWFlXzQuY3JsMCQGA1UdEQQdMBuBGW1hdGhpZXUuam9ycnlAc3NpLmdvdXYuZnIwGAYDVR0gBBEwDzANBgsqgXoBgUgDAQIDAjCBlAYIKwYBBQUHAQEEgYcwgYQwPwYIKwYBBQUHMAGGM2h0dHA6Ly9vY3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNDBBBggrBgEFBQcwAoY1aHR0cDovL3NwLmFudHMuZ291di5mci9hbnRzYXYzL2FjX3BlcnNvbm5lc19hYWVfNC5jZXIwDQYJKoZIhvcNAQELBQADggEBAKU9mevhWyrKGEUqXCiqROvQjwl9adUAcH0F8gqQnTc8notCarIg18cAMx82uIdzswKDEkz5ZHQbx562B1+CD2aIgm5ozvmzA+t1MdJuwUQDJghFLI85VwA0eIcrcmJDwxlArNWMAPnNBIwESEC82kCNMHza6Z821qp0Ei5YhfxomBMyNbDB1/riOnr8YOmMzlqUGfxUwB6V4P6bAQAJAKMhtmI7HioVeNp3dCHhc/f1R3sihdCDkwufsG2KMo3btyh++xGwx6jfbEaLxXNhBuCMw/YE+oGXGP3KRczIGyjvWNIwJ8ZtZXCrioVWB0VhfE6ZxNhQRonyS8KLIe7XVOQ=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-b0a8c698b95d4199a64280af60c89879"><xades:SignedProperties Id="xades-id-b0a8c698b95d4199a64280af60c89879"><xades:SignedSignatureProperties><xades:SigningTime>2025-11-24T09:42:27Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9oLvyTstOVov/du4GKxMXPHms1CQsv9Kf2wf2+RpRIRKh47rzvkvIA/UtC462ECPFYTx+F8n0vO+cz87z5wVpw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.5=#130134,CN=Autorité de Certification Personnes AAE,OU=0002 130003262,O=Agence Nationale des Titres Sécurisés,C=FR</ds:X509IssuerName><ds:X509SerialNumber>622961026930636761365129893141106371542296576798</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
