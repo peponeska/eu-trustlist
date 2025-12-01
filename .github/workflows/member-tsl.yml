@@ -72,7 +72,7 @@ jobs:
             url: "https://tsl.mca.org.mt/MT_TSL.xml"
             out: ./MT/TSL_MT.xml
           - country: NL
-            url: "https://www.rdi.nl/binaries/rdi/documenten/publicaties/bestanden/statisch/tsl/digitale-statuslijst-van-vertrouwensdiensten/current-tsl.xml"
+            url: "https://www.rdi.nl/site/binaries/site-content/collections/documents/current-tsl.xml"
             out: ./NL/TSL_NL.xml
           - country: NO
             url: "https://nkom.no/files/TSL/NO_TSL.xml"
