@@ -84,7 +84,7 @@ jobs:
             url: "https://www.gns.gov.pt/media/1894/TSLPT.xml"
             out: ./PT/TSL_PT.xml
           - country: RO
-            url: "https://www.adr.gov.ro/trustedlist.xml"
+            url: "https://trustedlist.adr.gov.ro/trustedlist.xml"
             out: ./RO/TSL_RO.xml            
           - country: SE
             url: "https://trustedlist.pts.se/SE-TL.xml"
