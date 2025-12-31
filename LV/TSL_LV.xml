@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="LV-TSL" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>48</TSLSequenceNumber>
+        <TSLSequenceNumber>49</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="lv">Digitālās drošības uzraudzības komiteja</Name>
@@ -108,9 +108,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-09-15T07:03:20Z</ListIssueDateTime>
+        <ListIssueDateTime>2025-12-23T08:02:05Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-03-15T08:03:20Z</dateTime>
+            <dateTime>2026-06-23T07:02:05Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://trustlist.gov.lv/tsl/latvian-tsl.xml</URI>
@@ -2792,7 +2792,65 @@
                         </ServiceHistoryInstance>
                     </ServiceHistory>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">LV eID ICA 2025 OCSP 2</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDfjCCAuCgAwIBAgIQQJ5KyGu3iE9pEbqOTLvv0zAKBggqhkjOPQQDAzB+MQswCQYDVQQGEwJMVjE5MDcGA1UECgwwVkFTIExhdHZpamFzIFZhbHN0cyByYWRpbyB1biB0ZWxldsSremlqYXMgY2VudHJzMRowGAYDVQRhDBFOVFJMVi00MDAwMzAxMTIwMzEYMBYGA1UEAwwPTFYgZUlEIElDQSAyMDI1MB4XDTI1MTExMDEwMTIzMFoXDTI2MTExMDEwMTIzMFowgYMxCzAJBgNVBAYTAkxWMTkwNwYDVQQKDDBWQVMgTGF0dmlqYXMgVmFsc3RzIHJhZGlvIHVuIHRlbGV2xKt6aWphcyBjZW50cnMxGjAYBgNVBGEMEU5UUkxWLTQwMDAzMDExMjAzMR0wGwYDVQQDDBRMViBlSUQgSUNBIDIwMjUgT0NTUDB2MBAGByqGSM49AgEGBSuBBAAiA2IABEG7l7SeiXnZi5kWDOle1CMtmWvpnrD0liIGuDnc8Nuzn2wo88O6urWVU1c9dPGPjIARZa049I5fwrQ2XB0EJKYbQ+HKmPKJ+M1hGvo6E6GPlhuQRnW1ijHVKjqIORUIZqOCARswggEXMA4GA1UdDwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDCTAdBgNVHQ4EFgQUHVWAIxb2zR/tcbWV5HuC0H5TCNEwHwYDVR0jBBgwFoAU2yUzHGB4lzDWKb3h8I7Gq/wBXtEwDwYJKwYBBQUHMAEFBAIFADBMBggrBgEFBQcBAQRAMD4wPAYIKwYBBQUHMAKGMGh0dHA6Ly93d3cuZXBhcmFrc3RzLmx2L2NlcnQvTFZfZUlEX0lDQV8yMDI1LmNydDAMBgNVHRMBAf8EAjAAMEMGA1UdHwQ8MDowOKA2oDSGMmh0dHA6Ly93d3cuZXBhcmFrc3RzLmx2L2NybC9MVl9lSURfSUNBXzIwMjVfMjUuY3JsMAoGCCqGSM49BAMDA4GLADCBhwJCAPNiS6tn3a1UhUtX5RX19eVeHiU/seZkN4r3YCdQ2O4SuzXChEYDiBBtmqo6ipedgInyAzvpRi5rvWiJ2XY8IarDAkEIuUYPdWpxtzc9wjrkFqhv/TYXBtynFaBPxn8aLYn4bdEci09cFaAb2Q9Xq3mXeJHT8cLi68CColz6D9QDW9KVHA==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=LV eID ICA 2025 OCSP, OID.2.5.4.97=NTRLV-40003011203, O=VAS Latvijas Valsts radio un televīzijas centrs, C=LV</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>HVWAIxb2zR/tcbWV5HuC0H5TCNE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-01-04T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Certstatus/OCSP/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">LV eID ICA 2025 OCSP 2</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=LV eID ICA 2025 OCSP, OID.2.5.4.97=NTRLV-40003011203, O=VAS Latvijas Valsts radio un televīzijas centrs, C=LV</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>HVWAIxb2zR/tcbWV5HuC0H5TCNE=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-01-04T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-281d73603cc389f67ef27a3d534bd3e8"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9sxJT+TVOsx0EL5dICHLFrow+udGuIiihRuLyuqYVF3DskDDmq2Pu79UJsGxXOw0DYKgZwmnYl+6E3ppQ2yL6g==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-281d73603cc389f67ef27a3d534bd3e8"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>N2B4yTUHIV6ne3tVQPp9Aqmkr5Vv70jxTaidBxzn29Wt2m0MCnaRygDuk9ZRQosyAd84jKD3BuA4mf+tSydIhQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-281d73603cc389f67ef27a3d534bd3e8">Q2B46XK1EYhwukx8MSSzoGouYtHu/1mq3ZbLyz1I0LSCzdgOGChfJHqmTa9L4oGa/uj24BP5Vkq1sy5EHg19j4o/GmUndUe+IZjkg0VI2PWq12YBtE9Uzif4nZqX1P2+KvJJlRAi0sdgVTgcOqSa5OwhFR9pKlrp+wiGsJB9P+B+77rznjP2/poG3IYPZWHT5YWdn1XG0f6uNpeLLFdujS8tAznYioKUHsKXg4rSrxAxrTbgUNLBkGXpqtj/5hYWM54mpQ1wKjb/OxxsWUimUSSPGIdBvdtUi+SuUP+NsVuH8UMVOOLf2xoYRAS+uNDBYjpu4PnkfVkowVh+LmQM5g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFszCCA5ugAwIBAgIQatqKHNZIHZZoLdAWeppTITANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCTFYxOTA3BgNVBAoMMFZBUyBMYXR2aWphcyBWYWxzdHMgcmFkaW8gdW4gdGVsZXbEq3ppamFzIGNlbnRyczEaMBgGA1UEYQwRTlRSTFYtNDAwMDMwMTEyMDMxGzAZBgNVBAMMEmVQYXJha3N0cyBJQ0EgMjAyMTAeFw0yNTA1MjExMzA3MzRaFw0yOTA1MjExMzA3MzRaMHExCzAJBgNVBAYTAkxWMTUwMwYDVQQKDCxEaWdpdMSBbMSBcyBkcm/FocSrYmFzIHV6cmF1ZHrEq2JhcyBrb21pdGVqYTErMCkGA1UEAwwiTGF0dmlhbiBUcnVzdCBMaXN0IFNjaGVtZSBPcGVyYXRvcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKFhax6zUwiAyx/OT4vDB9UAdg2PMoBYuhcJQQCUKXqcMo/j1RJ3Md4rma0QjcJEIG2Ol81sLh7ejznNATG3/XZP7cg+EPTzYpnz+pn7jSY2nA7DfYRRr0OPYYgTAepDRtAV06+cpcwviB//IdjY2MIFpdykmd6BfwKLYHZkARLXSKADyZf310+DD5VBw+9br4jEAXanGS/aqHvKEGONpVB64nP4PZ69ulSYgK/MVJ0avmkbt/avdMInXm46NSHP6tHMOPA+OeWdKvv+FtpypggNptV9+2vVA9nEVO2N4IaIOoDjX16PzLJIVilJ9Ms7ieKHN6fKTrR7LCFUCybqKNcCAwEAAaOCATQwggEwMAwGA1UdEwEB/wQCMAAwEQYDVR0lBAowCAYGBACRNwMAMB0GA1UdDgQWBBQJA+o53eFwHXGwHg8voH14TAiJhjAfBgNVHSMEGDAWgBQZ6YJzV916YDK/6HQZJhX3rYD0FzAOBgNVHQ8BAf8EBAMCBkAwdQYIKwYBBQUHAQEEaTBnMD8GCCsGAQUFBzAChjNodHRwOi8vd3d3LmVwYXJha3N0cy5sdi9jZXJ0L2VQYXJha3N0c19JQ0FfMjAyMS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVwYXJha3N0cy5sdjBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8vd3d3LmVwYXJha3N0cy5sdi9jcmwvZVBhcmFrc3RzX0lDQV8yMDIxXzE3LmNybDANBgkqhkiG9w0BAQsFAAOCAgEAH/RXIOc+eiLkT+8S7a7aHJYpJLsM+AD+4w6cj9p7TTD78105KvuJoeq1VayE3vftSkBcDC94PzRZQiQZ9E9SvSGQtBHE63SocnXLF65vml4qGxUwH9AQ5x13vqKRSRB3WVCztiZ0t9E+zxYnxJzuS3G/j6ULAA9Wn7iVn0+KVUyHTVne0rQwyGK0prbCBm16nCbz1fwLiUnR+jnBqz6d72WEkLXS0TY3W7pev9YV1lp636urmHO+QKjKFlU23AVWOvuYvKFdZGRKFgB/lm66xtrrs0YAoIslb5QUKG6WHoi3oYsYu3IuYcZ51RFq7G7p41FYuOB1tS4OJcncrjiYKLeHcBKCwOo3HveDUkCcq681kSMsZZgIPrhiljXBvQKbFme4IdCJrfWLkmwL2bZoXPt+8PkUkVrtc66Hw4MyXq8YHBpAid1JjefXRgXgV4IcFoW10s8ypAlSdbvyU4veMyPQ7Bx7A/TRG5K54mnKUnClP+fiL6FfLROyKlNbWDxQNP9WWDU9UWl0vwGJz9lVS9mL0cVPKePxDHPCPcTYAbQVEnjdnWoBzYozAVgI7Qrgzm1PBmWtdDIKskQgNzmQcpShXVtdWA9Z96w9HcIMX4VzJYb4mVng1/6zCbBV5nSBfvqOiwZQfHqAi0okrUAWeQhHxluAMMdY09mqH/hBbFo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-281d73603cc389f67ef27a3d534bd3e8"><xades:SignedProperties Id="xades-id-281d73603cc389f67ef27a3d534bd3e8"><xades:SignedSignatureProperties><xades:SigningTime>2025-09-15T07:19:55Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>EyDSVwx1mgX0b6w9eVYxOPzwjmfFZaDvC1OMhDhe7vaX7VIB2U5B88DJKqbrHBCuejLPisV13Cb1Mb2+fi8guQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=eParaksts ICA 2021,2.5.4.97=#0c114e54524c562d3430303033303131323033,O=VAS Latvijas Valsts radio un televīzijas centrs,C=LV</ds:X509IssuerName><ds:X509SerialNumber>142032889525592503764669751162081792801</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-e4e1b0bd09fdd2c3f2511473dd42f05d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>UKRP9cmZMb470cWzfNVzrFo52TVrIImgYn92tN9ERYEkc/QXJRM5zYyOwTMMj+M8yb/slk93iNB77HyW0UHEKA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-e4e1b0bd09fdd2c3f2511473dd42f05d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Aob9sWTxv26Av9G1vVX2eXYVaPq6u1W/7Tf6rvFvfMtDtogXw0WZd1w1IYmBXHEZbMLE+5/DMUDwnH4tYm9qRg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e4e1b0bd09fdd2c3f2511473dd42f05d">Pa18ES0nySligTU4L/DA8fH/9J754hyt/bNgcLGpTK1JjBGy7CdUnc8x/CMzFlWgxETCJ1zI9o7kCG81pHMtjECMeyNTzYGj+XaIY32gXKiEa8CCkWzVrIEqHQYp5y0izXiRcpl/2UyDsyyrnqmvEvvUe2IE8QOEaMj2DrfP8dPXDV4NRwNiH/6ib6okOFoQVLxqVUHIYTEFMFlDPia3m2gYhrxgwWkDkJXVmbFf1Cyhuqek9kQy615Vr8eDrsJuFS6d2Vt2PrD6Ep+mCMjRqLgd13RcarvjZ7XZz8G90UYDSrQdR9XH7tB3Yt+lTIEhHQeInE2gWQsIsG+V4x6GFw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFszCCA5ugAwIBAgIQatqKHNZIHZZoLdAWeppTITANBgkqhkiG9w0BAQsFADCBgTELMAkGA1UEBhMCTFYxOTA3BgNVBAoMMFZBUyBMYXR2aWphcyBWYWxzdHMgcmFkaW8gdW4gdGVsZXbEq3ppamFzIGNlbnRyczEaMBgGA1UEYQwRTlRSTFYtNDAwMDMwMTEyMDMxGzAZBgNVBAMMEmVQYXJha3N0cyBJQ0EgMjAyMTAeFw0yNTA1MjExMzA3MzRaFw0yOTA1MjExMzA3MzRaMHExCzAJBgNVBAYTAkxWMTUwMwYDVQQKDCxEaWdpdMSBbMSBcyBkcm/FocSrYmFzIHV6cmF1ZHrEq2JhcyBrb21pdGVqYTErMCkGA1UEAwwiTGF0dmlhbiBUcnVzdCBMaXN0IFNjaGVtZSBPcGVyYXRvcjCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAKFhax6zUwiAyx/OT4vDB9UAdg2PMoBYuhcJQQCUKXqcMo/j1RJ3Md4rma0QjcJEIG2Ol81sLh7ejznNATG3/XZP7cg+EPTzYpnz+pn7jSY2nA7DfYRRr0OPYYgTAepDRtAV06+cpcwviB//IdjY2MIFpdykmd6BfwKLYHZkARLXSKADyZf310+DD5VBw+9br4jEAXanGS/aqHvKEGONpVB64nP4PZ69ulSYgK/MVJ0avmkbt/avdMInXm46NSHP6tHMOPA+OeWdKvv+FtpypggNptV9+2vVA9nEVO2N4IaIOoDjX16PzLJIVilJ9Ms7ieKHN6fKTrR7LCFUCybqKNcCAwEAAaOCATQwggEwMAwGA1UdEwEB/wQCMAAwEQYDVR0lBAowCAYGBACRNwMAMB0GA1UdDgQWBBQJA+o53eFwHXGwHg8voH14TAiJhjAfBgNVHSMEGDAWgBQZ6YJzV916YDK/6HQZJhX3rYD0FzAOBgNVHQ8BAf8EBAMCBkAwdQYIKwYBBQUHAQEEaTBnMD8GCCsGAQUFBzAChjNodHRwOi8vd3d3LmVwYXJha3N0cy5sdi9jZXJ0L2VQYXJha3N0c19JQ0FfMjAyMS5jcnQwJAYIKwYBBQUHMAGGGGh0dHA6Ly9vY3NwLmVwYXJha3N0cy5sdjBGBgNVHR8EPzA9MDugOaA3hjVodHRwOi8vd3d3LmVwYXJha3N0cy5sdi9jcmwvZVBhcmFrc3RzX0lDQV8yMDIxXzE3LmNybDANBgkqhkiG9w0BAQsFAAOCAgEAH/RXIOc+eiLkT+8S7a7aHJYpJLsM+AD+4w6cj9p7TTD78105KvuJoeq1VayE3vftSkBcDC94PzRZQiQZ9E9SvSGQtBHE63SocnXLF65vml4qGxUwH9AQ5x13vqKRSRB3WVCztiZ0t9E+zxYnxJzuS3G/j6ULAA9Wn7iVn0+KVUyHTVne0rQwyGK0prbCBm16nCbz1fwLiUnR+jnBqz6d72WEkLXS0TY3W7pev9YV1lp636urmHO+QKjKFlU23AVWOvuYvKFdZGRKFgB/lm66xtrrs0YAoIslb5QUKG6WHoi3oYsYu3IuYcZ51RFq7G7p41FYuOB1tS4OJcncrjiYKLeHcBKCwOo3HveDUkCcq681kSMsZZgIPrhiljXBvQKbFme4IdCJrfWLkmwL2bZoXPt+8PkUkVrtc66Hw4MyXq8YHBpAid1JjefXRgXgV4IcFoW10s8ypAlSdbvyU4veMyPQ7Bx7A/TRG5K54mnKUnClP+fiL6FfLROyKlNbWDxQNP9WWDU9UWl0vwGJz9lVS9mL0cVPKePxDHPCPcTYAbQVEnjdnWoBzYozAVgI7Qrgzm1PBmWtdDIKskQgNzmQcpShXVtdWA9Z96w9HcIMX4VzJYb4mVng1/6zCbBV5nSBfvqOiwZQfHqAi0okrUAWeQhHxluAMMdY09mqH/hBbFo=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-e4e1b0bd09fdd2c3f2511473dd42f05d"><xades:SignedProperties Id="xades-id-e4e1b0bd09fdd2c3f2511473dd42f05d"><xades:SignedSignatureProperties><xades:SigningTime>2025-12-23T12:52:39Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>EyDSVwx1mgX0b6w9eVYxOPzwjmfFZaDvC1OMhDhe7vaX7VIB2U5B88DJKqbrHBCuejLPisV13Cb1Mb2+fi8guQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>CN=eParaksts ICA 2021,2.5.4.97=#0c114e54524c562d3430303033303131323033,O=VAS Latvijas Valsts radio un televīzijas centrs,C=LV</ds:X509IssuerName><ds:X509SerialNumber>142032889525592503764669751162081792801</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
