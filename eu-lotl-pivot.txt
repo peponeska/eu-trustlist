@@ -1,3 +1,4 @@
+https://ec.europa.eu/tools/lotl/eu-lotl-pivot-378.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-341.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-335.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-300.xml
