@@ -1,27 +1,34 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BE-TL-071" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>75</TSLSequenceNumber>
+        <TSLSequenceNumber>76</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
-            <Name xml:lang="en">FPS Economy, SMEs, Self-employed and Energy - Quality and Safety</Name>
-            <Name xml:lang="nl">FOD Economie, KMO, Middenstand en Energie - Kwaliteit en Veiligheid</Name>
-            <Name xml:lang="fr">SPF Economie, PME, Classes moyennes et Energie - Qualité et Sécurité</Name>
-            <Name xml:lang="de">FÖD Wirtschaft, KMU, Mittelstand und Energie - Qualität und Sicherheit</Name>
+            <Name xml:lang="en">FPS Economy, SMEs, Self-employed and Energy</Name>
+            <Name xml:lang="nl">FOD Economie, KMO, Middenstand en Energie</Name>
+            <Name xml:lang="fr">SPF Economie, PME, Classes moyennes et Energie</Name>
+            <Name xml:lang="de">FÖD Wirtschaft, KMU, Mittelstand und Energie</Name>
         </SchemeOperatorName>
         <SchemeOperatorAddress>
             <PostalAddresses>
-                <PostalAddress xml:lang="en">
-                    <StreetAddress>NG III - Koning Albert II-laan 16</StreetAddress>
-                    <Locality>Brussels</Locality>
-                    <StateOrProvince>Brussels</StateOrProvince>
+                <PostalAddress xml:lang="fr">
+                    <StreetAddress>NG II - Boulevard du roi Albert II 16</StreetAddress>
+                    <Locality>Bruxelles</Locality>
+                    <StateOrProvince>Bruxelles capitale</StateOrProvince>
                     <PostalCode>1000</PostalCode>
                     <CountryName>BE</CountryName>
                 </PostalAddress>
                 <PostalAddress xml:lang="nl">
-                    <StreetAddress>NG III - Koning Albert II-laan 16</StreetAddress>
+                    <StreetAddress>NG II - Koning Albert II-laan 16</StreetAddress>
                     <Locality>Brussel</Locality>
-                    <StateOrProvince>Brussel</StateOrProvince>
+                    <StateOrProvince>Brussel hoofdstedelijk</StateOrProvince>
+                    <PostalCode>1000</PostalCode>
+                    <CountryName>BE</CountryName>
+                </PostalAddress>
+                <PostalAddress xml:lang="en">
+                    <StreetAddress>NG II - King Albert II boulevard 16</StreetAddress>
+                    <Locality>Brussels</Locality>
+                    <StateOrProvince>Brussels capital</StateOrProvince>
                     <PostalCode>1000</PostalCode>
                     <CountryName>BE</CountryName>
                 </PostalAddress>
@@ -111,9 +118,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2025-08-11T13:00:04Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-02-11T13:00:28Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-02-11T14:00:04Z</dateTime>
+            <dateTime>2026-08-11T12:00:28Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.belgium.be/tsl-be.xml</URI>
@@ -1814,6 +1821,62 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">DigiCert QuoVadis G3 Qualified BE itsme RIV RSA4096 256 2023 CA1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=DigiCert QuoVadis G3 Qualified BE itsme RIV RSA4096 256 2023 CA1, OID.2.5.4.97=NTRBE-0537698318, O=DigiCert Europe Belgium B.V., C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KTwdk7iH++GP7XKgehRGvr+Nx1g=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">DigiCert QuoVadis G3 Qualified BE itsme RSA4096 SHA256 2023 CA1</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=DigiCert QuoVadis G3 Qualified BE itsme RSA4096 SHA256 2023 CA1, OID.2.5.4.97=NTRBE-0537698318, O=DigiCert Europe Belgium B.V., C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>7RAkwGs8hi1E+nylj8w5J87dR7c=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -2439,9 +2502,27 @@
 <X509SKI>1UJpJg2km/kREQ6exb2dvOYRucY=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-02-08T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.3171, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>1UJpJg2km/kREQ6exb2dvOYRucY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-02-08T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2460,9 +2541,27 @@
 <X509SKI>qwi1L783KMVuiRRNh7wSGKuNcfw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-02-08T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.3171, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>qwi1L783KMVuiRRNh7wSGKuNcfw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-02-08T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2484,9 +2583,27 @@
 <X509SKI>KuOBdoL/6UxErOuy+1MfqKuLiAY=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-06-13T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.3171, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>KuOBdoL/6UxErOuy+1MfqKuLiAY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-06-13T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2505,9 +2622,27 @@
 <X509SKI>TYNtYIaH4NERTV2mUq0AVI8uMig=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-10-25T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.2.1.30700, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TYNtYIaH4NERTV2mUq0AVI8uMig=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-10-25T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2526,9 +2661,27 @@
 <X509SKI>6WKiujS0NRC8nGTQlr4WwmOgZS4=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-03-20T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.4535, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>6WKiujS0NRC8nGTQlr4WwmOgZS4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-03-20T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2547,9 +2700,27 @@
 <X509SKI>bX8uA8SuFnJRaA+KraO681sdnjw=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2020-03-20T00:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.3171, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>bX8uA8SuFnJRaA+KraO681sdnjw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2020-03-20T00:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2568,9 +2739,27 @@
 <X509SKI>mG8duhr8HEqs0WLTq1xgUx1iv/8=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-02-18T00:00:44Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.3171, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>mG8duhr8HEqs0WLTq1xgUx1iv/8=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-02-18T00:00:44Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2589,9 +2778,27 @@
 <X509SKI>cs536TtPyv6oLiQyMWbfBTMtC4g=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-02-18T00:00:47Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.5733, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>cs536TtPyv6oLiQyMWbfBTMtC4g=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-02-18T00:00:47Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2610,9 +2817,27 @@
 <X509SKI>8MeAOz9uKr2mIOyGZHTF4gA0iqQ=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2024-11-12T16:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/REM/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Aangetekende.email</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>SERIALNUMBER=1.3.6.1.4.1.21528.2.3.2.5733, EMAILADDRESS=info@connect-solutions.be, CN=Connect Solutions, OID.2.5.4.97=VATBE-0843871294, O=Connect Solutions, L=Heusden-Zolder, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>8MeAOz9uKr2mIOyGZHTF4gA0iqQ=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2024-11-12T16:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -2633,6 +2858,27 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2024-11-12T16:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Aangetekende.email</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIE+jCCBH+gAwIBAgIQDVeSf+dUlJcNfLW7/4fMVDAKBggqhkjOPQQDAzBnMQswCQYDVQQGEwJFRTEbMBkGA1UECgwSU0sgSUQgU29sdXRpb25zIEFTMRcwFQYDVQRhDA5OVFJFRS0xMDc0NzAxMzEiMCAGA1UEAwwZU0sgSUQgU29sdXRpb25zIE9SRyAyMDIxRTAeFw0yNTEwMDgxMDMyMjVaFw0yODExMDYxMDMyMjRaMIGkMRowGAYDVQQDDBFDb25uZWN0IFNvbHV0aW9uczEVMBMGA1UEBRMMMDg0My44NzEuMjk0MRswGQYDVQRhDBJOVFJCRS0wODQzLjg3MS4yOTQxGjAYBgNVBAoMEUNvbm5lY3QgU29sdXRpb25zMRcwFQYDVQQHDA5IZXVzZGVuLVpvbGRlcjEQMA4GA1UECAwHTGltYnVyZzELMAkGA1UEBhMCQkUwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCI5eoM73ewJ5hGY6u1+zy1P81R7JPyUKFt67SjuIjF9xAfodXj+J6mTKupIh8tqb/KJy9RSrQ6VHZ/Jb77J2nr52ZMSpdQf7oYOnKUFVHPFnwkbsFjKJUOXRu+7j3SH3R0UwXdmzHOYwEFg8ikV39eGcyvAsbGnVmw+yqdT4zEi6Ze4NW1UwvmijkPHFQjKAlIo+FOWTUS0lulFIXN2oZSC1A8rIDrHNiPCdnZxK+kaCp8ozuAjFPvgCKH3pmHEMsf0UNDTd5RRAg+NbDB0f0eFzSe2tpBUhPbfbMqiar2RLZpcRwS+r/QcWocbkJz2OeD3UWkU/jZU2QPwX5RPtpFAgMBAAGjggICMIIB/jAJBgNVHRMEAjAAMB8GA1UdIwQYMBaAFPyJ5/xDeP/sLMOEqKOA4yNIGtQoMGMGCCsGAQUFBwEBBFcwVTAsBggrBgEFBQcwAoYgaHR0cDovL2Muc2suZWUvT1JHXzIwMjFFLmRlci5jcnQwJQYIKwYBBQUHMAGGGWh0dHA6Ly9haWEuc2suZWUvb3JnMjAyMWUwgYYGA1UdIAR/MH0wCQYHBACL7EABATALBgkrBgEEAc4fCQEwYwYJKwYBBAHOHwcDMFYwVAYIKwYBBQUHAgEWSGh0dHBzOi8vd3d3LnNraWRzb2x1dGlvbnMuZXUvcmVzb3VyY2VzL2NlcnRpZmljYXRpb24tcHJhY3RpY2Utc3RhdGVtZW50LzCBgAYIKwYBBQUHAQMEdDByMAgGBgQAjkYBATATBgYEAI5GAQYwCQYHBACORgEGAjBRBgYEAI5GAQUwRzBFFj9odHRwczovL3NrLmVlL2VuL3JlcG9zaXRvcnkvY29uZGl0aW9ucy1mb3ItdXNlLW9mLWNlcnRpZmljYXRlcy8TAmVuMDAGA1UdHwQpMCcwJaAjoCGGH2h0dHA6Ly9jLnNrLmVlL3NrX29yZ18yMDIxZS5jcmwwHQYDVR0OBBYEFA+1bq2yghgOMYjKJbLOI2qYTAUaMA4GA1UdDwEB/wQEAwIGQDAKBggqhkjOPQQDAwNpADBmAjEAy2wobiUfvdyboqBzKf5zRN/C32BWkbIOKrxvbh14TgfQE18gbbj+whBAsxRp/P8oAjEAl6nkuwuanq0gvEoLEMWa3I0bjAljWxrzb8ci3KkdzL9zQKo7eN56mM4ChCDvoAa3</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>C=BE, ST=Limburg, L=Heusden-Zolder, O=Connect Solutions, OID.2.5.4.97=NTRBE-0843.871.294, SERIALNUMBER=0843.871.294, CN=Connect Solutions</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>D7VurbKCGA4xiMolss4japhMBRo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -6359,6 +6605,132 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GlobalSign GCC R46 EV QWAC CA 2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRBE-0459134256, CN=GlobalSign GCC R46 EV QWAC CA 2025, O=GlobalSign nv-sa, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>PNNlhdyAfBgVC80N6G+ckdepwcc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GlobalSign Atlas R45 Qualified Timestamping CA 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRBE-0459134256, CN=GlobalSign Atlas R45 Qualified Timestamping CA 2024, O=GlobalSign nv-sa, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>kS//6hrE89J4V+5+AeDcQXPdp2g=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GlobalSign Atlas E46 Qualified Timestamping CA 2022</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDGTCCAsGgAwIBAgIQfFihDS3CsIuUqvcBYn4dsDAKBggqhkjOPQQDAjBTMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTEpMCcGA1UEAxMgR2xvYmFsU2lnbiBUaW1lc3RhbXBpbmcgUm9vdCBFNDYwHhcNMjIwNTE4MTIwMDAwWhcNMzcwNTE4MDAwMDAwWjBmMQswCQYDVQQGEwJCRTEZMBcGA1UEChMQR2xvYmFsU2lnbiBudi1zYTE8MDoGA1UEAxMzR2xvYmFsU2lnbiBBdGxhcyBFNDYgUXVhbGlmaWVkIFRpbWVzdGFtcGluZyBDQSAyMDIyMFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEaYCcdaF01Wi3TZWUuKZ0T64+Qv0lqHchWMSXucFqXfKXLM8c2vrzwXNsaP5hJmuRVsbRwhD+Qnj8fFMDmM8qwKOCAWIwggFeMA4GA1UdDwEB/wQEAwIBhjATBgNVHSUEDDAKBggrBgEFBQcDCDASBgNVHRMBAf8ECDAGAQH/AgEAMB0GA1UdDgQWBBTEJyX4JbuA/NbjDuepECZ9Qp36cTAfBgNVHSMEGDAWgBSmWTzpZjAuEplVEaaA7h4I/Hy4mTCBjgYIKwYBBQUHAQEEgYEwfzA3BggrBgEFBQcwAYYraHR0cDovL29jc3AuZ2xvYmFsc2lnbi5jb20vdGltZXN0YW1wcm9vdGU0NjBEBggrBgEFBQcwAoY4aHR0cDovL3NlY3VyZS5nbG9iYWxzaWduLmNvbS9jYWNlcnQvdGltZXN0YW1wcm9vdGU0Ni5jcnQwPwYDVR0fBDgwNjA0oDKgMIYuaHR0cDovL2NybC5nbG9iYWxzaWduLmNvbS90aW1lc3RhbXByb290ZTQ2LmNybDARBgNVHSAECjAIMAYGBFUdIAAwCgYIKoZIzj0EAwIDRgAwQwIfdg52+kLb/vWM/hEAyaW98lasHPKVbi6nrq5DNJQnCAIgE1El8LVCzGfiDf/H6TxyOxQzSdNaesQg+Z9WnZ/SgQE=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=GlobalSign Atlas E46 Qualified Timestamping CA 2022, O=GlobalSign nv-sa, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>xCcl+CW7gPzW4w7nqRAmfUKd+nE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">GlobalSign Atlas R45 Qualified Remote Signing CA 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRBE-0459134256, CN=GlobalSign Atlas R45 Qualified Remote Signing CA 2024, O=GlobalSign nv-sa, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KiMwIvX2D8faHh/yJVkWXyyOSMo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> GlobalSign Atlas R45 Qualified Remote Signing CA 2024</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRBE-0459134256, CN=GlobalSign Atlas R45 Qualified Remote Signing CA 2024, O=GlobalSign nv-sa, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KiMwIvX2D8faHh/yJVkWXyyOSMo=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -6718,8 +7090,71 @@
 <X509SKI>QeCbF3Lrt20=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Connective Validation Service</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Connective Signature Validation Service, OID.2.5.4.97=NTRBE-0476.046.486, O=CONNECTIVE, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>QeCbF3Lrt20=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2023-09-20T00:00:06Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/QESValidation/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Nitro Validation Service</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Nitro Validation Service, OID.2.5.4.97=NTRBE-0467.046.486, O=Nitro Software Belgium, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>QGtygDsIExc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2023-09-20T00:00:06Z</StatusStartingTime>
+                        <StatusStartingTime>2025-12-15T16:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -6923,4 +7358,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-1b005bad2759b9d5ee1ec7001b3e7e10"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Yl/SdAJgyvWdNQGTWWOj/u58jIJqKhEaQ599lphKaOVUvfYknBCGYd+fVYbKhQqMwOu/bzV4hCQbx7rLoV8qfQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-1b005bad2759b9d5ee1ec7001b3e7e10"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>MFbt2Zox3QPXuq1l633t2D/CLqL24cb5W7WOSfJ9FBE4vgIDBQLEWT1bhxaCsTU5nww8PKPZD34hzr5WA/Q10g==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-1b005bad2759b9d5ee1ec7001b3e7e10">cTxfhA+53uHHVJXqzDmhh+pInp1mZVH6uTVylyeiBQuTMkPoA8kojtZIvm8hmT96nTB49q4L08t9vIh5fIqLEKOMe+ALC80masOrn+17vxJ9Cve9yUNDfjQcIMfyxNG0MUXv/eYPCC1A6kHg2Wf9x8ZaHLnmHIkoofI5jdlYyqR3pcl9GnlpcLS2ErPzAVD7KcJsZSwa0pS8j3ISP84DWafuko+QhiZhIuhO+AKUaJ3gt/+rlSV+U4FXv4lIQqFfd9zW6d4KaudOtfBNzfp4l1xYDdBc4KdCC3HKWySiAjnY4NlOyXVnB++nmZlVP3Xx5tTGy3V3Ay2jS6xSX8XtaQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIFeDCCBP6gAwIBAgIMWC5ThUy0RpptTp0uMAoGCCqGSM49BAMDMH8xCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTowOAYDVQQDEzFHbG9iYWxTaWduIEdDQyBFNDUgUXVhbGlmaWVkIFFTQ0QgU2lnbmluZyBDQSAyMDIwMRkwFwYDVQRhExBOVFJCRS0wNDU5MTM0MjU2MB4XDTI1MDcyMjE1MzUxOFoXDTI3MDcyMzE1MzUxOFowggEHMQswCQYDVQQGEwJCRTEnMCUGA1UECBMeQnJ1c3NlbHMgSG9vZmRzdGVkZWxpamsgR2V3ZXN0MRwwGgYDVQQHExNTaW50LUpvb3N0LXRlbi1Ob2RlMUkwRwYDVQQKE0BGZWRlcmFsZSBPdmVyaGVpZHNkaWVuc3QgRWNvbm9taWUsIEsuTS5PLCBNaWRkZW5zdGFuZCBlbiBFbmVyZ2llMUkwRwYDVQQDE0BGZWRlcmFsZSBPdmVyaGVpZHNkaWVuc3QgRWNvbm9taWUsIEsuTS5PLCBNaWRkZW5zdGFuZCBlbiBFbmVyZ2llMRswGQYDVQRhExJOVFJCRS0wMzE0LjU5NS4zNDgwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCw1ThDEoFFZJhP2qJPJDyxzuL/G7AghC0dmWMwMKAACSgXuGhLnsNvLeaxe6nc/eVcDokU0bOdSD3c7d8RG7hv5OtQ22X2EH6Pve1IT1Lgg3+xfmBLrmHi/UGik75KrAN7ifuhzqFEgDOqku8ZSO4+PDs9HZg6X4phillTWIJ+H3rrm8Zb/msgKjdKgZZag9Ql0hzdoJwzkCXVqJrV32d2c5e2Z3t8ExAjlXcfjIdfW8ONOwIqCe/SefiXoabygmUhc+CzJ6b8ylahQCkIpMaqtAZoUQGeNXSBykUHZddpXNbikM7uwnAiCEUAa8jEa/YWG2CJs7swF7MNMG+yaaXpAgMBAAGjggIJMIICBTAOBgNVHQ8BAf8EBAMCBkAwgaMGCCsGAQUFBwEBBIGWMIGTME4GCCsGAQUFBzAChkJodHRwOi8vc2VjdXJlLmdsb2JhbHNpZ24uY29tL2NhY2VydC9nc2djY2U0NXF1YWxxc2Nkc2lnbmNhMjAyMC5jcnQwQQYIKwYBBQUHMAGGNWh0dHA6Ly9vY3NwLmdsb2JhbHNpZ24uY29tL2dzZ2NjZTQ1cXVhbHFzY2RzaWduY2EyMDIwMFkGA1UdIARSMFAwQwYLKwYBBAGgMgEoJAIwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cuZ2xvYmFsc2lnbi5jb20vcmVwb3NpdG9yeS8wCQYHBACL7EABAzBJBgNVHR8EQjBAMD6gPKA6hjhodHRwOi8vY3JsLmdsb2JhbHNpZ24uY29tL2dzZ2NjZTQ1cXVhbHFzY2RzaWduY2EyMDIwLmNybDA3BggrBgEFBQcBAwQrMCkwCAYGBACORgEBMAgGBgQAjkYBBDATBgYEAI5GAQYwCQYHBACORgEGAjAgBgNVHSUEGTAXBgkqhkiG9y8BAQUGCisGAQQBgjcKAwwwDAYDVR0TAQH/BAIwADAfBgNVHSMEGDAWgBS1ixC9qo9vveNITthfKIMXFhc9OzAdBgNVHQ4EFgQUVTXDcVGqVUX3iJr2LRjemG+LzfkwCgYIKoZIzj0EAwMDaAAwZQIwWMjqbDmwwt5EGM5D/X09QIAQwXjfbTKmF+3w33aGdVTV8DDG7Gtku5EmtYQQU4LOAjEA3M3qbx5FFEXGFaNuGkLWbpOHVepkI84zZg5q+cRsdfhwGw7s98XZ7ESDnFvsC4YC</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-1b005bad2759b9d5ee1ec7001b3e7e10"><xades:SignedProperties Id="xades-id-1b005bad2759b9d5ee1ec7001b3e7e10"><xades:SignedSignatureProperties><xades:SigningTime>2025-08-11T07:11:07Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>GpI0PMVgYxama1MeqFuqBN9bOrNOplKRo0VZgbo3yYbi4UlgBVkUkV3HxilpuAr0bRd8P7GLOskSeyIHUFKRjA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#13104e545242452d30343539313334323536,CN=GlobalSign GCC E45 Qualified QSCD Signing CA 2020,O=GlobalSign nv-sa,C=BE</ds:X509IssuerName><ds:X509SerialNumber>27290685867342799245503536430</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-ccc4140f2eab22c7884d1be8cf1756ad"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>75I7K1mKAkfGlUTgq6nGctpnznovNgig0xA5ALGgokii5PWDj0ZW254Xgazhg8A5fI5QW6/wApP+Cqi3ylzKOA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-ccc4140f2eab22c7884d1be8cf1756ad"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>kORlWNeh6n2GUuw4ptpBBip1F4eLAvJSc87/yw2xwmFpOvzootjVCnEaPZc9gTdFVPmliNXhnsq1ivCbnWo/HA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-ccc4140f2eab22c7884d1be8cf1756ad">kYxjpfK7tKjfKiRJW3Q/L5B4ydFAJP2Wfo5HTpyWTwcaMSjpGphA6sHGDtIgObSpEd8MqGL5TMpsDqQesdJ/Q31NNV3CbRvf7FPDtA54oWDX3jj2UG4Srh5PP17z7H41WYTRAs33pZak6JzkahiAEaQNNcBm6xO2yUvAUWVcHFHD+/fLKR6EwA5YpEtjguKFSOtu3RyZjt/jDrTLZ/EtyhZgX+0gDcUo1h2Uuo8S+COvhmvD/szpp5y0Cq8W89hnCSedytP5WIGY71h3SXTmecCwrexDJV3sXgohnYyjLR7bpe+SCzAuiLMjO/ccwMxWZaHGmOBKk0pWkc8a2/Fb+ea7pNx5NSHq1wYJlvNCaSEmdiuKAFYngAWri1WZgE+9A3ugN8pJtvPiReQPvEVjODO7AskwHxAHEy+KTdvvemAAgFoeDCN9bbREwvDNzm4XuB0wCkUc5LhkZBs4w0R0SEaE66gE6iadPg4A/+AhiGgRQ50mv7VbfsteJDkxhvyWdYCnifS8WbRzbulyfjFYcflOaMdbvxJ22ZEZtnMj0/De9hIe7m3WEvJBpkwwQYnXL13j+EKBtW4sfkKNmcIJVgl0XMNEz06qlFB35Q/GHXBHxOPRiXZN0kvkhSBpYHpE8wnxjP9X7MCec/gbWqFTuyInlA07dAl9BPd2A4suM2o=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-ccc4140f2eab22c7884d1be8cf1756ad"><xades:SignedProperties Id="xades-id-ccc4140f2eab22c7884d1be8cf1756ad"><xades:SignedSignatureProperties><xades:SigningTime>2026-02-11T11:33:27Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mtg0alh9/IWYR/bkOynzuXS+pwy4z+CCzOM8tiWVOFJKtrB7oDsfkZNXqkj66JRw2FUPp3nlXjppywf4Sw6ybA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>2.5.4.97=#13104e545242452d30343539313334323536,CN=GlobalSign GCC E45 Qualified QSCD Signing CA 2020,O=GlobalSign nv-sa,C=BE</ds:X509IssuerName><ds:X509SerialNumber>36164765845890007749315098376</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
