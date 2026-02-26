@@ -119,6 +119,7 @@ jobs:
         id: cpr
         uses: peter-evans/create-pull-request@v7
         with:
+          token: ${{ secrets.PAT_TOKEN }}
           branch: ${{ matrix.country }}-tsl
           delete-branch: true
           title: '${{ matrix.country }} TSL - Version ${{ steps.getxml.outputs.info }}'
