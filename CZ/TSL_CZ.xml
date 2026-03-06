@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL_CZ" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>5</TSLVersionIdentifier>
-        <TSLSequenceNumber>168</TSLSequenceNumber>
+        <TSLSequenceNumber>169</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Digital and Information Agency</Name>
@@ -103,9 +103,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-01-30T09:40:03Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-03-05T16:00:38Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-07-21T08:40:03Z</dateTime>
+            <dateTime>2026-09-01T15:00:38Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.gov.cz/publ/TSL_CZ.xtsl</URI>
@@ -5619,7 +5619,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-12-28T10:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-03-05T16:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -5631,7 +5631,7 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
                             </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
@@ -5641,26 +5641,37 @@
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.102.400</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.17.200</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.18.200</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.101.160</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.17.210</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>2.23.134.1.4.1.102.410</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:Description/>
@@ -5670,6 +5681,74 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">(116) PostSignum - issuing qualified certificates</Name>
+<Name xml:lang="cs">(116) PostSignum - vydávání kvalifikovaných certifikátů</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=PostSignum Qualified CA 4, O="Česká pošta, s.p.", OID.2.5.4.97=NTRCZ-47114983, C=CZ</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>Dyh8PjYAOBBQrj24IZeL92BcYXg=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-12-28T10:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.102.400</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.17.200</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.18.200</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.101.160</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.17.210</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -5690,7 +5769,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2018-12-28T10:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-03-05T16:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -5702,7 +5781,7 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
 </AdditionalServiceInformation>
                             </Extension>
-                            <Extension Critical="true">
+                            <Extension Critical="false">
 <ns5:Qualifications>
     <ns5:QualificationElement>
         <ns5:Qualifiers>
@@ -5712,26 +5791,37 @@
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.102.400</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.17.200</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.18.200</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.101.160</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>2.23.134.1.4.1.17.210</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>2.23.134.1.4.1.102.410</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:Description/>
@@ -5741,6 +5831,74 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">(117) PostSignum - issuing qualified certificates</Name>
+<Name xml:lang="cs">(117) PostSignum - vydávání kvalifikovaných certifikátů</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=PostSignum Qualified CA 5, O="Česká pošta, s.p.", OID.2.5.4.97=NTRCZ-47114983, C=CZ</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>O5sgUnUjq4TkvWjsYNx0RCdWlQY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2018-12-28T10:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="true">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.102.400</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.17.200</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.18.200</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.101.160</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>2.23.134.1.4.1.17.210</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -19634,4 +19792,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-6aa43dc006e59cd42fb8334422cd8fd1"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>a0FX84oCPFbxaWKICA3RJL13jwH7ESo+YLBzu3tFJ+kQh/uWAh+7FrcdJ1ICu6IAny/udc8dTyDGznWFw8mlEg==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-6aa43dc006e59cd42fb8334422cd8fd1"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>1kQ3HlwkfBvNEXfROfTBf1J4NpwbpMeBGy5IjZ+bPUZVFCNSgiCOK+/H3X+K34jdg7Xx+Pi07/izDePS0eWI+w==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-6aa43dc006e59cd42fb8334422cd8fd1">hCbDKg176uezL1JVmhYnGv52dYNMQdmd7pH+iVY4LuqHkzlIbnybjdYxV2+hguyuVcMNAeg1Lyt+H6WOTVz8UnGdKdva3F9jO0viV9JZq/ac2hboaIIE3hTrLvvhtP99YZMkgboeFJzMVW3sW4ePeRBwpGVNHnUSAChcY7x6dT2P6+/zzI4HtXDccFM8xYCiaX3Kd7BIUVp0YVI/FmtLi0fY9yR0gIlgY1ox+bZoP14m8pbTj/EjnPXfp/W9P5SJP+rmXwlG+FEuJHnfDNeVSz7gvVKtYc3Sd+U7D0NOaw+fJLJszCtsogwHnL5fG32/rs07v4+DClIYXLZ+GNkR3A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-6aa43dc006e59cd42fb8334422cd8fd1"><xades:SignedProperties Id="xades-id-6aa43dc006e59cd42fb8334422cd8fd1"><xades:SignedSignatureProperties><xades:SigningTime>2026-01-30T09:41:17Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>923NyzEgPhPBcpbncM4UKLthtoyKLHHQ1UmpMoRbtGyFmub/dPGXd+zQAFQUw70aT+wpHwVMrPt3UxqhWZ8DDw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CZ,2.5.4.97=#0c0e4e5452435a2d3732303534353036,O=Správa základních registrů,CN=NCA SubCA1/RSA 05/2022</ds:X509IssuerName><ds:X509SerialNumber>14307</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-6ce7924067bce8e163400bc131b1f091"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>5EdQaPClvQ0Q2OinLFeOOJesz2l2SsNquA2q8ZvFRKR5xl+itxDtQ3cDd6xEoT+q1qxtnQ68mkD/S+TKsVrSEA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-6ce7924067bce8e163400bc131b1f091"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>An8ytzhcpnsyAtzzEdkAYCh3t8vgKoloaHAY/GURL0fzDW/PFtY8s3fNU0Qq5cyEFi1uoC0pR+maSouCps0fhQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-6ce7924067bce8e163400bc131b1f091">fZRVfE/34Sktbh4ask1f/Xbj94gK6x1vFY0VWMdpC8M6AYTIp1m8kXGTHiqDcCDfacHnUrd5SccMa90NFsIKs0XfbBj9kEKteLfz1eMinpzn7Uotwb7apSbtzNkDbHD8itnArWzScpQHAJp93N+Pp8a29oNVYQ7YDGasaN6XjxPLRRd/ifSd72I1RzTxlyI1Em9iwQK3gZaBZFITGn/bQWQf9uyPv6mVeUpwJfYx5iZwXBqAZh/2XKNw00UCcjiwTBasvCYE5GM3pw0sFQPFKhYvFeqA+O7lo2t/xgosgo0i+YcUBab5m4lfuDiPLw6itbaO4XSwSjpAZoxQZgIa3g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIszCCBuegAwIBAgICWd8wQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMIGHMR8wHQYDVQQDDBZOQ0EgU3ViQ0ExL1JTQSAxMC8yMDIzMT4wPAYDVQQKDDVTcHLDoXZhIHN0w6F0bsOtY2ggc2x1xb5lYiB2eXR2w6HFmWVqw61jw61jaCBkxa92xJtydTEXMBUGA1UEYQwOTlRSQ1otMTkxMjIwNjMxCzAJBgNVBAYTAkNaMB4XDTI2MDExNjEwMzAwM1oXDTI5MDExNTEwMzAwM1owgbcxDjAMBgNVBCoMBUZpbGlwMQ8wDQYDVQQEDAZCw61sZWsxFTATBgNVBAMMDEZpbGlwIELDrWxlazEsMCoGA1UECgwjRGlnaXTDoWxuw60gYSBpbmZvcm1hxI1uw60gYWdlbnR1cmExFzAVBgNVBGEMDk5UUkNaLTE3NjUxOTIxMRMwEQYDVQQMDApPRcSMMDAwMDE5MQswCQYDVQQGEwJDWjEUMBIGA1UEBRMLTkNBIC0gMTAwMzkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBG/yDZq48zZEn2uWLOMj9sDGSnYNbdwyAWCqP1eCa2mmPKmjBlWMzk23NiI9WO4cUUgbRyLc0DgBvPj/EGxpf17YBnwetC1uds6fMDnjN9U876B01Yjvwu0jhW3r9oBChX7Pvyd45ZdHhJPB4EFUNBbKxCYISMs5W4+Frg16/QzzFBbsDfHHpW/tjmQlSmN2opmWEZFTWXlp+Jz8vd4FWVm+yPBiGzpZIa8HWjlOYlbb3R0lsBNkScTUXxZNLJ9LzgcmpuvPBpfiLXCBM/dJI4SnaSmnaqZMDi8z5mLrqU2e4cm41nr+tWeI/rSxO9nXchGQzBatE5Kh8AsELXUC1AgMBAAGjggQNMIIECTAlBgorBgEEAYG4SAQHBBcwFQwNODMwNTAwMDAwMDIxNAIBAgEB/zAvBglghkgBhvhCAQ0EIhYgMTAwMTAwMDAwMDAwMDAwMTkyMDM2NzAzMDAwMDA5OTcwIQYDVR0RBBowGIEWZmlsaXAuYmlsZWtAZGlhLmdvdi5jejCCATQGA1UdIASCASswggEnMIIBGAYMKoFLiY+PDwoBHgEAMIIBBjApBggrBgEFBQcCARYdaHR0cHM6Ly93d3cubmFyb2RuaS1jYS5nb3YuY3owgdgGCCsGAQUFBwICMIHLGoHIVGVudG8ga3ZhbGlmaWtvdmFueSBjZXJ0aWZpa2F0IHBybyBlbGVrdHJvbmlja3kgcG9kcGlzIGJ5bCB2eWRhbiB2IHNvdWxhZHUgcyBuYXJpemVuaW0gRVUgYy4gOTEwLzIwMTQuVGhpcyBpcyBhIHF1YWxpZmllZCBjZXJ0aWZpY2F0ZSBmb3IgZWxlY3Ryb25pYyBzaWduYXR1cmUgYWNjb3JkaW5nIHRvIFJlZ3VsYXRpb24gKEVVKSBObyA5MTAvMjAxNC4wCQYHBACL7EABAjCBpQYIKwYBBQUHAQMEgZgwgZUwCAYGBACORgEBMAgGBgQAjkYBBDBqBgYEAI5GAQUwYDAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfY3MucGRmEwJjczAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfZW4ucGRmEwJlbjATBgYEAI5GAQYwCQYHBACORgEGATCBswYDVR0fBIGrMIGoMDagNKAyhjBodHRwOi8vY3JsZHAxLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwNqA0oDKGMGh0dHA6Ly9jcmxkcDIubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMy5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMIGFBggrBgEFBQcBAQR5MHcwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jZXIwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDAdBgNVHQ4EFgQUdNt4E+lWoAkG3NsrZ24hFg9vszIwHwYDVR0jBBgwFoAUbceEIG+hlI/o0MImOQhA0KMcIjkwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgA4IBgQA1oHVfNhZQFK2rZEmpzL8Px31hsVgsyduVnmCAwc4osAmvU3mm+cBhmstFhiIVqim2LnJrf6xZa95DxTOYGuhiTUtJM1MB3FTkNW3US4OnUdmXnN5NWlSNfuQKn6z5NIrp4LZzHjWRz6ftc5lhaBg1ugijjxWL1XpMt1ymAGz04kkI5I6CSgqqO1Djz1ZSwTrOs1rgrYHDVPCHbrxsb19W8zymRuAvOU8e7ZKH/YjO+F71KKmF4bYfeyg9FzUTnEeOt0jQ8DjeioJj92q/z+6okqFmSZAKQzYzi1GsZhJLD8LOyCOsibPAO2vI6BkpIXZTiskLHLFZYRu9F9wejbnqWWUesL9sjHgZxdr/sSzMZrw1/7uiX4xPsVMrEZ8jaQGT+OUMTZWjSRABJ8TvpG6CTdqbnAipoOiygVl1ysmAnb5J6XfespqTs6tIOyQ8iLhOoYa72QwIoZkmGU2XBRcWihJAGuiqm3HlnQVOHDg5uDZWh1bAHfaQ/ZekI1Fe8cA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-6ce7924067bce8e163400bc131b1f091"><xades:SignedProperties Id="xades-id-6ce7924067bce8e163400bc131b1f091"><xades:SignedSignatureProperties><xades:SigningTime>2026-03-05T16:13:46Z</xades:SigningTime><xades:SigningCertificate><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mh/2XNJqMDH1LU7MAuc6YeowR9NpEjCqu2Kr+nig+2/04BxopeJ8IN8j7s9nz9e5I5UxOvacGIBMziMsY7ZBsA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerial><ds:X509IssuerName>C=CZ,2.5.4.97=#0c0e4e5452435a2d3139313232303633,O=Správa státních služeb vytvářejících důvěru,CN=NCA SubCA1/RSA 10/2023</ds:X509IssuerName><ds:X509SerialNumber>23007</ds:X509SerialNumber></xades:IssuerSerial></xades:Cert></xades:SigningCertificate></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
