@@ -1,9 +1,11 @@
+https://eur-lex.europa.eu/eli/C/2026/1944/oj
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-378.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-341.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-335.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-300.xml
 https://ec.europa.eu/tools/lotl/eu-lotl-pivot-282.xml
 https://eur-lex.europa.eu/legal-content/EN/TXT/?uri=uriserv:OJ.C_.2019.276.01.0001.01.ENG
+https://ec.europa.eu/tools/lotl/pivot-lotl-explanation.html
 https://ec.europa.eu/tools/lotl/eu-lotl-legalnotice.html#en
 https://ec.europa.eu/tools/lotl/eu-lotl-legalnotice.html#bg
 https://ec.europa.eu/tools/lotl/eu-lotl-legalnotice.html#es
