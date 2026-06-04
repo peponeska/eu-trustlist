@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="SI-TSL_1" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>84</TSLSequenceNumber>
+        <TSLSequenceNumber>85</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">REPUBLIC OF SLOVENIA, MINISTRY OF DIGITAL TRANSFORMATION, INFORMATION SOCIETY INSPECTORATE</Name>
@@ -105,9 +105,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-05-21T07:06:42Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-06-02T11:03:04Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-11-21T08:06:42Z</dateTime>
+            <dateTime>2026-12-02T12:03:04Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.tl.gov.si/SI_TL.xml</URI>
@@ -4022,6 +4022,188 @@
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
                         <StatusStartingTime>2026-05-22T00:00:01Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom CA e-seal 1 G3</Name>
+                            <Name xml:lang="sl">Halcom CA e-seal 1 G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom CA e-seal 1 G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Ri2LpePFA2Q=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom CA FO e-sig 1 G3</Name>
+                            <Name xml:lang="sl">Halcom CA FO e-sig 1 G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom CA FO e-sig 1 G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>RsITh9dK2K4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom CA PO e-sig 1 G3</Name>
+                            <Name xml:lang="sl">Halcom CA PO e-sig 1 G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom CA PO e-sig 1 G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Rraco+T6Qo0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom CA TSA 1 G3</Name>
+                            <Name xml:lang="sl">Halcom CA TSA 1 G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom CA TSA 1 G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>RZlVUXMBTng=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom CA web 1 G3</Name>
+                            <Name xml:lang="sl">Halcom CA web 1 G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom CA web 1 G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>Skr0JylgtxI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Halcom Root CA G3</Name>
+                            <Name xml:lang="sl">Halcom Root CA G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIF0DCCA4igAwIBAgIQdTnFP2Fwdj+zxEW4cO9hdDA9BgkqhkiG9w0BAQowMKANMAsGCWCGSAFlAwQCAaEaMBgGCSqGSIb3DQEBCDALBglghkgBZQMEAgGiAwIBIDBYMQswCQYDVQQGEwJTSTEUMBIGA1UEChMLSGFsY29tIGQuZC4xFzAVBgNVBGETDlZBVFNJLTQzMzUzMTI2MRowGAYDVQQDExFIYWxjb20gUm9vdCBDQSBHMzAeFw0yNjAzMTkxMDAwMDBaFw00NjAzMTkxMDAwMDBaMFgxCzAJBgNVBAYTAlNJMRQwEgYDVQQKEwtIYWxjb20gZC5kLjEXMBUGA1UEYRMOVkFUU0ktNDMzNTMxMjYxGjAYBgNVBAMTEUhhbGNvbSBSb290IENBIEczMIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEArW8NLnZ4gpA0Rr6HmWANaEgQBvFfKb+VBZUnJvuhLQ5TxjzZhHlvLl7uGZwpiGDnYU3Fbz+omkaH8sQk95NSfKKyFfzjUbuynk17kIwis3aGn39PhCP0VIHnA31dxooRLimGcSYsB1VuWnCzbW58a32TeFEdk7k/miPhFsxsK32xYDtWwx5ymsFaSQVXeVD+/viTv6nplscsmxkNd1xcXfi3El6LLwif9R6zac+hVT66nOjA+1/6uIlTQ5h+JwgqF53PBKyFTP82hEwjlcSgpqcoVGGjCnBkH5+4Xep5+SsxgWFNnF9CLLtTdaY2vHzBbhBlbqddZ82yVuE3dVPD5N2BU2AZJKMT8znR+mrclF5AF0/+KFIddQs8i+VkwPITRTaYfiADOUbN13rFcdiLbwfTVZATme65P8Tgd9KzNaPka/eFv4YVXULLT35CEHmcUbRzwA2MPiR8fY0QwNlN6C3PxNoFpPVp6WgEg6UwaRmMxdFpWyVFMOFLLlL+ZyZVaZxixH67pfn8ddl5/NlFpfh4sapKC1YS5sSxHFGm5Cj0VJpGlqMKOuZ2lxY9MkruGvDtmDZ1jVmR4DxfmmoujsKTTza3z40BOfkHL7+36ue1ZF2V4ksFVWMyGNq1tPO6le0CUNliRCl44Dgdo11q8fj4LUwgAiDWJK2Anj590vsCAwEAAaM2MDQwDwYDVR0TAQH/BAUwAwEB/zARBgNVHQ4ECgQIS6ZldgOYUWcwDgYDVR0PAQH/BAQDAgEGMD0GCSqGSIb3DQEBCjAwoA0wCwYJYIZIAWUDBAIBoRowGAYJKoZIhvcNAQEIMAsGCWCGSAFlAwQCAaIDAgEgA4ICAQA+nkwFrCddMANZJpDk2clKRDC7FQhsL7zTMgylL0qvUf1DLxNDYYlC+LporyIm2+aoth2mfTj5mi43o2aU08WkRyDfBbXWkQ8CPzdYH3itHA7ajH73ld7klITvfKge8oCn5l0E3sBqNyWR70QeBVcjNc64ZcH5Hho+UkXBuHe3WuoA+Q4hgMnt8tJGyps3MLXIeSYB13+FOtk3Hnp1nSwhtBK1ZzdvfQjaIyw65lg8ewX0eLv1m2LEty8KatJQGdoNqQi9215ysK8eDf+s3h3PNn2UG/LIVML33r3NDbn6e3WxlsR+nHw2kUd+tPekgGxFjmf5Xf8OLiq+X+rj1btVd917TMtyGIJhSFz7UWUsGd+FRzMTh4/zKHq/F3h9E+NbzHCi1cONjySGtZU5F6NgwjCwsbL+FSylOrU8HZvb+Jj/H0GNmhYXJQxL971D39nKkJB9pOLQfjhyq0QWWBcP8V/ZwwLBZlLS3WwRJhwgV3c2nVULUCGkacPqVIZ/1Tb7LT/EMoPUCtoc31Gog0QE1/VAM1Y+oYwOmQat7K96+A5Zptja8Q8glOP9ez3O3/SQjGyeLBI2Ss+YPRG9Tl3cz2g6h7Xmog4QQ7ioLlsf1QhQncmcaHnpVFNEBIbN3AbmCgwMyghcSr69jeEC6GfHkxHNQA4Z7ogvAutxBiKIhw==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Halcom Root CA G3, OID.2.5.4.97=VATSI-43353126, O=Halcom d.d., C=SI</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>S6ZldgOYUWc=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-03T05:00:02Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForWebSiteAuthentication</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
             </TSPServices>
@@ -8743,4 +8925,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-63fec2a1d4006cd8d15f02999c1d6096"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>ZyQiN6Zr0yzrW/4kyvicPsCRqOMuhMArDwviNp7zON06RL5xTfGuB3NJAY60Kyt74f6xicZ/1Gv8KOYMuIG3YA==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-63fec2a1d4006cd8d15f02999c1d6096"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>IPMaNSK93awSCtzm1WzqG1LvLT6kyk/etYaRKzlgeMSar7MR1+Afy1C5smmn8CZDISWlHlBu1n55YtfXssAJ2Q==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-63fec2a1d4006cd8d15f02999c1d6096">p1VdHQxdlsaAg62vX2W6IRMc3MUKxud/XCQnDREzqOKkBIjKiwm4wI2wn2vTvicMm8ob+WxfpCf0PH6ffNgJng==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICpzCCAkygAwIBAgIIMxrywce7aGwwCgYIKoZIzj0EAwIwga4xCzAJBgNVBAYTAlNJMWcwZQYDVQQKDF5NSU5JU1RSU1RWTyBaQSBESUdJVEFMTk8gUFJFT0JSQVpCTywgSU7FoFBFS1RPUkFUIFJFUFVCTElLRSBTTE9WRU5JSkUgWkEgSU5GT1JNQUNJSlNLTyBEUlXFvUJPMRUwEwYDVQQDEwxNYXJpamEgU2V2ZXIxDzANBgNVBCoTBk1hcmlqYTEOMAwGA1UEBBMFU2V2ZXIwHhcNMjYwMTI3MTIyOTAwWhcNMjkwMTI3MTIyOTAwWjCBrjELMAkGA1UEBhMCU0kxZzBlBgNVBAoMXk1JTklTVFJTVFZPIFpBIERJR0lUQUxOTyBQUkVPQlJBWkJPLCBJTsWgUEVLVE9SQVQgUkVQVUJMSUtFIFNMT1ZFTklKRSBaQSBJTkZPUk1BQ0lKU0tPIERSVcW9Qk8xFTATBgNVBAMTDE1hcmlqYSBTZXZlcjEPMA0GA1UEKhMGTWFyaWphMQ4wDAYDVQQEEwVTZXZlcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLZu9wx7aRdkoD5qzhDN/Qhj8DK4MTIk0JmpXxT9YZz11vRm8kDG64BagHKrDT9VD9Jj+JSlDhQOKpZl9wlyeVyjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFYb1Ztp1EO8HcaINhyh7f5+U2tqMA4GA1UdDwEB/wQEAwIGwDARBgNVHSUECjAIBgYEAJE3AwAwCgYIKoZIzj0EAwIDSQAwRgIhALjP2xcxM8qztELubCrX/EkRTQkOa3TfYMaKPIG8mL9yAiEA+KvJshZCM9x/8VG7i/z+sJGdwz0WNx4W0WSxoICQ7hg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-63fec2a1d4006cd8d15f02999c1d6096"><xades:SignedProperties Id="xades-id-63fec2a1d4006cd8d15f02999c1d6096"><xades:SignedSignatureProperties><xades:SigningTime>2026-05-21T08:08:41Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>phbdf0m/YRMH2ycMn5KqWIelNz6Zb8Ty3VM1k7MgPUl2NEHsIPOVQDsLPvd/We82WNGB4CTQqYyyiAnONWOdNQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIHBMIG0pIGxMIGuMQswCQYDVQQGEwJTSTFnMGUGA1UECgxeTUlOSVNUUlNUVk8gWkEgRElHSVRBTE5PIFBSRU9CUkFaQk8sIElOxaBQRUtUT1JBVCBSRVBVQkxJS0UgU0xPVkVOSUpFIFpBIElORk9STUFDSUpTS08gRFJVxb1CTzEVMBMGA1UEAxMMTWFyaWphIFNldmVyMQ8wDQYDVQQqEwZNYXJpamExDjAMBgNVBAQTBVNldmVyAggzGvLBx7tobA==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-63355b4ecaacc4111668ccf3ff57660e"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#ecdsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>r4GxrcCObUsToqNS7ljHTUqdCuW/ws3SvoS1Zh8XAzxzo+yqxkaAFJVn9/cqcONL4CIKioMJarbyjTMeL+N6aw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-63355b4ecaacc4111668ccf3ff57660e"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>vRoUddYFLShShLYp4qttRROyhX0kcTKYPGyok82FAuiC+FLA3JA85op/unweVADuOoaCe1B+UGIhIvJWbZr5Cg==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-63355b4ecaacc4111668ccf3ff57660e">TZ6MQvXSt5FaOBStNVyfywGNvxHbpK7Iy5rBqzp0Nyg1YUjHlebl6DZ7fr7PPVcsCq0r58PlJWe577xfX5cuOQ==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIICpzCCAkygAwIBAgIIMxrywce7aGwwCgYIKoZIzj0EAwIwga4xCzAJBgNVBAYTAlNJMWcwZQYDVQQKDF5NSU5JU1RSU1RWTyBaQSBESUdJVEFMTk8gUFJFT0JSQVpCTywgSU7FoFBFS1RPUkFUIFJFUFVCTElLRSBTTE9WRU5JSkUgWkEgSU5GT1JNQUNJSlNLTyBEUlXFvUJPMRUwEwYDVQQDEwxNYXJpamEgU2V2ZXIxDzANBgNVBCoTBk1hcmlqYTEOMAwGA1UEBBMFU2V2ZXIwHhcNMjYwMTI3MTIyOTAwWhcNMjkwMTI3MTIyOTAwWjCBrjELMAkGA1UEBhMCU0kxZzBlBgNVBAoMXk1JTklTVFJTVFZPIFpBIERJR0lUQUxOTyBQUkVPQlJBWkJPLCBJTsWgUEVLVE9SQVQgUkVQVUJMSUtFIFNMT1ZFTklKRSBaQSBJTkZPUk1BQ0lKU0tPIERSVcW9Qk8xFTATBgNVBAMTDE1hcmlqYSBTZXZlcjEPMA0GA1UEKhMGTWFyaWphMQ4wDAYDVQQEEwVTZXZlcjBZMBMGByqGSM49AgEGCCqGSM49AwEHA0IABLZu9wx7aRdkoD5qzhDN/Qhj8DK4MTIk0JmpXxT9YZz11vRm8kDG64BagHKrDT9VD9Jj+JSlDhQOKpZl9wlyeVyjUjBQMAwGA1UdEwEB/wQCMAAwHQYDVR0OBBYEFFYb1Ztp1EO8HcaINhyh7f5+U2tqMA4GA1UdDwEB/wQEAwIGwDARBgNVHSUECjAIBgYEAJE3AwAwCgYIKoZIzj0EAwIDSQAwRgIhALjP2xcxM8qztELubCrX/EkRTQkOa3TfYMaKPIG8mL9yAiEA+KvJshZCM9x/8VG7i/z+sJGdwz0WNx4W0WSxoICQ7hg=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-63355b4ecaacc4111668ccf3ff57660e"><xades:SignedProperties Id="xades-id-63355b4ecaacc4111668ccf3ff57660e"><xades:SignedSignatureProperties><xades:SigningTime>2026-06-02T12:35:40Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>phbdf0m/YRMH2ycMn5KqWIelNz6Zb8Ty3VM1k7MgPUl2NEHsIPOVQDsLPvd/We82WNGB4CTQqYyyiAnONWOdNQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIHBMIG0pIGxMIGuMQswCQYDVQQGEwJTSTFnMGUGA1UECgxeTUlOSVNUUlNUVk8gWkEgRElHSVRBTE5PIFBSRU9CUkFaQk8sIElOxaBQRUtUT1JBVCBSRVBVQkxJS0UgU0xPVkVOSUpFIFpBIElORk9STUFDSUpTS08gRFJVxb1CTzEVMBMGA1UEAxMMTWFyaWphIFNldmVyMQ8wDQYDVQQqEwZNYXJpamExDjAMBgNVBAQTBVNldmVyAggzGvLBx7tobA==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
