@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TSL_CZ" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>176</TSLSequenceNumber>
+        <TSLSequenceNumber>178</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Digital and Information Agency</Name>
@@ -103,9 +103,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-05-21T22:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-06-12T13:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-11-21T12:00:00Z</dateTime>
+            <dateTime>2026-12-08T14:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.gov.cz/publ/TSL_CZ.xtsl</URI>
@@ -2306,7 +2306,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2022-09-08T08:00:04Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T13:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <AdditionalServiceInformation>
@@ -2328,19 +2328,80 @@
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.3.6.1.4.1.23624.11.1.30.1.0</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
             <ns5:PolicySet>
                 <ns5:PolicyIdentifier>
                     <ns4:Identifier>1.3.6.1.4.1.23624.11.1.31.1.0</ns4:Identifier>
+                    <ns4:Description/>
                 </ns5:PolicyIdentifier>
             </ns5:PolicySet>
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier>1.3.6.1.4.1.23624.11.1.60.1.0</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
         </ns5:CriteriaList>
     </ns5:QualificationElement>
 </ns5:Qualifications>
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">(269) I.CA - issuing qualified certificates</Name>
+<Name xml:lang="cs">(269) I.CA - vydávání kvalifikovaných certifikátů</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>C=CZ, OID.2.5.4.97=NTRCZ-26439395, O="První certifikační autorita, a.s.", CN=I.CA EU Qualified CA2/ECC 06/2022</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>a8HdbzNV1sQHRlVkRPZungrvJD4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2022-09-08T08:00:04Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDStatusAsInCert"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.3.6.1.4.1.23624.11.1.30.1.0</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier>1.3.6.1.4.1.23624.11.1.31.1.0</ns4:Identifier>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -17919,6 +17980,94 @@
                         <StatusStartingTime>2025-07-17T13:20:00Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(524) KB - issuing qualified time stamping - Komerční banka TSA TSU01 2026</Name>
+                            <Name xml:lang="cs">(524) KB - vydávání kvalifikovaných časových razítek - Komerční banka TSA TSU01 2026</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=TSSESN-CZJ30437S5, OID.2.5.4.97=NTRCZ-45317054, CN=Komerční banka TSA TSU01, O="Komerční banka, a.s.", C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>biDMYWe2kQ8yFZ2jNZneqP5FhD0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-05T13:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(525) KB - issuing qualified time stamping - Komerční banka TSA TSU02 2026</Name>
+                            <Name xml:lang="cs">(525) KB - vydávání kvalifikovaných časových razítek - Komerční banka TSA TSU02 2026</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIIZDCCBhigAwIBAgITEgAABzgM7IbK9s6PBgAAAAAHODBBBgkqhkiG9w0BAQowNKAPMA0GCWCGSAFlAwQCAwUAoRwwGgYJKoZIhvcNAQEIMA0GCWCGSAFlAwQCAwUAogMCAUAwczELMAkGA1UEBhMCQ1oxFzAVBgNVBGETDk5UUkNaLTQ1MzE3MDU0MR8wHQYDVQQKDBZLb21lcsSNbsOtIGJhbmthLCBhLnMuMSowKAYDVQQDDCFLb21lcsSNbsOtIGJhbmthIFF1YWxpZmllZCBDQS9SU0EwHhcNMjYwNTI4MTEzNTU1WhcNMjkwNTI4MTEzNTU1WjCBiDELMAkGA1UEBhMCQ1oxHzAdBgNVBAoMFktvbWVyxI1uw60gYmFua2EsIGEucy4xIzAhBgNVBAMMGktvbWVyxI1uw60gYmFua2EgVFNBIFRTVTAyMRcwFQYDVQRhDA5OVFJDWi00NTMxNzA1NDEaMBgGA1UEBRMRVFNTRVNOLUNaSjMwNDM3UzgwggGiMA0GCSqGSIb3DQEBAQUAA4IBjwAwggGKAoIBgQCrA1T1SAsuz0PaYf0gdtQGl/MDt6JKwOzqrPYnYuLJRVVhH53NaGjowGOm1dQ76fEi8MbYGlptDs21Y9lOrEPWayvGZ6eMWQc9oH2ZKLvZDDxC1arQNxHDz+OOsnJ/DP5o365LW6vuTEmgf6LTT3QXiPUmxjl4o8pigphaTmaHGSKzQ2Jq5lvdr3snWcDjV/yE7r3TYAue2JavKKA+aKGHeQ1KA9bR90GzPkJdqDglWXImIgMxWJ9S/7FblUx8CV/ir/Vt+71fdIL9rQRk6h2IjwJvUtFwovYwBvdvhkuDhJ1XRCeej1iiZNpRjIJUSljkjL4s3da8oPMv7xbanf9BjXCyXV+Tbhm5GEpZnrFWCbnfVdkP3Q3pi8K9rHB2k6h1JRwlbcn+cN97ADErrSLVOaZd3IcmPC7ghYidEiO4gK5jNt06oP5JrtXByVZEUzpkz+lPsrVAfwd3pR0vhdBSJh3S65KDy+SNol55Lfn1BrwpDcDXB1aKJQgnSXh9Kj8CAwEAAaOCAvEwggLtMA4GA1UdDwEB/wQEAwIGwDAWBgNVHSUBAf8EDDAKBggrBgEFBQcDCDAYBgNVHREEETAPgQ1pbmZvX2NhQGtiLmN6MB0GA1UdDgQWBBRnKycaKUs6lrKo8gYeKKWn4vY6+zAfBgNVHSMEGDAWgBS62HfmR29YREYuF1xSj9QpJ9aK5DAvBgNVHR8EKDAmMCSgIqAghh5odHRwOi8vd3d3LmtiLmN6L3BraS9rYnFjYS5jcmwwaAYIKwYBBQUHAQEEXDBaMCoGCCsGAQUFBzAChh5odHRwOi8vd3d3LmtiLmN6L3BraS9rYnFjYS5jcnQwLAYIKwYBBQUHMAGGIGh0dHA6Ly9vY3NwLmtiLmN6L2ticWNhL2FwaS9vY3NwMAkGA1UdEwQCMAAwggEpBgNVHSAEggEgMIIBHDCCAQ0GDiuBGpXN9z6HaAECAQYBMIH6MIHUBggrBgEFBQcCAjCBxwyBxFRlbnRvIGt2YWxpZmlrb3ZhbnkgY2VydGlmaWthdCBwcm8gZWxla3Ryb25pY2tvdSBwZWNldCBieWwgdnlkYW4gdiBzb3VsYWR1IHMgbmFyaXplbmltIEVVIGMuIDkxMC8yMDE0LiBUaGlzIGlzIGEgcXVhbGlmaWVkIGNlcnRpZmljYXRlIGZvciBlbGVjdHJvbmljIHNlYWwgYWNjb3JkaW5nIHRvIFJlZ3VsYXRpb24gKEVVKSBObyA5MTAvMjAxNC4wIQYIKwYBBQUHAgEWFWh0dHBzOi8vd3d3LmtiLmN6L3BraTAJBgcEAIvsQAEDMIGVBggrBgEFBQcBAwSBiDCBhTAIBgYEAI5GAQEwCAYGBACORgEEMFoGBgQAjkYBBTBQMCYWIGh0dHBzOi8vd3d3LmtiLmN6L3BraS9wZHNfZW4ucGRmEwJlbjAmFiBodHRwczovL3d3dy5rYi5jei9wa2kvcGRzX2NzLnBkZhMCY3MwEwYGBACORgEGMAkGBwQAjkYBBgIwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgMFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgMFAKIDAgFAA4ICAQBExjb81JORSSyiu0MWXevcc/ImjfPOX9j8d5p+RU9zmEH4aH8ZTPdZn8MEIFX8M407WQicBNtL8ScD+pkpMED/HwRdcPynLcl+bMiqwNNqIFIlTRQ8Iq0xVFhA7f2MOOLbaLTtHWDciJSA6SnQEe89rChmUu3/WIp8hjUhds4n9ufFVO3PgHuTA32Fit4Kqo0+5OHAAkv1cIa+1GfFjD8DzXPPFL92Ix45bexZH6RD0i4vGTDCAoxO2tPs0qLXBIeal4SltteHfqs2VwDRLYN4NYvOuTRNGjGPrpi1/vybHKb/w77h3DaIWWGaVDa6VBI/v+gANwHc3EtCJthxzLX2h87+87vl8+R0KV4VwqiiAH3hT+2l2mMq7uFsNC90m91UlnZH8i+RPb1sth69RBbCvSzuqS0deTD7sjyRX7yqM2PCgXwAIcVjQMVEnlTSxHycznSx1LHfVsMCwjGdeo8mZUF8QNFt5SHf7MvW+GEDh4pAbF0/KN3GWGLLxrmPw+zGEWAovXG/XaPZ3rnJHFZaF+wJauTRPVyE4G3XnIEeTjL9XNI1YAvjOPGZQ3bbBiwz/OYrk1RKY9drmSELGtF5saasNmUCizhxTS7rSoUAtrYyykudfVkFRSotLxZB+6tPFzaRXbFjYvZLRxmsIymY+cVhwatcxVayZr1K0E8x6g==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=TSSESN-CZJ30437S8, OID.2.5.4.97=NTRCZ-45317054, CN=Komerční banka TSA TSU02, O="Komerční banka, a.s.", C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>ZysnGilLOpayqPIGHiilp+L2Ovs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-05T13:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(526) KB - issuing qualified time stamping - Komerční banka TSA TSU01 2026</Name>
+                            <Name xml:lang="cs">(526) KB - vydávání kvalifikovaných časových razítek - Komerční banka TSA TSU01 2026</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=TSSESN-CZJ30437S5, OID.2.5.4.97=NTRCZ-45317054, CN=Komerční banka TSA TSU01, O="Komerční banka, a.s.", C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>5M4hm+rnASOVigrWlr6KQ6cloUE=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-05T13:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">(527) KB - issuing qualified time stamping - Komerční banka TSA TSU02 2026</Name>
+                            <Name xml:lang="cs">(527) KB - vydávání kvalifikovaných časových razítek - Komerční banka TSA TSU02 2026</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>SERIALNUMBER=TSSESN-CZJ30437S8, OID.2.5.4.97=NTRCZ-45317054, CN=Komerční banka TSA TSU02, O="Komerční banka, a.s.", C=CZ</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>KtHMUszdtqfQi7sATg4JH4xtJgI=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-05T13:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -20810,4 +20959,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-28a43182bfcae960f11c362eb0beee4f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>tu0mDcoGfmqGBHcZaNgMqEcLc555asiA7DXT8DgBWe62agTgAf0IGBMKEOSr/OOWuRFMy+jeqGLlexuQAWmrlQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-28a43182bfcae960f11c362eb0beee4f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>LDtqLLgh8MmBpxzMngcnSYoiqbqKe88De9SY2yhw9/d/yV6NqiAGzXokaPdcxpvUP1ka1DjFCSSNhMIV3Cs87A==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-28a43182bfcae960f11c362eb0beee4f">Xs9x8KKxsQ516RTyxnppMFFXcDa/Hd9jW7H+oZOI5cr8pjqKAtc1cm/TmNYLD7lNhfMr8ffkWvYeShXqAnfFzrHZSS2u9l4Hj+ddPm4ID+fMvr7dY4cJewzGSq3ErRM3Yw+EWqGyTiF3hts68TEs+9C7WobC0eB98j3BeUtmIJgbahcMqVajnFEsXXsH4Lbl5SE1wu6DezC3C9lEQ2CJq68xk5FcuoU989WuCv5FFhJxhm7jkgubSzSvS/wbjkY75ZZU09gC157cLaLdxz5yIPSl5mUyrSkEXu/ap/RtRJ07C10OfON9nwLbyb27MHxyDPnqOJ5yxpxeQaRX2uRyWw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIszCCBuegAwIBAgICWd8wQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMIGHMR8wHQYDVQQDDBZOQ0EgU3ViQ0ExL1JTQSAxMC8yMDIzMT4wPAYDVQQKDDVTcHLDoXZhIHN0w6F0bsOtY2ggc2x1xb5lYiB2eXR2w6HFmWVqw61jw61jaCBkxa92xJtydTEXMBUGA1UEYQwOTlRSQ1otMTkxMjIwNjMxCzAJBgNVBAYTAkNaMB4XDTI2MDExNjEwMzAwM1oXDTI5MDExNTEwMzAwM1owgbcxDjAMBgNVBCoMBUZpbGlwMQ8wDQYDVQQEDAZCw61sZWsxFTATBgNVBAMMDEZpbGlwIELDrWxlazEsMCoGA1UECgwjRGlnaXTDoWxuw60gYSBpbmZvcm1hxI1uw60gYWdlbnR1cmExFzAVBgNVBGEMDk5UUkNaLTE3NjUxOTIxMRMwEQYDVQQMDApPRcSMMDAwMDE5MQswCQYDVQQGEwJDWjEUMBIGA1UEBRMLTkNBIC0gMTAwMzkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBG/yDZq48zZEn2uWLOMj9sDGSnYNbdwyAWCqP1eCa2mmPKmjBlWMzk23NiI9WO4cUUgbRyLc0DgBvPj/EGxpf17YBnwetC1uds6fMDnjN9U876B01Yjvwu0jhW3r9oBChX7Pvyd45ZdHhJPB4EFUNBbKxCYISMs5W4+Frg16/QzzFBbsDfHHpW/tjmQlSmN2opmWEZFTWXlp+Jz8vd4FWVm+yPBiGzpZIa8HWjlOYlbb3R0lsBNkScTUXxZNLJ9LzgcmpuvPBpfiLXCBM/dJI4SnaSmnaqZMDi8z5mLrqU2e4cm41nr+tWeI/rSxO9nXchGQzBatE5Kh8AsELXUC1AgMBAAGjggQNMIIECTAlBgorBgEEAYG4SAQHBBcwFQwNODMwNTAwMDAwMDIxNAIBAgEB/zAvBglghkgBhvhCAQ0EIhYgMTAwMTAwMDAwMDAwMDAwMTkyMDM2NzAzMDAwMDA5OTcwIQYDVR0RBBowGIEWZmlsaXAuYmlsZWtAZGlhLmdvdi5jejCCATQGA1UdIASCASswggEnMIIBGAYMKoFLiY+PDwoBHgEAMIIBBjApBggrBgEFBQcCARYdaHR0cHM6Ly93d3cubmFyb2RuaS1jYS5nb3YuY3owgdgGCCsGAQUFBwICMIHLGoHIVGVudG8ga3ZhbGlmaWtvdmFueSBjZXJ0aWZpa2F0IHBybyBlbGVrdHJvbmlja3kgcG9kcGlzIGJ5bCB2eWRhbiB2IHNvdWxhZHUgcyBuYXJpemVuaW0gRVUgYy4gOTEwLzIwMTQuVGhpcyBpcyBhIHF1YWxpZmllZCBjZXJ0aWZpY2F0ZSBmb3IgZWxlY3Ryb25pYyBzaWduYXR1cmUgYWNjb3JkaW5nIHRvIFJlZ3VsYXRpb24gKEVVKSBObyA5MTAvMjAxNC4wCQYHBACL7EABAjCBpQYIKwYBBQUHAQMEgZgwgZUwCAYGBACORgEBMAgGBgQAjkYBBDBqBgYEAI5GAQUwYDAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfY3MucGRmEwJjczAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfZW4ucGRmEwJlbjATBgYEAI5GAQYwCQYHBACORgEGATCBswYDVR0fBIGrMIGoMDagNKAyhjBodHRwOi8vY3JsZHAxLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwNqA0oDKGMGh0dHA6Ly9jcmxkcDIubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMy5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMIGFBggrBgEFBQcBAQR5MHcwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jZXIwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDAdBgNVHQ4EFgQUdNt4E+lWoAkG3NsrZ24hFg9vszIwHwYDVR0jBBgwFoAUbceEIG+hlI/o0MImOQhA0KMcIjkwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgA4IBgQA1oHVfNhZQFK2rZEmpzL8Px31hsVgsyduVnmCAwc4osAmvU3mm+cBhmstFhiIVqim2LnJrf6xZa95DxTOYGuhiTUtJM1MB3FTkNW3US4OnUdmXnN5NWlSNfuQKn6z5NIrp4LZzHjWRz6ftc5lhaBg1ugijjxWL1XpMt1ymAGz04kkI5I6CSgqqO1Djz1ZSwTrOs1rgrYHDVPCHbrxsb19W8zymRuAvOU8e7ZKH/YjO+F71KKmF4bYfeyg9FzUTnEeOt0jQ8DjeioJj92q/z+6okqFmSZAKQzYzi1GsZhJLD8LOyCOsibPAO2vI6BkpIXZTiskLHLFZYRu9F9wejbnqWWUesL9sjHgZxdr/sSzMZrw1/7uiX4xPsVMrEZ8jaQGT+OUMTZWjSRABJ8TvpG6CTdqbnAipoOiygVl1ysmAnb5J6XfespqTs6tIOyQ8iLhOoYa72QwIoZkmGU2XBRcWihJAGuiqm3HlnQVOHDg5uDZWh1bAHfaQ/ZekI1Fe8cA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-28a43182bfcae960f11c362eb0beee4f"><xades:SignedProperties Id="xades-id-28a43182bfcae960f11c362eb0beee4f"><xades:SignedSignatureProperties><xades:SigningTime>2026-05-21T21:10:34Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mh/2XNJqMDH1LU7MAuc6YeowR9NpEjCqu2Kr+nig+2/04BxopeJ8IN8j7s9nz9e5I5UxOvacGIBMziMsY7ZBsA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGUMIGNpIGKMIGHMR8wHQYDVQQDDBZOQ0EgU3ViQ0ExL1JTQSAxMC8yMDIzMT4wPAYDVQQKDDVTcHLDoXZhIHN0w6F0bsOtY2ggc2x1xb5lYiB2eXR2w6HFmWVqw61jw61jaCBkxa92xJtydTEXMBUGA1UEYQwOTlRSQ1otMTkxMjIwNjMxCzAJBgNVBAYTAkNaAgJZ3w==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-25040e7d459632598a62c1f7d9e96b0b"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>o03Y1vyYOvTw493Z0zu2FUJnzXPsdXFs0/OfYFxhav+VwE1KYH3iAJXwyi40Ceoqmk5bjOvQ6zZzGw55ny0MLw==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-25040e7d459632598a62c1f7d9e96b0b"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>dcB1cUMgq8u0UX/Pe3Nm0plxQBT0Jw+p/NVgBfOiL5/Jr8rBzxyktd1pfIC8tNx3FpD/4CWEf2UhGQFF4Q6QUw==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-25040e7d459632598a62c1f7d9e96b0b">kJSWJgxOziqfBPo/xqpbUbzHBd8fd6Faqprdd7keiItD4p0G2jnzQW29JmnbtuVctHQtPh7Evz+pR2k7YxC/63Wa124OcTzdwPJUd2jnDdM3mAozMHI2UfVjn048d+LiVhOV3XOeaWl1CKglaZYMVjlYRbcjf26b0T+M9MC8nNRmoyZshMy0vnhVsUf7scxKCEFbvKeY6yZ8u2LbhokDMCym6e5KxgtvhLLnRVOxL+mdTECKspDIG9jVURx9vE9UCx7C+351w9D2vfwcSbslVRU318TK30e0T7hXTX+8VbyahRTXoBUWBivjzQRYylnbQZWQeM/muxpR+i/x6l4/Yg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIIszCCBuegAwIBAgICWd8wQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgMIGHMR8wHQYDVQQDDBZOQ0EgU3ViQ0ExL1JTQSAxMC8yMDIzMT4wPAYDVQQKDDVTcHLDoXZhIHN0w6F0bsOtY2ggc2x1xb5lYiB2eXR2w6HFmWVqw61jw61jaCBkxa92xJtydTEXMBUGA1UEYQwOTlRSQ1otMTkxMjIwNjMxCzAJBgNVBAYTAkNaMB4XDTI2MDExNjEwMzAwM1oXDTI5MDExNTEwMzAwM1owgbcxDjAMBgNVBCoMBUZpbGlwMQ8wDQYDVQQEDAZCw61sZWsxFTATBgNVBAMMDEZpbGlwIELDrWxlazEsMCoGA1UECgwjRGlnaXTDoWxuw60gYSBpbmZvcm1hxI1uw60gYWdlbnR1cmExFzAVBgNVBGEMDk5UUkNaLTE3NjUxOTIxMRMwEQYDVQQMDApPRcSMMDAwMDE5MQswCQYDVQQGEwJDWjEUMBIGA1UEBRMLTkNBIC0gMTAwMzkwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDBG/yDZq48zZEn2uWLOMj9sDGSnYNbdwyAWCqP1eCa2mmPKmjBlWMzk23NiI9WO4cUUgbRyLc0DgBvPj/EGxpf17YBnwetC1uds6fMDnjN9U876B01Yjvwu0jhW3r9oBChX7Pvyd45ZdHhJPB4EFUNBbKxCYISMs5W4+Frg16/QzzFBbsDfHHpW/tjmQlSmN2opmWEZFTWXlp+Jz8vd4FWVm+yPBiGzpZIa8HWjlOYlbb3R0lsBNkScTUXxZNLJ9LzgcmpuvPBpfiLXCBM/dJI4SnaSmnaqZMDi8z5mLrqU2e4cm41nr+tWeI/rSxO9nXchGQzBatE5Kh8AsELXUC1AgMBAAGjggQNMIIECTAlBgorBgEEAYG4SAQHBBcwFQwNODMwNTAwMDAwMDIxNAIBAgEB/zAvBglghkgBhvhCAQ0EIhYgMTAwMTAwMDAwMDAwMDAwMTkyMDM2NzAzMDAwMDA5OTcwIQYDVR0RBBowGIEWZmlsaXAuYmlsZWtAZGlhLmdvdi5jejCCATQGA1UdIASCASswggEnMIIBGAYMKoFLiY+PDwoBHgEAMIIBBjApBggrBgEFBQcCARYdaHR0cHM6Ly93d3cubmFyb2RuaS1jYS5nb3YuY3owgdgGCCsGAQUFBwICMIHLGoHIVGVudG8ga3ZhbGlmaWtvdmFueSBjZXJ0aWZpa2F0IHBybyBlbGVrdHJvbmlja3kgcG9kcGlzIGJ5bCB2eWRhbiB2IHNvdWxhZHUgcyBuYXJpemVuaW0gRVUgYy4gOTEwLzIwMTQuVGhpcyBpcyBhIHF1YWxpZmllZCBjZXJ0aWZpY2F0ZSBmb3IgZWxlY3Ryb25pYyBzaWduYXR1cmUgYWNjb3JkaW5nIHRvIFJlZ3VsYXRpb24gKEVVKSBObyA5MTAvMjAxNC4wCQYHBACL7EABAjCBpQYIKwYBBQUHAQMEgZgwgZUwCAYGBACORgEBMAgGBgQAjkYBBDBqBgYEAI5GAQUwYDAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfY3MucGRmEwJjczAuFihodHRwczovL3d3dy5uYXJvZG5pLWNhLmdvdi5jei9wZHNfZW4ucGRmEwJlbjATBgYEAI5GAQYwCQYHBACORgEGATCBswYDVR0fBIGrMIGoMDagNKAyhjBodHRwOi8vY3JsZHAxLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jcmwwNqA0oDKGMGh0dHA6Ly9jcmxkcDIubmFyb2RuaS1jYS5nb3YuY3ovc3ViMUNBMjNfcnNhLmNybDA2oDSgMoYwaHR0cDovL2NybGRwMy5uYXJvZG5pLWNhLmdvdi5jei9zdWIxQ0EyM19yc2EuY3JsMIGFBggrBgEFBQcBAQR5MHcwPQYIKwYBBQUHMAKGMWh0dHA6Ly9jYWNlcnRzLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYS5jZXIwNgYIKwYBBQUHMAGGKmh0dHA6Ly9vY3NwLm5hcm9kbmktY2EuZ292LmN6L3N1YjFDQTIzX3JzYTAJBgNVHRMEAjAAMA4GA1UdDwEB/wQEAwIGwDATBgNVHSUEDDAKBggrBgEFBQcDBDAdBgNVHQ4EFgQUdNt4E+lWoAkG3NsrZ24hFg9vszIwHwYDVR0jBBgwFoAUbceEIG+hlI/o0MImOQhA0KMcIjkwQQYJKoZIhvcNAQEKMDSgDzANBglghkgBZQMEAgEFAKEcMBoGCSqGSIb3DQEBCDANBglghkgBZQMEAgEFAKIDAgEgA4IBgQA1oHVfNhZQFK2rZEmpzL8Px31hsVgsyduVnmCAwc4osAmvU3mm+cBhmstFhiIVqim2LnJrf6xZa95DxTOYGuhiTUtJM1MB3FTkNW3US4OnUdmXnN5NWlSNfuQKn6z5NIrp4LZzHjWRz6ftc5lhaBg1ugijjxWL1XpMt1ymAGz04kkI5I6CSgqqO1Djz1ZSwTrOs1rgrYHDVPCHbrxsb19W8zymRuAvOU8e7ZKH/YjO+F71KKmF4bYfeyg9FzUTnEeOt0jQ8DjeioJj92q/z+6okqFmSZAKQzYzi1GsZhJLD8LOyCOsibPAO2vI6BkpIXZTiskLHLFZYRu9F9wejbnqWWUesL9sjHgZxdr/sSzMZrw1/7uiX4xPsVMrEZ8jaQGT+OUMTZWjSRABJ8TvpG6CTdqbnAipoOiygVl1ysmAnb5J6XfespqTs6tIOyQ8iLhOoYa72QwIoZkmGU2XBRcWihJAGuiqm3HlnQVOHDg5uDZWh1bAHfaQ/ZekI1Fe8cA=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-25040e7d459632598a62c1f7d9e96b0b"><xades:SignedProperties Id="xades-id-25040e7d459632598a62c1f7d9e96b0b"><xades:SignedSignatureProperties><xades:SigningTime>2026-06-12T12:19:33Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mh/2XNJqMDH1LU7MAuc6YeowR9NpEjCqu2Kr+nig+2/04BxopeJ8IN8j7s9nz9e5I5UxOvacGIBMziMsY7ZBsA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGUMIGNpIGKMIGHMR8wHQYDVQQDDBZOQ0EgU3ViQ0ExL1JTQSAxMC8yMDIzMT4wPAYDVQQKDDVTcHLDoXZhIHN0w6F0bsOtY2ggc2x1xb5lYiB2eXR2w6HFmWVqw61jw61jaCBkxa92xJtydTEXMBUGA1UEYQwOTlRSQ1otMTkxMjIwNjMxCzAJBgNVBAYTAkNaAgJZ3w==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
