@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID100001" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>221</TSLSequenceNumber>
+        <TSLSequenceNumber>222</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="it">Agenzia per l'Italia Digitale</Name>
@@ -105,9 +105,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-05-21T09:31:54Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-06-12T07:09:51Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-11-21T10:31:54Z</dateTime>
+            <dateTime>2026-12-12T08:09:51Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://eidas.agid.gov.it/TL/TSL-IT.xml</URI>
@@ -8392,13 +8392,17 @@
                         </PostalAddress>
                     </PostalAddresses>
                     <ElectronicAddress>
-                        <URI xml:lang="en">http://www.cedacricert.it/cedacricert/en/documentazione/ManualiOperativi.html</URI>
-                        <URI xml:lang="en">mailto:info@cedacricert.it</URI>
+                        <URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</URI>
+                        <URI xml:lang="en">mailto:servizifiduciari@postacert.cedacri.it</URI>
+                        <URI xml:lang="it">https://www.cedacricert.it/cedacricert/it/index.html</URI>
+                        <URI xml:lang="en">mailto:servizifiduciari-cedacri@iongroup.com</URI>
+                        <URI xml:lang="en">https://www.intesigroup.com/en/</URI>
                     </ElectronicAddress>
                 </TSPAddress>
                 <TSPInformationURI>
-                    <URI xml:lang="en">http://www.cedacricert.it/cedacricert/en/documentazione/ManualiOperativi.html</URI>
-                    <URI xml:lang="it">http://www.cedacricert.it/cedacricert/Documentazione</URI>
+                    <URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</URI>
+                    <URI xml:lang="it">https://www.cedacricert.it/cedacricert/it/index.html</URI>
+                    <URI xml:lang="en">https://www.intesigroup.com/en/</URI>
                 </TSPInformationURI>
             </TSPInformation>
             <TSPServices>
@@ -8414,7 +8418,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <ExpiredCertsRevocationInfo>2009-12-03T00:00:00Z</ExpiredCertsRevocationInfo>
@@ -8424,9 +8428,47 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert,O=Cedacri SpA,C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert, O=Cedacri SpA, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>QfOSgoNlYnlcIGfm5Xo8+3tpEjY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <ExpiredCertsRevocationInfo>2009-12-03T00:00:00Z</ExpiredCertsRevocationInfo>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -8462,7 +8504,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="false">
 <ExpiredCertsRevocationInfo>2009-12-03T00:00:00Z</ExpiredCertsRevocationInfo>
@@ -8472,9 +8514,47 @@
     <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
 </AdditionalServiceInformation>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert,O=Cedacri SpA,C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert, O=Cedacri SpA, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>fNikNNsfU3+W8ULrt3tvTS70PxM=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <ExpiredCertsRevocationInfo>2009-12-03T00:00:00Z</ExpiredCertsRevocationInfo>
+</Extension>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -8510,9 +8590,39 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/TSS-QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=CedacricertCATS,O=Cedacri SpA,C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CedacricertCATS, O=Cedacri SpA, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>aS4nM7QdfX5qRuU6am/USgEEGGY=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/TSS-QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -8543,9 +8653,39 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
                     <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/TSS-QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=CedacricertCATS,O=Cedacri SpA,C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=CedacricertCATS, O=Cedacri SpA, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>cdOVZMBI8VrJphsYJ2P33ThC700=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
                         <ServiceHistoryInstance>
                             <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/TSS-QC</ServiceTypeIdentifier>
                             <ServiceName>
@@ -8582,7 +8722,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2017-07-03T08:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -8592,8 +8732,48 @@
                             <Extension Critical="false">
 <ExpiredCertsRevocationInfo>2017-05-28T22:00:00Z</ExpiredCertsRevocationInfo>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert 2017, O=Cedacri SpA, C=IT, OID.2.5.4.97=VATIT-00432960342</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert 2017, O=Cedacri SpA, C=IT, OID.2.5.4.97=VATIT-00432960342</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>7bS3nZfKFetQOi6b69FeBLJujIs=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2017-07-03T08:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ExpiredCertsRevocationInfo>2017-05-28T22:00:00Z</ExpiredCertsRevocationInfo>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -8613,7 +8793,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2017-08-09T22:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -8623,8 +8803,48 @@
                             <Extension Critical="false">
 <ExpiredCertsRevocationInfo>2017-08-08T09:25:54Z</ExpiredCertsRevocationInfo>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert CA1, 2017O=Cedacri SpA, C=IT, 2.5.4.97=VATIT-00432960342</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert CA1 2017, O=Cedacri SpA, C=IT, OID.2.5.4.97=VATIT-00432960342</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>i9JU8VSoxgyvshm8T2HiEaNOFOI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2017-08-09T22:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ExpiredCertsRevocationInfo>2017-08-08T09:25:54Z</ExpiredCertsRevocationInfo>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -8644,7 +8864,7 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2019-10-28T08:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
                         <ServiceInformationExtensions>
                             <Extension Critical="true">
 <AdditionalServiceInformation>
@@ -8654,8 +8874,48 @@
                             <Extension Critical="false">
 <ExpiredCertsRevocationInfo>2019-07-09T09:08:21Z</ExpiredCertsRevocationInfo>
                             </Extension>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert EU 2019, O=Cedacri SpA, OID.2.5.4.97=VATIT-00432960342, C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert EU 2019, O=Cedacri SpA, OID.2.5.4.97=VATIT-00432960342, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TypsMiLqwY6dv8mX9JrAW5T1QKo=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2019-10-28T08:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="true">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ExpiredCertsRevocationInfo>2019-07-09T09:08:21Z</ExpiredCertsRevocationInfo>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -8675,8 +8935,40 @@
                             </DigitalId>
                         </ServiceDigitalIdentity>
                         <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
-                        <StatusStartingTime>2020-01-21T23:00:00Z</StatusStartingTime>
+                        <StatusStartingTime>2026-06-12T14:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<ns3:TakenOverBy>
+    <ns3:URI xml:lang="en">http://www.agid.gov.it/qcsp-ceased</ns3:URI>
+    <ns3:TSPName>
+        <Name xml:lang="en">Intesi Group S.p.A.</Name>
+    </ns3:TSPName>
+    <SchemeOperatorName>
+        <Name xml:lang="en">Agenzia per l'Italia Digitale</Name>
+    </SchemeOperatorName>
+    <SchemeTerritory>IT</SchemeTerritory>
+</ns3:TakenOverBy>
+                            </Extension>
+                        </ServiceInformationExtensions>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/TSS-QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">CN=Cedacricert TS 2019, O=Cedacri SpA, OID.2.5.4.97=VATIT-00432960342, C=IT</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Cedacricert TS 2019, O=Cedacri SpA, OID.2.5.4.97=VATIT-00432960342, C=IT</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>ahRnOHiGgFt413nExJOFAybfDDs=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/recognisedatnationallevel</ServiceStatus>
+                            <StatusStartingTime>2020-01-21T23:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -30783,4 +31075,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-e21619f131979f925d4cdefd7f1bbf45"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>L6bBm/DstyhSSQWEhIyHLwZvj2vK2sitPb6fCOj5/3k=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-e21619f131979f925d4cdefd7f1bbf45"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>VgjeC+8o1HJHfGM/yvZLt5eo2Ug2Gn/hSNoNQybdY1s=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-e21619f131979f925d4cdefd7f1bbf45">J629ImVKDGxryvO+Fv1vbYLgAap6HkutYoVuEUNyfVYZxMT5jb0NaJ5TXTsdBynmt0YZB7VB7siQ+Ft1JMUy+M32wPJqZ2uAU22Urwyl/1D80omCfMJsdVfU+QBSJIt6nYy+hkshISzLALJjpbLiOHgoWndpUGx7moiB2he2elXvRJf9uLj+vGIfwRzb9oSHDYyeKfXhhZL0PkoHgXUVubCfwJJxxPucD8n/1hW6bHo0zXsbqS62H1l0e0nhictHUtRUDlipqrxLV033MQTXENAsz5o/0W9CjxsL84FKLLMbCNwVnqI5c7cqljzcrY3UtNR5FrbzV6EwVJwKsG5Kng==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-e21619f131979f925d4cdefd7f1bbf45"><xades:SignedProperties Id="xades-id-e21619f131979f925d4cdefd7f1bbf45"><xades:SignedSignatureProperties><xades:SigningTime>2026-05-22T16:14:33Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>iQrSpN/wyeaublBBgrj25HKLr78nR9xIrvgOQrKIdOPgXXtLC8VKBwZVec6dInqVFg6fZoqaZckpJPeyvqyOew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGxMIGkpIGhMIGeMQswCQYDVQQGEwJJVDEfMB0GA1UECgwWTWluaXN0ZXJvIGRlbGxhIERpZmVzYTEgMB4GA1UECwwXUy5NLkQuIC0gQy5kbyBDNCBEaWZlc2ExFDASBgNVBAUTCzk3MzU1MjQwNTg3MTYwNAYDVQQDDC1NaW5pc3Rlcm8gZGVsbGEgRGlmZXNhIC0gQ0EgZGkgRmlybWEgRGlnaXRhbGUCCFpPVl9/oS9u</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-7f199b5fc7c858b711a100ae0bbe7608"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha256"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>MFmVPOU65Ga/mSbBIiIfEApEa+kK8MV13M71FU3K5/w=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-7f199b5fc7c858b711a100ae0bbe7608"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>uj2p04ND886fAfOPHpVN2jH7Lponft7j/p4QeTCJYyY=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-7f199b5fc7c858b711a100ae0bbe7608">RY2bEaROt5DTsxOPSjGqZmrFCEvvEtaM/myWboeNO+ruA4BFPseAQMS/3gaIAJn6/BmoqRHpBgaM83eVbyA+abnTa4bXx+VnK57ENpoya+KdrfLwKzgTdxAo92l9ZmujQ9uklIBkM8At9bRc1Vg5080mOKoFKImOfo+bgdv199DIx+fzH9j8IFKE7LahRXZ1KD/+WOfB1NlgmfIXwCLVrZ/eMPQL7RY1MYoeWnwsgdLWQg4dj74HRTGC7ldk1CTA2GmAyzWJ6ydmtCP2v08m9Ns61UYp5ZNznj39ea0cTns7JklnB++TGPh6jaIVGimpKG7v8vrlgYerQEhgj5hE+g==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-7f199b5fc7c858b711a100ae0bbe7608"><xades:SignedProperties Id="xades-id-7f199b5fc7c858b711a100ae0bbe7608"><xades:SignedSignatureProperties><xades:SigningTime>2026-06-12T11:01:20Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>iQrSpN/wyeaublBBgrj25HKLr78nR9xIrvgOQrKIdOPgXXtLC8VKBwZVec6dInqVFg6fZoqaZckpJPeyvqyOew==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGxMIGkpIGhMIGeMQswCQYDVQQGEwJJVDEfMB0GA1UECgwWTWluaXN0ZXJvIGRlbGxhIERpZmVzYTEgMB4GA1UECwwXUy5NLkQuIC0gQy5kbyBDNCBEaWZlc2ExFDASBgNVBAUTCzk3MzU1MjQwNTg3MTYwNAYDVQQDDC1NaW5pc3Rlcm8gZGVsbGEgRGlmZXNhIC0gQ0EgZGkgRmlybWEgRGlnaXRhbGUCCFpPVl9/oS9u</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
