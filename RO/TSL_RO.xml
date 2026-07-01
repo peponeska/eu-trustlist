@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="ID_6" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>80</TSLSequenceNumber>
+        <TSLSequenceNumber>81</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="ro">AUTORITATEA PENTRU DIGITALIZAREA ROMANIEI</Name>
@@ -106,9 +106,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-04-23T11:37:19Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-06-29T12:59:25Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-10-23T11:37:19Z</dateTime>
+            <dateTime>2026-12-29T13:59:25Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://www.adr.gov.ro/semnatura-electronica-trusted-list/</URI>
@@ -1365,6 +1365,449 @@
                             </Extension>
                         </ServiceInformationExtensions>
                     </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Root CA G2</Name>
+                            <Name xml:lang="ro">Trans Sped Root CA G2</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDiDCCAnCgAwIBAgIQW/7jxe840YpPX5IdhXn/7zANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJSTzEXMBUGA1UEChMOVHJhbnMgU3BlZCBTUkwxFjAUBgNVBAsTDVRyYW5zIFNwZWQgQ0ExHjAcBgNVBAMTFVRyYW5zIFNwZWQgUm9vdCBDQSBHMjAeFw0xNjExMjExODU4NTVaFw0zMTExMjExOTAzMTBaMF4xCzAJBgNVBAYTAlJPMRcwFQYDVQQKEw5UcmFucyBTcGVkIFNSTDEWMBQGA1UECxMNVHJhbnMgU3BlZCBDQTEeMBwGA1UEAxMVVHJhbnMgU3BlZCBSb290IENBIEcyMIIBIjANBgkqhkiG9w0BAQEFAAOCAQ8AMIIBCgKCAQEAvuPJ8jXhwvZ1DiK4ILvhlyOkrrmmzMP1GHd0KS/Sn4rnd7o58yHQwvpPBnRoM7Ax9ymtZIWmHePnB3cDvw2+P/3X6ZO6oGQBNhekIJVVo1SeSsZMHuvj9yuEOq6eHbI55W+hJDIeHs/LvFR/Ws6G/ug53Txb5t4V8lDHbVoCNvwahiM65xPxc4vDiMXEkNfMmsVl9G1+n7K+OOk6wMA+VbONbYTzihRi5JnYMLiqEBQN9GOvbeHNnThSQiVeRKr3nnEG1dOMZTs9wIMujuIwsMUOL+Wg0aJz9vwUQrvupno9Jz7Iev76yFB4d4vERCHFAzCPiJEZfxb+Ep31xutJpwIDAQABo0IwQDAOBgNVHQ8BAf8EBAMCAQYwDwYDVR0TAQH/BAUwAwEB/zAdBgNVHQ4EFgQUpAiP4TJEvj/KXNEN+ZibVAZk/rkwDQYJKoZIhvcNAQELBQADggEBAAgGeQ0z8cK6xdKK/C1oThFScRS+6KN1gVU4B1zqA7QEDseupvXLI9FRvvvFKpR8mIiCkvApXl7/SHeJUJt7212ML9J9aPZrzvfc0JLYkf5HHYs2L9/b59sqhhGtPy9zFQVseivPXGTbBi+iK0vJLovz0nMsjnuOPGIxBfpwhHXM1AXqwfk7CMbxObTgjs+EJc/sifB5AgLikguS8xnrFhEZA8JRdZea8xOMqndF+BEYozue4U2IyNBcO1eHfa5yG4gW3kmDnX7pbRMNCxhLfdO7Qbih4KVzLozHssivWFCzl2lwEix3ExTRsRN0lmNkXt3b1qW/Utxv4TgBW9jdRN8=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Root CA G2, OU=Trans Sped CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>pAiP4TJEvj/KXNEN+ZibVAZk/rk=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Root CA G2</Name>
+<Name xml:lang="ro">Trans Sped Root CA G2</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Root CA G2, OU=Trans Sped CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>pAiP4TJEvj/KXNEN+ZibVAZk/rk=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ns4:Identifier>
+                        <ns4:Description/>
+                    </ns5:PolicyIdentifier>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ns4:Identifier>
+                        <ns4:Description/>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Root CA G3</Name>
+                            <Name xml:lang="ro">Trans Sped Root CA G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Root CA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>c8DPMPOE7vVrEB9zrwGDxgi35HM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<ns5:Qualifications>
+    <ns5:QualificationElement>
+        <ns5:Qualifiers>
+            <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+        </ns5:Qualifiers>
+        <ns5:CriteriaList assert="atLeastOne">
+            <ns5:PolicySet>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+                <ns5:PolicyIdentifier>
+                    <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ns4:Identifier>
+                    <ns4:Description/>
+                </ns5:PolicyIdentifier>
+            </ns5:PolicySet>
+            <ns5:Description/>
+        </ns5:CriteriaList>
+    </ns5:QualificationElement>
+</ns5:Qualifications>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Root CA G3</Name>
+<Name xml:lang="ro">Trans Sped Root CA G3</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Root CA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>c8DPMPOE7vVrEB9zrwGDxgi35HM=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <ns5:Qualifications>
+        <ns5:QualificationElement>
+            <ns5:Qualifiers>
+                <ns5:Qualifier uri="http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/QCQSCDManagedOnBehalf"/>
+            </ns5:Qualifiers>
+            <ns5:CriteriaList assert="atLeastOne">
+                <ns5:PolicySet>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ns4:Identifier>
+                        <ns4:Description/>
+                    </ns5:PolicyIdentifier>
+                    <ns5:PolicyIdentifier>
+                        <ns4:Identifier Qualifier="OIDAsURI">http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ns4:Identifier>
+                        <ns4:Description/>
+                    </ns5:PolicyIdentifier>
+                </ns5:PolicySet>
+                <ns5:Description/>
+            </ns5:CriteriaList>
+        </ns5:QualificationElement>
+    </ns5:Qualifications>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Mobile eIDAS QCA G2</Name>
+                            <Name xml:lang="ro">Trans Sped Mobile eIDAS QCA G2</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIExTCCA62gAwIBAgIKYR5uTAAAAAAABzANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJSTzEXMBUGA1UEChMOVHJhbnMgU3BlZCBTUkwxFjAUBgNVBAsTDVRyYW5zIFNwZWQgQ0ExHjAcBgNVBAMTFVRyYW5zIFNwZWQgUm9vdCBDQSBHMjAeFw0xNzAzMTUxNDQ3MzVaFw0yNzAzMTUxNDU3MzVaMHIxCzAJBgNVBAYTAlJPMRcwFQYDVQQKEw5UcmFucyBTcGVkIFNSTDEhMB8GA1UECxMYSW5kaXZpZHVhbCBTdWJzY3JpYmVyIENBMScwJQYDVQQDEx5UcmFucyBTcGVkIE1vYmlsZSBlSURBUyBRQ0EgRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQDcEdjcI35Syoxfo5Z3fn7QDNLtsFWxJYeNL3yxGPiREAnu23keTGCZIEkb/I2aFmprsrlUBveyN9sfjH41YrHMdQP7ykpJp4lCmVohuc9uiphcfA/zymf4HdAvujxkJslcwaBC1YW8TqDQaClsg5U1fD6dLHGFJnLqvvrSfFxZzbirrnsEa2SJxHW97YWslsWxp9Ecp5nMxy5hCbznYR/2Yu9DcNtUofB8Tt3OvwGe+9fyADBhXQdcwd08AZWFudTd4fQFO2TLucRALF/sRQsYGUhSfqymDL25HIK83J5JB5fWfkEwJnttgdlaWVE2fGNYYz1+EASLYwwYM9bQKAqVAgMBAAGjggFvMIIBazAdBgNVHQ4EFgQUHVBORYsjQBTVaxd6F9ZaNuvPTf0wHwYDVR0jBBgwFoAUpAiP4TJEvj/KXNEN+ZibVAZk/rkwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL3d3dy50cmFuc3NwZWQucm8vY3JsL3RzX3Jvb3RfZzIuY3JsMHEGCCsGAQUFBwEBBGUwYzA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy50cmFuc3NwZWQucm8vY2FjZXJ0cy90c19yb290X2cyLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudHJhbnNzcGVkLnJvLzBVBgNVHSAETjBMMAkGBwQAi+xAAQIwPwYLKwYBBAGCuB0EAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAQEAp4oxlc1U5lzbHtf1eDPQvO9jQGkNhxhyaQIeLaXXtFWEAtegbmuqZ1g/q4iUb3XOfXSr4fV8DEuw/DuzKirOFmSOzytBYbuWPh5+uV47Gw9EpfPLqRrYQr0Xnl68AX0I3t/u1caIwrYEewwgEr3tlBUV2QFVvJauvMDouT8rb5yxK/F6r+gtm7N3UjJWWYJIklfjnDWvry/SK0tzIBSOVe0TwyPB7EtA3uDXbVgiskvXU2ZUUwJJqLkfl+QUBN0ZYZFuMHOGYYLi9jeVg3mCeGrDvauENHwfqXTJrIXMRTDebPWScuffkHLiQxkjfrOEV3/ZVa83GF2PaLtSkMUYXg==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Mobile eIDAS QCA G2, OU=Individual Subscriber CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>HVBORYsjQBTVaxd6F9ZaNuvPTf0=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Mobile eIDAS QCA G2</Name>
+<Name xml:lang="ro">Trans Sped Mobile eIDAS QCA G2</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Mobile eIDAS QCA G2, OU=Individual Subscriber CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>HVBORYsjQBTVaxd6F9ZaNuvPTf0=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Mobile eIDAS QCA G3</Name>
+                            <Name xml:lang="ro">Trans Sped Mobile eIDAS QCA G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIG6zCCBNOgAwIBAgIUfr/QXGA0w6T1brFVYRotjCVdN3EwDQYJKoZIhvcNAQELBQAwgYQxCzAJBgNVBAYTAlJPMRgwFgYDVQQKDA9UcmFucyBTcGVkIFMuQS4xFzAVBgNVBGEMDlZBVFJPLTEyNDU4OTI0MSIwIAYDVQQLDBlUcmFucyBTcGVkIFRydXN0IFNlcnZpY2VzMR4wHAYDVQQDDBVUcmFucyBTcGVkIFJvb3QgQ0EgRzMwHhcNMjMwNTIyMTQzMjM3WhcNMzgwNTI1MTQzMjM2WjCBjTELMAkGA1UEBhMCUk8xGDAWBgNVBAoMD1RyYW5zIFNwZWQgUy5BLjEXMBUGA1UEYQwOVkFUUk8tMTI0NTg5MjQxIjAgBgNVBAsMGVRyYW5zIFNwZWQgVHJ1c3QgU2VydmljZXMxJzAlBgNVBAMMHlRyYW5zIFNwZWQgTW9iaWxlIGVJREFTIFFDQSBHMzCCAiIwDQYJKoZIhvcNAQEBBQADggIPADCCAgoCggIBANQEWRYpNCDZ1UyHeNlPv39l9dErRNB7cSmRtHKXNPv9HMWY2tFK8fjPlyxu+xaX75+8z48bgE+aTyrvb+H3FvbZ4yysmp45xnq2v38QCuzryYenrNgXfu+UsomFNwHvLi06GhagNymsv6rRqqnLqhLRj+Sjv+xz54n1ZzgrldTNzsOuosKkdnfeIE3Va/ji4zQnHJJNrfgELHbSIzdWGOwCzAQvgIAASRKn1wMWcqKZBoFd/21nwTOofIRupgV5w+rYUP8qQ94FgRAyVh4GGtobkLqU5bSK+FXUJygdM2B7cp0kEX9uW3GXNMtAbBWCc5YGTbSt6xsHYKVZSG9CSRZotHsltVbq7iQ+0JBFlSEl+KPoy6OqmBSche/JFHEZvQ89WormK3HyqpuWr72oMxnCLl84FgJoiL89axtb/aVCYePLNMMatxvvzYjQh7K530IHlBvdvr8wf9HKj0Bq063PAU1t3ks9/pDPiPjydsBcTtgipAgBKHu762ETnygbLitgeBeXAq95g+PAQI1x1w3VkFMteZbG91xlaFDGySzcbsnm5eTUyTKG4Q7DaG3xCX5sKaFWSw6H2WGaQIBIzDtTQhZVixChE/RBYpfnoUcZYO9AxLauvnuacYu8qoTdBJW1eKPeQ/DUsypS5x2NpOm7YsPP9yJvutLMNsvUPx0XAgMBAAGjggFIMIIBRDASBgNVHRMBAf8ECDAGAQH/AgEAMB8GA1UdIwQYMBaAFHPAzzDzhO71axAfc68Bg8YIt+RzMEoGCCsGAQUFBwEBBD4wPDA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy50cmFuc3NwZWQucm8vY2FjZXJ0cy90c19yb290X2czLnA3YzBVBgNVHSAETjBMMAkGBwQAi+xAAQIwPwYLKwYBBAGCuB0EAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTA7BgNVHR8ENDAyMDCgLqAshipodHRwOi8vd3d3LnRyYW5zc3BlZC5yby9jcmwvdHNfcm9vdF9nMy5jcmwwHQYDVR0OBBYEFCU9jRe8z5aXZ6aldOg6gJg8erYzMA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAgEAXK4wZAitU/QVuTn84KVqR+OSYsHQX871qu56o8AuG9dMJiAIAiAznf5UNkepibExMi5Zwf+I/sOXBWxxIDTaI26k2yi/cTt+ZNsN1YD7dJI1t/ur2hdsAH0k1mp4jpL4yRVHwg0O08kU3kJp18f8+jg5cgBiABBXfZtuQ1pAEbLLzhMoqIaIX7TInfBgOsVcyU0zEsFx+zgQyvohl1zNx717a0CbvhBTib1kqoA7sDEOJ2WJWLWTU+taAswHa5FYSuWsRP5OUUwTzHpkaOdlu2LaeHMsJSfUt2YIyVBoo9Z7Syds0vg0o3aCZwUrQJPkiWQyK89APGd59Nb2MQaJNOoU5PUWoI6Q+WrvEKNWmWrPPuvtaPS0ih9hwenCuVFzVXjakd61OaKRJB0StXEW7MkyVQ+v+YLcIftyWKdH3VVVAamSKfb9sSpEK+44+XVE9Fxpk9CoPnEHpXU4+7GJAKTMv1PQLOFQGr6NaNQ1H+YfweNZUPvlJJCjbl7hf8wOXgzcQ0lWEQ7FVf0ycrOFE0tHbtwmBOeJtWbV4UTa7rLSkLimFghru0Rk96KerIp/3IIfUPa8R4zzB0Uo4VI7vs+SD05V/dsxSIH4yxAA2S9vqPIeSWGl2fGejaVL+74AT9w2AqD8lAPBx28oTPWOxGIZJNPeZNxh4TT0/8c6FsQ=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Mobile eIDAS QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>JT2NF7zPlpdnpqV06DqAmDx6tjM=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Mobile eIDAS QCA G3</Name>
+<Name xml:lang="ro">Trans Sped Mobile eIDAS QCA G3</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Mobile eIDAS QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>JT2NF7zPlpdnpqV06DqAmDx6tjM=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Electronic Seal QCA G2</Name>
+                            <Name xml:lang="ro">Trans Sped Electronic Seal QCA G2</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIEvzCCA6egAwIBAgIKYRbgzQAAAAAADzANBgkqhkiG9w0BAQsFADBeMQswCQYDVQQGEwJSTzEXMBUGA1UEChMOVHJhbnMgU3BlZCBTUkwxFjAUBgNVBAsTDVRyYW5zIFNwZWQgQ0ExHjAcBgNVBAMTFVRyYW5zIFNwZWQgUm9vdCBDQSBHMjAeFw0yMDAyMjAxMjMxMTRaFw0yOTAyMjAxMjQxMTRaMGwxCzAJBgNVBAYTAlJPMRcwFQYDVQQKEw5UcmFucyBTcGVkIFNSTDEYMBYGA1UECxMPTGVnYWwgUGVyc29uIENBMSowKAYDVQQDEyFUcmFucyBTcGVkIEVsZWN0cm9uaWMgU2VhbCBRQ0EgRzIwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQCBgp9DQfSS45xZZXBToX3N8D4vRypOT9FDo3n24m9WDSHzSVM/CrjgdGGJIznI4AwJzrZhGKELK9rQoDfmR25MbJNQ+nq+JLaIVhv2xFm7zlub0M/X1WG1bpqrgYWBNbaHSVDmJ3MFrFoVgKOqJyouFLxkYDNa/GhHemjWu7YQ9KJOYEYdePy4fIploYW16JWGQRQERzzpDz1EG5h1VTxNgmhCR1KN9wkmEn15D22+PFzASydG6/5z6OIF5e6j6LgX80MoGYwMrRI/L924T3Egtg+bOf+X2Fu6m9zw1loPbuto/HDN87/4EMUvtCzCHiipEmv2j1/0zIEnhtoWpPXfAgMBAAGjggFvMIIBazAdBgNVHQ4EFgQUlmFAdEsCF/NYkPPHeVrxMxUgL/4wHwYDVR0jBBgwFoAUpAiP4TJEvj/KXNEN+ZibVAZk/rkwOwYDVR0fBDQwMjAwoC6gLIYqaHR0cDovL3d3dy50cmFuc3NwZWQucm8vY3JsL3RzX3Jvb3RfZzIuY3JsMHEGCCsGAQUFBwEBBGUwYzA6BggrBgEFBQcwAoYuaHR0cDovL3d3dy50cmFuc3NwZWQucm8vY2FjZXJ0cy90c19yb290X2cyLmNydDAlBggrBgEFBQcwAYYZaHR0cDovL29jc3AudHJhbnNzcGVkLnJvLzBVBgNVHSAETjBMMAkGBwQAi+xAAQMwPwYLKwYBBAGCuB0FAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTASBgNVHRMBAf8ECDAGAQH/AgEAMA4GA1UdDwEB/wQEAwIBBjANBgkqhkiG9w0BAQsFAAOCAQEAszeaD6uywbTMkPdlf1KBpQ1+W9uV+SVZ3vslc8LU1MLG+sM5QUW9QkxEiJfue58S54ldTHO1HgNYZ38m5zzeNC3y2X5E2eKlhjHBAFINc1kzlOvFm0Wfau0j4xvTjS65RCyk74+Zp4MInT0wGTw5/uOdMFbGnSzcnYUJrHrcR6JI3pPVO61+Aw6iuii1WZj+hPCvU8qizde/7WqzhvWFsCOSqyrbZprMnJdOV6ClIQlCnXWstiqjVPf81ctvXRqrm/ulJd9qB2xytJDJPMDQNvs4l04NebYeoLDghRji1YWu1HQcrHuwhSQK/M/LYrzDmI5+Ca3qolb91xaC2y69cQ==</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Electronic Seal QCA G2, OU=Legal Person CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lmFAdEsCF/NYkPPHeVrxMxUgL/4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Electronic Seal QCA G2</Name>
+<Name xml:lang="ro">Trans Sped Electronic Seal QCA G2</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Electronic Seal QCA G2, OU=Legal Person CA, O=Trans Sped SRL, C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>lmFAdEsCF/NYkPPHeVrxMxUgL/4=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped Electronic Seal QCA G3</Name>
+                            <Name xml:lang="ro">Trans Sped Electronic Seal QCA G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped Electronic Seal QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>PMWMjWyUQOYrlurYYWy8p3e8EXQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped Electronic Seal QCA G3</Name>
+<Name xml:lang="ro">Trans Sped Electronic Seal QCA G3</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped Electronic Seal QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>PMWMjWyUQOYrlurYYWy8p3e8EXQ=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Trans Sped QCA G3</Name>
+                            <Name xml:lang="ro">Trans Sped QCA G3</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Trans Sped QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>nwU7GTInyg5uFG7YYafwDflENLw=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-30T14:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">Trans Sped QCA G3</Name>
+<Name xml:lang="ro">Trans Sped QCA G3</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Trans Sped QCA G3, OU=Trans Sped Trust Services, OID.2.5.4.97=VATRO-12458924, O=Trans Sped S.A., C=RO</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>nwU7GTInyg5uFG7YYafwDflENLw=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-29T14:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
@@ -7589,4 +8032,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-a4b6db5e9631cd5ee0adfc1530faf48c"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>NYAIaOarNBtlmN97Ew2Jas0dEF76jAKIwYtm1xGno2icJu0f/DqvKUkBLYjho4O3Q5MqeqMlV8TfFMwBlfYbVg==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-a4b6db5e9631cd5ee0adfc1530faf48c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>E9LMzejiXFIuiuhvYMOxUs75qSolUCXbbVXL3IyvduYe6CTSujbJMkAUYMFSiDyjrNIPwajx7GqpZJIq2Dfp7Q==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-a4b6db5e9631cd5ee0adfc1530faf48c">nYjVch3AoKdrofDbfAO1MTqKFSnTCcR0Wi0J8vo/fWgFBL2EqkGXW0KSa0X4rQJG7N49BEzX+/X+vCp5+920SqocIMSs5Ud+6D+sZczXPkZuR0ns6QRBSV6pNDcC6O2Qlyk52Z4S7lXcRwqQveCWho/T88YDYUAo1iFsxwolgbEzmgyYwasCLw1XupRK/gWIm/moVfXEOQAwUDRy9x1nlNLTNXV4jXQ9Z+L8ddrQTQrv5UlivSWjQn8HyKQTU1pZIu3rMu/Yx8vwSE827u64x4CVS59nzv02x06DL9rp2Z+NjwRiiEP20qAu9EMVY+oGKaIrYSM0DnJEvZzAXVSVIA==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-a4b6db5e9631cd5ee0adfc1530faf48c"><xades:SignedProperties Id="xades-id-a4b6db5e9631cd5ee0adfc1530faf48c"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-23T12:27:45Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>rh+jj5OSaLT9v8qEkGY832EYltqoaH2/GqL0RHD/BW2FI7Yaask7rIXPZcLNphxpoC3vE2IJyZ7AqSWStucRTw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGfMIGGpIGDMIGAMQswCQYDVQQGEwJSTzEYMBYGA1UECgwPVHJhbnMgU3BlZCBTLkEuMRcwFQYDVQRhDA5WQVRSTy0xMjQ1ODkyNDEiMCAGA1UECwwZVHJhbnMgU3BlZCBUcnVzdCBTZXJ2aWNlczEaMBgGA1UEAwwRVHJhbnMgU3BlZCBRQ0EgRzMCFA4nXagB2IWixPWUdwJ9jrFsDB9B</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-efe19cea8655f4101c9f6645c93bd1cf"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="xml_ref_id" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>Gt+gD47LdCZJK8xpW8EeJjuLBHunuUZJz8qE094OVgINpvhz2n1zJWmGC3uLWIicvei2UWTpYzAzurfLGxtdAg==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-efe19cea8655f4101c9f6645c93bd1cf"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>N515AV5qtF7p3Q5Z3J7WL8McGgipaqzjmLR6MF5wdvf6EX6djqAhdrJcdA2jlz+4MjiQbr3wz9ABzOBvWObPSQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-efe19cea8655f4101c9f6645c93bd1cf">ryPkHdUCZaWN8dVL+fy1BFO8eQZHS2JdWGk9mDXJxMfgEqSa+WPtamE2i8Y3p/4LyS+AmlHPBPUK5GvfGOD+MtnrohOLuLv9iax5WURbuVey85069k+2P9K14omYIoR+q0htPDHGIGAohiFK5IWpmR9PxRfrOB8EDHnqTgvVYL2r5YpGDTF4r+AWKmQE8/Ie2/+BZ7r9ylFud7oZAxRys38yzXCk05oD6zIz82nCoGiXKpLZt+qWeO7sS0b+FVJ+my8oEAQ5c2mJQuYc6pNW6vNUWjOvmkY38eTrlV7gi62Lnd6/lmZXH/oRRgwMuDgZhqZmMzPGEl8PXzU0u4iIxg==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIG1DCCBLygAwIBAgIUDiddqAHYhaLE9ZR3An2OsWwMH0EwDQYJKoZIhvcNAQELBQAwgYAxCzAJBgNVBAYTAlJPMRgwFgYDVQQKDA9UcmFucyBTcGVkIFMuQS4xFzAVBgNVBGEMDlZBVFJPLTEyNDU4OTI0MSIwIAYDVQQLDBlUcmFucyBTcGVkIFRydXN0IFNlcnZpY2VzMRowGAYDVQQDDBFUcmFucyBTcGVkIFFDQSBHMzAeFw0yNDA5MDUxNTUxNDBaFw0yNjA5MDUxNTUxMzlaMIG1MQswCQYDVQQGEwJSTzEyMDAGA1UECgwpQVVUT1JJVEFURUEgUEVOVFJVIERJR0lUQUxJWkFSRUEgUk9NQU5JRUkxETAPBgNVBGEMCDQyMjgzNzM1MQ0wCwYDVQQEDARTaW11MRcwFQYDVQQqDA5SYWx1Y2EgQW5kcmFkYTEZMBcGA1UEBRMQMjAwNDEyMjM1UkFTMTU5ODEcMBoGA1UEAwwTUmFsdWNhIEFuZHJhZGEgU2ltdTCCASIwDQYJKoZIhvcNAQEBBQADggEPADCCAQoCggEBAN4eGt7EZnhPZD2qbbdVUud2Ca7KVfeJPDKJS5AM9zosgfQDEBygTBFfYtWpWJWRU8G/iOhtfWroJKSPPYyfxx46iiodanyaOYXVLaNAumqbVh7D2TAiLnX3YpeW2ajyltoXJcmd/NuaUx5tAIZnTVdCRAlaeySxfxLVvHHX5CL6IqG3fd51Gb52/qmD2dwZx+8DUmn5ZHrG4hBsUcqsSP0kzSiYDGuXBhOsmHE2SmLOOaxDOoFfAtt2bVVAWYD2ls5pJHynOgRVjFe+FqFhJfgmiwQkcX+iDqA3fwmwn2+9YL+bWLKUcnylJ0PADfxohf4B8omvOcEHJ7kQHOzXqYkCAwEAAaOCAg0wggIJMAwGA1UdEwEB/wQCMAAwHwYDVR0jBBgwFoAUnwU7GTInyg5uFG7YYafwDflENLwwcAYIKwYBBQUHAQEEZDBiMDkGCCsGAQUFBzAChi1odHRwOi8vd3d3LnRyYW5zc3BlZC5yby9jYWNlcnRzL3RzX3FjYV9nMy5wN2MwJQYIKwYBBQUHMAGGGWh0dHA6Ly9vY3NwLnRyYW5zc3BlZC5yby8wIQYDVR0RBBowGIEWcmFsdWNhLnNpbXVAYWRyLmdvdi5ybzBVBgNVHSAETjBMMAkGBwQAi+xAAQIwPwYLKwYBBAGCuB0BAQEwMDAuBggrBgEFBQcCARYiaHR0cDovL3d3dy50cmFuc3NwZWQucm8vcmVwb3NpdG9yeTARBgNVHSUECjAIBgYEAJE3AwAwbgYIKwYBBQUHAQMEYjBgMAgGBgQAjkYBATAIBgYEAI5GAQQwEwYGBACORgEGMAkGBwQAjkYBBgEwNQYGBACORgEFMCswKRYjaHR0cHM6Ly93d3cudHJhbnNzcGVkLnJvL3JlcG9zaXRvcnkTAmVuMDoGA1UdHwQzMDEwL6AtoCuGKWh0dHA6Ly93d3cudHJhbnNzcGVkLnJvL2NybC90c19xY2FfZzMuY3JsMB0GA1UdDgQWBBQunOJgPw1t1xTHr8sUpw6AcE1hczAOBgNVHQ8BAf8EBAMCBsAwDQYJKoZIhvcNAQELBQADggIBAI857ToiaXi3cT65jWhtcEDlg7n23swPiTSx6kQ2q+eDrVMerrrAeCSrnHozMLz5jd4bfQNGLOq9LT2dy5WWe14tva2O081YXfJ8nB/7RlBMIR/M3qFvAz8HoBcfaqvZO3VHYtx4ygUMZ5vDdEHrOTZYWQT/hSqFjUviJwscrJwM6/s1clTJd9ghQewvz+Ao+KFt906czrM7PGc20T94TSNASqIxfLPaFiLbLeJOcKnl4uxTbM3JvI5KU/MxBHdN4yV3hDa1Z3PZbU44j5ArXfOT/W9M2ffvGtuXdXzUyMHWWopGyG+2se1oT5tE9tBtSJEP8mbHwReYsDhQP9cg8ehx3XrINl9KP2hY+4yQkmC++BaBnOAIjhyUYR7V4pcmDWvduvn3Jz/1jNkch/sDPdqzksOd9u2Jfal8lfHuLVihL5dEFyLi1whVDpWYkr0dYnOVMbz1ho/xH8rTpkdHlMIg8SaQURzDwsWtygLANsAgZmxto2eDLXHq7V6+rBV1U34RfFZ4lTprOxCUOKTBt9KXI1AooGt57W6Q+QGfWgdU3iWu3BIGAHfxrS4oQPgwP/f/hz4fhxsKoC5DC4C+zj2ijRY3CsPb5ziqxOIhr4iWoQbQbsqrWIFumgVlK/Y6Wso2CLrEWOOmeTTFtL9/HciVjJgeA54A62NGpHFDsIlu</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-efe19cea8655f4101c9f6645c93bd1cf"><xades:SignedProperties Id="xades-id-efe19cea8655f4101c9f6645c93bd1cf"><xades:SignedSignatureProperties><xades:SigningTime>2026-06-30T10:56:08Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>rh+jj5OSaLT9v8qEkGY832EYltqoaH2/GqL0RHD/BW2FI7Yaask7rIXPZcLNphxpoC3vE2IJyZ7AqSWStucRTw==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGfMIGGpIGDMIGAMQswCQYDVQQGEwJSTzEYMBYGA1UECgwPVHJhbnMgU3BlZCBTLkEuMRcwFQYDVQRhDA5WQVRSTy0xMjQ1ODkyNDEiMCAGA1UECwwZVHJhbnMgU3BlZCBUcnVzdCBTZXJ2aWNlczEaMBgGA1UEAwwRVHJhbnMgU3BlZCBRQ0EgRzMCFA4nXagB2IWixPWUdwJ9jrFsDB9B</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#xml_ref_id"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
