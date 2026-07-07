@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="BE-TL-ID" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>80</TSLSequenceNumber>
+        <TSLSequenceNumber>81</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">FPS Economy, SMEs, Self-employed and Energy</Name>
@@ -113,9 +113,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-05-19T13:00:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-06-15T15:00:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-11-19T14:00:00Z</dateTime>
+            <dateTime>2026-12-15T16:00:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tsl.belgium.be/tsl-be-v6.xml</URI>
@@ -7692,5 +7692,283 @@
                 </TSPService>
             </TSPServices>
         </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Banqup SA</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">Banqup SA</Name>
+                    <Name xml:lang="en">VATBE-0649860804</Name>
+                    <Name xml:lang="en">Banqup</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Avenue Reine Astrid 92A</StreetAddress>
+                            <Locality>La Hulpe</Locality>
+                            <PostalCode>1310</PostalCode>
+                            <CountryName>BE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">mailto:qtsp@banqup.com</URI>
+                        <URI xml:lang="en">https://www.banqup.com</URI>
+                        <URI xml:lang="en">tel:+3226340628</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://www.pki.banqup.com/repository/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA ECC G2-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDVTCCAtugAwIBAgIUMFptIBeb0N1J6rkz+U0Dk5qn3JUwCgYIKoZIzj0EAwMwZjELMAkGA1UEBhMCQkUxDzANBgNVBAoMBkJhbnF1cDEZMBcGA1UEYQwQTlRSQkUtMDY0OTg2MDgwNDErMCkGA1UEAwwiQmFucXVwIEludGVybWVkaWF0ZSBDQSBFQ0MgRzItMjAyNTAeFw0yNTEwMjkxNjE3MjJaFw0zMTEwMjcxNjE3MjFaMGExCzAJBgNVBAYTAkJFMQ8wDQYDVQQKDAZCYW5xdXAxGTAXBgNVBGEMEE5UUkJFLTA2NDk4NjA4MDQxJjAkBgNVBAMMHUJhbnF1cCBJc3N1aW5nIENBIEVDQyBHMi0yMDI1MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAESjc3F5DEHS/evbuoiCtzQPW404A3Bd5pp76dB3JjoDtHIXcP7WL86FmsFsBfocP5m70XyGF+HOzF+gQXP42513o0RHi6a/zval8OpkqWAh1xaIjLvi3AaSfQYHm1QlZSo4IBTTCCAUkwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQSAvdU7dDynN4XcgcuyfBPkzbHwjBRBggrBgEFBQcBAQRFMEMwQQYIKwYBBQUHMAKGNWh0dHA6Ly9jYS5wa2kuYmFucXVwLmNvbS9CYW5xdXBJbnRlcm1lZGlhdGVDQS1FQ0MuY2VyMEcGA1UdIARAMD4wPAYEVR0gADA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5wa2kuYmFucXVwLmNvbS9yZXBvc2l0b3J5LzBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLnBraS5iYW5xdXAuY29tL0JhbnF1cEludGVybWVkaWF0ZUNBLUVDQy5jcmwwHQYDVR0OBBYEFOK0luVaOE3Gm4P7Kcn1wPkmyWesMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjBhAJuUVfxRIlUbB1UeiZrcJ3jLnvuO0vPCAC85u3NbmOhfdnK3T936haZP6NmSJSUCMQDRSCk5ve0wZdftD2UnZCgEF273f3Odvsyfca8tTbWAiCg6GlxLyWnLDdHHIx8DySU=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA ECC G2-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4rSW5Vo4Tcabg/spyfXA+SbJZ6w=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA RSA G1-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA RSA G1-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lTAqrDJSmrff2929kihuwO8BMCQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en"> Banqup Issuing CA RSA G1-2025</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=Banqup Issuing CA RSA G1-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>lTAqrDJSmrff2929kihuwO8BMCQ=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                            <ServiceInformationExtensions>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+    </AdditionalServiceInformation>
+</Extension>
+<Extension Critical="false">
+    <AdditionalServiceInformation>
+        <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+    </AdditionalServiceInformation>
+</Extension>
+                            </ServiceInformationExtensions>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA ECC G2-2025 </Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDVTCCAtugAwIBAgIUMFptIBeb0N1J6rkz+U0Dk5qn3JUwCgYIKoZIzj0EAwMwZjELMAkGA1UEBhMCQkUxDzANBgNVBAoMBkJhbnF1cDEZMBcGA1UEYQwQTlRSQkUtMDY0OTg2MDgwNDErMCkGA1UEAwwiQmFucXVwIEludGVybWVkaWF0ZSBDQSBFQ0MgRzItMjAyNTAeFw0yNTEwMjkxNjE3MjJaFw0zMTEwMjcxNjE3MjFaMGExCzAJBgNVBAYTAkJFMQ8wDQYDVQQKDAZCYW5xdXAxGTAXBgNVBGEMEE5UUkJFLTA2NDk4NjA4MDQxJjAkBgNVBAMMHUJhbnF1cCBJc3N1aW5nIENBIEVDQyBHMi0yMDI1MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAESjc3F5DEHS/evbuoiCtzQPW404A3Bd5pp76dB3JjoDtHIXcP7WL86FmsFsBfocP5m70XyGF+HOzF+gQXP42513o0RHi6a/zval8OpkqWAh1xaIjLvi3AaSfQYHm1QlZSo4IBTTCCAUkwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQSAvdU7dDynN4XcgcuyfBPkzbHwjBRBggrBgEFBQcBAQRFMEMwQQYIKwYBBQUHMAKGNWh0dHA6Ly9jYS5wa2kuYmFucXVwLmNvbS9CYW5xdXBJbnRlcm1lZGlhdGVDQS1FQ0MuY2VyMEcGA1UdIARAMD4wPAYEVR0gADA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5wa2kuYmFucXVwLmNvbS9yZXBvc2l0b3J5LzBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLnBraS5iYW5xdXAuY29tL0JhbnF1cEludGVybWVkaWF0ZUNBLUVDQy5jcmwwHQYDVR0OBBYEFOK0luVaOE3Gm4P7Kcn1wPkmyWesMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjBhAJuUVfxRIlUbB1UeiZrcJ3jLnvuO0vPCAC85u3NbmOhfdnK3T936haZP6NmSJSUCMQDRSCk5ve0wZdftD2UnZCgEF273f3Odvsyfca8tTbWAiCg6GlxLyWnLDdHHIx8DySU=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA ECC G2-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4rSW5Vo4Tcabg/spyfXA+SbJZ6w=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA RSA G1-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA RSA G1-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lTAqrDJSmrff2929kihuwO8BMCQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA ECC G2-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDVTCCAtugAwIBAgIUMFptIBeb0N1J6rkz+U0Dk5qn3JUwCgYIKoZIzj0EAwMwZjELMAkGA1UEBhMCQkUxDzANBgNVBAoMBkJhbnF1cDEZMBcGA1UEYQwQTlRSQkUtMDY0OTg2MDgwNDErMCkGA1UEAwwiQmFucXVwIEludGVybWVkaWF0ZSBDQSBFQ0MgRzItMjAyNTAeFw0yNTEwMjkxNjE3MjJaFw0zMTEwMjcxNjE3MjFaMGExCzAJBgNVBAYTAkJFMQ8wDQYDVQQKDAZCYW5xdXAxGTAXBgNVBGEMEE5UUkJFLTA2NDk4NjA4MDQxJjAkBgNVBAMMHUJhbnF1cCBJc3N1aW5nIENBIEVDQyBHMi0yMDI1MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAESjc3F5DEHS/evbuoiCtzQPW404A3Bd5pp76dB3JjoDtHIXcP7WL86FmsFsBfocP5m70XyGF+HOzF+gQXP42513o0RHi6a/zval8OpkqWAh1xaIjLvi3AaSfQYHm1QlZSo4IBTTCCAUkwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQSAvdU7dDynN4XcgcuyfBPkzbHwjBRBggrBgEFBQcBAQRFMEMwQQYIKwYBBQUHMAKGNWh0dHA6Ly9jYS5wa2kuYmFucXVwLmNvbS9CYW5xdXBJbnRlcm1lZGlhdGVDQS1FQ0MuY2VyMEcGA1UdIARAMD4wPAYEVR0gADA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5wa2kuYmFucXVwLmNvbS9yZXBvc2l0b3J5LzBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLnBraS5iYW5xdXAuY29tL0JhbnF1cEludGVybWVkaWF0ZUNBLUVDQy5jcmwwHQYDVR0OBBYEFOK0luVaOE3Gm4P7Kcn1wPkmyWesMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjBhAJuUVfxRIlUbB1UeiZrcJ3jLnvuO0vPCAC85u3NbmOhfdnK3T936haZP6NmSJSUCMQDRSCk5ve0wZdftD2UnZCgEF273f3Odvsyfca8tTbWAiCg6GlxLyWnLDdHHIx8DySU=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA ECC G2-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4rSW5Vo4Tcabg/spyfXA+SbJZ6w=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA RSA G1-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA RSA G1-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lTAqrDJSmrff2929kihuwO8BMCQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSeals</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/RootCA-QC</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA ECC G2-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIDVTCCAtugAwIBAgIUMFptIBeb0N1J6rkz+U0Dk5qn3JUwCgYIKoZIzj0EAwMwZjELMAkGA1UEBhMCQkUxDzANBgNVBAoMBkJhbnF1cDEZMBcGA1UEYQwQTlRSQkUtMDY0OTg2MDgwNDErMCkGA1UEAwwiQmFucXVwIEludGVybWVkaWF0ZSBDQSBFQ0MgRzItMjAyNTAeFw0yNTEwMjkxNjE3MjJaFw0zMTEwMjcxNjE3MjFaMGExCzAJBgNVBAYTAkJFMQ8wDQYDVQQKDAZCYW5xdXAxGTAXBgNVBGEMEE5UUkJFLTA2NDk4NjA4MDQxJjAkBgNVBAMMHUJhbnF1cCBJc3N1aW5nIENBIEVDQyBHMi0yMDI1MHYwEAYHKoZIzj0CAQYFK4EEACIDYgAESjc3F5DEHS/evbuoiCtzQPW404A3Bd5pp76dB3JjoDtHIXcP7WL86FmsFsBfocP5m70XyGF+HOzF+gQXP42513o0RHi6a/zval8OpkqWAh1xaIjLvi3AaSfQYHm1QlZSo4IBTTCCAUkwEgYDVR0TAQH/BAgwBgEB/wIBADAfBgNVHSMEGDAWgBQSAvdU7dDynN4XcgcuyfBPkzbHwjBRBggrBgEFBQcBAQRFMEMwQQYIKwYBBQUHMAKGNWh0dHA6Ly9jYS5wa2kuYmFucXVwLmNvbS9CYW5xdXBJbnRlcm1lZGlhdGVDQS1FQ0MuY2VyMEcGA1UdIARAMD4wPAYEVR0gADA0MDIGCCsGAQUFBwIBFiZodHRwczovL3d3dy5wa2kuYmFucXVwLmNvbS9yZXBvc2l0b3J5LzBHBgNVHR8EQDA+MDygOqA4hjZodHRwOi8vY3JsLnBraS5iYW5xdXAuY29tL0JhbnF1cEludGVybWVkaWF0ZUNBLUVDQy5jcmwwHQYDVR0OBBYEFOK0luVaOE3Gm4P7Kcn1wPkmyWesMA4GA1UdDwEB/wQEAwIBBjAKBggqhkjOPQQDAwNoADBlAjBhAJuUVfxRIlUbB1UeiZrcJ3jLnvuO0vPCAC85u3NbmOhfdnK3T936haZP6NmSJSUCMQDRSCk5ve0wZdftD2UnZCgEF273f3Odvsyfca8tTbWAiCg6GlxLyWnLDdHHIx8DySU=</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA ECC G2-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>4rSW5Vo4Tcabg/spyfXA+SbJZ6w=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en"> Banqup Issuing CA RSA G1-2025</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIGpDCCBIygAwIBAgIUNsVsmuRcUHprV/9b5mwQe5S+gcUwDQYJKoZIhvcNAQENBQAwZjELMAkGA1UEBhMCQkUxDzANBgNVBAoMBkJhbnF1cDEZMBcGA1UEYQwQTlRSQkUtMDY0OTg2MDgwNDErMCkGA1UEAwwiQmFucXVwIEludGVybWVkaWF0ZSBDQSBSU0EgRzEtMjAyNTAeFw0yNTEwMjkxNTQwMjVaFw0zMTEwMjcxNTQwMjRaMGExCzAJBgNVBAYTAkJFMQ8wDQYDVQQKDAZCYW5xdXAxGTAXBgNVBGEMEE5UUkJFLTA2NDk4NjA4MDQxJjAkBgNVBAMMHUJhbnF1cCBJc3N1aW5nIENBIFJTQSBHMS0yMDI1MIICIjANBgkqhkiG9w0BAQEFAAOCAg8AMIICCgKCAgEAtY1+Qiw/YfY4Bsrxf0nQMBpC3VSqKA6XEVHfnnRP3U99ph54zrYe+yZs6/QEmikOjwVQduibokFKWu79EKpoYkNpSge1gzG60fu6ytV6B3UGyN8cts3uE4G27jAye++x8J+5npOrJM6F4l+XYOKxn6AjDgWyzQwXij0k8Gi1kvzeNXyRhMkYMjobMmKDVRK/0BRP2osnowH0jz9PwB9EqtngRM+HZhlSp236FpS+ubbyqXlSgdcnA5Vq+k0JfJaw05FWCPG6eSMoPKuwjLdU6KFKZf0JoOp7z4JEi9h+WkrjjLX2UvRxqSHAxdpgLRUEIU+HQoZR/JbaXKltvm6tGKS7XpuirD5iQBhUVCbVREdlpWmOAit389Tmbi0Ag+r67Xw/HA1nOxoK/UQFtpoDgfWNdY/3A65uFZwpJhvogmsAg20U4TRwnwB7yeHCvkdVMbIwa4otMmzuxeTtqbeJKnf+VX18zlELXZgnTNj81bgslUiGnfRPf7Z7KKqKkl6dT4wqlXsjGszfLoEdbxhuPp95tMWYRzhFBY8rzXwL1J1iUHkEyw8BLkHZ/GRglvY9iB+5JbUOaAMmMZ88S8D3cs/xDruHWx+sxvqNaOWuwwl8OqaEaH7P+ivu3tD1Y+5G702u89lvzI3tuwY3ZzilNtTznE0rsh9PQiSlHWzhevcCAwEAAaOCAU0wggFJMBIGA1UdEwEB/wQIMAYBAf8CAQAwHwYDVR0jBBgwFoAUdsK7mdyr5TytFO7EFBeVceHi3ZIwUQYIKwYBBQUHAQEERTBDMEEGCCsGAQUFBzAChjVodHRwOi8vY2EucGtpLmJhbnF1cC5jb20vQmFucXVwSW50ZXJtZWRpYXRlQ0EtUlNBLmNlcjBHBgNVHSAEQDA+MDwGBFUdIAAwNDAyBggrBgEFBQcCARYmaHR0cHM6Ly93d3cucGtpLmJhbnF1cC5jb20vcmVwb3NpdG9yeS8wRwYDVR0fBEAwPjA8oDqgOIY2aHR0cDovL2NybC5wa2kuYmFucXVwLmNvbS9CYW5xdXBJbnRlcm1lZGlhdGVDQS1SU0EuY3JsMB0GA1UdDgQWBBSVMCqsMlKat9/b3b2SKG7A7wEwJDAOBgNVHQ8BAf8EBAMCAQYwDQYJKoZIhvcNAQENBQADggIBAFVEZ3g/vMnQONziu/x9Nu5XP7iOMygG6pGRG3eNUR0QQ7CHaGQ5At+pXgiqQb6RU1ACgoJUwy1Be1iJXkpDhedWtWoud9O99t2e48avnRzXOpErZ8fCmOzDPX5LdcBVvX8jabIq5DWcVAAWC9srMn8Zz0u6dnXPnRh+rtpZpAqRKKK6c6nxfEMOvQ8wzEwgOmwBFl8BwMeHUml/vroQXQD6F6ARVi6BQfwMe9ok3MK014HO5UW91HxNktg8/UkgIVqythgytAVj7VFPtl6CUw8s46XrdAofnuvzCk12cTfKePAh1vw7gpprvVj1Fsn/GZ5LUd/PZl0QpuNILzYw6R6Unbx74t7zaT3E1TQOb918IuTuWc5OGDbDCilHc2rE527VZ/2tOu/z5gvJpb8AolZf8deu1lIejo4H9aJMVRjGvLAZlxTQ8b94DG8t3qJ3RIHnHjChOe5lrsOpsr5HfnkIHoX2tgwjaNmoHizELZ5jrpIS3v70HwSoiw2iyiET1FgqNwEkmqwhgAYn6YWU9Zl4ZUgKPJK0UK37G5qe2xcszP1r+Rb3qKXKw+Ai7GyCOq4Yb9dSQvOziZjfQ/yTzAvWnX/fgKoagphVrCWSAUEX3r/AjSaYITqdptmjFlNRfamKjOynfMDXdNJsnZSfMs5ZYO67hUr1iW7kEF7lct5l</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=Banqup Issuing CA RSA G1-2025, OID.2.5.4.97=NTRBE-0649860804, O=Banqup, C=BE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>lTAqrDJSmrff2929kihuwO8BMCQ=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-06-15T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-245133e6ac02cf050f1b48906a2cbccd"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>n/BnbJ2b9kVjyFod8lG8ZLo52c/XOtxbHICiXyJGOYg+1b+++k+ObPFq69XlCdCWLc5JaTW2T9NKER+v2LXPbQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-245133e6ac02cf050f1b48906a2cbccd"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>DG5pBrJd1tHOU51KAMlYEjMOR7sez8z6Ero+W343aHjN6U5oi20/gjhUAcdyTjvCoUsPenXt8g299LBuOm27bA==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-245133e6ac02cf050f1b48906a2cbccd">QEJUER/J6Azz6n9tVeX4JkeHp5XXPuDE8qMAipJjrnnwMB2Jwc5H3wq9kXoGEipOwz0sYLxQIkZaVEdNIK9GIfzkhxUeTvmkLVY9vHSdtzI9W7ehwNPi2qzZzidWPSgypMcfTBHST/sPdI2v/B71SHMWNI6cJ2JNAavDnQl0/54T26A/kIKw+SGIyafl0crFVCz6bDjSaHrTZ/2gC0LXE0mmT1kVAt1hiysnoThynBXFR9DXj9BoQQmu7AJa7GHdw9YVkomw/YgrONstb1swoKEou7gNiRK8ugnTiiOwRA4ztKPt2hDSooeGjCEJyL+bdD1T49LfFYtZ1uV4IpNxUU7NdgVWxZEfDEGP5NNhWCRe1xNk6l+Hoa4F/vCRO0DBKlicBZJp4ihQ5ENCN841WgX/epYJYPYDBV/QXZMNHEUZkSopwRwtRsr45iPa9Uf0SXdoIN+SADCUoJcsrXK09Rl2VRHmd9WPZ6EIPKFSAVvzYkM9kZ056oUaCYXt8+wb3uPMrAAKIAUqMcaM7CW4Old8fI4/7szhzsF3a0Cb7SlfhiYfIJ6H0RB32lhKAMF+MLhprvghDYJ4D7lC9SNDNZoazc/tkCOa/J4zGCxV74TfBwX7PHAdb867XE8inAKb0YiVEIrypuwClAmSTXccgF08xbsynIMPvey4bpl1Cok=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-245133e6ac02cf050f1b48906a2cbccd"><xades:SignedProperties Id="xades-id-245133e6ac02cf050f1b48906a2cbccd"><xades:SignedSignatureProperties><xades:SigningTime>2026-05-18T14:20:16Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mtg0alh9/IWYR/bkOynzuXS+pwy4z+CCzOM8tiWVOFJKtrB7oDsfkZNXqkj66JRw2FUPp3nlXjppywf4Sw6ybA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGVMIGEpIGBMH8xCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTowOAYDVQQDEzFHbG9iYWxTaWduIEdDQyBFNDUgUXVhbGlmaWVkIFFTQ0QgU2lnbmluZyBDQSAyMDIwMRkwFwYDVQRhExBOVFJCRS0wNDU5MTM0MjU2Agx02ssM4I6Zaq55dwg=</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-88fc717eea5e8cffe8dc809e0988dd62"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>8bVhAuyE0sq5myYm6wvEhQjBwo00RJJoswysZMdtCk/bZHKgYrnTcf7c5i86hQcfnrqjrjikP49+24+yg13J3w==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-88fc717eea5e8cffe8dc809e0988dd62"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>jtsF6xafi+Z49JpGmF48zitHXkLcHvc7aEDOzFSVQ7LO8qEk4Zi9aOx+hdrv/R56z4nX0TGgfVKSUinLQ0svug==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-88fc717eea5e8cffe8dc809e0988dd62">NBcBMzNJ7ur1kLpF5877uMAmjKjhGoNMKk6xWgPGfJLrS2onE5dHmE28VeaD0wcFzUZpqW0vQ3XzNK3OiSBsJ5D+GkGCByBhoSLPUl6UyfyebKNSaFibSya6KjqufP10e+aj/Jg/ENrRSW5ghTH1NwERYItvZUxqit5UPFq6lNcTZsX9PH1zVy/hsMVstemVyBwAO3GqFRlJ7j+K8Qpo6YoBENDgxa8q6ZDJ//1lzUgsu1un7lbzBfaS4jneulsnq+5cPvDFQS+3qtX8VLGHf94vP7X4/LN+f/XFbFJRQMJgcwcDUv4Y8OlPKukAht7jbax2sJwBw7wFtHdrNKPHM+za5s+j94dG8IZ8G6lXGpvircubZGYcXFeMdluIzN33nObXXJHOokN3M6aAKC58XI21D7t8ZLqjKOUn87t7f3fUzn3KasaHJKJ2kUf4Ag1NC9z9BeTlrnquwAjxicB39LmUwLoE7ojPKS0EQJJ2IoPLHN0y/pdbDvAjmybIQH42F7RaqEUSnd6S7XrN91YvDyAmVYt3WLF0DTDtZN/4R9qtaUD5CKtqm1krcN5VGzQF9n89Opacs5p+XeeVS9JYVF9/Q6caqh+8LuUyZMqXfQoEhP41CTxm5h9ONkMMbVZTEMyWMTx/B7Z0DkIURtmBCZr/cB9I/OSxCW5H/AKA/dE=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-88fc717eea5e8cffe8dc809e0988dd62"><xades:SignedProperties Id="xades-id-88fc717eea5e8cffe8dc809e0988dd62"><xades:SignedSignatureProperties><xades:SigningTime>2026-06-15T09:44:05Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>mtg0alh9/IWYR/bkOynzuXS+pwy4z+CCzOM8tiWVOFJKtrB7oDsfkZNXqkj66JRw2FUPp3nlXjppywf4Sw6ybA==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIGVMIGEpIGBMH8xCzAJBgNVBAYTAkJFMRkwFwYDVQQKExBHbG9iYWxTaWduIG52LXNhMTowOAYDVQQDEzFHbG9iYWxTaWduIEdDQyBFNDUgUXVhbGlmaWVkIFFTQ0QgU2lnbmluZyBDQSAyMDIwMRkwFwYDVQRhExBOVFJCRS0wNDU5MTM0MjU2Agx02ssM4I6Zaq55dwg=</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
