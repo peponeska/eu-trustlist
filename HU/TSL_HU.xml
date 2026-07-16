@@ -4,7 +4,7 @@
 *******************************************************************************
 	Application: TL
 	API:         A2-Polysys CryptoSigno Interop JAVA API v2.6.1 b161
-	Date:        2026. 05. 28. 15:23:13.648 CEST [2026-05-28T13:23:13Z]
+	Date:        2026. 07. 15. 10:42:53.165 CEST [2026-07-15T08:42:53Z]
 *******************************************************************************
 -->
 <tsl:TrustServiceStatusList xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
@@ -13,12 +13,12 @@
 *******************************************************************************
 	Application: TL 5.4.1.2026.04.06.122713
 	API:         A2 TSL API v6.0.5 b20260406
-	Date:        2026. 05. 28. 15:23:07.678 CEST [2026-05-28T13:23:07Z]
+	Date:        2026. 07. 15. 10:42:47.903 CEST [2026-07-15T08:42:47Z]
 *******************************************************************************
 -->
 <tsl:SchemeInformation>
 <tsl:TSLVersionIdentifier>6</tsl:TSLVersionIdentifier>
-<tsl:TSLSequenceNumber>98</tsl:TSLSequenceNumber>
+<tsl:TSLSequenceNumber>99</tsl:TSLSequenceNumber>
 <tsl:TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</tsl:TSLType>
 <tsl:SchemeOperatorName>
 <tsl:Name xml:lang="en">National Media and Infocommunications Authority, Hungary</tsl:Name>
@@ -354,8 +354,8 @@ y6HL3A==
 </tsl:AdditionalInformation>
 </tsl:OtherTSLPointer>
 </tsl:PointersToOtherTSL>
-<tsl:ListIssueDateTime>2026-05-28T14:00:00Z</tsl:ListIssueDateTime>
-<tsl:NextUpdate><tsl:dateTime>2026-11-27T15:00:00Z</tsl:dateTime></tsl:NextUpdate>
+<tsl:ListIssueDateTime>2026-07-15T09:00:00Z</tsl:ListIssueDateTime>
+<tsl:NextUpdate><tsl:dateTime>2027-01-15T09:00:00Z</tsl:dateTime></tsl:NextUpdate>
 <tsl:DistributionPoints>
 <tsl:URI>https://www.nmhh.hu/tl/pub/HU_TL.xml</tsl:URI>
 <tsl:URI>https://www.nmhh.hu/tl/pub/HU_TL.pdf</tsl:URI>
@@ -24837,6 +24837,160 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 </tsl:TSPService>
 </tsl:TSPServices>
 </tsl:TrustServiceProvider>
+<tsl:TrustServiceProvider>
+<tsl:TSPInformation>
+<tsl:TSPName>
+<tsl:Name xml:lang="en">SDA DMS Zártkörűen Működő Részvénytársaság</tsl:Name>
+<tsl:Name xml:lang="hu">SDA DMS Zártkörűen Működő Részvénytársaság</tsl:Name>
+</tsl:TSPName>
+<tsl:TSPTradeName>
+<tsl:Name xml:lang="en">SDA DMS Zrt.</tsl:Name>
+<tsl:Name xml:lang="hu">SDA DMS Zrt.</tsl:Name>
+<tsl:Name xml:lang="en">VATHU - 24167789</tsl:Name>
+<tsl:Name xml:lang="hu">VATHU - 24167789</tsl:Name>
+</tsl:TSPTradeName>
+<tsl:TSPAddress>
+<tsl:PostalAddresses>
+<tsl:PostalAddress xml:lang="hu">
+<tsl:StreetAddress>Budafoki út 59.</tsl:StreetAddress>
+<tsl:Locality>Budapest</tsl:Locality>
+<tsl:PostalCode>1111</tsl:PostalCode>
+<tsl:CountryName>HU</tsl:CountryName>
+</tsl:PostalAddress>
+</tsl:PostalAddresses>
+<tsl:ElectronicAddress>
+<tsl:URI xml:lang="hu">mailto:info@sdadms.hu</tsl:URI>
+</tsl:ElectronicAddress>
+</tsl:TSPAddress>
+<tsl:TSPInformationURI>
+<tsl:URI xml:lang="hu">https://www.sdadms.hu/</tsl:URI>
+</tsl:TSPInformationURI>
+</tsl:TSPInformation>
+<tsl:TSPServices>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">ePostaláda_1</tsl:Name>
+<tsl:Name xml:lang="hu">ePostaláda_1</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>gzU+s7pfHWDadNMugxHAeK7aS/Q=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIII0jCCCHigAwIBAgIRAxhYBDFFvm+hpipsmPkkAA0wCgYIKoZIzj0EAwIwejELMAkGA1UEBhMC
+SFUxETAPBgNVBAcMCEJ1ZGFwZXN0MRYwFAYDVQQKDA1NaWNyb3NlYyBMdGQuMRcwFQYDVQRhDA5W
+QVRIVS0yMzU4NDQ5NzEnMCUGA1UEAwweZS1Temlnbm8gUXVhbGlmaWVkIFFDUCBDQSAyMDE3MB4X
+DTI1MDkxOTA5MjUxMFoXDTI4MDkxODA5MjUwOVowgdkxCzAJBgNVBAYTAkhVMREwDwYDVQQHDAhC
+dWRhcGVzdDEVMBMGA1UECgwMU0RBIERNUyBacnQuMRcwFQYDVQRhDA5WQVRIVS0yNDE2Nzc4OTEe
+MBwGA1UECwwVZVBvc3RhbMOhZGEgw5x6bGV0w6FnMRUwEwYDVQQDDAxTREEgRE1TIFpydC4xKDAm
+BgkqhkiG9w0BCQEWGW11bmthY3NpLm1paGFseUBzZGFkbXMuaHUxJjAkBgNVBAUTHTEuMy42LjEu
+NC4xLjIxNTI4LjIuMy4yLjExNzE3MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEW8WQA/lxM4u+
+0t6QbSqZ1auusj87IaS8/6nHNpBowhiBhOYubalFJE6yQekT5skIg9Ejdn+kdeXSFdgqbYicLaOC
+Bn0wggZ5MA4GA1UdDwEB/wQEAwIGQDAVBgNVHSUEDjAMBgorBgEEAYI3CgMMMIICLQYDVR0gBIIC
+JDCCAiAwggIRBg0rBgEEAYGoGAIBAYE3MIIB/jAmBggrBgEFBQcCARYaaHR0cDovL2NwLmUtc3pp
+Z25vLmh1L3FjcHMwgaIGCCsGAQUFBwICMIGVDIGSUXVhbGlmaWVkIGNlcnRpZmljYXRlIGZvciBl
+bGVjdHJvbmljIHNlYWwgKEJyb256ZSkuIFRoZSBwcm92aWRlciBwcmVzZXJ2ZXMgcmVnaXN0cmF0
+aW9uIGRhdGEgZm9yIDEwIHllYXJzIGFmdGVyIHRoZSBleHBpcmF0aW9uIG9mIHRoZSBjZXJ0aWZp
+Y2F0ZS4wPwYIKwYBBQUHAgIwMwwxVGhlIHN1YmplY3Qgb2YgdGhlIGNlcnRpZmljYXRlIGlzIGEg
+bGVnYWwgcGVyc29uLjCBtwYIKwYBBQUHAgIwgaoMgadFbGVrdHJvbmlrdXMgYsOpbHllZ3rFkSBt
+aW7FkXPDrXRldHQgdGFuw7pzw610dsOhbnlhIChCcm9ueikuIEEgcmVnaXN6dHLDoWNpw7NzIGFk
+YXRva2F0IGEgc3pvbGfDoWx0YXTDsyBhIHRhbsO6c8OtdHbDoW55IGxlasOhcnTDoXTDs2wgc3rD
+oW3DrXRvdHQgMTAgw6l2aWcgxZFyemkgbWVnLjA0BggrBgEFBQcCAjAoDCZBIHRhbsO6c8OtdHbD
+oW55IGFsYW55YSBqb2dpIHN6ZW3DqWx5LjAJBgcEAIvsQAEBMB0GA1UdDgQWBBSDNT6zul8dYNp0
+0y6DEcB4rtpL9DAfBgNVHSMEGDAWgBQH9izCA0NfdmcXt6SBh5rMRTB93jA/BgNVHREEODA2gRlt
+dW5rYWNzaS5taWhhbHlAc2RhZG1zLmh1oBkGCCsGAQUFBwgDoA0wCwYJKwYBBAGBqBgCMIG2BgNV
+HR8Ega4wgaswN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDEuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDIuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDMuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwggJPBggrBgEFBQcBAQSCAkEwggI9MC8GCCsGAQUFBzABhiNodHRwOi8vZXFjcGNh
+MjAxNy1vY3NwMS5lLXN6aWduby5odTAvBggrBgEFBQcwAYYjaHR0cDovL2VxY3BjYTIwMTctb2Nz
+cDIuZS1zemlnbm8uaHUwLwYIKwYBBQUHMAGGI2h0dHA6Ly9lcWNwY2EyMDE3LW9jc3AzLmUtc3pp
+Z25vLmh1MDwGCCsGAQUFBzAChjBodHRwOi8vZXFjcGNhMjAxNy1jYTEuZS1zemlnbm8uaHUvZXFj
+cGNhMjAxNy5jcnQwTgYIKwYBBQUHMAKGQmh0dHA6Ly9lcWNwY2EyMDE3LWNhMS5lLXN6aWduby5o
+dS9lcWNwY2EyMDE3LWxpbmsta2d5aHN6Y2EyMDA5LmNydDA8BggrBgEFBQcwAoYwaHR0cDovL2Vx
+Y3BjYTIwMTctY2EyLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3J0ME4GCCsGAQUFBzAChkJodHRw
+Oi8vZXFjcGNhMjAxNy1jYTIuZS1zemlnbm8uaHUvZXFjcGNhMjAxNy1saW5rLWtneWhzemNhMjAw
+OS5jcnQwPAYIKwYBBQUHMAKGMGh0dHA6Ly9lcWNwY2EyMDE3LWNhMy5lLXN6aWduby5odS9lcWNw
+Y2EyMDE3LmNydDBOBggrBgEFBQcwAoZCaHR0cDovL2VxY3BjYTIwMTctY2EzLmUtc3ppZ25vLmh1
+L2VxY3BjYTIwMTctbGluay1rZ3loc3pjYTIwMDkuY3J0MIGRBggrBgEFBQcBAwSBhDCBgTAIBgYE
+AI5GAQEwCwYGBACORgEDAgEKMFMGBgQAjkYBBTBJMCQWHmh0dHBzOi8vY3AuZS1zemlnbm8uaHUv
+cWNwc19lbhMCZW4wIRYbaHR0cHM6Ly9jcC5lLXN6aWduby5odS9xY3BzEwJodTATBgYEAI5GAQYw
+CQYHBACORgEGAjAKBggqhkjOPQQDAgNIADBFAiEAt/Pz3XXPflmbCQafr6JB0C8MCe37fpIkYBbM
+0yS2Ab0CIHkGalV7I+grok3q2NzytM8nIx7y6Ere4pUg9LzN3M/t
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2026-07-15T09:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>https://www.epostalada.hu/</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EDS/Q</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">ePostaláda_2</tsl:Name>
+<tsl:Name xml:lang="hu">ePostaláda_2</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>pJu5BVle/Yeu5kqKFNPi0Jq+Xbc=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIII0jCCCHigAwIBAgIRAxoXxa210B8EV9M6ISQa5g0wCgYIKoZIzj0EAwIwejELMAkGA1UEBhMC
+SFUxETAPBgNVBAcMCEJ1ZGFwZXN0MRYwFAYDVQQKDA1NaWNyb3NlYyBMdGQuMRcwFQYDVQRhDA5W
+QVRIVS0yMzU4NDQ5NzEnMCUGA1UEAwweZS1Temlnbm8gUXVhbGlmaWVkIFFDUCBDQSAyMDE3MB4X
+DTI1MDkyNjA4MTQ1M1oXDTI4MDkyNTA4MTQ1MlowgdkxCzAJBgNVBAYTAkhVMREwDwYDVQQHDAhC
+dWRhcGVzdDEVMBMGA1UECgwMU0RBIERNUyBacnQuMRcwFQYDVQRhDA5WQVRIVS0yNDE2Nzc4OTEe
+MBwGA1UECwwVZVBvc3RhbMOhZGEgw5x6bGV0w6FnMRUwEwYDVQQDDAxTREEgRE1TIFpydC4xKDAm
+BgkqhkiG9w0BCQEWGW11bmthY3NpLm1paGFseUBzZGFkbXMuaHUxJjAkBgNVBAUTHTEuMy42LjEu
+NC4xLjIxNTI4LjIuMy4yLjExNzI3MFkwEwYHKoZIzj0CAQYIKoZIzj0DAQcDQgAEf9TjbjLKlaKY
+R/iFDZ4iXckFf5+kC1lphlqeanlkAnZTcAojS9oO3WAzXDlLcdVXwgl/ELy/JnklGauB5alfJKOC
+Bn0wggZ5MA4GA1UdDwEB/wQEAwIGQDAVBgNVHSUEDjAMBgorBgEEAYI3CgMMMIICLQYDVR0gBIIC
+JDCCAiAwggIRBg0rBgEEAYGoGAIBAYE3MIIB/jAmBggrBgEFBQcCARYaaHR0cDovL2NwLmUtc3pp
+Z25vLmh1L3FjcHMwgaIGCCsGAQUFBwICMIGVDIGSUXVhbGlmaWVkIGNlcnRpZmljYXRlIGZvciBl
+bGVjdHJvbmljIHNlYWwgKEJyb256ZSkuIFRoZSBwcm92aWRlciBwcmVzZXJ2ZXMgcmVnaXN0cmF0
+aW9uIGRhdGEgZm9yIDEwIHllYXJzIGFmdGVyIHRoZSBleHBpcmF0aW9uIG9mIHRoZSBjZXJ0aWZp
+Y2F0ZS4wPwYIKwYBBQUHAgIwMwwxVGhlIHN1YmplY3Qgb2YgdGhlIGNlcnRpZmljYXRlIGlzIGEg
+bGVnYWwgcGVyc29uLjCBtwYIKwYBBQUHAgIwgaoMgadFbGVrdHJvbmlrdXMgYsOpbHllZ3rFkSBt
+aW7FkXPDrXRldHQgdGFuw7pzw610dsOhbnlhIChCcm9ueikuIEEgcmVnaXN6dHLDoWNpw7NzIGFk
+YXRva2F0IGEgc3pvbGfDoWx0YXTDsyBhIHRhbsO6c8OtdHbDoW55IGxlasOhcnTDoXTDs2wgc3rD
+oW3DrXRvdHQgMTAgw6l2aWcgxZFyemkgbWVnLjA0BggrBgEFBQcCAjAoDCZBIHRhbsO6c8OtdHbD
+oW55IGFsYW55YSBqb2dpIHN6ZW3DqWx5LjAJBgcEAIvsQAEBMB0GA1UdDgQWBBSkm7kFWV79h67m
+SooU0+LQmr5dtzAfBgNVHSMEGDAWgBQH9izCA0NfdmcXt6SBh5rMRTB93jA/BgNVHREEODA2gRlt
+dW5rYWNzaS5taWhhbHlAc2RhZG1zLmh1oBkGCCsGAQUFBwgDoA0wCwYJKwYBBAGBqBgCMIG2BgNV
+HR8Ega4wgaswN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDEuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDIuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwN6A1oDOGMWh0dHA6Ly9lcWNwY2EyMDE3LWNybDMuZS1zemlnbm8uaHUvZXFjcGNh
+MjAxNy5jcmwwggJPBggrBgEFBQcBAQSCAkEwggI9MC8GCCsGAQUFBzABhiNodHRwOi8vZXFjcGNh
+MjAxNy1vY3NwMS5lLXN6aWduby5odTAvBggrBgEFBQcwAYYjaHR0cDovL2VxY3BjYTIwMTctb2Nz
+cDIuZS1zemlnbm8uaHUwLwYIKwYBBQUHMAGGI2h0dHA6Ly9lcWNwY2EyMDE3LW9jc3AzLmUtc3pp
+Z25vLmh1MDwGCCsGAQUFBzAChjBodHRwOi8vZXFjcGNhMjAxNy1jYTEuZS1zemlnbm8uaHUvZXFj
+cGNhMjAxNy5jcnQwTgYIKwYBBQUHMAKGQmh0dHA6Ly9lcWNwY2EyMDE3LWNhMS5lLXN6aWduby5o
+dS9lcWNwY2EyMDE3LWxpbmsta2d5aHN6Y2EyMDA5LmNydDA8BggrBgEFBQcwAoYwaHR0cDovL2Vx
+Y3BjYTIwMTctY2EyLmUtc3ppZ25vLmh1L2VxY3BjYTIwMTcuY3J0ME4GCCsGAQUFBzAChkJodHRw
+Oi8vZXFjcGNhMjAxNy1jYTIuZS1zemlnbm8uaHUvZXFjcGNhMjAxNy1saW5rLWtneWhzemNhMjAw
+OS5jcnQwPAYIKwYBBQUHMAKGMGh0dHA6Ly9lcWNwY2EyMDE3LWNhMy5lLXN6aWduby5odS9lcWNw
+Y2EyMDE3LmNydDBOBggrBgEFBQcwAoZCaHR0cDovL2VxY3BjYTIwMTctY2EzLmUtc3ppZ25vLmh1
+L2VxY3BjYTIwMTctbGluay1rZ3loc3pjYTIwMDkuY3J0MIGRBggrBgEFBQcBAwSBhDCBgTAIBgYE
+AI5GAQEwCwYGBACORgEDAgEKMFMGBgQAjkYBBTBJMCQWHmh0dHBzOi8vY3AuZS1zemlnbm8uaHUv
+cWNwc19lbhMCZW4wIRYbaHR0cHM6Ly9jcC5lLXN6aWduby5odS9xY3BzEwJodTATBgYEAI5GAQYw
+CQYHBACORgEGAjAKBggqhkjOPQQDAgNIADBFAiBSUxrLc5PIU4L5VIC1LRKWlC6GbxSXafRRAKif
+IEdTfwIhAO3pt0pu4afA5OxDEzGEyZFjKnPhxq8mfA3BuUX47JWk
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2026-07-15T09:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>https://www.epostalada.hu/</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+</tsl:TSPServices>
+</tsl:TrustServiceProvider>
 </tsl:TrustServiceProviderList>
 
 <ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="Signature-1">
@@ -24849,19 +25003,19 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>u3K+EmVKC+Qm+XScJzmZg6xmKnlE+9n5/aQ6qv3yIbc=</ds:DigestValue>
+<ds:DigestValue>PwmcmOiim/63ILprCD9+/jpXg96oWnZa2RKv863Y7O8=</ds:DigestValue>
 </ds:Reference>
 <ds:Reference Id="Signature-1__Reference-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature-1__SignedProperties-1">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>Y4SSMjLwMoFB3FVRnZU3ToVmxhj7+3370T8sV+H36Rk=</ds:DigestValue>
+<ds:DigestValue>3CirQnyDORAYNR/gRtzbvbGGh20D/VGo6x4DJbNZwXI=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue Id="Signature-1__SignatureValue-1">
-UtKqzec+wYrKP5RDrGecgmllBEXefgEwBId5cVGKDG1/uK7z1uk+GbnZahwNtUvfYjbTvh6akt9p
-XyrzXi5X0A==
+ZV3XbTGelotRjOvfvFFC5j2uS1q+XewGH5VHMj2i5nuDgCp7YU6n9lh3yHQFn1f5bfVr34kuabJf
+Xl5ZXsyWSQ==
 </ds:SignatureValue>
 <ds:KeyInfo Id="Signature-1__KeyInfo-1">
 <ds:X509Data>
@@ -24887,7 +25041,7 @@ dXrLNT+qlvL+3TNPt5oNBwHSsxo=
 <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="Signature-1__QualifyingProperties-1" Target="#Signature-1">
 <xades:SignedProperties Id="Signature-1__SignedProperties-1">
 <xades:SignedSignatureProperties>
-<xades:SigningTime>2026-05-28T13:23:13Z</xades:SigningTime>
+<xades:SigningTime>2026-07-15T08:42:53Z</xades:SigningTime>
 <xades:SigningCertificateV2>
 <xades:Cert>
 <xades:CertDigest>
