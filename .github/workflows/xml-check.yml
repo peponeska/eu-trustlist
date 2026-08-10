@@ -23,7 +23,7 @@ jobs:
 
       - name: Validate changed XML files
         run: |
-          SCHEMA="ValidationSChemas/ts_119612v020201_201601xsd.xsd"
+          SCHEMA="ValidationSchemas/ts_119612v020201_201601xsd.xsd"
 
           if [ ! -s files.txt ]; then
             echo "No XML files changed."
