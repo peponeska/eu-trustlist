@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="id_for_enveloped_signing_of_the_entire_list" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>60</TSLSequenceNumber>
+        <TSLSequenceNumber>62</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Swedish Post and Telecom Agency (PTS)</Name>
@@ -95,9 +95,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-04-14T12:35:03Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-08-19T13:56:19Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2026-10-14T12:35:03Z</dateTime>
+            <dateTime>2027-02-19T14:56:19Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://trustedlist.pts.se/tlv6/SE-TL.xml</URI>
@@ -610,6 +610,21 @@
                         <StatusStartingTime>2022-10-10T08:10:45Z</StatusStartingTime>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">ZealiD Remote QSCD</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<Other>http://uri.signatur.pts.se/SE556972428801/Remote-electronic-signature-creation-device</Other>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-08-20T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -788,7 +803,130 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSealCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Remote-electronic-seal-creation-device</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<Other>http://uri.signatur.pts.se/SE5594699489/Remote-electronic-seal-creation-device</Other>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-05-21T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Remote-electronic-signature-creation-device</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<Other>http://uri.signatur.pts.se/SE5594699489/Remote-electronic-signature-creation-device</Other>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-05-21T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/EAA/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">IDnow Qualified electronic attestation of attributes</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>CN=IDnow Trust Services AB (Q)EAA Seal, OID.2.5.4.97=VATSE-5594699489, O=IDnow Trust Services AB, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>2bpVyJxXDxoUYR39E+ZwDi1Egps=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-08-20T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
+            </TSPServices>
+        </TrustServiceProvider>
+        <TrustServiceProvider>
+            <TSPInformation>
+                <TSPName>
+                    <Name xml:lang="en">Fourthline Trust Services AB</Name>
+                </TSPName>
+                <TSPTradeName>
+                    <Name xml:lang="en">VATSE-559555250501</Name>
+                </TSPTradeName>
+                <TSPAddress>
+                    <PostalAddresses>
+                        <PostalAddress xml:lang="en">
+                            <StreetAddress>Östermalmstorg 1</StreetAddress>
+                            <Locality>Stockholm</Locality>
+                            <PostalCode>11442</PostalCode>
+                            <CountryName>SE</CountryName>
+                        </PostalAddress>
+                    </PostalAddresses>
+                    <ElectronicAddress>
+                        <URI xml:lang="en">https://fourthline-trust-services.com/</URI>
+                        <URI xml:lang="en">mailto:info@fourthline-trust-services.com</URI>
+                    </ElectronicAddress>
+                </TSPAddress>
+                <TSPInformationURI>
+                    <URI xml:lang="en">https://fourthline-trust-services.com/</URI>
+                </TSPInformationURI>
+            </TSPInformation>
+            <TSPServices>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/CA/QC</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fourthline Qualified electronic signature</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>MIIE2TCCAsGgAwIBAgIUVUF9CxkxLFq1mRs009dAr6Sk14MwDQYJKoZIhvcNAQELBQAwYjELMAkGA1UEBhMCTFUxJTAjBgNVBAoMHEJFIElOVkVTVCBJbnRlcm5hdGlvbmFsIFMuQS4xEzARBgNVBAMMCkxDIFJPT1QgQ0ExFzAVBgNVBGEMDlZBVExVLTI5MjIyMTM0MB4XDTI2MDQyMzEyMTc0N1oXDTM2MDQyMjAwMDAwMFowbjELMAkGA1UEBhMCU0UxJTAjBgNVBAoMHEZvdXJ0aGxpbmUgVHJ1c3QgU2VydmljZXMgQUIxHTAbBgNVBAMMFEZvdXJ0aGxpbmUgUUNQIENBIDAxMRkwFwYDVQRhDBBOVFJTRS01NTk1NTUyNTA1MIGbMBAGByqGSM49AgEGBSuBBAAjA4GGAAQBNuliclyJeWOACAW6Nwy2RSZi12/1HJZWkA6EG24PPF15g00OBiNoiUaU4CzoGWybnCy8UOAbsXuLPxAMqO2riVgBOKLFywzpI1I9lVznU4eKjfP0b4JDE3GlC9Z2SMrOZUUTevZfW48wm3cZraSJzDzpUxgrV5+MugDgJCFp7BR3C6+jggEBMIH+MB0GA1UdDgQWBBTFGCZmLyn7JokHdAhJFSfZQFWIrjAfBgNVHSMEGDAWgBRiXzNySIcc4lTvru4RiBQtdaHN6TAPBgNVHRMBAf8EBTADAQH/MA4GA1UdDwEB/wQEAwIBBjARBgNVHSAECjAIMAYGBFUdIAAwQAYDVR0fBDkwNzA1oDOgMYYvaHR0cDovL2NlcnRpZmljYXRlcy5iZS15cy5jb20vcm9vdC9sY3Jvb3RjYS5jcmwwRgYIKwYBBQUHAQEEOjA4MDYGCCsGAQUFBzAChipodHRwOi8vY2VydGlmaWNhdGVzLmJlLXlzLmNvbS9sY3Jvb3RjYS5jZXIwDQYJKoZIhvcNAQELBQADggIBAFcogJXBcASCm6i1moJ17p2Sugyf8eai5pMdj5NE1DvcEqcYcn4i7usx/jy9R81sqh/9xMBfUcxAwtENsojWcD7R2M55HLA6ixUufeIVAIQahoxZ/6YqTA2NMD4PP2ZD1R8McCm5qWMElIn49ueggJXajN80RUgGBFM6hYqqLSU7m8m+VviUEWlETdDC6kop8gtShl6rPq0kMnR/Uf2p7U8AFScX+oJJJI94NM2wOWp8/xx52H64siNw1J+NAj62HEQO3c7l/eKUef9VBqKl2/+VJEVrQR7RzR6srZOOEIEMBI16XzviCM1lgLxb8lVmg2RjmTmkQTJuC9sCM+aNnaJVp28b3mufb8CbROtMn26AdRHE1y/Mnopx2P8FCiSbActsrZpWe0XvHacxP6KWB/sKb+P4MTiArh6gvfkjb0hUqgDRVfL3tDLvh/dVr9oE2Qevb5uPYBnIYF8NC5nHAiaq3KHwxnPdjTL4spKWO/OJ6I9iOOfHXlxF2IRqv9snmRAWlFKqAlo/A3vXOVRXnYDbun94luNRqTmJH+BQ3sj5WDSX/K0wvX7Eb/vLEuNqI8tm+JRltQgg7XgEQV0NVNs0FSTPYfXE4hF38a8kz0sjrX26zq9+NaUB6LYEnFh+ttb5Rt6VvIW2rJ8fc7fcQ8ljqHn64ihUdeLZDdwmNEzI</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRSE-5595552505, CN=Fourthline QCP CA 01, O=Fourthline Trust Services AB, C=SE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>xRgmZi8p+yaJB3QISRUn2UBViK4=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-08-20T22:00:00Z</StatusStartingTime>
+                        <ServiceInformationExtensions>
+                            <Extension Critical="false">
+<AdditionalServiceInformation>
+    <URI xml:lang="en">http://uri.etsi.org/TrstSvc/TrustedList/SvcInfoExt/ForeSignatures</URI>
+</AdditionalServiceInformation>
+                            </Extension>
+                        </ServiceInformationExtensions>
+                    </ServiceInformation>
+                </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/RemoteQSigCDManagement/Q</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">Fourthline Remote QSCD</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<Other>http://uri.signatur.pts.se/SE559555250501/Remote-electronic-signature-creation-device</Other>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-08-20T22:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-85b6a4b025ae76d55c543c487b9d1f8c"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>qdbUFTn98daPp6trGFJEvyfCMyZGc1egdXWFiuame9xaZqke5xBUVZXPhPvDgpzDYCJv+r1Bafpy2bpZGMBLqQ==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-85b6a4b025ae76d55c543c487b9d1f8c"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9YZ5dKFcPwQtR0lPPVjeyN/kicRqpOCYXjRa/muOEmweYHJj/rebabRAlgFbi0077Yi7fqbas6mEa8cthtbXow==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-85b6a4b025ae76d55c543c487b9d1f8c">sw0R45/K1L7TQpNuRhO4d1MUp3MkZUi2y4oTigG8uHB/eGiHkyST9FyicbNjDKCUJ6YmKOfmh645xP74L14TB+paRwuj1Z559uyMxwf9S/g8DPbruLMCwUPPLll9/4pbCBG6idTJ7jMgNbt8H79Po+aX4GxDkABpr7pprrMzUwnEOk3UyFZQoD/+WWermYUWRcNe55IqGCNwDrFE6U5V8UhfvmhS5tMFcuyLMi6+wZgsgxhn5dOB2uvNl/1GjdUI8iAWbln/lIzPOeUO6Upy3hyElcAVRuXWsTQ5RkcKD2PqD+qi47WhseVMaoJHUpYtiIbkamyociLArJdCEq6azw==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBjCCAu6gAwIBAgIUOzkTfz3FusEX4xAXgwcZ/M50a8wwDQYJKoZIhvcNAQELBQAwgZUxLjAsBgNVBAoMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykxEjAQBgNVBAcMCVN0b2NraG9sbTESMBAGA1UECAwJU3RvY2tob2xtMQswCQYDVQQGEwJTRTEuMCwGA1UEAwwlU3dlZGlzaCBQb3N0IGFuZCBUZWxlY29tIEFnZW5jeSAoUFRTKTAeFw0yNTA2MDMxMzEzMTJaFw0yODA2MDIxMzEzMTJaMIGVMS4wLAYDVQQKDCVTd2VkaXNoIFBvc3QgYW5kIFRlbGVjb20gQWdlbmN5IChQVFMpMRIwEAYDVQQHDAlTdG9ja2hvbG0xEjAQBgNVBAgMCVN0b2NraG9sbTELMAkGA1UEBhMCU0UxLjAsBgNVBAMMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC51eNJziwSKI6P7qH8hNNe2QfPs+xMKBGl0qz3lfr6e8fiLWhHzzS/Tk8XrudUqwaXXrXJBOuZibHSdmvpUBm8E8ytwjTieeZ9+1wcVRB1t6vINoj1XinZcKfIxXhRPao7bJNAIAM9WXoaYv3viLy3Ag7LQ7ArATL5j1DMfUnQ4yVS0ux6tysj+bVUdyvEstRs8ZaXyHyAGTJlTDrnI5dnko0EKSxQt9qRxhTQF0R0XX3be3Qpjaf1QJDUYSbqmROLVsvhy4jvHLvnn6M1Iocj3YKyYHqdVUYpHnfzsjK1i9n2MoUsaz+qRi6PyjbaRf4qyC4DNvJEs5dD29e6c3U/AgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAdBgNVHQ4EFgQUvYZ2D4cNzdpEAQGF5Dkyrw+5CdcwDQYJKoZIhvcNAQELBQADggEBAHHgmMreIQi29ugS6hXcGlRbQ4Ob3xrtNgN99XiVdLHgBp+WvCFSEzgTOvwZgmRTdcu5a2gAVBxVqshKCOa6qe80746JMKVwvI0/ed4ZbYZqxJTAMPPAp1tru50YfXewP44phNmu4HaUdab8KI5ZeF03LTzezzUtZRrMmShkoAvOMjDuylrybGYfL0P/g5I10Q+akPDmewNnNPRFkC3gqH6JAsnE/HlazuG6FghD/UsvWN3U9fB2CesLRmfQ2kJGs17oM3+QYZNr89yWnFogmz8CaNhKyeBM+3iCQpS2Zcucs1RA9tWmuF/19HIqf1imHctBKyhxYGjwEDEaNR6s11Q=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-85b6a4b025ae76d55c543c487b9d1f8c"><xades:SignedProperties Id="xades-id-85b6a4b025ae76d55c543c487b9d1f8c"><xades:SignedSignatureProperties><xades:SigningTime>2026-04-14T12:38:36Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>CwGBY8wz3t0Hy9TiKcb9a59Actn/0AOypV/6UwOoPqatjHcXMPj84NRe6TN4rCR5IZntwhOCtBbycu92alAeRQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIG0MIGbpIGYMIGVMS4wLAYDVQQKDCVTd2VkaXNoIFBvc3QgYW5kIFRlbGVjb20gQWdlbmN5IChQVFMpMRIwEAYDVQQHDAlTdG9ja2hvbG0xEjAQBgNVBAgMCVN0b2NraG9sbTELMAkGA1UEBhMCU0UxLjAsBgNVBAMMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykCFDs5E389xbrBF+MQF4MHGfzOdGvM</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-6d7e0ca66227944539b0e91c4d02c61d"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2001/04/xmldsig-more#rsa-sha512"/><ds:Reference Id="tl_signing_tool" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>9eWMHd/kZs7GTgbvvmqjIIkrmiaXuhSwnEN/Umsn4OIYJ+LFijx0LQFCyx6w7hw2Q2EIjpgZf6YER7saDqua6w==</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-6d7e0ca66227944539b0e91c4d02c61d"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>fn1EcSv7a3hEDycwa2sUaPY5KWpnUf44AhLDPPibr83NL76sCxi6HVjfok8IIE2CRb6pnIeU00Qk+A9f2UOrUQ==</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-6d7e0ca66227944539b0e91c4d02c61d">HKdjK0FEglzzVoRu2NsrvALbDlJdBtz+mjTI66w/oD+imQ85NB+U6iIiHQB+0hdQ4KTFIMeHIaf9Rqttt8m8Z5jA/fJdwWf0bZTxfWjUJylHIGRAcYirthqhVC9rWP1KcKFJMqJ0/25RaQtGuJ8LvlWdJNNtni1G+McqvxMoGxbQazjTQCKTsJ6IPoNdrToYXeRjFtwqNrkS6+qij6YXfWvIYgX5Lmv7NHO9DUZltlcBLGKoyfRIOK7PsvHxxo6hZJyvNdxnO9KSS14AipmWJKgusM2cx7qK2lTUqN08Q3AZb3tbzSJ49zDhct7GBdynEf8rPoOt3P0JrYXHoqAQ2A==</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>MIIEBjCCAu6gAwIBAgIUOzkTfz3FusEX4xAXgwcZ/M50a8wwDQYJKoZIhvcNAQELBQAwgZUxLjAsBgNVBAoMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykxEjAQBgNVBAcMCVN0b2NraG9sbTESMBAGA1UECAwJU3RvY2tob2xtMQswCQYDVQQGEwJTRTEuMCwGA1UEAwwlU3dlZGlzaCBQb3N0IGFuZCBUZWxlY29tIEFnZW5jeSAoUFRTKTAeFw0yNTA2MDMxMzEzMTJaFw0yODA2MDIxMzEzMTJaMIGVMS4wLAYDVQQKDCVTd2VkaXNoIFBvc3QgYW5kIFRlbGVjb20gQWdlbmN5IChQVFMpMRIwEAYDVQQHDAlTdG9ja2hvbG0xEjAQBgNVBAgMCVN0b2NraG9sbTELMAkGA1UEBhMCU0UxLjAsBgNVBAMMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykwggEiMA0GCSqGSIb3DQEBAQUAA4IBDwAwggEKAoIBAQC51eNJziwSKI6P7qH8hNNe2QfPs+xMKBGl0qz3lfr6e8fiLWhHzzS/Tk8XrudUqwaXXrXJBOuZibHSdmvpUBm8E8ytwjTieeZ9+1wcVRB1t6vINoj1XinZcKfIxXhRPao7bJNAIAM9WXoaYv3viLy3Ag7LQ7ArATL5j1DMfUnQ4yVS0ux6tysj+bVUdyvEstRs8ZaXyHyAGTJlTDrnI5dnko0EKSxQt9qRxhTQF0R0XX3be3Qpjaf1QJDUYSbqmROLVsvhy4jvHLvnn6M1Iocj3YKyYHqdVUYpHnfzsjK1i9n2MoUsaz+qRi6PyjbaRf4qyC4DNvJEs5dD29e6c3U/AgMBAAGjTDBKMAkGA1UdEwQCMAAwCwYDVR0PBAQDAgZAMBEGA1UdJQQKMAgGBgQAkTcDADAdBgNVHQ4EFgQUvYZ2D4cNzdpEAQGF5Dkyrw+5CdcwDQYJKoZIhvcNAQELBQADggEBAHHgmMreIQi29ugS6hXcGlRbQ4Ob3xrtNgN99XiVdLHgBp+WvCFSEzgTOvwZgmRTdcu5a2gAVBxVqshKCOa6qe80746JMKVwvI0/ed4ZbYZqxJTAMPPAp1tru50YfXewP44phNmu4HaUdab8KI5ZeF03LTzezzUtZRrMmShkoAvOMjDuylrybGYfL0P/g5I10Q+akPDmewNnNPRFkC3gqH6JAsnE/HlazuG6FghD/UsvWN3U9fB2CesLRmfQ2kJGs17oM3+QYZNr89yWnFogmz8CaNhKyeBM+3iCQpS2Zcucs1RA9tWmuF/19HIqf1imHctBKyhxYGjwEDEaNR6s11Q=</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-6d7e0ca66227944539b0e91c4d02c61d"><xades:SignedProperties Id="xades-id-6d7e0ca66227944539b0e91c4d02c61d"><xades:SignedSignatureProperties><xades:SigningTime>2026-08-19T14:20:48Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>CwGBY8wz3t0Hy9TiKcb9a59Actn/0AOypV/6UwOoPqatjHcXMPj84NRe6TN4rCR5IZntwhOCtBbycu92alAeRQ==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MIG0MIGbpIGYMIGVMS4wLAYDVQQKDCVTd2VkaXNoIFBvc3QgYW5kIFRlbGVjb20gQWdlbmN5IChQVFMpMRIwEAYDVQQHDAlTdG9ja2hvbG0xEjAQBgNVBAgMCVN0b2NraG9sbTELMAkGA1UEBhMCU0UxLjAsBgNVBAMMJVN3ZWRpc2ggUG9zdCBhbmQgVGVsZWNvbSBBZ2VuY3kgKFBUUykCFDs5E389xbrBF+MQF4MHGfzOdGvM</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#tl_signing_tool"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
