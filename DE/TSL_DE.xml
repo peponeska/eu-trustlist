@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="UTF-8" standalone="no"?><TrustServiceStatusList xmlns="http://uri.etsi.org/02231/v2#" xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
     <SchemeInformation>
         <TSLVersionIdentifier>6</TSLVersionIdentifier>
-        <TSLSequenceNumber>161</TSLSequenceNumber>
+        <TSLSequenceNumber>162</TSLSequenceNumber>
         <TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</TSLType>
         <SchemeOperatorName>
             <Name xml:lang="en">Federal Network Agency</Name>
@@ -105,9 +105,9 @@
                 </AdditionalInformation>
             </OtherTSLPointer>
         </PointersToOtherTSL>
-        <ListIssueDateTime>2026-09-17T08:30:00Z</ListIssueDateTime>
+        <ListIssueDateTime>2026-10-08T07:30:00Z</ListIssueDateTime>
         <NextUpdate>
-            <dateTime>2027-03-17T09:30:00Z</dateTime>
+            <dateTime>2027-04-08T07:30:00Z</dateTime>
         </NextUpdate>
         <DistributionPoints>
             <URI>https://tl.bundesnetzagentur.de/TL-DE.xml</URI>
@@ -19014,6 +19014,27 @@
                         </ServiceInformationExtensions>
                     </ServiceInformation>
                 </TSPService>
+                <TSPService>
+                    <ServiceInformation>
+                        <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                        <ServiceName>
+                            <Name xml:lang="en">D-Trust qualified timestamp</Name>
+                        </ServiceName>
+                        <ServiceDigitalIdentity>
+                            <DigitalId>
+<X509Certificate>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</X509Certificate>
+                            </DigitalId>
+                            <DigitalId>
+<X509SubjectName>OID.2.5.4.97=NTRDE-HRB74346, CN=D-TRUST TSU 17 2026, O=D-Trust GmbH, C=DE</X509SubjectName>
+                            </DigitalId>
+                            <DigitalId>
+<X509SKI>JqKADA4QzA1HoDEduWALD26EBqs=</X509SKI>
+                            </DigitalId>
+                        </ServiceDigitalIdentity>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                        <StatusStartingTime>2026-10-08T15:00:00Z</StatusStartingTime>
+                    </ServiceInformation>
+                </TSPService>
             </TSPServices>
         </TrustServiceProvider>
         <TrustServiceProvider>
@@ -23691,9 +23712,28 @@
 <X509SKI>TrKZYmZH8Ja7qU17BADspnkyLys=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2026-10-08T15:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">DGN Zeitstempelservice</Name>
+<Name xml:lang="de">DGN Zeitstempelservice</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=DGN TSS Signer 1:PN, O=DGN Deutsches Gesundheitsnetz Service GmbH, C=DE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>TrKZYmZH8Ja7qU17BADspnkyLys=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -23712,9 +23752,27 @@
 <X509SKI>eqtfi7N9uF6vVhcj4KB5KolZWpI=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2026-10-08T15:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">DGN Zeitstempelservice</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=DGN TSS Signer 2:PN, O=DGN Deutsches Gesundheitsnetz Service GmbH, C=DE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>eqtfi7N9uF6vVhcj4KB5KolZWpI=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -23734,9 +23792,28 @@
 <X509SKI>t0SsyqkWH9a3+KEASdguv/5fY8g=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2026-10-08T15:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">DGN Zeitstempelservice</Name>
+<Name xml:lang="de">DGN Zeitstempelservice</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=DGN TSS Signer 3:PN, O=DGN Deutsches Gesundheitsnetz Service GmbH, C=DE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>t0SsyqkWH9a3+KEASdguv/5fY8g=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -23756,9 +23833,28 @@
 <X509SKI>7zkCzba8epeMqDOILBMcziuiZ/I=</X509SKI>
                             </DigitalId>
                         </ServiceDigitalIdentity>
-                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
-                        <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/withdrawn</ServiceStatus>
+                        <StatusStartingTime>2026-10-08T15:00:00Z</StatusStartingTime>
                     </ServiceInformation>
+                    <ServiceHistory>
+                        <ServiceHistoryInstance>
+                            <ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</ServiceTypeIdentifier>
+                            <ServiceName>
+<Name xml:lang="en">DGN Zeitstempelservice</Name>
+<Name xml:lang="de">DGN Zeitstempelservice</Name>
+                            </ServiceName>
+                            <ServiceDigitalIdentity>
+<DigitalId>
+    <X509SubjectName>CN=DGN TSS Signer 4:PN, O=DGN Deutsches Gesundheitsnetz Service GmbH, C=DE</X509SubjectName>
+</DigitalId>
+<DigitalId>
+    <X509SKI>7zkCzba8epeMqDOILBMcziuiZ/I=</X509SKI>
+</DigitalId>
+                            </ServiceDigitalIdentity>
+                            <ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</ServiceStatus>
+                            <StatusStartingTime>2016-06-30T22:00:00Z</StatusStartingTime>
+                        </ServiceHistoryInstance>
+                    </ServiceHistory>
                 </TSPService>
                 <TSPService>
                     <ServiceInformation>
@@ -72091,4 +72187,4 @@
             </TSPServices>
         </TrustServiceProvider>
     </TrustServiceProviderList>
-<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-99b0e6e495fe42fab531865d68699983"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>YrKiTsiTgz6lPncW6MdJ5CTF43q1wiOXHMVLp5pvUI0=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-99b0e6e495fe42fab531865d68699983"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>ltdmSmYWuBZycMrNYOfwSwxR6nfO/cfgScwRyu6cyDQ=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-99b0e6e495fe42fab531865d68699983">Kj6+nNeywOD2ZimtbeqNQ2Wco/kZNQl94L+luGgtAr/MIHnciuoYVcmRKAz596M0RQNueXep5h8/ySEzbmQ5FHpt/0AY/Y8EC6l/3drp0tBCusH5sc96pa9tWPafNpKjS+gb0L5K++tMyADsSSup4uYjgtbu6/z7XDZuXwvLtZaUjUcGLk+ppwv/isAwZtKHrCt1Ydq3Ys+hr63vAFz3rYjGFa298YEfvKhmH30znr3VOSrRYN+O7sn+zvRAyx9PkdPVmvDMh6WSVAoO0wH/OAyTlq9hVC11kTuGizYSZRpf54KHDQLF0qOR5PJKfX6ojdOpmM/wpFL0ZrvHF9kzQ2tqUsBnPMJq1lmjHOvoPh2A6at20JeOb3ELuReKVuiYBV0kSeVehZZk+RCWZVw9UnTjtNbVW5YsHnYdEr5Biudeiao9u5tzscldPRGFLh0vck1sbU0oUCyLU20h9Kstv2tds8d+UDoMuCQviPWFur7KQXGEIZ5EE8MVeypp9kejZ79NjFV761tARxxMBhY6pJFcr+O+R3oSQYyLsHC5z9K/BfjWX5SQm1ZVqitzBXHAJxilHIipbPOmR0AClkVSkFGlrHL6QpAF1m07AJFrzFgwby31pkrTWpaswx07gsbV+QCgmBO7FhXegIKV6g1uYy0lqwNxTFGPkg8PfNBWsXQ=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-99b0e6e495fe42fab531865d68699983"><xades:SignedProperties Id="xades-id-99b0e6e495fe42fab531865d68699983"><xades:SignedSignatureProperties><xades:SigningTime>2026-09-17T08:25:53Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>arKzM1NUZa268XzsHJYQwNecJs2h4qQClXKGcbUezgbyPpFQToNTDvAJmwAoe3XD7r2Pu7YjZwfqelz2kW0i0A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MF8wWqRYMFYxJjAkBgNVBAMMHUdlcm1hbiBUcnVzdGVkIExpc3QgU2lnbmVyIDE0MR8wHQYDVQQKDBZGZWRlcmFsIE5ldHdvcmsgQWdlbmN5MQswCQYDVQQGEwJERQIBDg==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
+<ds:Signature xmlns:ds="http://www.w3.org/2000/09/xmldsig#" Id="id-22884c10d3ba32a72b306add786f653f"><ds:SignedInfo><ds:CanonicalizationMethod Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/><ds:SignatureMethod Algorithm="http://www.w3.org/2007/05/xmldsig-more#sha256-rsa-MGF1"/><ds:Reference Id="ref-enveloped-signature" URI=""><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2000/09/xmldsig#enveloped-signature"/><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>vzb9yJkFH20Z5nFDm0RLXV/ngpvzSXxpIi/UBSAj4Ek=</ds:DigestValue></ds:Reference><ds:Reference Type="http://uri.etsi.org/01903#SignedProperties" URI="#xades-id-22884c10d3ba32a72b306add786f653f"><ds:Transforms><ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"/></ds:Transforms><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"/><ds:DigestValue>/9ZXjhCE5DQ8N/SHtLzSy4mH0S3hSXMQjOduSqx5n6Q=</ds:DigestValue></ds:Reference></ds:SignedInfo><ds:SignatureValue Id="value-id-22884c10d3ba32a72b306add786f653f">VprVNSsSGBQ8lUjNoh4+RA0ba4TiYHqtfWJ91V6cTwQHIQKq7Yuf9ueABDL1TDLds0mGGoM8J35nzSiTwUaPI6FFuZ+tlqt9K3It55chue0nktijKjUGdiOAVdRPu1m6EHm+Ij0aZvVFRB5u67pzh7g6ATqblewKN/q7Pc33CQ19jvfcvvbtnS8YFv9FnzkhEFCvGOgb2fRbXOYtbwkCPbSgZFTeg9XVp0h17LeAtPqHlcCSxK9Fk0KbO5Jux91NyAu133bnbKj7iVX/it/uVvUDivfeITby5Atotmg89JLx/d7uZ9M6VAZBAiRmfATqMfTrEMSRDydUsQudxEzmfHJueqpsYABwnPZjyPpv0zUg+6JwMxOO4hzyyEPmdb/LtvlFKyJ0BVXcnsujCHgQuicehnbN7A8uRKNpHbs401V68H4J0sroqR/rcfSoPLCJ2FEKhQ7w/Kw9f0uKR8wTqx+hVR7ClOXcjcmydXkmoQvgAA5rZCgeUsy6QRhlzWMiGYz/uASHR3A+bJ6fFdSC67OBBiskBIFmLvuoTz/R07bpusUH0uPxBOY+Iwki74dv2SgxBFt4dk6zE0f8EJ8U6e7B5kCl83qOhXlNxeeEG7DkcBlutOBdCj6FrLbO8oHUVken/C0hELiA+98bRhFZSbOa1YTDLJ+8WMNJqsBlRMw=</ds:SignatureValue><ds:KeyInfo><ds:X509Data><ds:X509Certificate>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</ds:X509Certificate></ds:X509Data></ds:KeyInfo><ds:Object><xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Target="#id-22884c10d3ba32a72b306add786f653f"><xades:SignedProperties Id="xades-id-22884c10d3ba32a72b306add786f653f"><xades:SignedSignatureProperties><xades:SigningTime>2026-10-08T07:22:41Z</xades:SigningTime><xades:SigningCertificateV2><xades:Cert><xades:CertDigest><ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha512"/><ds:DigestValue>arKzM1NUZa268XzsHJYQwNecJs2h4qQClXKGcbUezgbyPpFQToNTDvAJmwAoe3XD7r2Pu7YjZwfqelz2kW0i0A==</ds:DigestValue></xades:CertDigest><xades:IssuerSerialV2>MF8wWqRYMFYxJjAkBgNVBAMMHUdlcm1hbiBUcnVzdGVkIExpc3QgU2lnbmVyIDE0MR8wHQYDVQQKDBZGZWRlcmFsIE5ldHdvcmsgQWdlbmN5MQswCQYDVQQGEwJERQIBDg==</xades:IssuerSerialV2></xades:Cert></xades:SigningCertificateV2></xades:SignedSignatureProperties><xades:SignedDataObjectProperties><xades:DataObjectFormat ObjectReference="#ref-enveloped-signature"><xades:MimeType>text/xml</xades:MimeType></xades:DataObjectFormat></xades:SignedDataObjectProperties></xades:SignedProperties></xades:QualifyingProperties></ds:Object></ds:Signature></TrustServiceStatusList>
