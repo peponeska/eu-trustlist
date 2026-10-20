@@ -4,7 +4,7 @@
 *******************************************************************************
 	Application: TL
 	API:         A2-Polysys CryptoSigno Interop JAVA API v2.6.1 b161
-	Date:        2026. 07. 15. 10:42:53.165 CEST [2026-07-15T08:42:53Z]
+	Date:        2026. 10. 19. 11:56:08.090 CEST [2026-10-19T09:56:08Z]
 *******************************************************************************
 -->
 <tsl:TrustServiceStatusList xmlns:ns2="http://www.w3.org/2000/09/xmldsig#" xmlns:ns3="http://uri.etsi.org/02231/v2/additionaltypes#" xmlns:ns4="http://uri.etsi.org/01903/v1.3.2#" xmlns:ns5="http://uri.etsi.org/TrstSvc/SvcInfoExt/eSigDir-1999-93-EC-TrustedList/#" xmlns:ns6="http://uri.etsi.org/01903/v1.4.1#" xmlns:tsl="http://uri.etsi.org/02231/v2#" Id="TrustServiceStatusList-1" TSLTag="http://uri.etsi.org/19612/TSLTag">
@@ -13,12 +13,12 @@
 *******************************************************************************
 	Application: TL 5.4.1.2026.04.06.122713
 	API:         A2 TSL API v6.0.5 b20260406
-	Date:        2026. 07. 15. 10:42:47.903 CEST [2026-07-15T08:42:47Z]
+	Date:        2026. 10. 19. 11:56:02.793 CEST [2026-10-19T09:56:02Z]
 *******************************************************************************
 -->
 <tsl:SchemeInformation>
 <tsl:TSLVersionIdentifier>6</tsl:TSLVersionIdentifier>
-<tsl:TSLSequenceNumber>99</tsl:TSLSequenceNumber>
+<tsl:TSLSequenceNumber>100</tsl:TSLSequenceNumber>
 <tsl:TSLType>http://uri.etsi.org/TrstSvc/TrustedList/TSLType/EUgeneric</tsl:TSLType>
 <tsl:SchemeOperatorName>
 <tsl:Name xml:lang="en">National Media and Infocommunications Authority, Hungary</tsl:Name>
@@ -354,8 +354,8 @@ y6HL3A==
 </tsl:AdditionalInformation>
 </tsl:OtherTSLPointer>
 </tsl:PointersToOtherTSL>
-<tsl:ListIssueDateTime>2026-07-15T09:00:00Z</tsl:ListIssueDateTime>
-<tsl:NextUpdate><tsl:dateTime>2027-01-15T09:00:00Z</tsl:dateTime></tsl:NextUpdate>
+<tsl:ListIssueDateTime>2026-10-19T11:00:00Z</tsl:ListIssueDateTime>
+<tsl:NextUpdate><tsl:dateTime>2027-04-16T14:00:00Z</tsl:dateTime></tsl:NextUpdate>
 <tsl:DistributionPoints>
 <tsl:URI>https://www.nmhh.hu/tl/pub/HU_TL.xml</tsl:URI>
 <tsl:URI>https://www.nmhh.hu/tl/pub/HU_TL.pdf</tsl:URI>
@@ -22101,6 +22101,88 @@ obrS1WH+A3Xcv9RL1m1V58j8DSYXzelo7NAt1Ly0efEm1AsL4WzyarCeRtFcLnbybA==
 </tsl:TSPService>
 <tsl:TSPService>
 <tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">NETLOCK Trust Qualified TSA ECC CA 2025</tsl:Name>
+<tsl:Name xml:lang="hu">NETLOCK Trust Qualified TSA ECC CA 2025</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>0QFDKWQoXiZ/Bme1csbxY53r7G0=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDmTCCAx+gAwIBAgIOaFk2BgARIsyY16nSgjcwCgYIKoZIzj0EAwMwcjELMAkGA1UEBhMCSFUx
+ETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQKDAxORVRMT0NLIEtmdC4xIDAeBgNVBAMMF05FVExP
+Q0sgVFNBIEVDQyBDQSAyMDI1MRcwFQYDVQRhDA5WQVRIVS0xMjIwMTUyMTAeFw0yNTA2MjMxNDEx
+MzVaFw0zNzA2MjAxNDExMzVaMIGCMQswCQYDVQQGEwJIVTERMA8GA1UEBwwIQnVkYXBlc3QxFTAT
+BgNVBAoMDE5FVExPQ0sgS2Z0LjEwMC4GA1UEAwwnTkVUTE9DSyBUcnVzdCBRdWFsaWZpZWQgVFNB
+IEVDQyBDQSAyMDI1MRcwFQYDVQRhDA5WQVRIVS0xMjIwMTUyMTB2MBAGByqGSM49AgEGBSuBBAAi
+A2IABCpdFWqBkRLHFAtFuXLph3LINsK+rjDS3rbnUt7ZJ7FMbNJWginK2emD2zjqv8OMaX9+uQwD
+p/430wzlbEBrXAkphqgp+JCmA6QSTMrPinncBOh3BJY3C1Xaw3dB5hBpdKOCAWkwggFlMA8GA1Ud
+EwEB/wQFMAMBAf8wDgYDVR0PAQH/BAQDAgEGMB0GA1UdJQQWMBQGCCsGAQUFBwMJBggrBgEFBQcD
+CDAfBgNVHSMEGDAWgBTqW3IBOfROUO1IVWDH2DLqR366NDAdBgNVHQ4EFgQU0QFDKWQoXiZ/Bme1
+csbxY53r7G0wRQYDVR0fBD4wPDA6oDigNoY0aHR0cDovL2NybC5lY2MubmV0bG9jay5odS9pbmRl
+eC5jZ2k/Y3JsPXRzYWVjY2NhMjAyNTCBiAYIKwYBBQUHAQEEfDB6MDcGCCsGAQUFBzABhitodHRw
+Oi8vb2NzcC5lY2MubmV0bG9jay5odS90c2FlY2NjYTIwMjUuY2dpMD8GCCsGAQUFBzAChjNodHRw
+Oi8vYWlhLmVjYy5uZXRsb2NrLmh1L2luZGV4LmNnaT9jYT10c2FlY2NjYTIwMjUwEQYDVR0gBAow
+CDAGBgRVHSAAMAoGCCqGSM49BAMDA2gAMGUCMQDm3fhROphPtvs30st54ipeumAL0RqtNs6dxnRI
+dBFQNv4xjBQHyxG4D8jmj7mwlk4CMG9hpIIp0vuSHVWVQimrstgspha+3iH1/uJkMBEQkQFVHI9F
+0erb/dDKJwPnquk9hQ==
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2026-10-19T11:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://ts.ecc.netlock.hu/timestampm.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>https://ts.ecc.netlock.hu/timestampm.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>http://ts4k.rsa.netlock.hu/timestampm.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>https://ts4k.rsa.netlock.hu/timestampm.cgi</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
+<tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/TSA/QTST</tsl:ServiceTypeIdentifier>
+<tsl:ServiceName>
+<tsl:Name xml:lang="en">NETLOCK Trust TSA ECC CA 2025</tsl:Name>
+<tsl:Name xml:lang="hu">NETLOCK Trust TSA ECC CA 2025</tsl:Name>
+</tsl:ServiceName>
+<tsl:ServiceDigitalIdentity>
+<tsl:DigitalId><tsl:X509SKI>n2nJJ2vbayUlvUW5ZRYRlXzMzQc=</tsl:X509SKI></tsl:DigitalId>
+<tsl:DigitalId>
+<tsl:X509Certificate>
+MIIDjjCCAxSgAwIBAgIOaFk2BgAQP/gb9iLMlM0wCgYIKoZIzj0EAwMwcjELMAkGA1UEBhMCSFUx
+ETAPBgNVBAcMCEJ1ZGFwZXN0MRUwEwYDVQQKDAxORVRMT0NLIEtmdC4xIDAeBgNVBAMMF05FVExP
+Q0sgVFNBIEVDQyBDQSAyMDI1MRcwFQYDVQRhDA5WQVRIVS0xMjIwMTUyMTAeFw0yNTA2MjMxNDA5
+MzRaFw0zNzA2MjAxNDA5MzRaMHgxCzAJBgNVBAYTAkhVMREwDwYDVQQHDAhCdWRhcGVzdDEVMBMG
+A1UECgwMTkVUTE9DSyBLZnQuMSYwJAYDVQQDDB1ORVRMT0NLIFRydXN0IFRTQSBFQ0MgQ0EgMjAy
+NTEXMBUGA1UEYQwOVkFUSFUtMTIyMDE1MjEwdjAQBgcqhkjOPQIBBgUrgQQAIgNiAASEq/YBJyDD
+F+7tU6YP8vHkSSocfRttj8K6zKNH6IhTiBaEK1j5sDrWmZ0ca+Ebc2ueFsiusgPMNDQpb+c9sDPs
+C040r/Aee/HNlyWtu7iUQQbYPAZtFyP5b672w7yXd1WjggFpMIIBZTAPBgNVHRMBAf8EBTADAQH/
+MA4GA1UdDwEB/wQEAwIBBjAdBgNVHSUEFjAUBggrBgEFBQcDCQYIKwYBBQUHAwgwHwYDVR0jBBgw
+FoAU6ltyATn0TlDtSFVgx9gy6kd+ujQwHQYDVR0OBBYEFJ9pySdr22slJb1FuWUWEZV8zM0HMEUG
+A1UdHwQ+MDwwOqA4oDaGNGh0dHA6Ly9jcmwuZWNjLm5ldGxvY2suaHUvaW5kZXguY2dpP2NybD10
+c2FlY2NjYTIwMjUwgYgGCCsGAQUFBwEBBHwwejA3BggrBgEFBQcwAYYraHR0cDovL29jc3AuZWNj
+Lm5ldGxvY2suaHUvdHNhZWNjY2EyMDI1LmNnaTA/BggrBgEFBQcwAoYzaHR0cDovL2FpYS5lY2Mu
+bmV0bG9jay5odS9pbmRleC5jZ2k/Y2E9dHNhZWNjY2EyMDI1MBEGA1UdIAQKMAgwBgYEVR0gADAK
+BggqhkjOPQQDAwNoADBlAjEAw2wbOYyOj1ltF4FYkdxUhqwPeY3TjpHsDh3xOjCY+fcWXR0xHhsl
+++rdnfz7QNAxAjBTua/4AZ0CRbqmp6K76NSsgfy/+AAscD9/4Ud9u/rbxLb5eN4pcmS063XNBZN4
+ikg=
+</tsl:X509Certificate>
+</tsl:DigitalId>
+</tsl:ServiceDigitalIdentity>
+<tsl:ServiceStatus>http://uri.etsi.org/TrstSvc/TrustedList/Svcstatus/granted</tsl:ServiceStatus>
+<tsl:StatusStartingTime>2026-10-19T11:00:00Z</tsl:StatusStartingTime>
+<tsl:ServiceSupplyPoints>
+<tsl:ServiceSupplyPoint>http://ts.ecc.netlock.hu/timestamp.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>https://ts.ecc.netlock.hu/timestamp.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>http://ts4k.rsa.netlock.hu/timestamp.cgi</tsl:ServiceSupplyPoint>
+<tsl:ServiceSupplyPoint>https://ts4k.rsa.netlock.hu/timestamp.cgi</tsl:ServiceSupplyPoint>
+</tsl:ServiceSupplyPoints>
+</tsl:ServiceInformation>
+</tsl:TSPService>
+<tsl:TSPService>
+<tsl:ServiceInformation>
 <tsl:ServiceTypeIdentifier>http://uri.etsi.org/TrstSvc/Svctype/Archiv</tsl:ServiceTypeIdentifier>
 <tsl:ServiceName>
 <tsl:Name xml:lang="en">Netlock Kft. Minősített Archiválás SHA256 (*)</tsl:Name>
@@ -24844,14 +24926,14 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 <tsl:Name xml:lang="hu">SDA DMS Zártkörűen Működő Részvénytársaság</tsl:Name>
 </tsl:TSPName>
 <tsl:TSPTradeName>
-<tsl:Name xml:lang="en">SDA DMS Zrt.</tsl:Name>
+<tsl:Name xml:lang="en">SDA DMS Ltd.</tsl:Name>
 <tsl:Name xml:lang="hu">SDA DMS Zrt.</tsl:Name>
-<tsl:Name xml:lang="en">VATHU - 24167789</tsl:Name>
-<tsl:Name xml:lang="hu">VATHU - 24167789</tsl:Name>
+<tsl:Name xml:lang="en">VATHU-24167789</tsl:Name>
+<tsl:Name xml:lang="hu">VATHU-24167789</tsl:Name>
 </tsl:TSPTradeName>
 <tsl:TSPAddress>
 <tsl:PostalAddresses>
-<tsl:PostalAddress xml:lang="hu">
+<tsl:PostalAddress xml:lang="en">
 <tsl:StreetAddress>Budafoki út 59.</tsl:StreetAddress>
 <tsl:Locality>Budapest</tsl:Locality>
 <tsl:PostalCode>1111</tsl:PostalCode>
@@ -24859,11 +24941,14 @@ dLTACBK4ttI2ZMj21BFvpWDmfehkqt0I/7dc1iNvIyPTFxiqLHvn/PDS+N4CQSfiseb9EJaDGDHp
 </tsl:PostalAddress>
 </tsl:PostalAddresses>
 <tsl:ElectronicAddress>
-<tsl:URI xml:lang="hu">mailto:info@sdadms.hu</tsl:URI>
+<tsl:URI xml:lang="en">https://epostalada.hu/?lang=en</tsl:URI>
+<tsl:URI xml:lang="hu">https://epostalada.hu/?lang=hu</tsl:URI>
+<tsl:URI xml:lang="en">mailto:info@epostalada.hu</tsl:URI>
 </tsl:ElectronicAddress>
 </tsl:TSPAddress>
 <tsl:TSPInformationURI>
-<tsl:URI xml:lang="hu">https://www.sdadms.hu/</tsl:URI>
+<tsl:URI xml:lang="hu">https://epostalada.hu/?lang=hu</tsl:URI>
+<tsl:URI xml:lang="en">https://epostalada.hu/?lang=en</tsl:URI>
 </tsl:TSPInformationURI>
 </tsl:TSPInformation>
 <tsl:TSPServices>
@@ -25003,19 +25088,19 @@ IEdTfwIhAO3pt0pu4afA5OxDEzGEyZFjKnPhxq8mfA3BuUX47JWk
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>PwmcmOiim/63ILprCD9+/jpXg96oWnZa2RKv863Y7O8=</ds:DigestValue>
+<ds:DigestValue>woM4YHVP8maJUJaI4jTzUlVpyQBeAnAupiREhUhdKfs=</ds:DigestValue>
 </ds:Reference>
 <ds:Reference Id="Signature-1__Reference-2" Type="http://uri.etsi.org/01903#SignedProperties" URI="#Signature-1__SignedProperties-1">
 <ds:Transforms>
 <ds:Transform Algorithm="http://www.w3.org/2001/10/xml-exc-c14n#"></ds:Transform>
 </ds:Transforms>
 <ds:DigestMethod Algorithm="http://www.w3.org/2001/04/xmlenc#sha256"></ds:DigestMethod>
-<ds:DigestValue>3CirQnyDORAYNR/gRtzbvbGGh20D/VGo6x4DJbNZwXI=</ds:DigestValue>
+<ds:DigestValue>q9nRLZnTF7n5v5MJtFJo8HAEYXidTAauLpX9JeVoZ1k=</ds:DigestValue>
 </ds:Reference>
 </ds:SignedInfo>
 <ds:SignatureValue Id="Signature-1__SignatureValue-1">
-ZV3XbTGelotRjOvfvFFC5j2uS1q+XewGH5VHMj2i5nuDgCp7YU6n9lh3yHQFn1f5bfVr34kuabJf
-Xl5ZXsyWSQ==
+MJpBdJlvW1uXqXmCJ54ica6K+us+p8kqxc9YERp2lul/l24ogloq5PfMmwBnls6LeQfkSyyxdIYr
+91EQWr7EBQ==
 </ds:SignatureValue>
 <ds:KeyInfo Id="Signature-1__KeyInfo-1">
 <ds:X509Data>
@@ -25041,7 +25126,7 @@ dXrLNT+qlvL+3TNPt5oNBwHSsxo=
 <xades:QualifyingProperties xmlns:xades="http://uri.etsi.org/01903/v1.3.2#" Id="Signature-1__QualifyingProperties-1" Target="#Signature-1">
 <xades:SignedProperties Id="Signature-1__SignedProperties-1">
 <xades:SignedSignatureProperties>
-<xades:SigningTime>2026-07-15T08:42:53Z</xades:SigningTime>
+<xades:SigningTime>2026-10-19T09:56:08Z</xades:SigningTime>
 <xades:SigningCertificateV2>
 <xades:Cert>
 <xades:CertDigest>
